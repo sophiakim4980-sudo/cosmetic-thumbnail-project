@@ -1,6 +1,43 @@
-# 화장품 썸네일 샘플 자동 제작
+# 화장품 썸네일 자동 제작: 전체 카탈로그 및 샘플
 
-원본 Excel과 ZIP을 직접 읽고 **RL0001, LL0001, WM0001만** 제작합니다. 전체 상품은 분석만 합니다. 원본 파일의 내용과 파일명을 변경하지 않으며 압축 해제도 필요하지 않습니다.
+원본 Excel과 ZIP을 직접 읽습니다. `catalog.py`는 전체 상품을 처리하고 `generate.py`는 기존 샘플 3개 모드를 유지합니다. 원본 파일의 내용과 파일명을 변경하지 않으며 압축 해제도 필요하지 않습니다.
+
+## 전체 카탈로그 실행·중단 재개
+
+저장소 루트에서 실행하세요. 기본 출력은 저장소의 `output/`, 품명별 ZIP은 `archives/`, 그리드 미리보기는 `previews/catalog/`입니다. 기존 최종 샘플 대표 3개와 옵션 7개는 읽기 검증만 하고 그대로 재사용합니다.
+
+```bash
+/workspace/asset-tools-venv/bin/python automation/catalog.py
+/workspace/asset-tools-venv/bin/python automation/validate_catalog.py
+```
+
+실행 중 상품·이미지별 상태를 원자적으로 저장합니다. 기존 파일의 해시와 소스 지문이 유효하면 재사용합니다. 파일을 임시 PNG로 렌더링하고 검증한 뒤 최종 경로로 교체하므로 중단된 파일을 완료로 인정하지 않습니다. 입력이나 렌더러가 변경되면 영향을 받는 대표 이미지가 재제작될 수 있습니다.
+
+```bash
+# 미완료 상품만 재시도; 정상 옵션은 가능한 한 재사용
+/workspace/asset-tools-venv/bin/python automation/catalog.py --retry-failed
+# 지정된 품명만 재시도
+/workspace/asset-tools-venv/bin/python automation/catalog.py --only IC0001 BB0001
+# 이미지를 다시 만들지 않고 ZIP/미리보기/상태만 갱신
+/workspace/asset-tools-venv/bin/python automation/catalog.py --finalize-only
+```
+
+미완료 상품이 남으면 producer 종료 코드는 **2**입니다. 계속 처리된 결과는 보존됩니다. 파일 누락·빈 참조를 성공으로 표시하지 않습니다. Validator 종료 코드 0은 **만들어진 모든 파일이 검증을 통과했다**는 뜻이며, 전체 자료의 누락이 없다는 뜻은 아닙니다. 누락은 `catalog-summary.json`, `catalog-errors.jsonl`과 CSV에 남습니다.
+
+`catalog-overrides.json`에는 사용자가 확인한 DN0001 분리, EL0001·NF0001 대표 상품명, DW 로고 지정을 기록했습니다. 원본 Excel은 변경하지 않습니다. 원본의 명시적 품명은 182개지만 DINSEE 보정 후 실제 처리 그룹은 183개입니다.
+
+`catalog-badge-reviews.json`은 출력 이미지 해시와 연결된 시각 검수 기록입니다. 사진이 여백을 거의 채우는 경우 배지는 사진을 축소하지 않고 캔버스 내의 빈 공간을 검색하며 로고·상품명·설명을 피합니다. 비백색 배경과 실제 제품을 픽셀 점유율만으로 구분할 수 없는 항목은 시각 검수를 기록합니다. 검수 파일은 `catalog-overrides.json`의 사용자 확인 내용과 별도입니다.
+
+`catalog-protected.json`은 원본 자료와 승인된 샘플의 SHA-256 기준입니다. 사용자가 새 원본을 제공한 경우 새 파일을 검토하고 기준을 의도적으로 갱신해야 하며, 검사만 통과시키기 위해 기존 기대 해시를 바꾸지 마세요.
+
+각 품명 ZIP에는 생성된 대표·옵션과 `STATUS.json`이 포함됩니다. 미완료 ZIP은 누락 항목을 명시하며, 대표 사진이 없는 상품은 옵션만 포함할 수 있습니다. 코드가 다른 상품의 이미지를 임의 대체하지 않습니다. 같은 품명의 같은 옵션 참조는 중복 저장하지 않습니다.
+
+전체 묶음은 아래 명령으로 저장소 밖에 생성합니다. 개별 PNG와 품명별 ZIP은 GitHub에서 각각 확인할 수 있으며, 전체 묶음에는 중복 ZIP을 다시 넣지 않습니다.
+
+```bash
+/workspace/asset-tools-venv/bin/python automation/package_catalog.py \
+  --destination /workspace/catalog-deliverables.zip
+```
 
 ## 저장된 샘플 확인
 
@@ -45,7 +82,7 @@ python3 -m venv /workspace/asset-tools-venv
 
 다른 머신에서는 `--source`, `--output` 경로와 `generate.py`의 `FONT`, `BOLD` 글꼴 경로를 조정하세요. 실행은 비대화형이며 같은 경로에서 재실행할 수 있습니다. 결과 파일은 덮어쓰므로 검수한 결과를 보관하려면 다른 출력 폴더를 지정하세요. 원본과 같은 출력 경로 또는 원본의 상위 경로는 거부합니다.
 
-`generate.py`의 기존 기능과 기본 출력 경로는 유지했습니다. 저장소에 보관한 검수 결과는 재생성 없이 사용할 수 있습니다. 전체 상품 제작은 아직 승인된 범위가 아닙니다.
+`generate.py`의 기존 기능과 기본 출력 경로는 유지했습니다. 저장소에 보관한 검수 결과는 재생성 없이 사용할 수 있습니다. 전체 상품 제작은 최종 단계 요청으로 승인되었으며 별도 `catalog.py`를 사용합니다.
 
 ## 처리 규칙
 
@@ -64,4 +101,4 @@ python3 -m venv /workspace/asset-tools-venv
 
 `analysis.json`은 전체 상품 그룹, Excel 행 번호, ZIP 내부 경로, SHA-256, 이미지 매칭, 누락 및 충돌, 샘플 레이아웃을 포함합니다. `errors.log`는 전체 자료의 문제를 담으므로 샘플 성공 시에도 비어 있지 않을 수 있습니다. 샘플 제작 실패 시 프로그램은 종료 코드 1을 반환합니다.
 
-샘플 옵션은 RL0001 2개, LL0001 2개, WM0001 3개입니다. 전체 제작 기능은 이번 검수 범위에 포함하지 않았습니다.
+샘플 옵션은 RL0001 2개, LL0001 2개, WM0001 3개입니다. 전체 제작은 아래 catalog 명령으로 실행합니다.

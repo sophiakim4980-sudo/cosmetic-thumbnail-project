@@ -1,0 +1,296 @@
+"""Resumable full-catalog production using the approved shared sample renderer."""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+from pathlib import Path
+from tempfile import NamedTemporaryFile
+from zipfile import ZIP_DEFLATED, ZipFile
+
+from PIL import Image, ImageChops, ImageDraw
+
+from generate import (Assets, SAMPLES, font, groups_from_excel, make_option,
+                      make_thumbnail, split_title, white_image)
+
+
+def digest(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def atomic_json(path, data):
+    temporary = path.with_suffix(path.suffix+'.tmp')
+    temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+    os.replace(temporary, path)
+
+
+def checked_thumbnail(path, layout, group, assets):
+    with Image.open(path) as im:
+        im.load()
+        assert im.format == 'PNG' and im.size == (1024,1024)
+        assert im.getpixel((0,0)) == (255,255,255)
+        assert im.getpixel((44,44)) == (255,255,255)
+        color = tuple(layout['frame_rgb'])
+        assert layout['frame_width'] == 26 and layout['frame_inset'] == 12
+        assert all(im.getpixel((x,512)) == color for x in range(12,38))
+        assert layout['main_title'], 'Empty main title'
+        assert (layout['main_title'],layout['subtitles']) == split_title(group['title'])
+        assert layout['brand_logo']['sha256'] == assets.match(group['brand_refs'][0],'brand')['sha256']
+        assert layout['source']['sha256'] == assets.match(group['thumbnail_refs'][0],'thumbnail')['sha256']
+        boxes = layout['title_boxes']+layout['subtitle_boxes']
+        assert layout['logo_box'][3] < min(b[1] for b in layout['title_boxes'])
+        assert max(b[3] for b in boxes) < layout['product_box'][1]
+        if layout['subtitle_boxes']:
+            assert min(b[1] for b in layout['subtitle_boxes']) > max(b[3] for b in layout['title_boxes'])
+        x,y,x1,y1 = layout['product_box']
+        assert 38 < x < x1 < 986 and 38 < y < y1 < 986
+        assert abs((x1-x)/(y1-y)-layout['source_aspect_ratio']) < .01
+        a=layout['product_area']
+        assert min((a[2]-a[0])/(x1-x), (a[3]-a[1])/(y1-y)) < 1.004
+        b=layout['badge_box']
+        assert b[2]-b[0] == b[3]-b[1] == 160
+        assert 38 <= b[0] < b[2] <= 986 and 38 <= b[1] < b[3] <= 986
+        assert layout['badge_resized_product'] is False
+        assert im.getpixel(((b[0]+b[2])//2,(b[1]+b[3])//2-60)) == color
+
+
+def checked_option(path, details, source, mark):
+    original = source.copy()
+    with Image.open(path) as im:
+        im.load()
+        assert im.format == 'PNG' and im.size == original.size == tuple(details['size'])
+        actual = im.convert('RGBA')
+    b=details['logo_box']
+    assert 0 <= b[0] < b[2] < original.width and 0 <= b[1] < b[3] < original.height
+    assert b[0] > original.width/2 and b[1] < original.height*.1
+    diff = ImageChops.difference(actual,original)
+    merged=diff.split()[0]
+    for channel in diff.split()[1:]: merged=ImageChops.lighter(merged,channel)
+    bounds=merged.getbbox()
+    assert bounds and bounds[0] >= b[0] and bounds[1] >= b[1] and bounds[2] <= b[2] and bounds[3] <= b[3]
+    logo=mark.crop(mark.getbbox())
+    logo.thumbnail((round(original.width*.19),round(original.height*.10)),Image.Resampling.LANCZOS)
+    expected=original.copy(); expected.alpha_composite(logo,(b[0],b[1]))
+    assert actual.tobytes() == expected.tobytes(), 'Logo composite differs'
+
+
+def image_atomic(destination, create, validate):
+    destination.parent.mkdir(parents=True,exist_ok=True)
+    with NamedTemporaryFile(suffix='.png',dir=destination.parent,delete=False) as f:
+        temporary=Path(f.name)
+    try:
+        details=create(temporary)
+        validate(temporary,details)
+        os.replace(temporary,destination)
+        return details
+    finally:
+        temporary.unlink(missing_ok=True)
+
+
+def source_fingerprint(group, references, renderer):
+    value={'group':group,'sources':references,'renderer':renderer}
+    return hashlib.sha256(json.dumps(value,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
+
+
+def valid_saved(component, path, fingerprint):
+    return (component.get('status') == 'success' and component.get('fingerprint') == fingerprint
+            and path.exists() and component.get('sha256') == digest(path))
+
+
+def render_catalog(root, output, only=(), retry_failed=False):
+    if output == root or root.is_relative_to(output):
+        raise ValueError('Output must not contain or equal the source root')
+    output.mkdir(parents=True,exist_ok=True)
+    state_path=output/'catalog-state.json'
+    state=json.loads(state_path.read_text()) if state_path.exists() else {'schema':1,'products':{}}
+    previous=json.loads((output/'analysis.json').read_text())
+    assets=Assets(root)
+    overrides_path=root/'automation'/'catalog-overrides.json'
+    overrides=json.loads(overrides_path.read_text()) if overrides_path.exists() else {}
+    groups,excel_errors=groups_from_excel(root/'화장품 썸네일.xlsx',overrides.get('row_overrides'))
+    for code,values in overrides.get('product_overrides',{}).items():
+        groups[code].update(values)
+        fields={'title':'상품명','brand':'브랜드'}
+        excel_errors=[e for e in excel_errors if not (e.get('code') == code and
+                      e.get('type') == 'conflicting_metadata' and e.get('field') in
+                      [fields[k] for k in values if k in fields])]
+    renderer=digest(Path(__file__).with_name('generate.py'))
+    mark=Image.open(root/'pick&mood.kr 로고.png').convert('RGBA')
+    mark_hash=digest(root/'pick&mood.kr 로고.png')
+    atomic_json(output/'catalog-source-index.json',{'archives':assets.archives,'groups':groups,'excel_errors':excel_errors,
+                                                 'user_confirmed_overrides':overrides})
+    unknown=set(only)-groups.keys()
+    if unknown: raise ValueError(f'Unknown product codes: {sorted(unknown)}')
+    selected=list(only) if only else list(groups)
+    if retry_failed:
+        selected=[c for c in selected if state['products'].get(c,{}).get('status') != 'complete']
+    for count,code in enumerate(selected,1):
+        group=groups[code]
+        old=state['products'].get(code,{})
+        result={'code':code,'status':'processing','thumbnail':old.get('thumbnail',{}),
+                'options':{},'issues':[e for e in excel_errors if e.get('code') == code]}
+        folder=output/code
+        (folder/'options').mkdir(parents=True,exist_ok=True)
+        conflicts=[e for e in result['issues'] if e['type'] == 'conflicting_metadata']
+        ambiguous_brand=len(group['observed_brands']) > 1
+        ambiguous_rows={e['row'] for e in conflicts if e.get('field') == '브랜드'}
+        # A brand change on a blank-code continuation also taints subsequent rows
+        # of that same different brand, already diagnosed by groups_from_excel.
+        try:
+            if conflicts:
+                raise ValueError('Conflicting Excel product metadata; correction required')
+            if len(group['brand_refs']) != 1 or len(group['thumbnail_refs']) != 1:
+                raise ValueError('Exactly one explicit brand/thumbnail reference required')
+            refs=[assets.match(group['brand_refs'][0],'brand'),assets.match(group['thumbnail_refs'][0],'thumbnail')]
+            fingerprint=source_fingerprint(group,[i['sha256'] for i in refs],renderer)
+            path=folder/'thumbnail.png'
+            if code in SAMPLES:
+                saved=previous['samples'][code]['thumbnail']
+                assert saved['source']['sha256'] == refs[1]['sha256'] and saved['brand_logo']['sha256'] == refs[0]['sha256']
+                checked_thumbnail(path,saved,group,assets)
+                details=saved; reused=True
+            elif (valid_saved(old.get('thumbnail',{}),path,fingerprint)
+                  and old['thumbnail']['layout']['badge_occupied_fraction'] <= .02):
+                details=old['thumbnail']['layout']; reused=True
+                checked_thumbnail(path,details,group,assets)
+            else:
+                details=image_atomic(path,lambda p:make_thumbnail(group,assets,p),
+                    lambda p,d:checked_thumbnail(p,d,group,assets)); reused=False
+            result['thumbnail']={'status':'success','path':str(path.relative_to(output)),
+                                 'sha256':digest(path),'fingerprint':fingerprint,'reused':reused,'layout':details}
+            if details['badge_occupied_fraction'] > .02:
+                review=overrides.get('badge_reviews',{}).get(code)
+                if review:
+                    result['thumbnail']['visual_review']=review
+                else:
+                    result['issues'].append({'type':'badge_review','occupied_fraction':details['badge_occupied_fraction']})
+        except Exception as e:
+            result['thumbnail']={'status':'failed','error':str(e)}
+            result['issues'].append({'type':'thumbnail_failed','error':str(e)})
+        state['products'][code]=result
+        atomic_json(state_path,state)
+        for option in group['options']:
+            ref=option['reference']
+            if ref in result['options']:
+                result['options'][ref]['rows'].append(option['row']); continue
+            component={'reference':ref,'rows':[option['row']],'name':option['name']}
+            try:
+                if ambiguous_brand and option['row'] in ambiguous_rows:
+                    raise ValueError('Blank product code changes brand; assigning this option would mix products')
+                item=assets.match(ref,'option')
+                filename=Path(item['filename']).stem+'.png'
+                path=folder/'options'/filename
+                fingerprint=source_fingerprint({'reference':ref},[item['sha256'],mark_hash],'option-v1')
+                saved=old.get('options',{}).get(ref,{})
+                source=assets.image(item)
+                if code in SAMPLES:
+                    prior=next(o for o in previous['samples'][code]['options'] if o['output'] == filename)
+                    assert prior['source']['sha256'] == item['sha256']
+                    details={k:prior[k] for k in ('size','logo_box')}; reused=True
+                    checked_option(path,details,source,mark)
+                elif valid_saved(saved,path,fingerprint):
+                    details=saved['layout']; reused=True
+                    checked_option(path,details,source,mark)
+                else:
+                    details=image_atomic(path,lambda p:make_option(source,mark,p),
+                                         lambda p,d:checked_option(p,d,source,mark)); reused=False
+                component.update({'status':'success','path':str(path.relative_to(output)),
+                                  'sha256':digest(path),'fingerprint':fingerprint,'reused':reused,
+                                  'source':item,'layout':details})
+            except Exception as e:
+                component.update({'status':'failed','error':str(e)})
+                result['issues'].append({'type':'option_failed','row':option['row'],'reference':ref,'error':str(e)})
+            result['options'][ref]=component
+            atomic_json(state_path,state)
+        component_failures=result['thumbnail']['status'] != 'success' or any(o['status'] != 'success' for o in result['options'].values())
+        result['status']='incomplete' if component_failures or result['issues'] else 'complete'
+        result['expected_option_references']=len({o['reference'] for o in group['options']})
+        state['products'][code]=result
+        atomic_json(state_path,state)
+        print(f"[{count}/{len(selected)}] {code}: {result['status']}; thumbnail={result['thumbnail']['status']}; options={sum(o['status']=='success' for o in result['options'].values())}/{result['expected_option_references']}",flush=True)
+    return state,groups
+
+
+def package_and_previews(root,output,state,groups):
+    archives=root/'archives'; archives.mkdir(exist_ok=True)
+    previews=root/'previews'/'catalog'; previews.mkdir(parents=True,exist_ok=True)
+    products=state['products']
+    reviews_path=root/'automation'/'catalog-badge-reviews.json'
+    reviews=json.loads(reviews_path.read_text()) if reviews_path.exists() else {}
+    for code,product in products.items():
+        review=reviews.get(code)
+        if review and review['sha256'] == product['thumbnail'].get('sha256'):
+            path=output/product['thumbnail']['path']
+            if path.exists() and digest(path) == review['sha256']:
+                product['issues']=[i for i in product['issues'] if i.get('type') != 'badge_review']
+                product['thumbnail']['visual_review']=review
+                failed=product['thumbnail']['status'] != 'success' or any(o['status'] != 'success' for o in product['options'].values())
+                product['status']='incomplete' if failed or product['issues'] else 'complete'
+    for code in groups:
+        product=products.get(code,{'status':'unrun','thumbnail':{},'options':{}})
+        files=[]
+        if product['thumbnail'].get('status') == 'success':files.append(output/product['thumbnail']['path'])
+        files += [output/o['path'] for o in product['options'].values() if o.get('status') == 'success']
+        path=archives/f'{code}.zip'; temp=path.with_suffix('.zip.tmp')
+        with ZipFile(temp,'w',ZIP_DEFLATED) as z:
+            for file in files:z.write(file,Path(code)/file.relative_to(output/code))
+            z.writestr(f'{code}/STATUS.json',json.dumps({'code':code,'status':product['status'],
+                          'thumbnail_present':product['thumbnail'].get('status') == 'success',
+                          'options_present':len(files)-(product['thumbnail'].get('status') == 'success'),
+                          'issues':product.get('issues',[])},ensure_ascii=False,indent=2))
+        os.replace(temp,path)
+        product['zip']={'path':str(path.relative_to(root)),'sha256':digest(path)}
+    codes=list(groups)
+    pages=[]
+    for start in range(0,len(codes),24):
+        page=Image.new('RGB',(1200,4*244),'white');draw=ImageDraw.Draw(page)
+        for index,code in enumerate(codes[start:start+24]):
+            x=index%6*200;y=index//6*244
+            product=products.get(code,{})
+            if product.get('thumbnail',{}).get('status') == 'success':
+                with Image.open(output/product['thumbnail']['path']) as image:
+                    page.paste(image.convert('RGB').resize((184,184),Image.Resampling.LANCZOS),(x+8,y+8))
+            else:
+                draw.rectangle((x+8,y+8,x+192,y+192),outline='#b42318',width=3)
+                draw.text((x+18,y+75),'BLOCKED',font=font(20,True),fill='#b42318')
+            draw.text((x+8,y+196),code,font=font(19,True),fill='black')
+            label=product.get('status','unrun')
+            draw.text((x+8,y+220),label,font=font(13),fill='#b42318' if label!='complete' else '#276749')
+        name=f'page-{len(pages)+1:02}.png';page.save(previews/name);pages.append(name)
+    # GitHub Markdown makes every product thumbnail/option directly navigable.
+    index=['# 전체 상품 검수 목록','', '완료 상태는 catalog-state.json의 최종 검증 결과입니다. incomplete는 누락·불일치·디자인 검수 문제가 남은 항목입니다.','']
+    index += [f'![page {i+1}]({name})' for i,name in enumerate(pages)]
+    index += ['', '| 품명 | 상태 | 대표 PNG | 옵션 | ZIP |','|---|---|---|---|---|']
+    for code in codes:
+        p=products.get(code,{})
+        thumb=f'[보기](../../output/{code}/thumbnail.png)' if p.get('thumbnail',{}).get('status')=='success' else '미제작'
+        n=sum(o.get('status')=='success' for o in p.get('options',{}).values())
+        index.append(f"| {code} | {p.get('status','unrun')} | {thumb} | [{n}개](../../output/{code}/options) | [다운로드](../../archives/{code}.zip) |")
+    (previews/'README.md').write_text('\n'.join(index)+'\n',encoding='utf-8')
+    atomic_json(output/'catalog-state.json',state)
+
+
+def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--source',type=Path,default=Path(__file__).resolve().parents[1])
+    parser.add_argument('--output',type=Path)
+    parser.add_argument('--only',nargs='+',default=())
+    parser.add_argument('--retry-failed',action='store_true')
+    parser.add_argument('--finalize-only',action='store_true',help='Refresh ZIPs and previews without rendering images')
+    args=parser.parse_args();root=args.source.resolve();output=(args.output or root/'output').resolve()
+    if args.finalize_only:
+        state=json.loads((output/'catalog-state.json').read_text())
+        groups=json.loads((output/'catalog-source-index.json').read_text())['groups']
+    else:
+        state,groups=render_catalog(root,output,args.only,args.retry_failed)
+    package_and_previews(root,output,state,groups)
+    counts={'products':len(groups),'complete':sum(p['status']=='complete' for p in state['products'].values()),
+            'thumbnails':sum(p['thumbnail']['status']=='success' for p in state['products'].values()),
+            'options':sum(sum(o['status']=='success' for o in p['options'].values()) for p in state['products'].values())}
+    print(json.dumps(counts,ensure_ascii=False),flush=True)
+    if any(p['status'] != 'complete' for p in state['products'].values()):
+        raise SystemExit(2)
+
+
+if __name__=='__main__':main()

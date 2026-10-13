@@ -24,9 +24,32 @@ def font(size, bold=False):
 
 
 def split_title(text):
-    notes = re.findall(r'\(([^()]*)\)', text)
-    main = re.sub(r'\([^()]*\)', '', text)
-    return ' '.join(main.split()), notes
+    # Read balanced, top-level parentheses; nested notes stay together and lose
+    # their parentheses too, e.g. '(4 Colors (3-in-1))' -> '4 Colors 3-in-1'.
+    main, notes, current, depth = [], [], [], 0
+    for char in text:
+        if char == '(':
+            if depth == 0:
+                current = []
+                main.append(' ')
+            else:
+                current.append(' ')
+            depth += 1
+        elif char == ')':
+            if depth == 0:
+                raise ValueError(f'Unbalanced product title: {text}')
+            depth -= 1
+            if depth == 0:
+                notes.append(' '.join(''.join(current).split()))
+            else:
+                current.append(' ')
+        elif depth:
+            current.append(char)
+        else:
+            main.append(char)
+    if depth:
+        raise ValueError(f'Unbalanced product title: {text}')
+    return ' '.join(''.join(main).split()), notes
 
 
 def decode_name(info):
@@ -86,7 +109,7 @@ class Assets:
             return ImageOps.exif_transpose(source).convert('RGBA')
 
 
-def groups_from_excel(path):
+def groups_from_excel(path, row_overrides=None):
     wb = load_workbook(path, read_only=True, data_only=True)
     rows = iter(wb.active.values)
     headers = next(rows)
@@ -95,6 +118,7 @@ def groups_from_excel(path):
     groups, errors, current = {}, [], None
     for number, cells in enumerate(rows, 2):
         row = {k: cells[i] if i < len(cells) else None for k, i in indexes.items()}
+        row.update((row_overrides or {}).get(str(number), {}))
         if not any(row.values()):
             continue
         if row['품명']:
@@ -204,7 +228,7 @@ def frame_color(product):
     return color
 
 
-def choose_badge(canvas, text_bottom, product_top, inset=40):
+def choose_badge(canvas, text_bottom, product_top, inset=40, protected_boxes=()):
     """Find whitespace without ever reducing the independently fitted product."""
     foreground = ImageChops.difference(canvas, Image.new('RGB', canvas.size, 'white')).convert('L')
     occupied = foreground.point(lambda p: 255 if p > 18 else 0)
@@ -214,13 +238,33 @@ def choose_badge(canvas, text_bottom, product_top, inset=40):
     if not ys:
         raise ValueError('No room for a badge below the header')
     scored = []
+    circle = Image.new('L', (161,161), 0)
+    ImageDraw.Draw(circle).ellipse((0,0,160,160),fill=255)
+    def score(cx,cy):
+        return ImageStat.Stat(occupied.crop((cx-80,cy-80,cx+81,cy+81)),mask=circle).mean[0]/255
     for cx in (inset+radius, 1024-inset-radius):
         for cy in ys:
-            mask = Image.new('L', canvas.size, 0)
-            ImageDraw.Draw(mask).ellipse((cx-radius, cy-radius, cx+radius, cy+radius), fill=255)
-            fraction = ImageStat.Stat(occupied, mask=mask).mean[0]/255
+            fraction = score(cx,cy)
             scored.append((fraction, cy, cx))
     fraction, cy, cx = min(scored)
+    if fraction > .10:
+        # Search the full canvas's whitespace, including gaps between products.
+        # Reject any badge rectangle intersecting header text or the brand logo.
+        small=occupied.resize((256,256),Image.Resampling.BOX)
+        small_circle=circle.resize((41,41),Image.Resampling.LANCZOS)
+        candidates=[]
+        for bx in range(inset+radius,1024-inset-radius+1,16):
+            for by in range(inset+radius,1024-inset-radius+1,16):
+                box=(bx-80,by-80,bx+80,by+80)
+                if any(box[0]<p[2]+8 and box[2]>p[0]-8 and box[1]<p[3]+8 and box[3]>p[1]-8
+                       for p in protected_boxes):
+                    continue
+                sx,sy=bx//4,by//4
+                rough=ImageStat.Stat(small.crop((sx-20,sy-20,sx+21,sy+21)),mask=small_circle).mean[0]/255
+                candidates.append((rough,min(bx,1024-bx),by,bx))
+        for _,_,by,bx in sorted(candidates)[:16]:
+            scored.append((score(bx,by),by,bx))
+        fraction,cy,cx=min(scored)
     return cx, cy, fraction
 
 
@@ -265,7 +309,8 @@ def make_thumbnail(g, assets, destination):
     ratio = cropped_size[0]/cropped_size[1]
     py = top if ratio > 1.35 else bottom-product.height
     canvas.paste(product, (x, py))
-    cx, cy, occupancy = choose_badge(canvas, text_bottom, top)
+    cx, cy, occupancy = choose_badge(canvas, text_bottom, top,
+                                    protected_boxes=[logo_box,*title_boxes,*subtitle_boxes])
     draw.ellipse((cx-80, cy-80, cx+80, cy+80), fill=color)
     draw.text((cx, cy), '1+1', fill='white', font=font(51, True), anchor='mm')
     canvas.save(destination)

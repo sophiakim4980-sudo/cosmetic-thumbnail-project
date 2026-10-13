@@ -1,0 +1,11 @@
+{
+  "explanation": "User-confirmed corrections applied without changing the source Excel workbook.",
+  "row_overrides": {
+    "559": {"품명": "DN0001"}
+  },
+  "product_overrides": {
+    "EL0001": {"title": "Hydro Dot Eraser Patch (24/48/60p)"},
+    "NF0001": {"title": "Kiss Balm For Men"},
+    "DW0001": {"brand_refs": ["DW"]}
+  }
+}

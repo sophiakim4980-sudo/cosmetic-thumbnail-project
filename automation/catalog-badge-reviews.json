@@ -1,0 +1,62 @@
+{
+  "GF0001": {
+    "sha256": "03bee1daa9988192b429a733d0864c44bdfdf3741e7a4308d4ee2d9ee0e8b36a",
+    "method": "assistant visual inspection of actual rendered PNG",
+    "assessment": "Badge is outside the main package faces; only a small upper exterior package corner intersects. Brand/product lettering remains legible."
+  },
+  "AD0001": {
+    "sha256": "7bbd198917b118229b01672baccfeab296b3e5cea6e31acf406a720071248b14",
+    "method": "assistant visual inspection of actual rendered PNG",
+    "assessment": "Automatic nonwhite score counts the gray photo backdrop. Badge covers backdrop in the upper right, not the white product boxes."
+  },
+  "WM0002": {
+    "sha256": "38f3b80907af8d45e94d6603d4b9879c295e3d2d885d6945692bac0c1246d19e",
+    "method": "assistant visual inspection of actual rendered PNG",
+    "assessment": "Upper right placement avoids eyes, pencil, brow detail and package lettering; the source promotional badge is retained."
+  },
+  "EU0001": {
+    "sha256": "a9857d3394d7a46653613c901e3864cbc9310e8720f470ac5c95524f535da55c",
+    "method": "assistant visual inspection of actual rendered PNG",
+    "assessment": "Lower left whitespace placement intersects only the jar exterior/shadow edge, not the label."
+  },
+  "AB0001": {
+    "sha256": "83a0cd8b575f891c4a8d8449c043869ecd323e129f48f3e08d31bd9d73da8aea",
+    "method": "assistant visual inspection of actual rendered PNG",
+    "assessment": "Lower right placement avoids front-face wording; overlap is limited to the tube foot/exterior edge."
+  },
+  "KB0001": {
+    "sha256": "423aed6fa0688ccb009b6158b3963667ba09d246b5bdc50b4c13166bc762a422",
+    "method": "assistant visual inspection of actual rendered PNG",
+    "assessment": "Upper right pink photo backdrop only; face, eyelash details and product packaging remain visible."
+  },
+  "PP0001": {
+    "sha256": "f3a5fa4fda12366dc020e4cd894063c5052c036c1e08eb11a8b093f28e417d6d",
+    "method": "assistant visual inspection of actual rendered PNG",
+    "assessment": "Upper right placement avoids bottle-front lettering; overlap is limited to the outer cap edge."
+  },
+  "SC0001": {
+    "sha256": "f30378eeed546a421e3624f2a8b8353c4fff756cc5d4ac54e62993d7f7bcb705",
+    "method": "assistant visual inspection of actual rendered PNG",
+    "assessment": "Lower left placement avoids the orange tube label; overlap is the outside tube foot/shadow."
+  },
+  "PR0006": {
+    "sha256": "6afada075590b7a8f24496f2fc134261bbca1a99bae6e7dc1dd23229c1dcc13b",
+    "method": "assistant visual inspection of actual rendered PNG",
+    "assessment": "Gap above bottles, near pump heads, leaves bottle brand/label text readable; limited pump-edge overlap."
+  },
+  "RC0001": {
+    "sha256": "3679e0e31570bc56562f2091b87b21dceeb786577d3562da4cd21458718e8246",
+    "method": "assistant visual inspection of actual rendered PNG",
+    "assessment": "Lower left placement intersects outer cap/shadow edge; toothpaste tube-front words remain visible."
+  },
+  "MM0001": {
+    "sha256": "bdc9d31bbc7f7f3935ae4335a09670601aca8bb2f70bd48e28e2791166294c47",
+    "method": "assistant visual inspection of actual rendered PNG",
+    "assessment": "Upper left placement avoids the dropper bottles main labels; only a small dropper-edge portion intersects."
+  },
+  "AV0002": {
+    "sha256": "55e6dce99d02e543dd6a15c338ad867af94323238dcdcf47b74aabc75481f859",
+    "method": "assistant visual inspection of actual rendered PNG",
+    "assessment": "Upper right image backdrop only, away from model face and neck patch details."
+  }
+}
