@@ -1,0 +1,53 @@
+{
+  "RL0001": {
+    "before_product_box": [
+      218,
+      340,
+      805,
+      956
+    ],
+    "after_product_box": [
+      134,
+      175,
+      890,
+      970
+    ],
+    "height_increase_percent": 29.1,
+    "placement_area_increase_percent": 66.2,
+    "badge_occupied_fraction": 0.0
+  },
+  "LL0001": {
+    "before_product_box": [
+      191,
+      340,
+      833,
+      956
+    ],
+    "after_product_box": [
+      118,
+      215,
+      906,
+      970
+    ],
+    "height_increase_percent": 22.6,
+    "placement_area_increase_percent": 50.4,
+    "badge_occupied_fraction": 0.0
+  },
+  "WM0001": {
+    "before_product_box": [
+      208,
+      340,
+      815,
+      956
+    ],
+    "after_product_box": [
+      145,
+      219,
+      878,
+      970
+    ],
+    "height_increase_percent": 21.9,
+    "placement_area_increase_percent": 47.2,
+    "badge_occupied_fraction": 0.0
+  }
+}

@@ -44,7 +44,7 @@ class Assets:
         self.root = root
         self.items = []
         self.archives = []
-        for path in sorted(root.glob('*.zip')):
+        for path in [root/'브랜드 로고.zip', *sorted(root.glob('화장품 썸네일-*.zip'))]:
             with ZipFile(path) as z:
                 bad = z.testzip()
                 if bad:
@@ -161,8 +161,9 @@ def wrap(text, face, max_width):
     return lines
 
 
-def draw_text(canvas, text, y, size, bold=False, max_lines=2):
-    while size >= 18:
+def draw_text(canvas, text, y, size, bold=False, max_lines=3):
+    minimum = 46 if bold else 25
+    while size >= minimum:
         face = font(size, bold)
         lines = wrap(text, face, 900)
         if len(lines) <= max_lines and all(face.getlength(s) <= 900 for s in lines):
@@ -175,7 +176,7 @@ def draw_text(canvas, text, y, size, bold=False, max_lines=2):
     for line in lines:
         draw.text((512, y), line, font=face, fill='black', anchor='mt')
         boxes.append(draw.textbbox((512, y), line, font=face, anchor='mt'))
-        y += size + 10
+        y = boxes[-1][3] + 6
     return y, boxes
 
 
@@ -203,55 +204,81 @@ def frame_color(product):
     return color
 
 
+def choose_badge(canvas, text_bottom, product_top, inset=40):
+    """Find whitespace without ever reducing the independently fitted product."""
+    foreground = ImageChops.difference(canvas, Image.new('RGB', canvas.size, 'white')).convert('L')
+    occupied = foreground.point(lambda p: 255 if p > 18 else 0)
+    radius = 80
+    start = max(text_bottom+radius+12, product_top+radius)
+    ys = list(range(start, 984-radius+1, 28))
+    if not ys:
+        raise ValueError('No room for a badge below the header')
+    scored = []
+    for cx in (inset+radius, 1024-inset-radius):
+        for cy in ys:
+            mask = Image.new('L', canvas.size, 0)
+            ImageDraw.Draw(mask).ellipse((cx-radius, cy-radius, cx+radius, cy+radius), fill=255)
+            fraction = ImageStat.Stat(occupied, mask=mask).mean[0]/255
+            scored.append((fraction, cy, cx))
+    fraction, cy, cx = min(scored)
+    return cx, cy, fraction
+
+
 def make_thumbnail(g, assets, destination):
     if len(g['brand_refs']) != 1 or len(g['thumbnail_refs']) != 1:
         raise ValueError('Exactly one brand logo and thumbnail reference required')
     logo_item = assets.match(g['brand_refs'][0], 'brand')
     product_item = assets.match(g['thumbnail_refs'][0], 'thumbnail')
     logo = crop_whitespace(assets.image(logo_item), 0)
-    logo.thumbnail((350, 70), Image.Resampling.LANCZOS)
-    product = crop_whitespace(assets.image(product_item), 16)
+    logo.thumbnail((340, 52), Image.Resampling.LANCZOS)
+    # Tight outer crop only. No source pixels are erased or generated.
+    product = crop_whitespace(assets.image(product_item), 6)
+    cropped_size = product.size
     color = frame_color(product)
     canvas = Image.new('RGB', (1024, 1024), 'white')
     draw = ImageDraw.Draw(canvas)
-    draw.rectangle((0, 0, 1023, 1023), outline=color, width=14)
-    canvas.paste(logo, ((1024-logo.width)//2, 64+(70-logo.height)//2))
+    frame_inset, frame_width = 12, 26
+    draw.rectangle((frame_inset, frame_inset, 1023-frame_inset, 1023-frame_inset),
+                   outline=color, width=frame_width)
+    logo_y = 58
+    logo_x = (1024-logo.width)//2
+    canvas.paste(logo, (logo_x, logo_y))
+    logo_box = [logo_x, logo_y, logo_x+logo.width, logo_y+logo.height]
     main, notes = split_title(g['title'])
-    y, title_boxes = draw_text(canvas, main, 167, 54, True)
+    y, title_boxes = draw_text(canvas, main, logo_box[3]+12, 52, True)
     subtitle_boxes = []
     for note in notes:
-        y, boxes = draw_text(canvas, note, y+8, 30, False)
+        y, boxes = draw_text(canvas, note, y+2, 29, False)
         subtitle_boxes.extend(boxes)
-    top = max(340, y+32)
-    product.thumbnail((700, 956-top), Image.Resampling.LANCZOS)
+    text_bottom = max(b[3] for b in title_boxes+subtitle_boxes)
+    top = text_bottom+20
+    bottom, left, right = 970, 48, 976
+    available = (right-left, bottom-top)
+    if available[1] < 480:
+        raise ValueError('Header leaves insufficient product area; review title length')
+    scale = min(available[0]/product.width, available[1]/product.height)
+    size = (round(product.width*scale), round(product.height*scale))
+    product = product.resize(size, Image.Resampling.LANCZOS)
     x = (1024-product.width)//2
-    py = top + (956-top-product.height)//2
+    # Bottom alignment uses the whole available height for vertical/set photos;
+    # wide images rise toward the header rather than floating far beneath it.
+    ratio = cropped_size[0]/cropped_size[1]
+    py = top if ratio > 1.35 else bottom-product.height
     canvas.paste(product, (x, py))
-    # Score fixed diameter circles against visible pixels, constrained below text.
-    candidates = [(cx, cy) for cx in (126, 898) for cy in (top+82, (top+956)//2, 874)]
-    foreground = ImageChops.difference(canvas, Image.new('RGB', canvas.size, 'white')).convert('L')
-    scored = []
-    for cx, cy in candidates:
-        mask = Image.new('L', canvas.size, 0)
-        ImageDraw.Draw(mask).ellipse((cx-82, cy-82, cx+82, cy+82), fill=255)
-        score = ImageStat.Stat(foreground, mask=mask).mean[0]
-        scored.append((score, cx, cy))
-    score, cx, cy = min(scored)
-    if score > 3:
-        # Reserve a separate left column if a photo fills all candidate whitespace.
-        canvas.paste('white', (28, top, 996, 970))
-        product.thumbnail((630, 956-top), Image.Resampling.LANCZOS)
-        x, py = 326, top+(956-top-product.height)//2
-        canvas.paste(product, (x, py))
-        cx, cy, score = 126, top+82, 0
+    cx, cy, occupancy = choose_badge(canvas, text_bottom, top)
     draw.ellipse((cx-80, cy-80, cx+80, cy+80), fill=color)
     draw.text((cx, cy), '1+1', fill='white', font=font(51, True), anchor='mm')
     canvas.save(destination)
-    return {'source': product_item, 'brand_logo': logo_item, 'main_title': main,
-            'subtitles': notes, 'title_boxes': title_boxes, 'subtitle_boxes': subtitle_boxes,
+    return {'design_version': 2, 'source': product_item, 'brand_logo': logo_item,
+            'main_title': main, 'subtitles': notes, 'logo_box': logo_box,
+            'title_boxes': title_boxes, 'subtitle_boxes': subtitle_boxes,
+            'cropped_source_size': list(cropped_size), 'product_scale': scale,
             'product_box': [x, py, x+product.width, py+product.height],
-            'badge_box': [cx-80, cy-80, cx+80, cy+80], 'badge_occupancy_score': score,
-            'frame_rgb': color, 'frame_width': 14, 'size': [1024, 1024]}
+            'product_area': [left, top, right, bottom], 'source_aspect_ratio': ratio,
+            'badge_box': [cx-80, cy-80, cx+80, cy+80],
+            'badge_occupied_fraction': occupancy, 'badge_resized_product': False,
+            'frame_rgb': color, 'frame_width': frame_width, 'frame_inset': frame_inset,
+            'background_rgb': [255,255,255], 'size': [1024, 1024]}
 
 
 def make_option(source, mark, destination):
@@ -285,10 +312,40 @@ def preview(code, folder, options):
     return page
 
 
-def run(root, output):
+def compare_preview(code, before, after):
+    page = Image.new('RGB', (1080, 610), 'white')
+    draw = ImageDraw.Draw(page)
+    for x, label, source in [(20, 'BEFORE', before), (560, 'AFTER', after)]:
+        draw.text((x, 16), code+' / '+label, font=font(26, True), fill='black')
+        with Image.open(source) as image:
+            page.paste(image.convert('RGB').resize((500, 500), Image.Resampling.LANCZOS), (x, 76))
+    return page
+
+
+def bundle_samples(root, output, previews):
+    """Package the current PNGs and current code, never a stale nested bundle."""
+    with ZipFile(root/'sample-deliverables.zip', 'w', ZIP_DEFLATED) as z:
+        for code in SAMPLES:
+            for file in sorted((output/code).rglob('*.png')):
+                z.write(file, Path('output')/file.relative_to(output))
+            z.write(output/f'{code}.zip', f'output/{code}.zip')
+        for name in ['analysis.json','errors.log','REPORT.md','DESIGN_REVIEW.md','design-review.json']:
+            file = output/name
+            if file.exists():
+                z.write(file, 'output/'+name)
+        for file in sorted(previews.rglob('*.png')):
+            z.write(file, Path('previews')/file.relative_to(previews))
+        for name in ['generate.py','validate.py','requirements.txt','README.md']:
+            z.write(root/'automation'/name, 'automation/'+name)
+
+
+def run(root, output, reuse_options=False, preview_dir=None, compare_with=None):
     if output == root or root.is_relative_to(output):
         raise ValueError('Output must not be the source directory or its ancestor')
     output.mkdir(parents=True, exist_ok=True)
+    preview_dir = preview_dir or output
+    preview_dir.mkdir(parents=True, exist_ok=True)
+    previous = json.loads((output/'analysis.json').read_text(encoding='utf-8')) if reuse_options else None
     assets = Assets(root)
     groups, errors = groups_from_excel(root/'화장품 썸네일.xlsx')
     matches, missing = {}, []
@@ -336,11 +393,24 @@ def run(root, output):
                 name = Path(item['filename']).stem+'.png'
                 if name in options:
                     raise ValueError(f'Duplicate output filename: {name}')
-                details = make_option(assets.image(item), mark, folder/'options'/name)
+                if reuse_options:
+                    old = next((o for o in previous['samples'][code]['options'] if o['output'] == name), None)
+                    if old is None or old['source']['sha256'] != item['sha256']:
+                        raise ValueError(f'Cannot reuse unverified option: {name}')
+                    with Image.open(folder/'options'/name) as existing:
+                        existing.load()
+                        if list(existing.size) != old['size']:
+                            raise ValueError(f'Existing option dimensions differ: {name}')
+                    details = {k: old[k] for k in ('size','logo_box')}
+                else:
+                    details = make_option(assets.image(item), mark, folder/'options'/name)
                 option_results.append({**option, 'source': item, 'output': name, **details})
                 options.append(name)
             page = preview(code, folder, options)
-            page.save(output/f'{code}-preview.png')
+            page.save(preview_dir/f'{code}-preview.png')
+            if compare_with:
+                compare_preview(code, compare_with/f'{code}.png', folder/'thumbnail.png').save(
+                    preview_dir/f'{code}-comparison.png')
             pages.append(page)
             with ZipFile(output/f'{code}.zip', 'w', ZIP_DEFLATED) as z:
                 for file in [folder/'thumbnail.png'] + [folder/'options'/name for name in options]:
@@ -353,7 +423,13 @@ def run(root, output):
         y = 0
         for page in pages:
             combined.paste(page, (0, y)); y += page.height
-        combined.save(output/'all-samples-preview.png')
+        combined.save(preview_dir/'all-samples-preview.png')
+        thumbnails = Image.new('RGB', (1080, 420), 'white')
+        for i, code in enumerate(SAMPLES):
+            ImageDraw.Draw(thumbnails).text((i*360+16, 16), code, font=font(23, True), fill='black')
+            with Image.open(output/code/'thumbnail.png') as image:
+                thumbnails.paste(image.resize((340,340), Image.Resampling.LANCZOS), (i*360+10,64))
+        thumbnails.save(preview_dir/'thumbnails-overview.png')
     (output/'analysis.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
     logs = [json.dumps(e, ensure_ascii=False) for e in errors+missing+collisions]
     logs += [json.dumps({'code': k, **v}, ensure_ascii=False) for k, v in report['samples'].items() if v['status'] != 'success']
@@ -372,5 +448,14 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument('--output', type=Path, default=Path('/workspace/cosmetic-thumbnail-output'))
+    parser.add_argument('--reuse-options', action='store_true', help='Keep previously verified option PNGs unchanged')
+    parser.add_argument('--previews', type=Path, help='Separate preview directory')
+    parser.add_argument('--compare-with', type=Path, help='Directory containing CODE.png before images')
+    parser.add_argument('--bundle', action='store_true', help='Refresh the root sample-deliverables.zip')
     args = parser.parse_args()
-    run(args.source.resolve(), args.output.resolve())
+    run(args.source.resolve(), args.output.resolve(), args.reuse_options,
+        args.previews.resolve() if args.previews else None,
+        args.compare_with.resolve() if args.compare_with else None)
+    if args.bundle:
+        bundle_samples(args.source.resolve(), args.output.resolve(),
+                       args.previews.resolve() if args.previews else args.output.resolve())

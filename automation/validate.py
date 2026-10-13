@@ -8,7 +8,7 @@ from zipfile import ZipFile
 from openpyxl import Workbook
 from PIL import Image, ImageChops
 
-from generate import Assets, SAMPLES, groups_from_excel, split_title
+from generate import Assets, SAMPLES, groups_from_excel, split_title, make_thumbnail
 
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
@@ -42,9 +42,22 @@ for code in SAMPLES:
     thumb = Image.open(OUT/code/'thumbnail.png')
     assert thumb.size == (1024,1024) and thumb.format == 'PNG'
     layout = sample['thumbnail']
-    assert thumb.getpixel((0,0)) == tuple(layout['frame_rgb'])
-    assert thumb.getpixel((20,20)) == (255,255,255)
+    assert thumb.getpixel((0,0)) == (255,255,255)
+    assert layout['frame_width'] == 26 and layout['frame_inset'] == 12
+    assert all(thumb.getpixel((x,512)) == tuple(layout['frame_rgb']) for x in range(12,38))
+    assert thumb.getpixel((38,512)) == (255,255,255)
+    assert thumb.getpixel((44,44)) == (255,255,255)
     assert layout['badge_box'][2]-layout['badge_box'][0] == 160
+    assert layout['badge_resized_product'] is False
+    assert layout['badge_occupied_fraction'] < .02
+    px,py,pw,ph = layout['product_box']
+    assert 38 < px < pw < 986 and 38 < py < ph < 986
+    assert abs((pw-px)/(ph-py)-layout['source_aspect_ratio']) < .003
+    area = layout['product_area']
+    assert min((area[2]-area[0])/(pw-px), (area[3]-area[1])/(ph-py)) < 1.003
+    assert layout['logo_box'][3] < min(b[1] for b in layout['title_boxes'])
+    cx,cy = [(layout['badge_box'][k]+layout['badge_box'][k+2])//2 for k in (0,1)]
+    assert thumb.getpixel((cx,cy-60)) == tuple(layout['frame_rgb'])
     if layout['subtitle_boxes']:
         assert min(b[1] for b in layout['subtitle_boxes']) > max(b[3] for b in layout['title_boxes'])
         assert layout['product_box'][1] > max(b[3] for b in layout['subtitle_boxes'])
@@ -71,4 +84,24 @@ for code in SAMPLES:
     Image.open(PREVIEWS/f'{code}-preview.png').verify()
 assert set(report['samples']) == set(SAMPLES)
 assert assets.match('RL0001-1','option')['archive'] == '화장품 썸네일-1.zip'
+
+# Exercise shared fitting with both tall and wide inputs, not only sample shapes.
+class SyntheticAssets:
+    def __init__(self, size): self.size = size
+    def match(self, value, role): return {'role': role}
+    def image(self, item):
+        return Image.new('RGBA', (240,40) if item['role'] == 'brand' else self.size,
+                         'black' if item['role'] == 'brand' else '#257caf')
+
+with tempfile.TemporaryDirectory() as tmp:
+    product = {'brand_refs':['logo'], 'thumbnail_refs':['image'],
+               'title':'A Longer Product Name That Wraps (First Note) (Second Note)'}
+    results = []
+    for size in [(200,700),(1000,250)]:
+        layout = make_thumbnail(product, SyntheticAssets(size), Path(tmp)/f'{size[0]}.png')
+        assert layout['subtitles'] == ['First Note','Second Note']
+        assert layout['badge_resized_product'] is False
+        assert len(layout['title_boxes']) > 1
+        results.append(layout)
+    assert results[0]['product_box'] != results[1]['product_box']
 print('PASS: grouping, title splitting, exact sample mapping, 3 thumbnails, 7 options, geometry, source pixel preservation, 3 ZIPs, previews')

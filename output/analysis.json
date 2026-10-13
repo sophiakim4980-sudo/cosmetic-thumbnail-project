@@ -19868,6 +19868,7 @@
     "RL0001": {
       "status": "success",
       "thumbnail": {
+        "design_version": 2,
         "source": {
           "archive": "화장품 썸네일-1.zip",
           "member": "RL0001-2.png",
@@ -19884,34 +19885,59 @@
         },
         "main_title": "Juice Moisturizing Sunscreen",
         "subtitles": [],
+        "logo_box": [
+          342,
+          58,
+          682,
+          92
+        ],
         "title_boxes": [
           [
-            68,
-            167,
-            951,
-            220
+            86,
+            104,
+            936,
+            155
           ]
         ],
         "subtitle_boxes": [],
+        "cropped_source_size": [
+          723,
+          760
+        ],
+        "product_scale": 1.0460526315789473,
         "product_box": [
-          218,
-          340,
-          805,
-          956
+          134,
+          175,
+          890,
+          970
         ],
+        "product_area": [
+          48,
+          175,
+          976,
+          970
+        ],
+        "source_aspect_ratio": 0.9513157894736842,
         "badge_box": [
-          46,
-          342,
-          206,
-          502
+          824,
+          175,
+          984,
+          335
         ],
-        "badge_occupancy_score": 0.0,
+        "badge_occupied_fraction": 0.0,
+        "badge_resized_product": false,
         "frame_rgb": [
           60,
           137,
           175
         ],
-        "frame_width": 14,
+        "frame_width": 26,
+        "frame_inset": 12,
+        "background_rgb": [
+          255,
+          255,
+          255
+        ],
         "size": [
           1024,
           1024
@@ -19969,6 +19995,7 @@
     "LL0001": {
       "status": "success",
       "thumbnail": {
+        "design_version": 2,
         "source": {
           "archive": "화장품 썸네일-1.zip",
           "member": "LL0001-2.png",
@@ -19987,41 +20014,66 @@
         "subtitles": [
           "Panthenol, Niacinamide"
         ],
+        "logo_box": [
+          342,
+          58,
+          682,
+          109
+        ],
         "title_boxes": [
           [
-            202,
-            167,
-            822,
-            209
+            213,
+            121,
+            810,
+            162
           ]
         ],
         "subtitle_boxes": [
           [
-            335,
-            239,
-            690,
-            265
+            341,
+            170,
+            684,
+            195
           ]
         ],
+        "cropped_source_size": [
+          795,
+          762
+        ],
+        "product_scale": 0.9908136482939632,
         "product_box": [
-          191,
-          340,
-          833,
-          956
+          118,
+          215,
+          906,
+          970
         ],
+        "product_area": [
+          48,
+          215,
+          976,
+          970
+        ],
+        "source_aspect_ratio": 1.0433070866141732,
         "badge_box": [
-          46,
-          342,
-          206,
-          502
+          40,
+          215,
+          200,
+          375
         ],
-        "badge_occupancy_score": 0.0,
+        "badge_occupied_fraction": 0.0,
+        "badge_resized_product": false,
         "frame_rgb": [
           60,
           79,
           137
         ],
-        "frame_width": 14,
+        "frame_width": 26,
+        "frame_inset": 12,
+        "background_rgb": [
+          255,
+          255,
+          255
+        ],
         "size": [
           1024,
           1024
@@ -20079,6 +20131,7 @@
     "WM0001": {
       "status": "success",
       "thumbnail": {
+        "design_version": 2,
         "source": {
           "archive": "화장품 썸네일-1.zip",
           "member": "WM0001-4.png",
@@ -20097,41 +20150,66 @@
         "subtitles": [
           "3 Colors"
         ],
+        "logo_box": [
+          342,
+          58,
+          682,
+          106
+        ],
         "title_boxes": [
           [
-            161,
-            167,
-            863,
-            220
+            174,
+            118,
+            850,
+            169
           ]
         ],
         "subtitle_boxes": [
           [
-            451,
-            239,
-            574,
-            262
+            453,
+            177,
+            572,
+            199
           ]
         ],
+        "cropped_source_size": [
+          999,
+          1024
+        ],
+        "product_scale": 0.7333984375,
         "product_box": [
-          208,
-          340,
-          815,
-          956
+          145,
+          219,
+          878,
+          970
         ],
+        "product_area": [
+          48,
+          219,
+          976,
+          970
+        ],
+        "source_aspect_ratio": 0.9755859375,
         "badge_box": [
-          818,
-          342,
-          978,
-          502
+          824,
+          527,
+          984,
+          687
         ],
-        "badge_occupancy_score": 0.0,
+        "badge_occupied_fraction": 0.0,
+        "badge_resized_product": false,
         "frame_rgb": [
           165,
           135,
           120
         ],
-        "frame_width": 14,
+        "frame_width": 26,
+        "frame_inset": 12,
+        "background_rgb": [
+          255,
+          255,
+          255
+        ],
         "size": [
           1024,
           1024
