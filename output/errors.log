@@ -1,0 +1,32 @@
+{"type": "missing_option_reference", "code": "ET0001", "row": 29}
+{"type": "missing_option_reference", "code": "ET0001", "row": 30}
+{"type": "missing_option_reference", "code": "ET0001", "row": 31}
+{"type": "missing_option_reference", "code": "ET0001", "row": 32}
+{"type": "missing_option_reference", "code": "ET0001", "row": 33}
+{"type": "missing_option_reference", "code": "YM0001", "row": 131}
+{"type": "missing_option_reference", "code": "YM0001", "row": 132}
+{"type": "missing_option_reference", "code": "ME0001", "row": 140}
+{"type": "missing_option_reference", "code": "ME0001", "row": 141}
+{"type": "missing_option_reference", "code": "ET0002", "row": 190}
+{"type": "missing_option_reference", "code": "ET0002", "row": 191}
+{"type": "conflicting_metadata", "code": "EL0001", "row": 537, "field": "상품명"}
+{"type": "conflicting_metadata", "code": "EL0001", "row": 538, "field": "상품명"}
+{"type": "conflicting_metadata", "code": "EL0001", "row": 539, "field": "상품명"}
+{"type": "conflicting_metadata", "code": "EL0001", "row": 540, "field": "상품명"}
+{"type": "conflicting_metadata", "code": "EN0001", "row": 559, "field": "브랜드"}
+{"type": "conflicting_metadata", "code": "EN0001", "row": 559, "field": "상품명"}
+{"type": "conflicting_metadata", "code": "EN0001", "row": 560, "field": "브랜드"}
+{"type": "conflicting_metadata", "code": "EN0001", "row": 560, "field": "상품명"}
+{"type": "conflicting_metadata", "code": "NF0001", "row": 575, "field": "상품명"}
+{"code": "SN0001", "role": "brand", "reference": "SN", "error": "brand: SN"}
+{"code": "IC0001", "role": "options", "reference": "IC0001-3", "error": "option: IC0001-3"}
+{"code": "IC0001", "role": "options", "reference": "IC0001-4", "error": "option: IC0001-4"}
+{"code": "YM0001", "role": "brand", "reference": "YM", "error": "brand: YM"}
+{"code": "SN0002", "role": "brand", "reference": "SN", "error": "brand: SN"}
+{"code": "SN0003", "role": "brand", "reference": "SN", "error": "brand: SN"}
+{"code": "DW0001", "role": "brand", "reference": null, "error": "No Excel reference"}
+{"code": "SN0004", "role": "brand", "reference": "SN", "error": "brand: SN"}
+{"code": "SN0005", "role": "brand", "reference": "SN", "error": "brand: SN"}
+{"code": "BB0001", "role": "thumbnail", "reference": "BB0001-16", "error": "thumbnail: BB0001-16"}
+{"code": "HH0001", "role": "brand", "reference": "HH", "error": "brand: HH"}
+{"filename": "rl0001-1.png", "files": [{"archive": "브랜드 로고.zip", "member": "브랜드 로고/RL0001-1.png", "raw_member": "║Ω╖ú╡σ ╖╬░φ/RL0001-1.png", "filename": "RL0001-1.png", "sha256": "ea8526784df7965207117f0eb3bca5df13466f7213f906cec153b95e4e2c7b9d"}, {"archive": "화장품 썸네일-1.zip", "member": "RL0001-1.png", "raw_member": "RL0001-1.png", "filename": "RL0001-1.png", "sha256": "ebf9c9d2d49a619c97b57c7a7e4c58ed072376aede8a92e31f1e3d1313f3c97e"}], "identical_bytes": false}
