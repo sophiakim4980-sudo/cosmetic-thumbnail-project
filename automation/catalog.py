@@ -12,7 +12,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 from PIL import Image, ImageChops, ImageDraw
 
 from generate import (Assets, SAMPLES, font, groups_from_excel, make_option,
-                      make_thumbnail, split_title, white_image)
+                      make_thumbnail, split_title, white_image, relocate_thumbnail, REVISION_ARCHIVES)
 
 
 def digest(path):
@@ -50,7 +50,12 @@ def checked_thumbnail(path, layout, group, assets):
         assert min((a[2]-a[0])/(x1-x), (a[3]-a[1])/(y1-y)) < 1.004
         b=layout['badge_box']
         assert b[2]-b[0] == b[3]-b[1] == 160
-        assert 38 <= b[0] < b[2] <= 986 and 38 <= b[1] < b[3] <= 986
+        assert 78 <= b[0] < b[2] <= 946 and 78 <= b[1] < b[3] <= 946
+        text_bottom=max(v[3] for v in boxes)
+        assert b[1] >= text_bottom+12 and b[1]+80 <= layout['product_area'][1]+160
+        assert layout['badge_position'] in ('upper_left','upper_right')
+        assert layout['badge_frame_clearance'] >= 40
+        assert layout['badge_occupied_fraction'] <= .02
         assert layout['badge_resized_product'] is False
         assert im.getpixel(((b[0]+b[2])//2,(b[1]+b[3])//2-60)) == color
 
@@ -104,17 +109,13 @@ def render_catalog(root, output, only=(), retry_failed=False):
     output.mkdir(parents=True,exist_ok=True)
     state_path=output/'catalog-state.json'
     state=json.loads(state_path.read_text()) if state_path.exists() else {'schema':1,'products':{}}
-    previous=json.loads((output/'analysis.json').read_text())
+    previous=json.loads((output/'analysis.json').read_text()) if (output/'analysis.json').exists() else {}
     assets=Assets(root)
     overrides_path=root/'automation'/'catalog-overrides.json'
     overrides=json.loads(overrides_path.read_text()) if overrides_path.exists() else {}
-    groups,excel_errors=groups_from_excel(root/'화장품 썸네일.xlsx',overrides.get('row_overrides'))
-    for code,values in overrides.get('product_overrides',{}).items():
-        groups[code].update(values)
-        fields={'title':'상품명','brand':'브랜드'}
-        excel_errors=[e for e in excel_errors if not (e.get('code') == code and
-                      e.get('type') == 'conflicting_metadata' and e.get('field') in
-                      [fields[k] for k in values if k in fields])]
+    groups,excel_errors=groups_from_excel(root/'화장품 썸네일_수정.xlsx')
+    for code, center in overrides.get('badge_centers', {}).items():
+        if code in groups: groups[code]['badge_center'] = center
     renderer=digest(Path(__file__).with_name('generate.py'))
     mark=Image.open(root/'pick&mood.kr 로고.png').convert('RGBA')
     mark_hash=digest(root/'pick&mood.kr 로고.png')
@@ -145,18 +146,21 @@ def render_catalog(root, output, only=(), retry_failed=False):
             refs=[assets.match(group['brand_refs'][0],'brand'),assets.match(group['thumbnail_refs'][0],'thumbnail')]
             fingerprint=source_fingerprint(group,[i['sha256'] for i in refs],renderer)
             path=folder/'thumbnail.png'
-            if code in SAMPLES:
-                saved=previous['samples'][code]['thumbnail']
-                assert saved['source']['sha256'] == refs[1]['sha256'] and saved['brand_logo']['sha256'] == refs[0]['sha256']
-                checked_thumbnail(path,saved,group,assets)
-                details=saved; reused=True
-            elif (valid_saved(old.get('thumbnail',{}),path,fingerprint)
-                  and old['thumbnail']['layout']['badge_occupied_fraction'] <= .02):
+            if (valid_saved(old.get('thumbnail',{}),path,fingerprint)
+                    and old['thumbnail']['layout'].get('design_version') == 5):
                 details=old['thumbnail']['layout']; reused=True
                 checked_thumbnail(path,details,group,assets)
             else:
-                details=image_atomic(path,lambda p:make_thumbnail(group,assets,p),
-                    lambda p,d:checked_thumbnail(p,d,group,assets)); reused=False
+                prior=old.get('thumbnail',{})
+                layout=prior.get('layout',{})
+                preserve=(code not in REVISION_ARCHIVES and prior.get('status') == 'success'
+                    and path.exists() and digest(path) == prior.get('sha256')
+                    and layout.get('design_version') != 5
+                    and (layout.get('main_title'),layout.get('subtitles')) == split_title(group['title'])
+                    and layout.get('source',{}).get('sha256') == refs[1]['sha256']
+                    and layout.get('brand_logo',{}).get('sha256') == refs[0]['sha256'])
+                create=(lambda p:relocate_thumbnail(group,assets,path,layout,p)) if preserve else (lambda p:make_thumbnail(group,assets,p))
+                details=image_atomic(path,create,lambda p,d:checked_thumbnail(p,d,group,assets)); reused=False
             result['thumbnail']={'status':'success','path':str(path.relative_to(output)),
                                  'sha256':digest(path),'fingerprint':fingerprint,'reused':reused,'layout':details}
             if details['badge_occupied_fraction'] > .02:
@@ -166,6 +170,14 @@ def render_catalog(root, output, only=(), retry_failed=False):
                 else:
                     result['issues'].append({'type':'badge_review','occupied_fraction':details['badge_occupied_fraction']})
         except Exception as e:
+            stale=folder/'thumbnail.png'
+            if stale.exists():
+                backup=root/'previews'/'v5-before'/f'{code}.png'
+                backup.parent.mkdir(parents=True,exist_ok=True)
+                if not backup.exists():
+                    import shutil
+                    shutil.copy2(stale,backup)
+                stale.unlink()
             result['thumbnail']={'status':'failed','error':str(e)}
             result['issues'].append({'type':'thumbnail_failed','error':str(e)})
         state['products'][code]=result
@@ -181,15 +193,10 @@ def render_catalog(root, output, only=(), retry_failed=False):
                 item=assets.match(ref,'option')
                 filename=Path(item['filename']).stem+'.png'
                 path=folder/'options'/filename
-                fingerprint=source_fingerprint({'reference':ref},[item['sha256'],mark_hash],'option-v1')
+                fingerprint=source_fingerprint({'reference':ref},[item['sha256'],mark_hash],'option-v5-revised' if code in REVISION_ARCHIVES else 'option-v1')
                 saved=old.get('options',{}).get(ref,{})
                 source=assets.image(item)
-                if code in SAMPLES:
-                    prior=next(o for o in previous['samples'][code]['options'] if o['output'] == filename)
-                    assert prior['source']['sha256'] == item['sha256']
-                    details={k:prior[k] for k in ('size','logo_box')}; reused=True
-                    checked_option(path,details,source,mark)
-                elif valid_saved(saved,path,fingerprint):
+                if valid_saved(saved,path,fingerprint):
                     details=saved['layout']; reused=True
                     checked_option(path,details,source,mark)
                 else:
