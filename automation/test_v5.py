@@ -1,8 +1,10 @@
 """Regression checks for upper-only placement, revised sources and cache invalidation."""
 import unittest
+import json
+import tempfile
 from pathlib import Path
 from PIL import Image, ImageDraw
-from generate import Assets, choose_badge, REVISION_ARCHIVES
+from generate import Assets, choose_badge, REVISION_ARCHIVES, relocate_thumbnail, groups_from_excel
 from catalog import source_fingerprint
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -37,6 +39,21 @@ class V5Tests(unittest.TestCase):
             self.assertTrue(item['filename'].startswith(code+'-'))
         assets.items=[i for i in assets.items if i['archive']!=REVISION_ARCHIVES['BB0001']]
         with self.assertRaises(FileNotFoundError):assets.match('BB0001-1','option')
+
+    def test_translation_preserves_product_dimensions_and_header(self):
+        code='TB0001'
+        baseline=json.loads((ROOT/'output/v5-original-layouts.json').read_text())[code]['layout']
+        groups,_=groups_from_excel(ROOT/'화장품 썸네일_수정.xlsx')
+        group={**groups[code], 'allow_product_translation':True}
+        with tempfile.TemporaryDirectory() as temporary:
+            layout=relocate_thumbnail(group,Assets(ROOT),ROOT/'previews/v5-before'/f'{code}.png',
+                                      baseline,Path(temporary)/'thumbnail.png')
+        old,new=baseline['product_box'],layout['product_box']
+        self.assertEqual([old[2]-old[0],old[3]-old[1]],[new[2]-new[0],new[3]-new[1]])
+        self.assertEqual(baseline['title_boxes'],layout['title_boxes'])
+        self.assertEqual(baseline['frame_rgb'],layout['frame_rgb'])
+        self.assertFalse(layout['badge_resized_product'])
+        self.assertLessEqual(layout['badge_occupied_fraction'],.02)
 
     def test_new_source_invalidates_cache(self):
         self.assertNotEqual(source_fingerprint({'code':'SN0004'},['old'],'v5'),

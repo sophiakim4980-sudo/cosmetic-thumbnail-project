@@ -285,20 +285,47 @@ def relocate_thumbnail(group, assets, original_path, layout, destination):
     product = crop_whitespace(assets.image(assets.match(group['thumbnail_refs'][0], 'thumbnail')), 6)
     x,y,x1,y1 = details['product_box']
     product = product.resize((x1-x,y1-y), Image.Resampling.LANCZOS)
-    canvas.paste(product, (x,y))
     color = tuple(details['frame_rgb'])
-    draw.rectangle((12,12,1011,1011), outline=color, width=26)
     text_bottom = max(b[3] for b in details['title_boxes']+details['subtitle_boxes'])
-    cx,cy,overlap = choose_badge(canvas,text_bottom,details['product_area'][1],
-        protected_boxes=[details['logo_box'],*details['title_boxes'],*details['subtitle_boxes']],
-        manual=group.get('badge_center'))
+    dxs, dys = [0], [0]
+    if group.get('allow_product_translation'):
+        left, top, right, bottom = details['product_area']
+        dxs = sorted(set([0,left-x,right-x1]), key=abs)
+        maximum_down = max(0,min(160,bottom-y1))
+        dys = sorted(set([0,maximum_down//2,maximum_down]))
+    # Rebuild the product from the verified source, never shrink it.
+    ImageDraw.Draw(canvas).rectangle((x,y,x1-1,y1-1),fill='white')
+    base = canvas.copy()
+    selected = None
+    for dy in dys:
+        for dx in dxs:
+            candidate = base.copy()
+            candidate.paste(product,(x+dx,y+dy))
+            ImageDraw.Draw(candidate).rectangle((12,12,1011,1011),outline=color,width=26)
+            try:
+                cx,cy,overlap = choose_badge(candidate,text_bottom,details['product_area'][1],
+                    protected_boxes=[details['logo_box'],*details['title_boxes'],*details['subtitle_boxes']],
+                    manual=group.get('badge_center'))
+                selected = (candidate,dx,dy,cx,cy,overlap)
+                break
+            except ValueError:
+                if not group.get('allow_product_translation'):
+                    raise
+        if selected: break
+    if selected is None:
+        raise ValueError('badge_review: upper corners unsafe even after size-preserving product translations')
+    canvas,dx,dy,cx,cy,overlap = selected
+    draw = ImageDraw.Draw(canvas)
+    details['product_box'] = [x+dx,y+dy,x1+dx,y1+dy]
+    details['product_translation'] = [dx,dy]
     draw.ellipse((cx-80,cy-80,cx+80,cy+80), fill=color)
     draw.text((cx,cy), '1+1', fill='white', font=font(51,True), anchor='mm')
     canvas.save(destination)
     details.update(design_version=5,badge_box=[cx-80,cy-80,cx+80,cy+80],
         badge_occupied_fraction=overlap,badge_position='upper_left' if cx<512 else 'upper_right',
         badge_frame_clearance=min(cx-80-38,986-cx-80,cy-80-38,986-cy-80),
-        badge_resized_product=False,layout_preserved=True)
+        badge_resized_product=False,layout_preserved=(dx==0 and dy==0),
+        product_size_preserved=True)
     return details
 
 

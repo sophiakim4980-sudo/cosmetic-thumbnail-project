@@ -5064,7 +5064,8 @@
       ],
       "observed_brands": [
         "WAKEMAKE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "GF0001": {
       "code": "GF0001",
@@ -5130,7 +5131,8 @@
       ],
       "observed_brands": [
         "GOODFEEL"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "KL0001": {
       "code": "KL0001",
@@ -5166,7 +5168,8 @@
       ],
       "observed_brands": [
         "KALO"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "ET0001": {
       "code": "ET0001",
@@ -5219,7 +5222,8 @@
       ],
       "observed_brands": [
         "ETUDE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "RL0002": {
       "code": "RL0002",
@@ -5279,7 +5283,8 @@
       ],
       "observed_brands": [
         "GOODAL"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "CM0001": {
       "code": "CM0001",
@@ -5561,7 +5566,8 @@
       ],
       "observed_brands": [
         "IDEAL FOR MEN"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "IM0002": {
       "code": "IM0002",
@@ -5669,7 +5675,8 @@
       ],
       "observed_brands": [
         "BIODANCE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "CL0001": {
       "code": "CL0001",
@@ -6053,7 +6060,8 @@
       ],
       "observed_brands": [
         "ALDICOM"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "WM0002": {
       "code": "WM0002",
@@ -6125,7 +6133,8 @@
       ],
       "observed_brands": [
         "WAKEMAKE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "RL0003": {
       "code": "RL0003",
@@ -6313,7 +6322,8 @@
       ],
       "observed_brands": [
         "MAEIL"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "AH0001": {
       "code": "AH0001",
@@ -6595,7 +6605,8 @@
       ],
       "observed_brands": [
         "GOODAL"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "EU0001": {
       "code": "EU0001",
@@ -6625,7 +6636,8 @@
       ],
       "observed_brands": [
         "EUCERIN"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "CF0001": {
       "code": "CF0001",
@@ -6703,7 +6715,8 @@
       ],
       "observed_brands": [
         "DASIQUE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "HY0002": {
       "code": "HY0002",
@@ -6733,7 +6746,8 @@
       ],
       "observed_brands": [
         "HANYUL"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "AN0001": {
       "code": "AN0001",
@@ -6823,7 +6837,8 @@
       ],
       "observed_brands": [
         "DR.G"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "RM0001": {
       "code": "RM0001",
@@ -6963,7 +6978,8 @@
       ],
       "observed_brands": [
         "INNISFREE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "PT0001": {
       "code": "PT0001",
@@ -7167,7 +7183,8 @@
       ],
       "observed_brands": [
         "ETUDE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "AB0001": {
       "code": "AB0001",
@@ -7197,7 +7214,8 @@
       ],
       "observed_brands": [
         "ABIB"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "WM0003": {
       "code": "WM0003",
@@ -7263,7 +7281,8 @@
       ],
       "observed_brands": [
         "MIMZ"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "PR0003": {
       "code": "PR0003",
@@ -7737,7 +7756,8 @@
       ],
       "observed_brands": [
         "DERMAFIX"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "SN0003": {
       "code": "SN0003",
@@ -7947,7 +7967,8 @@
       ],
       "observed_brands": [
         "EUCERIN"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "SP0001": {
       "code": "SP0001",
@@ -8085,7 +8106,8 @@
       ],
       "observed_brands": [
         "AVAJAR"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "DJ0003": {
       "code": "DJ0003",
@@ -8265,7 +8287,8 @@
       ],
       "observed_brands": [
         "KEYBO"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "SN0004": {
       "code": "SN0004",
@@ -8601,7 +8624,8 @@
       ],
       "observed_brands": [
         "ATHE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "AM0001": {
       "code": "AM0001",
@@ -8727,7 +8751,8 @@
       ],
       "observed_brands": [
         "HANYUL"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "CR0001": {
       "code": "CR0001",
@@ -8973,7 +8998,8 @@
       ],
       "observed_brands": [
         "GIVERNY"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "ET0004": {
       "code": "ET0004",
@@ -9009,7 +9035,8 @@
       ],
       "observed_brands": [
         "ETUDE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "ET0005": {
       "code": "ET0005",
@@ -9075,7 +9102,8 @@
       ],
       "observed_brands": [
         "NEXCARE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "BP0004": {
       "code": "BP0004",
@@ -9099,7 +9127,8 @@
       ],
       "observed_brands": [
         "BEPLAIN"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "RV0001": {
       "code": "RV0001",
@@ -9225,7 +9254,8 @@
       ],
       "observed_brands": [
         "PAPA RECIPE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "MB0001": {
       "code": "MB0001",
@@ -9681,7 +9711,8 @@
       ],
       "observed_brands": [
         "SCINIC"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "CK0002": {
       "code": "CK0002",
@@ -9897,7 +9928,8 @@
       ],
       "observed_brands": [
         "EUCERIN"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "JS0001": {
       "code": "JS0001",
@@ -9927,7 +9959,8 @@
       ],
       "observed_brands": [
         "J'SOOP"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "GA0004": {
       "code": "GA0004",
@@ -9957,7 +9990,8 @@
       ],
       "observed_brands": [
         "GOODAL"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "BP0005": {
       "code": "BP0005",
@@ -10209,7 +10243,8 @@
       ],
       "observed_brands": [
         "ACNES"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "LS0001": {
       "code": "LS0001",
@@ -10419,7 +10454,8 @@
       ],
       "observed_brands": [
         "DR.JART+"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "PR0006": {
       "code": "PR0006",
@@ -10485,7 +10521,8 @@
       ],
       "observed_brands": [
         "PRIMERA"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "BC0002": {
       "code": "BC0002",
@@ -10581,6 +10618,11 @@
       ],
       "observed_brands": [
         "ARIUL"
+      ],
+      "allow_product_translation": true,
+      "badge_center": [
+        674,
+        348
       ]
     },
     "IF0001": {
@@ -10611,7 +10653,8 @@
       ],
       "observed_brands": [
         "I'M FROM"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "BY0002": {
       "code": "BY0002",
@@ -10767,7 +10810,8 @@
       ],
       "observed_brands": [
         "IDEAL FOR MEN"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "AC0002": {
       "code": "AC0002",
@@ -10851,7 +10895,8 @@
       ],
       "observed_brands": [
         "COSRX"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "DO0001": {
       "code": "DO0001",
@@ -10881,7 +10926,8 @@
       ],
       "observed_brands": [
         "DOVE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "EL0001": {
       "code": "EL0001",
@@ -10995,7 +11041,8 @@
       ],
       "observed_brands": [
         "LAKA"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "DJ0005": {
       "code": "DJ0005",
@@ -11109,7 +11156,8 @@
       ],
       "observed_brands": [
         "ENTROPY"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "DN0001": {
       "code": "DN0001",
@@ -11199,7 +11247,8 @@
       ],
       "observed_brands": [
         "RATAPLAN"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "DW0003": {
       "code": "DW0003",
@@ -11307,7 +11356,8 @@
       ],
       "observed_brands": [
         "RUCIPELLO"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "NF0001": {
       "code": "NF0001",
@@ -11559,7 +11609,8 @@
       ],
       "observed_brands": [
         "PRIMERA"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "CP0001": {
       "code": "CP0001",
@@ -11619,6 +11670,11 @@
       ],
       "observed_brands": [
         "MAMONDE"
+      ],
+      "allow_product_translation": true,
+      "badge_center": [
+        342,
+        322
       ]
     },
     "NT0001": {
@@ -11679,7 +11735,8 @@
       ],
       "observed_brands": [
         "SHHOM"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "TB0001": {
       "code": "TB0001",
@@ -11709,7 +11766,8 @@
       ],
       "observed_brands": [
         "TROUBLESS"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "ST0001": {
       "code": "ST0001",
@@ -11739,7 +11797,8 @@
       ],
       "observed_brands": [
         "STARLIKE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "AV0002": {
       "code": "AV0002",
@@ -11769,7 +11828,8 @@
       ],
       "observed_brands": [
         "AVAJAR"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "DL0001": {
       "code": "DL0001",
@@ -11868,6 +11928,71 @@
           "DW"
         ]
       }
-    }
+    },
+    "v5_note": "V5 uses the revised workbook directly; legacy row/product overrides are retained for history and are not applied.",
+    "badge_centers": {
+      "AR0001": [
+        674,
+        348
+      ],
+      "MM0001": [
+        342,
+        322
+      ]
+    },
+    "allow_product_translation": [
+      "WM0001",
+      "GF0001",
+      "KL0001",
+      "ET0001",
+      "GA0001",
+      "IM0001",
+      "BN0002",
+      "AD0001",
+      "WM0002",
+      "ME0001",
+      "GA0002",
+      "EU0001",
+      "DQ0001",
+      "HY0002",
+      "DG0001",
+      "IN0002",
+      "ET0003",
+      "AB0001",
+      "MZ0001",
+      "DF0001",
+      "EU0002",
+      "AV0001",
+      "KB0001",
+      "AT0001",
+      "HY0003",
+      "GV0001",
+      "ET0004",
+      "NC0001",
+      "BP0004",
+      "PP0001",
+      "SC0001",
+      "EU0004",
+      "JS0001",
+      "GA0004",
+      "AC0001",
+      "DJ0004",
+      "PR0006",
+      "AR0001",
+      "IF0001",
+      "IM0005",
+      "CX0001",
+      "DO0001",
+      "LK0001",
+      "EN0001",
+      "RP0001",
+      "RC0001",
+      "PR0008",
+      "MM0001",
+      "SH0001",
+      "TB0001",
+      "ST0001",
+      "AV0002"
+    ]
   }
 }

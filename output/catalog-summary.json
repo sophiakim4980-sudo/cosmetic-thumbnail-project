@@ -2,11 +2,11 @@
   "raw_excel_product_codes": 182,
   "corrected_product_groups": 183,
   "brands": 112,
-  "thumbnails": 124,
+  "thumbnails": 158,
   "options": 596,
   "zips": 183,
-  "complete_products": 122,
-  "incomplete_products": 61,
+  "complete_products": 156,
+  "incomplete_products": 27,
   "missing_thumbnail_products": [
     "SN0001",
     "YM0001",
@@ -19,11 +19,11 @@
   "missing_option_references": [
     {
       "code": "IC0001",
-      "reference": "IC0001-3"
+      "reference": "IC0001-4"
     },
     {
       "code": "IC0001",
-      "reference": "IC0001-4"
+      "reference": "IC0001-3"
     }
   ],
   "blank_option_reference_rows": [
@@ -66,62 +66,28 @@
   ],
   "unexpected_render_failures": [],
   "badge_positions": {
-    "upper_right": 29,
-    "upper_left": 95
+    "upper_right": 46,
+    "upper_left": 112
   },
   "badge_review_products": [
-    "WM0001",
     "GF0001",
-    "KL0001",
     "ET0001",
-    "GA0001",
-    "IM0001",
     "BN0002",
     "AD0001",
     "WM0002",
     "ME0001",
-    "GA0002",
     "EU0001",
-    "DQ0001",
     "HY0002",
-    "DG0001",
-    "IN0002",
-    "ET0003",
     "AB0001",
-    "MZ0001",
     "DF0001",
-    "EU0002",
-    "AV0001",
-    "KB0001",
-    "AT0001",
     "HY0003",
-    "GV0001",
-    "ET0004",
     "NC0001",
-    "BP0004",
-    "PP0001",
-    "SC0001",
-    "EU0004",
-    "JS0001",
-    "GA0004",
-    "AC0001",
     "DJ0004",
-    "PR0006",
-    "AR0001",
     "IF0001",
     "IM0005",
-    "CX0001",
     "DO0001",
-    "LK0001",
-    "EN0001",
     "RP0001",
-    "RC0001",
-    "PR0008",
-    "MM0001",
-    "SH0001",
-    "TB0001",
-    "ST0001",
-    "AV0002"
+    "SH0001"
   ],
   "unique_missing_asset_references": [
     "HH",

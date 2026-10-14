@@ -114,8 +114,12 @@ def render_catalog(root, output, only=(), retry_failed=False):
     overrides_path=root/'automation'/'catalog-overrides.json'
     overrides=json.loads(overrides_path.read_text()) if overrides_path.exists() else {}
     groups,excel_errors=groups_from_excel(root/'화장품 썸네일_수정.xlsx')
+    for code in overrides.get('allow_product_translation', []):
+        if code in groups: groups[code]['allow_product_translation'] = True
     for code, center in overrides.get('badge_centers', {}).items():
         if code in groups: groups[code]['badge_center'] = center
+    baselines_path=output/'v5-original-layouts.json'
+    baselines=json.loads(baselines_path.read_text()) if baselines_path.exists() else {}
     renderer=digest(Path(__file__).with_name('generate.py'))
     mark=Image.open(root/'pick&mood.kr 로고.png').convert('RGBA')
     mark_hash=digest(root/'pick&mood.kr 로고.png')
@@ -152,14 +156,17 @@ def render_catalog(root, output, only=(), retry_failed=False):
                 checked_thumbnail(path,details,group,assets)
             else:
                 prior=old.get('thumbnail',{})
+                baseline_path=path
+                if prior.get('status') != 'success' and code in baselines:
+                    prior=baselines[code]
+                    baseline_path=root/'previews/v5-before'/f'{code}.png'
                 layout=prior.get('layout',{})
                 preserve=(code not in REVISION_ARCHIVES and prior.get('status') == 'success'
-                    and path.exists() and digest(path) == prior.get('sha256')
-                    and layout.get('design_version') != 5
+                    and baseline_path.exists() and digest(baseline_path) == prior.get('sha256')
                     and (layout.get('main_title'),layout.get('subtitles')) == split_title(group['title'])
                     and layout.get('source',{}).get('sha256') == refs[1]['sha256']
                     and layout.get('brand_logo',{}).get('sha256') == refs[0]['sha256'])
-                create=(lambda p:relocate_thumbnail(group,assets,path,layout,p)) if preserve else (lambda p:make_thumbnail(group,assets,p))
+                create=(lambda p:relocate_thumbnail(group,assets,baseline_path,layout,p)) if preserve else (lambda p:make_thumbnail(group,assets,p))
                 details=image_atomic(path,create,lambda p,d:checked_thumbnail(p,d,group,assets)); reused=False
             result['thumbnail']={'status':'success','path':str(path.relative_to(output)),
                                  'sha256':digest(path),'fingerprint':fingerprint,'reused':reused,'layout':details}

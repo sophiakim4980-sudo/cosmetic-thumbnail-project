@@ -1,0 +1,4711 @@
+{
+  "WM0001": {
+    "status": "success",
+    "path": "WM0001/thumbnail.png",
+    "sha256": "222b7ec184d0bcdedf1bb7a1b08136ff1e3ba2f2b18a7b13f0a78676f32f53cb",
+    "fingerprint": "d8ef4ebd68ab74ab9d6a9eb24edb493adef3b2925f66d4ecb48858a75ab99c78",
+    "reused": true,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-1.zip",
+        "member": "WM0001-4.png",
+        "raw_member": "WM0001-4.png",
+        "filename": "WM0001-4.png",
+        "sha256": "8b7c54b4a953e04a9b4a1489a191038a27aca670d7c1fd8234d8f641e38bedd8"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/WM.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/WM.png",
+        "filename": "WM.png",
+        "sha256": "9fa25ada98ff6c349a64458a4d31e32f0c2be4160d5f45f7e8b65e41a7a36c3b"
+      },
+      "main_title": "Any-Proof Pen Eyeliner",
+      "subtitles": [
+        "3 Colors"
+      ],
+      "logo_box": [
+        342,
+        58,
+        682,
+        106
+      ],
+      "title_boxes": [
+        [
+          174,
+          118,
+          850,
+          169
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          453,
+          177,
+          572,
+          199
+        ]
+      ],
+      "cropped_source_size": [
+        999,
+        1024
+      ],
+      "product_scale": 0.7333984375,
+      "product_box": [
+        145,
+        219,
+        878,
+        970
+      ],
+      "product_area": [
+        48,
+        219,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.9755859375,
+      "badge_box": [
+        824,
+        527,
+        984,
+        687
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        165,
+        135,
+        120
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "GF0001": {
+    "status": "success",
+    "path": "GF0001/thumbnail.png",
+    "sha256": "03bee1daa9988192b429a733d0864c44bdfdf3741e7a4308d4ee2d9ee0e8b36a",
+    "fingerprint": "7335dd1a56897fc9db931822edccd75ef614c05d255dba4881184c4dcefa41c2",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-1.zip",
+        "member": "GF0001-11.png",
+        "raw_member": "GF0001-11.png",
+        "filename": "GF0001-11.png",
+        "sha256": "4f367cae5a5f39660b92b4708d3c299abefe8c55378772868119c29c6d9e1db6"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/GF.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/GF.png",
+        "filename": "GF.png",
+        "sha256": "e521d209bae936400c7649f80d93950edeac19f55c693531c832d9d8d8f2b5b2"
+      },
+      "main_title": "Sensitive Skin Korean Sanitary Pads",
+      "subtitles": [
+        "Liner/M/L/Overnight Panties"
+      ],
+      "logo_box": [
+        486,
+        58,
+        538,
+        110
+      ],
+      "title_boxes": [
+        [
+          191,
+          122,
+          833,
+          163
+        ],
+        [
+          310,
+          169,
+          715,
+          220
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          312,
+          228,
+          713,
+          256
+        ]
+      ],
+      "cropped_source_size": [
+        864,
+        616
+      ],
+      "product_scale": 1.0740740740740742,
+      "product_box": [
+        48,
+        276,
+        976,
+        938
+      ],
+      "product_area": [
+        48,
+        276,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.4025974025974026,
+      "badge_box": [
+        40,
+        184,
+        200,
+        344
+      ],
+      "badge_occupied_fraction": 0.11131341961517642,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        60,
+        79,
+        118
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "visual_review": {
+      "sha256": "03bee1daa9988192b429a733d0864c44bdfdf3741e7a4308d4ee2d9ee0e8b36a",
+      "method": "assistant visual inspection of actual rendered PNG",
+      "assessment": "Badge is outside the main package faces; only a small upper exterior package corner intersects. Brand/product lettering remains legible."
+    }
+  },
+  "KL0001": {
+    "status": "success",
+    "path": "KL0001/thumbnail.png",
+    "sha256": "312c8049246ba7526cf203dbacf45fafeb7fa957495a95d8031600e1fc721433",
+    "fingerprint": "807084457d5eb12081aa0b2a57bb099a279bc02ea42197484db182506d0a2662",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-1.zip",
+        "member": "KL0001-1.png",
+        "raw_member": "KL0001-1.png",
+        "filename": "KL0001-1.png",
+        "sha256": "c711de6d79dd9c3b545ec055d1279b7cdd44e3473de8e52427c1d76bccf9d3ab"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/KL.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/KL.png",
+        "filename": "KL.png",
+        "sha256": "ac1db6609bec1ab981b363f07140c8d4823fc00438928de16cb2af3a5a49d325"
+      },
+      "main_title": "Pharm Kalo-Stop Plus",
+      "subtitles": [
+        "15 + 15 Sticks"
+      ],
+      "logo_box": [
+        429,
+        58,
+        594,
+        110
+      ],
+      "title_boxes": [
+        [
+          194,
+          122,
+          830,
+          173
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          406,
+          181,
+          617,
+          203
+        ]
+      ],
+      "cropped_source_size": [
+        945,
+        578
+      ],
+      "product_scale": 0.982010582010582,
+      "product_box": [
+        48,
+        223,
+        976,
+        791
+      ],
+      "product_area": [
+        48,
+        223,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.6349480968858132,
+      "badge_box": [
+        824,
+        391,
+        984,
+        551
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        214,
+        99,
+        137
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "ET0001": {
+    "status": "success",
+    "path": "ET0001/thumbnail.png",
+    "sha256": "5bef084f01421cd8ebd7ed9bbd002a182f0a2accfe90b2b07a1249084bcd8bfe",
+    "fingerprint": "5a62ef352bcac01f4dd889f570eb61dd282c6c8c368f22ce6207b3f801991f41",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-1.zip",
+        "member": "ET0001-2.png",
+        "raw_member": "ET0001-2.png",
+        "filename": "ET0001-2.png",
+        "sha256": "46a81bb14fed84c1a03be9ebacccfc43c9aa7b45b7a0509e9d7705d2e860c1f9"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/ET.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/ET.png",
+        "filename": "ET.png",
+        "sha256": "69546fab0a9efa0b90a7c80a1cd2de9139064b93024a60a09de39502984cb6de"
+      },
+      "main_title": "Curl Fix Mascara",
+      "subtitles": [
+        "5 Options"
+      ],
+      "logo_box": [
+        450,
+        58,
+        573,
+        110
+      ],
+      "title_boxes": [
+        [
+          269,
+          122,
+          755,
+          163
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          442,
+          171,
+          582,
+          199
+        ]
+      ],
+      "cropped_source_size": [
+        720,
+        653
+      ],
+      "product_scale": 1.1500765696784074,
+      "product_box": [
+        98,
+        219,
+        926,
+        970
+      ],
+      "product_area": [
+        48,
+        219,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.1026033690658499,
+      "badge_box": [
+        40,
+        40,
+        200,
+        200
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        170,
+        132,
+        144
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "GA0001": {
+    "status": "success",
+    "path": "GA0001/thumbnail.png",
+    "sha256": "ccc73d831fffcad906e772dd4988c09661f0cd27e2262e903e0ce5a8ffed1f9c",
+    "fingerprint": "0d4ee833ee55c61df641c8237b279a7e247a451f201ca3375bc50ad7638d3027",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-1.zip",
+        "member": "GA0001-2.png",
+        "raw_member": "GA0001-2.png",
+        "filename": "GA0001-2.png",
+        "sha256": "847d6c6c46c7e180758fede8d081ff88a25dac3d3b74d9c525532dbf7bf1857d"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/GA.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/GA.png",
+        "filename": "GA.png",
+        "sha256": "e768d5dbb1b405f3ddd4532f4ce0ddad22ed4c5d7b153bfb017888cdf0be0033"
+      },
+      "main_title": "Heartleaf Moisture Sun Cream",
+      "subtitles": [],
+      "logo_box": [
+        439,
+        58,
+        584,
+        110
+      ],
+      "title_boxes": [
+        [
+          68,
+          122,
+          956,
+          163
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        633,
+        687
+      ],
+      "product_scale": 1.1455604075691412,
+      "product_box": [
+        149,
+        183,
+        874,
+        970
+      ],
+      "product_area": [
+        48,
+        183,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.9213973799126638,
+      "badge_box": [
+        40,
+        771,
+        200,
+        931
+      ],
+      "badge_occupied_fraction": 0.0005905221199744106,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        138,
+        151,
+        100
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "IM0001": {
+    "status": "success",
+    "path": "IM0001/thumbnail.png",
+    "sha256": "503ac5c07397ce586c8030a1dd5a6b39e187569d08c881401e6790e7b936ff44",
+    "fingerprint": "4f3412f1de2a6bab90f9a340cade59b85a5761966fbaa0bfcdb37168df7adcdf",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-1.zip",
+        "member": "IM0001-2.png",
+        "raw_member": "IM0001-2.png",
+        "filename": "IM0001-2.png",
+        "sha256": "c72eee6de2effd05cb0520cb984b425f76102851f4c3fc865abf72b6a4c56b22"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/IM.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/IM.png",
+        "filename": "IM.png",
+        "sha256": "9e6756ba5d892048772145c690f65be1b708d2d19b4bbf56a46a2a265b719f8e"
+      },
+      "main_title": "Perfect All In One Intensive Moisture",
+      "subtitles": [],
+      "logo_box": [
+        426,
+        58,
+        598,
+        110
+      ],
+      "title_boxes": [
+        [
+          109,
+          122,
+          914,
+          163
+        ],
+        [
+          382,
+          169,
+          641,
+          210
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        818,
+        802
+      ],
+      "product_scale": 0.9226932668329177,
+      "product_box": [
+        134,
+        230,
+        889,
+        970
+      ],
+      "product_area": [
+        48,
+        230,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0199501246882794,
+      "badge_box": [
+        824,
+        184,
+        984,
+        344
+      ],
+      "badge_occupied_fraction": 0.007972048619654545,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        99,
+        118,
+        156
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "BN0002": {
+    "status": "success",
+    "path": "BN0002/thumbnail.png",
+    "sha256": "697afcb62afc381b2573ec50022f753336274ef6a8a28ca69ce2c1ec03c64e85",
+    "fingerprint": "d1dffe4b6c756361187cc95c33963725998a8aa607ce3bd8ca74bf56d8d92053",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-1.zip",
+        "member": "BN0002-5.png",
+        "raw_member": "BN0002-5.png",
+        "filename": "BN0002-5.png",
+        "sha256": "cdef480b0a646c65af6b941b2bce13411b6c952ca3bb9cc1c0a5588efc81fb11"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/BN.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/BN.png",
+        "filename": "BN.png",
+        "sha256": "5a99e18983df99c5e3827b6a455e92ac0e3214eb59592befef3a530a986b707f"
+      },
+      "main_title": "Gel Toner Pads",
+      "subtitles": [
+        "Double Pack"
+      ],
+      "logo_box": [
+        370,
+        58,
+        654,
+        110
+      ],
+      "title_boxes": [
+        [
+          295,
+          122,
+          729,
+          163
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          423,
+          171,
+          602,
+          193
+        ]
+      ],
+      "cropped_source_size": [
+        919,
+        753
+      ],
+      "product_scale": 1.00531208499336,
+      "product_box": [
+        50,
+        213,
+        974,
+        970
+      ],
+      "product_area": [
+        48,
+        213,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.2204515272244356,
+      "badge_box": [
+        40,
+        40,
+        200,
+        200
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        180,
+        135,
+        135
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "AD0001": {
+    "status": "success",
+    "path": "AD0001/thumbnail.png",
+    "sha256": "7bbd198917b118229b01672baccfeab296b3e5cea6e31acf406a720071248b14",
+    "fingerprint": "0dabdbc4b150f5046742f10aae6caa77dae81240f96c7bd2c8048777314797a4",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-2.zip",
+        "member": "AD0001-5.png",
+        "raw_member": "AD0001-5.png",
+        "filename": "AD0001-5.png",
+        "sha256": "eae55f214950f7763508d52889bbfe9fcc67769d481cf2f179c4250d8dde3a4e"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/AD.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/AD.png",
+        "filename": "AD.png",
+        "sha256": "0ee72623e85e5b9e8b06e46294068250827b4c5f1e514b3655553b01059b5127"
+      },
+      "main_title": "Plus Hangover Helper",
+      "subtitles": [
+        "Plus, A, V"
+      ],
+      "logo_box": [
+        376,
+        58,
+        648,
+        100
+      ],
+      "title_boxes": [
+        [
+          193,
+          112,
+          832,
+          163
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          444,
+          171,
+          580,
+          196
+        ]
+      ],
+      "cropped_source_size": [
+        1024,
+        1024
+      ],
+      "product_scale": 0.736328125,
+      "product_box": [
+        135,
+        216,
+        889,
+        970
+      ],
+      "product_area": [
+        48,
+        216,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0,
+      "badge_box": [
+        824,
+        184,
+        984,
+        344
+      ],
+      "badge_occupied_fraction": 0.3315781703656316,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        195,
+        99,
+        60
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "visual_review": {
+      "sha256": "7bbd198917b118229b01672baccfeab296b3e5cea6e31acf406a720071248b14",
+      "method": "assistant visual inspection of actual rendered PNG",
+      "assessment": "Automatic nonwhite score counts the gray photo backdrop. Badge covers backdrop in the upper right, not the white product boxes."
+    }
+  },
+  "WM0002": {
+    "status": "success",
+    "path": "WM0002/thumbnail.png",
+    "sha256": "38f3b80907af8d45e94d6603d4b9879c295e3d2d885d6945692bac0c1246d19e",
+    "fingerprint": "ea4ef99d6b9eda62732d2e6f5f0c1e48df76afa8943bdd0b34c356f77239b013",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-2.zip",
+        "member": "WM0002-10.png",
+        "raw_member": "WM0002-10.png",
+        "filename": "WM0002-10.png",
+        "sha256": "1f159318cb3ccd976a780aeb735dab910f3bed4e000ebecf7ca13772b5096060"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/WM.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/WM.png",
+        "filename": "WM.png",
+        "sha256": "9fa25ada98ff6c349a64458a4d31e32f0c2be4160d5f45f7e8b65e41a7a36c3b"
+      },
+      "main_title": "Natural Hard Brow Pencil",
+      "subtitles": [
+        "9 Colors"
+      ],
+      "logo_box": [
+        342,
+        58,
+        682,
+        106
+      ],
+      "title_boxes": [
+        [
+          142,
+          118,
+          883,
+          159
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          453,
+          167,
+          572,
+          189
+        ]
+      ],
+      "cropped_source_size": [
+        1024,
+        1024
+      ],
+      "product_scale": 0.7431640625,
+      "product_box": [
+        131,
+        209,
+        892,
+        970
+      ],
+      "product_area": [
+        48,
+        209,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0,
+      "badge_box": [
+        824,
+        168,
+        984,
+        328
+      ],
+      "badge_occupied_fraction": 0.29393238521726295,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        171,
+        137,
+        120
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "visual_review": {
+      "sha256": "38f3b80907af8d45e94d6603d4b9879c295e3d2d885d6945692bac0c1246d19e",
+      "method": "assistant visual inspection of actual rendered PNG",
+      "assessment": "Upper right placement avoids eyes, pencil, brow detail and package lettering; the source promotional badge is retained."
+    }
+  },
+  "ME0001": {
+    "status": "success",
+    "path": "ME0001/thumbnail.png",
+    "sha256": "7093d81c3c52dc23229b840365e278234dac97a27067ab80392e048e1617197a",
+    "fingerprint": "17256fed8c807bed72e6fdb9699981b1846893ea4323d843d5eee58909eba5f4",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-2.zip",
+        "member": "ME0001-3.png",
+        "raw_member": "ME0001-3.png",
+        "filename": "ME0001-3.png",
+        "sha256": "97c617007170ffefacf077a977d1235ae8d2e4a97edb7d69d3352cc326dd9ba4"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/ME.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/ME.png",
+        "filename": "ME.png",
+        "sha256": "23bcd96ea7aeb14b664dd3396c9ee8e8593fb9de8a3155e342fe56a7d2321752"
+      },
+      "main_title": "Selex Profit Sports Protein Shake",
+      "subtitles": [
+        "2 Flavor"
+      ],
+      "logo_box": [
+        453,
+        58,
+        570,
+        110
+      ],
+      "title_boxes": [
+        [
+          121,
+          122,
+          904,
+          173
+        ],
+        [
+          423,
+          179,
+          601,
+          220
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          453,
+          228,
+          570,
+          250
+        ]
+      ],
+      "cropped_source_size": [
+        840,
+        688
+      ],
+      "product_scale": 1.0174418604651163,
+      "product_box": [
+        84,
+        270,
+        939,
+        970
+      ],
+      "product_area": [
+        48,
+        270,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.2209302325581395,
+      "badge_box": [
+        776,
+        184,
+        936,
+        344
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        138,
+        151,
+        69
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "GA0002": {
+    "status": "success",
+    "path": "GA0002/thumbnail.png",
+    "sha256": "1900c1d5cf91aa93e50303db1959cbddc9cd7df8cc259225b99be27497842060",
+    "fingerprint": "ed431af1f996bdee8a4323dd5ca417dd622025002b44176c2f28080b65f9cb76",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-2.zip",
+        "member": "GA0002-2.png",
+        "raw_member": "GA0002-2.png",
+        "filename": "GA0002-2.png",
+        "sha256": "5b53e78d5a43a252b059672740e56be0ffb2b4485bc2f8260e31debd52dd9818"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/GA.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/GA.png",
+        "filename": "GA.png",
+        "sha256": "e768d5dbb1b405f3ddd4532f4ce0ddad22ed4c5d7b153bfb017888cdf0be0033"
+      },
+      "main_title": "Heartleaf soothing Tone Up Sun Cream",
+      "subtitles": [],
+      "logo_box": [
+        439,
+        58,
+        584,
+        110
+      ],
+      "title_boxes": [
+        [
+          111,
+          122,
+          913,
+          173
+        ],
+        [
+          353,
+          179,
+          671,
+          219
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        733,
+        796
+      ],
+      "product_scale": 0.9183417085427136,
+      "product_box": [
+        175,
+        239,
+        848,
+        970
+      ],
+      "product_area": [
+        48,
+        239,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.9208542713567839,
+      "badge_box": [
+        824,
+        351,
+        984,
+        511
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        135,
+        147,
+        145
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "EU0001": {
+    "status": "success",
+    "path": "EU0001/thumbnail.png",
+    "sha256": "a9857d3394d7a46653613c901e3864cbc9310e8720f470ac5c95524f535da55c",
+    "fingerprint": "57e98a219a75c72ca0932249eb2ccaab996cb709f8274bccd5ef1f7708fb98d2",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-2.zip",
+        "member": "EU0001-2.png",
+        "raw_member": "EU0001-2.png",
+        "filename": "EU0001-2.png",
+        "sha256": "25d7b1396a2f85e7009a11d06fdc48ed0c0906a6be4d1e7f710b6c0a462902d7"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/EU.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/EU.png",
+        "filename": "EU.png",
+        "sha256": "77ec58b8a3818c6d180ae71692c0a1e23e7ab5fc3fe73d8664270e6bfa83f174"
+      },
+      "main_title": "Aquaporin Active Rich Cream",
+      "subtitles": [],
+      "logo_box": [
+        449,
+        58,
+        575,
+        110
+      ],
+      "title_boxes": [
+        [
+          85,
+          122,
+          939,
+          173
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        770,
+        745
+      ],
+      "product_scale": 1.042953020134228,
+      "product_box": [
+        110,
+        193,
+        913,
+        970
+      ],
+      "product_area": [
+        48,
+        193,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0335570469798658,
+      "badge_box": [
+        40,
+        753,
+        200,
+        913
+      ],
+      "badge_occupied_fraction": 0.03469317454849663,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        120,
+        144,
+        156
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "visual_review": {
+      "sha256": "a9857d3394d7a46653613c901e3864cbc9310e8720f470ac5c95524f535da55c",
+      "method": "assistant visual inspection of actual rendered PNG",
+      "assessment": "Lower left whitespace placement intersects only the jar exterior/shadow edge, not the label."
+    }
+  },
+  "DQ0001": {
+    "status": "success",
+    "path": "DQ0001/thumbnail.png",
+    "sha256": "52a3b1d36849d5130e86eb3ee98303d7036b4e9a12ad14e82af1e814fb399fdc",
+    "fingerprint": "767c381d9667ba33a92e402db9e3db570c683300d225b768c72e64e8813fb2df",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-2.zip",
+        "member": "DQ0001-3.png",
+        "raw_member": "DQ0001-3.png",
+        "filename": "DQ0001-3.png",
+        "sha256": "bfbe888efdcd89e3673047e8e4b906d6fdbfcfb4219ae37361312ddbeddaa01a"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/DQ.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/DQ.png",
+        "filename": "DQ.png",
+        "sha256": "91858f24fb3b576a80e2d5fba105455d1ac9182199f924fefffd679598b9c0c6"
+      },
+      "main_title": "Mood Up Mascara Long&Curl",
+      "subtitles": [
+        "2 Colors"
+      ],
+      "logo_box": [
+        425,
+        58,
+        598,
+        110
+      ],
+      "title_boxes": [
+        [
+          89,
+          122,
+          935,
+          173
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          453,
+          181,
+          572,
+          203
+        ]
+      ],
+      "cropped_source_size": [
+        751,
+        773
+      ],
+      "product_scale": 0.9663648124191462,
+      "product_box": [
+        149,
+        223,
+        875,
+        970
+      ],
+      "product_area": [
+        48,
+        223,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.9715394566623544,
+      "badge_box": [
+        40,
+        559,
+        200,
+        719
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        165,
+        138,
+        123
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "HY0002": {
+    "status": "success",
+    "path": "HY0002/thumbnail.png",
+    "sha256": "b36ea39d2e852220b0cc68c3ea897f0b9bcb94506eacd426f93ca5353187f903",
+    "fingerprint": "f131e3d070b8971979833b71162958516fcf0a7ebf8dd2e07f963d07cf8e87c4",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-2.zip",
+        "member": "HY0002-2.png",
+        "raw_member": "HY0002-2.png",
+        "filename": "HY0002-2.png",
+        "sha256": "24c9111881ea0e89d8726448ced887385929a3eacb717c3cc996e5aeebda09cf"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/HY.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/HY.png",
+        "filename": "HY.png",
+        "sha256": "f22ef08e02a09892f3d7b623ee96235f9a00dcafbbc5a83d581e3d5e07ad7c0f"
+      },
+      "main_title": "Pure Artemisia Watery Calming Pad",
+      "subtitles": [],
+      "logo_box": [
+        351,
+        58,
+        673,
+        110
+      ],
+      "title_boxes": [
+        [
+          180,
+          122,
+          844,
+          173
+        ],
+        [
+          330,
+          179,
+          694,
+          230
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        914,
+        703
+      ],
+      "product_scale": 1.0153172866520788,
+      "product_box": [
+        48,
+        256,
+        976,
+        970
+      ],
+      "product_area": [
+        48,
+        250,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.3001422475106685,
+      "badge_box": [
+        824,
+        754,
+        984,
+        914
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        60,
+        137,
+        118
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "DG0001": {
+    "status": "success",
+    "path": "DG0001/thumbnail.png",
+    "sha256": "2f6b3e4442b6c67b6f672cf0a1d3f316522d8f0a0ca51c69d707cf65ef24f2dd",
+    "fingerprint": "8f97da243a272b89aee2a225d6fc5fc0cd3e4fc68c2d328d8d7654bae4effc6d",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-2.zip",
+        "member": "DG0001-3.png",
+        "raw_member": "DG0001-3.png",
+        "filename": "DG0001-3.png",
+        "sha256": "e9f32dfc8d230ad491ce63870b61f57217c22d0a228452a96e87d5d808e13f6f"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/DG.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/DG.png",
+        "filename": "DG.png",
+        "sha256": "893964b2d236b7a857e47fd4df08d2b719305294997ad359a515124398ce6428"
+      },
+      "main_title": "Red Blemish Clear Hyal Cica Soothing Serum",
+      "subtitles": [],
+      "logo_box": [
+        459,
+        58,
+        565,
+        110
+      ],
+      "title_boxes": [
+        [
+          101,
+          122,
+          923,
+          173
+        ],
+        [
+          277,
+          179,
+          748,
+          230
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        768,
+        689
+      ],
+      "product_scale": 1.0449927431059507,
+      "product_box": [
+        110,
+        250,
+        913,
+        970
+      ],
+      "product_area": [
+        48,
+        250,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.1146589259796806,
+      "badge_box": [
+        40,
+        250,
+        200,
+        410
+      ],
+      "badge_occupied_fraction": 0.0014763052999360268,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        120,
+        144,
+        156
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "IN0002": {
+    "status": "success",
+    "path": "IN0002/thumbnail.png",
+    "sha256": "a799e707144ba746e0ddc8a5e198b62d3f196c8a22d52d237dbac98272ae76b5",
+    "fingerprint": "3b0291f4b3f527b80a4245242251fd44caa2cd39dbe4cf653d2034660a455aa9",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-2.zip",
+        "member": "IN0002-3.png",
+        "raw_member": "IN0002-3.png",
+        "filename": "IN0002-3.png",
+        "sha256": "0ac48e6cd89b56852a767629dc35d640d0728135ea7ee524c80b2f68b108a35f"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/IN.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/IN.png",
+        "filename": "IN.png",
+        "sha256": "9de7ff1d0b5b3b8a8273df6b7c3c88edbcaa2aa31055d0010b923b4c923bba94"
+      },
+      "main_title": "Green Tea Seed Hyaluronic Cream",
+      "subtitles": [],
+      "logo_box": [
+        373,
+        58,
+        651,
+        110
+      ],
+      "title_boxes": [
+        [
+          118,
+          122,
+          907,
+          173
+        ],
+        [
+          418,
+          179,
+          606,
+          219
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        817,
+        590
+      ],
+      "product_scale": 1.1358629130966953,
+      "product_box": [
+        48,
+        239,
+        976,
+        909
+      ],
+      "product_area": [
+        48,
+        239,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.3847457627118644,
+      "badge_box": [
+        440,
+        520,
+        600,
+        680
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        63,
+        157,
+        125
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "ET0003": {
+    "status": "success",
+    "path": "ET0003/thumbnail.png",
+    "sha256": "7b89d6645d6fd8d2616f20f7caffba47bc46fa098e704ebb3b3a06e87324a579",
+    "fingerprint": "311f95196851a984ee3174ffa8f8f4725de97b3b2acd043c31da1b921f11cef2",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-3.zip",
+        "member": "ET0003-1.png",
+        "raw_member": "ET0003-1.png",
+        "filename": "ET0003-1.png",
+        "sha256": "da83c0d10ee671a9e9dd70d616b28c0e670230776de9bb5d4776c7b10bd6bca0"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/ET.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/ET.png",
+        "filename": "ET.png",
+        "sha256": "69546fab0a9efa0b90a7c80a1cd2de9139064b93024a60a09de39502984cb6de"
+      },
+      "main_title": "Power Eyelash Ampoule",
+      "subtitles": [],
+      "logo_box": [
+        450,
+        58,
+        573,
+        110
+      ],
+      "title_boxes": [
+        [
+          161,
+          122,
+          863,
+          173
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        646,
+        738
+      ],
+      "product_scale": 1.0528455284552845,
+      "product_box": [
+        172,
+        193,
+        852,
+        970
+      ],
+      "product_area": [
+        48,
+        193,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.8753387533875339,
+      "badge_box": [
+        40,
+        193,
+        200,
+        353
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        79,
+        79,
+        118
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "AB0001": {
+    "status": "success",
+    "path": "AB0001/thumbnail.png",
+    "sha256": "83a0cd8b575f891c4a8d8449c043869ecd323e129f48f3e08d31bd9d73da8aea",
+    "fingerprint": "1793f52e89eaf6ba8fbb38bdd85802bd4818ec88064ec9e2353069e51efb58d0",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-3.zip",
+        "member": "AB0001-2.png",
+        "raw_member": "AB0001-2.png",
+        "filename": "AB0001-2.png",
+        "sha256": "024e365e1d7198e30dbefaf5a02be8820b192232e1c220a6ee119d01a156a853"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/AB.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/AB.png",
+        "filename": "AB.png",
+        "sha256": "c9a2deb306c09f7cbd5934ff1024b5bf3b1db63bfb9ee1a6696c60ca117bb3ad"
+      },
+      "main_title": "Glutathiosame CC Sunscreen",
+      "subtitles": [],
+      "logo_box": [
+        428,
+        58,
+        595,
+        110
+      ],
+      "title_boxes": [
+        [
+          88,
+          122,
+          935,
+          163
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        664,
+        666
+      ],
+      "product_scale": 1.1816816816816818,
+      "product_box": [
+        119,
+        183,
+        904,
+        970
+      ],
+      "product_area": [
+        48,
+        183,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.996996996996997,
+      "badge_box": [
+        824,
+        799,
+        984,
+        959
+      ],
+      "badge_occupied_fraction": 0.07012450174696126,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        163,
+        138,
+        113
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "visual_review": {
+      "sha256": "83a0cd8b575f891c4a8d8449c043869ecd323e129f48f3e08d31bd9d73da8aea",
+      "method": "assistant visual inspection of actual rendered PNG",
+      "assessment": "Lower right placement avoids front-face wording; overlap is limited to the tube foot/exterior edge."
+    }
+  },
+  "MZ0001": {
+    "status": "success",
+    "path": "MZ0001/thumbnail.png",
+    "sha256": "11a9068e32ea34de80b1c96bcb487420b4316411c2660c1207fb5226de586dc4",
+    "fingerprint": "c13e2c58f54348e70062976d6e9ca6141fe7248755c8b46da546a3b0afb6d833",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-3.zip",
+        "member": "MZ0001-2.png",
+        "raw_member": "MZ0001-2.png",
+        "filename": "MZ0001-2.png",
+        "sha256": "46dbb81e157fe23d4063ce54f3008e39936ca46939f5e2b03c3a168b98f669e4"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/MZ.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/MZ.png",
+        "filename": "MZ.png",
+        "sha256": "fce81268833d84de1de363dfb58a2ee087d977bc20ff2da2322608b0b5110cc7"
+      },
+      "main_title": "Mild Watery Sunscreen",
+      "subtitles": [],
+      "logo_box": [
+        475,
+        58,
+        548,
+        110
+      ],
+      "title_boxes": [
+        [
+          173,
+          122,
+          851,
+          173
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        644,
+        689
+      ],
+      "product_scale": 1.1277213352685052,
+      "product_box": [
+        149,
+        193,
+        875,
+        970
+      ],
+      "product_area": [
+        48,
+        193,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.9346879535558781,
+      "badge_box": [
+        40,
+        781,
+        200,
+        941
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        120,
+        150,
+        165
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "DF0001": {
+    "status": "success",
+    "path": "DF0001/thumbnail.png",
+    "sha256": "f13eecc28db4056f0d4aabf9228d786d451b5c10d3569165091854cbfb86ef2c",
+    "fingerprint": "da01d52eaa34acbf6cfbb24d3c36f1cf08a5e8ae58a933b140fd9c4f133880b6",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-3.zip",
+        "member": "DF0001-4.png",
+        "raw_member": "DF0001-4.png",
+        "filename": "DF0001-4.png",
+        "sha256": "ab0a1c2204d75aaf9c06c16305798bd3d53c608426360b281c724010bd57d6b7"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/DF.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/DF.png",
+        "filename": "DF.png",
+        "sha256": "16957050641db0831c29a58c628a22d30e6464ae9dd23018fa39604bf480d413"
+      },
+      "main_title": "Patent Performance Real Collagen Mask Sheet",
+      "subtitles": [
+        "3 Types"
+      ],
+      "logo_box": [
+        362,
+        58,
+        662,
+        98
+      ],
+      "title_boxes": [
+        [
+          145,
+          110,
+          879,
+          151
+        ],
+        [
+          206,
+          157,
+          819,
+          208
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          457,
+          216,
+          566,
+          243
+        ]
+      ],
+      "cropped_source_size": [
+        824,
+        544
+      ],
+      "product_scale": 1.1262135922330097,
+      "product_box": [
+        48,
+        263,
+        976,
+        876
+      ],
+      "product_area": [
+        48,
+        263,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.5147058823529411,
+      "badge_box": [
+        344,
+        808,
+        504,
+        968
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        149,
+        149,
+        32
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "EU0002": {
+    "status": "success",
+    "path": "EU0002/thumbnail.png",
+    "sha256": "83777f771a32fea56057fddca571dae1d412212f7c146546589475fbecb0ec18",
+    "fingerprint": "d0d034d4b7f20acc262ceb20cf5bc80cba7629c04b2229554ec0cdf2bdd84595",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-3.zip",
+        "member": "EU0002-2.png",
+        "raw_member": "EU0002-2.png",
+        "filename": "EU0002-2.png",
+        "sha256": "ff2fac45f6ca4dc075e6b2ceb7a7325e21180772d139fd20ab427b309390846d"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/EU.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/EU.png",
+        "filename": "EU.png",
+        "sha256": "77ec58b8a3818c6d180ae71692c0a1e23e7ab5fc3fe73d8664270e6bfa83f174"
+      },
+      "main_title": "Eucerin Dermato Clean Clarifying Toner",
+      "subtitles": [],
+      "logo_box": [
+        449,
+        58,
+        575,
+        110
+      ],
+      "title_boxes": [
+        [
+          176,
+          122,
+          849,
+          163
+        ],
+        [
+          280,
+          169,
+          744,
+          220
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        679,
+        730
+      ],
+      "product_scale": 1.0,
+      "product_box": [
+        172,
+        240,
+        851,
+        970
+      ],
+      "product_area": [
+        48,
+        240,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.9301369863013699,
+      "badge_box": [
+        824,
+        240,
+        984,
+        400
+      ],
+      "badge_occupied_fraction": 0.0052162787264406285,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        96,
+        151,
+        178
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "AV0001": {
+    "status": "success",
+    "path": "AV0001/thumbnail.png",
+    "sha256": "a60250f71c5277f2e5f5dfb4d75c08570bde3b2ec5901a8bf560906f8c62bb21",
+    "fingerprint": "c6ec6c214bebad8d70b8f1d2ca968f8064fabc551772e4e0b21e236bd9675969",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-3.zip",
+        "member": "AV0001-4.png",
+        "raw_member": "AV0001-4.png",
+        "filename": "AV0001-4.png",
+        "sha256": "9b5c15a168457a6c6fba040e35d026ca7d65f7507e41aba4efe84ab9b8a7ace7"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/AV.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/AV.png",
+        "filename": "AV.png",
+        "sha256": "ecd12a1442a8f9d95fd00ef5febbd551f8b58e82b3c778ded0faf5f1a6d77d7b"
+      },
+      "main_title": "Perfect V Lifting Premium Mask",
+      "subtitles": [
+        "2/5packs"
+      ],
+      "logo_box": [
+        397,
+        58,
+        627,
+        110
+      ],
+      "title_boxes": [
+        [
+          132,
+          122,
+          892,
+          173
+        ],
+        [
+          436,
+          179,
+          590,
+          220
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          447,
+          228,
+          578,
+          256
+        ]
+      ],
+      "cropped_source_size": [
+        863,
+        786
+      ],
+      "product_scale": 0.8829516539440203,
+      "product_box": [
+        131,
+        276,
+        893,
+        970
+      ],
+      "product_area": [
+        48,
+        276,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0979643765903309,
+      "badge_box": [
+        40,
+        500,
+        200,
+        660
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        221,
+        103,
+        137
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "KB0001": {
+    "status": "success",
+    "path": "KB0001/thumbnail.png",
+    "sha256": "423aed6fa0688ccb009b6158b3963667ba09d246b5bdc50b4c13166bc762a422",
+    "fingerprint": "62b8995f2e3ce91491eb45b5dd262652ca556e209004bce5b25c73529cd042cc",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-4.zip",
+        "member": "KB0001-23.png",
+        "raw_member": "KB0001-23.png",
+        "filename": "KB0001-23.png",
+        "sha256": "cd187e8a1a12bcbb01e93edd58e95e6c4717265f53cb0249dd8fc54256d58c88"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/KB.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/KB.png",
+        "filename": "KB.png",
+        "sha256": "da55c3eed90fbfc0568c545a6c86b01ab39e788eb3fcf921e0cd8ea45ed4e702"
+      },
+      "main_title": "No Glue Eyelash BBiBBi Lash",
+      "subtitles": [
+        "Large/Mini/Zero Light"
+      ],
+      "logo_box": [
+        472,
+        58,
+        551,
+        110
+      ],
+      "title_boxes": [
+        [
+          92,
+          122,
+          932,
+          173
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          358,
+          181,
+          667,
+          209
+        ]
+      ],
+      "cropped_source_size": [
+        1024,
+        1024
+      ],
+      "product_scale": 0.7236328125,
+      "product_box": [
+        141,
+        229,
+        882,
+        970
+      ],
+      "product_area": [
+        48,
+        229,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0,
+      "badge_box": [
+        824,
+        229,
+        984,
+        389
+      ],
+      "badge_occupied_fraction": 0.09827272279907484,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        165,
+        135,
+        135
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "visual_review": {
+      "sha256": "423aed6fa0688ccb009b6158b3963667ba09d246b5bdc50b4c13166bc762a422",
+      "method": "assistant visual inspection of actual rendered PNG",
+      "assessment": "Upper right pink photo backdrop only; face, eyelash details and product packaging remain visible."
+    }
+  },
+  "AT0001": {
+    "status": "success",
+    "path": "AT0001/thumbnail.png",
+    "sha256": "814ced37c3d705ec6e9e4a205a6aab099efea574fb9e9a8293d67b1387168b09",
+    "fingerprint": "ef74ee4254c4743facba8ceacd46a2bd800ba1110359b96ccb1564b9ee8774ff",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-4.zip",
+        "member": "AT0001-7.png",
+        "raw_member": "AT0001-7.png",
+        "filename": "AT0001-7.png",
+        "sha256": "3bf5c54a155133ae09d6fba760126cf7b35921ca50a7596530811a902e015d1e"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/AT.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/AT.png",
+        "filename": "AT.png",
+        "sha256": "94e586a89f5bb496da2f1e336fd9a12463e0ae51cddc989ec50e72168fee7295"
+      },
+      "main_title": "Vegan Relif Sun Cream / Tone Up Sun Essence",
+      "subtitles": [],
+      "logo_box": [
+        444,
+        58,
+        580,
+        110
+      ],
+      "title_boxes": [
+        [
+          81,
+          122,
+          943,
+          173
+        ],
+        [
+          281,
+          179,
+          744,
+          229
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        738,
+        659
+      ],
+      "product_scale": 1.094081942336874,
+      "product_box": [
+        108,
+        249,
+        915,
+        970
+      ],
+      "product_area": [
+        48,
+        249,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.1198786039453719,
+      "badge_box": [
+        40,
+        501,
+        200,
+        661
+      ],
+      "badge_occupied_fraction": 0.0023128783032331087,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        163,
+        138,
+        100
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "HY0003": {
+    "status": "success",
+    "path": "HY0003/thumbnail.png",
+    "sha256": "6b83cde57bda5ba89bf3aa9e734e5cb326472f083675a6687948c25a027dcc79",
+    "fingerprint": "122eb2306e24bd69f6f1615f175d14eb1ccefb31994f16f868e2b576e6bf7298",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-4.zip",
+        "member": "HY0003-2.png",
+        "raw_member": "HY0003-2.png",
+        "filename": "HY0003-2.png",
+        "sha256": "c51bdb8423ba9ba05e119dfcbb2f58e0f77ef8d4d13ab8052181b6269098ede0"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/HY.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/HY.png",
+        "filename": "HY.png",
+        "sha256": "f22ef08e02a09892f3d7b623ee96235f9a00dcafbbc5a83d581e3d5e07ad7c0f"
+      },
+      "main_title": "Yuja Sleeping Pack",
+      "subtitles": [],
+      "logo_box": [
+        351,
+        58,
+        673,
+        110
+      ],
+      "title_boxes": [
+        [
+          235,
+          122,
+          790,
+          173
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        614,
+        607
+      ],
+      "product_scale": 1.2800658978583197,
+      "product_box": [
+        119,
+        193,
+        905,
+        970
+      ],
+      "product_area": [
+        48,
+        193,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0115321252059308,
+      "badge_box": [
+        824,
+        613,
+        984,
+        773
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        156,
+        144,
+        84
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "GV0001": {
+    "status": "success",
+    "path": "GV0001/thumbnail.png",
+    "sha256": "893a2d3f5d8466494bfb6c08aec5ef3431426446dc87a2f4d82f5c8c96990c87",
+    "fingerprint": "9d44bc670d16cb3ab7b558faae6c5593b04c6a0eab10fe007437bb9765db0755",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-4.zip",
+        "member": "GV0001-5.png",
+        "raw_member": "GV0001-5.png",
+        "filename": "GV0001-5.png",
+        "sha256": "2e884338c15d7155774d16c8154287e1dae49f542330bf221fcc37d22cb06c7f"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/GV.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/GV.png",
+        "filename": "GV.png",
+        "sha256": "104a4c9e5a4da195374292a17fd584154f24f310be70b223543c1a4325ca75c0"
+      },
+      "main_title": "Milchak Sensitive Mascara",
+      "subtitles": [
+        "Long Lash / Natural / Volume"
+      ],
+      "logo_box": [
+        419,
+        58,
+        604,
+        86
+      ],
+      "title_boxes": [
+        [
+          124,
+          98,
+          900,
+          139
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          303,
+          147,
+          721,
+          175
+        ]
+      ],
+      "cropped_source_size": [
+        822,
+        847
+      ],
+      "product_scale": 0.9149940968122786,
+      "product_box": [
+        136,
+        195,
+        888,
+        970
+      ],
+      "product_area": [
+        48,
+        195,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.9704840613931524,
+      "badge_box": [
+        744,
+        152,
+        904,
+        312
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        138,
+        151,
+        74
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "ET0004": {
+    "status": "success",
+    "path": "ET0004/thumbnail.png",
+    "sha256": "0f5eb151fd9780d3b40bca1e4753ccc0201ea49ff3b9fe041dad4a6e5e66d7d7",
+    "fingerprint": "d1d4cb60a89893f8d68c3e42272adc23a7c01605dcbbe9340c9a7bc0229034c7",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-4.zip",
+        "member": "ET0004-4.png",
+        "raw_member": "ET0004-4.png",
+        "filename": "ET0004-4.png",
+        "sha256": "6d5a6f2a70260eafa78836d77bd64d47d36e8398b948622efabe75738eae7867"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/ET.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/ET.png",
+        "filename": "ET.png",
+        "sha256": "69546fab0a9efa0b90a7c80a1cd2de9139064b93024a60a09de39502984cb6de"
+      },
+      "main_title": "Curl Fix Skinny Mascara",
+      "subtitles": [
+        "3 Colors"
+      ],
+      "logo_box": [
+        450,
+        58,
+        573,
+        110
+      ],
+      "title_boxes": [
+        [
+          161,
+          122,
+          863,
+          173
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          453,
+          181,
+          572,
+          203
+        ]
+      ],
+      "cropped_source_size": [
+        724,
+        827
+      ],
+      "product_scale": 0.9032648125755743,
+      "product_box": [
+        185,
+        223,
+        839,
+        970
+      ],
+      "product_area": [
+        48,
+        223,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.875453446191052,
+      "badge_box": [
+        824,
+        223,
+        984,
+        383
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        171,
+        137,
+        120
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "NC0001": {
+    "status": "success",
+    "path": "NC0001/thumbnail.png",
+    "sha256": "6bb1b67ec018f6ae4523cbb35737eb86ba88c72dfda0201ec7d8a66d203492a8",
+    "fingerprint": "79f82bf3bee70e6d7cdacaa09ad0755a9772e8c98d2b27c187321d544a028147",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-5.zip",
+        "member": "NC0001-3.png",
+        "raw_member": "NC0001-3.png",
+        "filename": "NC0001-3.png",
+        "sha256": "2bcb4c4c5f968ac01b867cfa490f7f68a160fc1d9978b3713da5e86b010bfe8a"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/NC.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/NC.png",
+        "filename": "NC.png",
+        "sha256": "5330e152bba171faee69dae288056143020b96a010508702531b992cb0dcb5dc"
+      },
+      "main_title": "Easy Pick Blemish Patch Relief",
+      "subtitles": [
+        "3 Types"
+      ],
+      "logo_box": [
+        429,
+        58,
+        594,
+        110
+      ],
+      "title_boxes": [
+        [
+          64,
+          122,
+          961,
+          173
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          457,
+          181,
+          566,
+          208
+        ]
+      ],
+      "cropped_source_size": [
+        761,
+        737
+      ],
+      "product_scale": 1.0067842605156039,
+      "product_box": [
+        129,
+        228,
+        895,
+        970
+      ],
+      "product_area": [
+        48,
+        228,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0325644504748983,
+      "badge_box": [
+        40,
+        396,
+        200,
+        556
+      ],
+      "badge_occupied_fraction": 0.015501205649328281,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        96,
+        151,
+        151
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "BP0004": {
+    "status": "success",
+    "path": "BP0004/thumbnail.png",
+    "sha256": "c9379ded0f5fe9510cf428c4056926462fdeb5715976b5d091c62fe359c502d3",
+    "fingerprint": "bf0a376646ce38dd59d07ec771e9809ed84aa7d387c141b74b872276bf9b53d5",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-5.zip",
+        "member": "BP0004-1.png",
+        "raw_member": "BP0004-1.png",
+        "filename": "BP0004-1.png",
+        "sha256": "802236f64d1a5bfd8554e8bf858847f449341d0227e04a029df58d3c369eef83"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/BP.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/BP.png",
+        "filename": "BP.png",
+        "sha256": "6b9f5f5bc008bafc6b43fdb0d5ddf510cf660d56472a24d4c083cef19a9d6115"
+      },
+      "main_title": "Milk Ceramide Lip Essence",
+      "subtitles": [],
+      "logo_box": [
+        434,
+        58,
+        589,
+        110
+      ],
+      "title_boxes": [
+        [
+          123,
+          122,
+          902,
+          173
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        668,
+        761
+      ],
+      "product_scale": 1.0210249671484888,
+      "product_box": [
+        171,
+        193,
+        853,
+        970
+      ],
+      "product_area": [
+        48,
+        193,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.8777923784494087,
+      "badge_box": [
+        40,
+        529,
+        200,
+        689
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        149,
+        149,
+        92
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "PP0001": {
+    "status": "success",
+    "path": "PP0001/thumbnail.png",
+    "sha256": "f3a5fa4fda12366dc020e4cd894063c5052c036c1e08eb11a8b093f28e417d6d",
+    "fingerprint": "a37d57117e882b856c48cc95b822d6d3839eac295434a2d8b7ae8e7c42c45abb",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-5.zip",
+        "member": "PP0001-5.png",
+        "raw_member": "PP0001-5.png",
+        "filename": "PP0001-5.png",
+        "sha256": "5f7eaf3ac9d0b77a2b7ba16c023841a083135179826d8bdb01e243b0c8bf950f"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/PP.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/PP.png",
+        "filename": "PP.png",
+        "sha256": "827760cf70e0ea4849e293919ec1632ee8baf177bdb50f964424ba6353fd4e84"
+      },
+      "main_title": "Enzyme Powder Cleanser 50g",
+      "subtitles": [
+        "Blemish, Tea Tree, Eggplant"
+      ],
+      "logo_box": [
+        353,
+        58,
+        671,
+        110
+      ],
+      "title_boxes": [
+        [
+          79,
+          122,
+          944,
+          173
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          312,
+          181,
+          712,
+          209
+        ]
+      ],
+      "cropped_source_size": [
+        748,
+        751
+      ],
+      "product_scale": 0.9866844207723036,
+      "product_box": [
+        143,
+        229,
+        881,
+        970
+      ],
+      "product_area": [
+        48,
+        229,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.996005326231691,
+      "badge_box": [
+        824,
+        229,
+        984,
+        389
+      ],
+      "badge_occupied_fraction": 0.05171989567442547,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        54,
+        161,
+        108
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "visual_review": {
+      "sha256": "f3a5fa4fda12366dc020e4cd894063c5052c036c1e08eb11a8b093f28e417d6d",
+      "method": "assistant visual inspection of actual rendered PNG",
+      "assessment": "Upper right placement avoids bottle-front lettering; overlap is limited to the outer cap edge."
+    }
+  },
+  "SC0001": {
+    "status": "success",
+    "path": "SC0001/thumbnail.png",
+    "sha256": "f30378eeed546a421e3624f2a8b8353c4fff756cc5d4ac54e62993d7f7bcb705",
+    "fingerprint": "3b14924bcdcf1db6ec15a1491e7b50c9b9fb953c8cb24b6abad5a1ae35831822",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-5.zip",
+        "member": "SC0001-2.png",
+        "raw_member": "SC0001-2.png",
+        "filename": "SC0001-2.png",
+        "sha256": "d1f5b424b6b2f53baad9f7c9f7e13db29316c14670919c4cdb679e3ca84caa82"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/SC.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/SC.png",
+        "filename": "SC.png",
+        "sha256": "159b514f0b37581b72bb24f67aa6f3e0480354a13b6062012f5a5a01dfa6e325"
+      },
+      "main_title": "Perfect Peeling Gommage Gel",
+      "subtitles": [],
+      "logo_box": [
+        381,
+        58,
+        643,
+        110
+      ],
+      "title_boxes": [
+        [
+          74,
+          122,
+          950,
+          173
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        801,
+        817
+      ],
+      "product_scale": 0.9510403916768666,
+      "product_box": [
+        131,
+        193,
+        893,
+        970
+      ],
+      "product_area": [
+        48,
+        193,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.9804161566707467,
+      "badge_box": [
+        40,
+        809,
+        200,
+        969
+      ],
+      "badge_occupied_fraction": 0.0219969489690468,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        178,
+        138,
+        69
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "visual_review": {
+      "sha256": "f30378eeed546a421e3624f2a8b8353c4fff756cc5d4ac54e62993d7f7bcb705",
+      "method": "assistant visual inspection of actual rendered PNG",
+      "assessment": "Lower left placement avoids the orange tube label; overlap is the outside tube foot/shadow."
+    }
+  },
+  "EU0004": {
+    "status": "success",
+    "path": "EU0004/thumbnail.png",
+    "sha256": "9e631853c5511a3643827c4443804c2bdeb41a11c26d86f06d24986d84fa9b12",
+    "fingerprint": "f561590f5962903cb6574c810a1539560f6c85b47d6f61c1e18f1ac6ffdc4143",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-5.zip",
+        "member": "EU0004-2.png",
+        "raw_member": "EU0004-2.png",
+        "filename": "EU0004-2.png",
+        "sha256": "ac096d7400b9e0ada6a304687b2b683f78dc8b563ec4553b356c3c4455a5ecea"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/EU.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/EU.png",
+        "filename": "EU.png",
+        "sha256": "77ec58b8a3818c6d180ae71692c0a1e23e7ab5fc3fe73d8664270e6bfa83f174"
+      },
+      "main_title": "DermoPURIFYER Soft Cleansing Foam",
+      "subtitles": [],
+      "logo_box": [
+        449,
+        58,
+        575,
+        110
+      ],
+      "title_boxes": [
+        [
+          201,
+          122,
+          822,
+          163
+        ],
+        [
+          281,
+          169,
+          744,
+          220
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        748,
+        766
+      ],
+      "product_scale": 0.9530026109660574,
+      "product_box": [
+        155,
+        240,
+        868,
+        970
+      ],
+      "product_area": [
+        48,
+        240,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.9765013054830287,
+      "badge_box": [
+        40,
+        296,
+        200,
+        456
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        105,
+        150,
+        135
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "JS0001": {
+    "status": "success",
+    "path": "JS0001/thumbnail.png",
+    "sha256": "6438e19a9158a2ee0693eb0bc0af0436740be2748cf1a98f27941f43208c9874",
+    "fingerprint": "b43bff55cffcdb109871401eff9a74e703062ad0c4d26250a94022e22c40a6f7",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-5.zip",
+        "member": "JS0001-2.png",
+        "raw_member": "JS0001-2.png",
+        "filename": "JS0001-2.png",
+        "sha256": "1d1c772dd5d5800015fac7b0b8b9da85aa3394f79cbdbb208d67dfc0e3de402f"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/JS.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/JS.png",
+        "filename": "JS.png",
+        "sha256": "5294a99126c2bb3211d22278d74c0ea08e8de558034c784427bcad8e7d31ccb1"
+      },
+      "main_title": "Volume Curling Essence 2X",
+      "subtitles": [],
+      "logo_box": [
+        414,
+        58,
+        610,
+        110
+      ],
+      "title_boxes": [
+        [
+          115,
+          122,
+          910,
+          173
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        731,
+        772
+      ],
+      "product_scale": 1.0064766839378239,
+      "product_box": [
+        144,
+        193,
+        880,
+        970
+      ],
+      "product_area": [
+        48,
+        193,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.9468911917098446,
+      "badge_box": [
+        40,
+        809,
+        200,
+        969
+      ],
+      "badge_occupied_fraction": 0.007627577383002805,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        129,
+        144,
+        172
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "GA0004": {
+    "status": "success",
+    "path": "GA0004/thumbnail.png",
+    "sha256": "ebd299ee53c137cccbd587e7acc1e163a99ce865cfc7adf7f439137309a0c695",
+    "fingerprint": "176816841d9c916390f7f11db9a5606980ea5b1707899c5bb0707446db8f606d",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-5.zip",
+        "member": "GA0004-2.png",
+        "raw_member": "GA0004-2.png",
+        "filename": "GA0004-2.png",
+        "sha256": "383a0ef37e02ad7a047e5541c0d5a268b06017b3f98029b7951cc77a8ddda589"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/GA.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/GA.png",
+        "filename": "GA.png",
+        "sha256": "e768d5dbb1b405f3ddd4532f4ce0ddad22ed4c5d7b153bfb017888cdf0be0033"
+      },
+      "main_title": "Heartleaf Soothing Tone Up Sun Cream",
+      "subtitles": [],
+      "logo_box": [
+        439,
+        58,
+        584,
+        110
+      ],
+      "title_boxes": [
+        [
+          108,
+          122,
+          916,
+          173
+        ],
+        [
+          353,
+          179,
+          671,
+          219
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        601,
+        681
+      ],
+      "product_scale": 1.0734214390602055,
+      "product_box": [
+        189,
+        239,
+        834,
+        970
+      ],
+      "product_area": [
+        48,
+        239,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.882525697503671,
+      "badge_box": [
+        824,
+        239,
+        984,
+        399
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        100,
+        158,
+        129
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "AC0001": {
+    "status": "success",
+    "path": "AC0001/thumbnail.png",
+    "sha256": "715fb37804c03ea59d796bbf5f1bd11984d59d79551cf28edafeeb105f8e6d4e",
+    "fingerprint": "a4cfd2f280e4ee5b7ea2485dd3aa50b9315720fa6f2ab732a1b3119b4c0a67f9",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-6.zip",
+        "member": "AC0001-2.png",
+        "raw_member": "AC0001-2.png",
+        "filename": "AC0001-2.png",
+        "sha256": "8af22c246361f4051dc0023276eede83726d65b0113765ff7476540c26a9e066"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/AC.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/AC.png",
+        "filename": "AC.png",
+        "sha256": "337ea89ec79a73087dfcbe50319f68d2a504efdfe57160c380f4b3b34f170d38"
+      },
+      "main_title": "Pore Clear Gel Cleanser",
+      "subtitles": [],
+      "logo_box": [
+        419,
+        58,
+        604,
+        110
+      ],
+      "title_boxes": [
+        [
+          166,
+          122,
+          858,
+          163
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        726,
+        738
+      ],
+      "product_scale": 1.0663956639566397,
+      "product_box": [
+        125,
+        183,
+        899,
+        970
+      ],
+      "product_area": [
+        48,
+        183,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.983739837398374,
+      "badge_box": [
+        40,
+        824,
+        200,
+        984
+      ],
+      "badge_occupied_fraction": 0.0050686481964470256,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        48,
+        164,
+        131
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "DJ0004": {
+    "status": "success",
+    "path": "DJ0004/thumbnail.png",
+    "sha256": "490c07e8c68f745dc8e27e4ab3fc005d7b05a1fbcdb7d9e9c2c00e4191585425",
+    "fingerprint": "36b21b0b6c8de68e44be3cf0369bfcc5fd4d463e442701463810a5b0c82da685",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-6.zip",
+        "member": "DJ0004-4.png",
+        "raw_member": "DJ0004-4.png",
+        "filename": "DJ0004-4.png",
+        "sha256": "c7354e9f89ce5f0e4a2724a88ebdb415cb8058f90278ac73656fdec21b58cafe"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/DJ.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/DJ.png",
+        "filename": "DJ.png",
+        "sha256": "7f581b00ebd36899ee9e8e7b96e33fa68241a6774941469ed51d680c1de7fc4c"
+      },
+      "main_title": "Cicapair Intensive Soothing Repair Serum",
+      "subtitles": [],
+      "logo_box": [
+        373,
+        58,
+        650,
+        110
+      ],
+      "title_boxes": [
+        [
+          108,
+          122,
+          916,
+          173
+        ],
+        [
+          313,
+          179,
+          712,
+          230
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        878,
+        737
+      ],
+      "product_scale": 0.9769335142469471,
+      "product_box": [
+        83,
+        250,
+        941,
+        970
+      ],
+      "product_area": [
+        48,
+        250,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.191316146540027,
+      "badge_box": [
+        40,
+        614,
+        200,
+        774
+      ],
+      "badge_occupied_fraction": 0.0030018207765365877,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        60,
+        156,
+        99
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "PR0006": {
+    "status": "success",
+    "path": "PR0006/thumbnail.png",
+    "sha256": "6afada075590b7a8f24496f2fc134261bbca1a99bae6e7dc1dd23229c1dcc13b",
+    "fingerprint": "ae530c81ed4884381ba5c23942f9e1772849561d54f3772eeba5549dbab73603",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-6.zip",
+        "member": "PR0006-9.png",
+        "raw_member": "PR0006-9.png",
+        "filename": "PR0006-9.png",
+        "sha256": "6bad2252cdb1dacb40a80ce1f680fb0f59b6c2ac0158028abd72633b2e37ae10"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/PR.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/PR.png",
+        "filename": "PR.png",
+        "sha256": "24f77646a6bb33b77df17fe01c5d72871c6a44cbf0ada973b17ff9a511bbeff1"
+      },
+      "main_title": "Cleansing 5 Types",
+      "subtitles": [
+        "Facial Peeling, Cleansing Oil, Sparkling Pack, Soft Peeling"
+      ],
+      "logo_box": [
+        448,
+        58,
+        576,
+        110
+      ],
+      "title_boxes": [
+        [
+          249,
+          122,
+          774,
+          173
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          99,
+          181,
+          924,
+          209
+        ]
+      ],
+      "cropped_source_size": [
+        924,
+        677
+      ],
+      "product_scale": 1.0043290043290043,
+      "product_box": [
+        48,
+        229,
+        976,
+        909
+      ],
+      "product_area": [
+        48,
+        229,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.3648449039881831,
+      "badge_box": [
+        216,
+        232,
+        376,
+        392
+      ],
+      "badge_occupied_fraction": 0.06244771418729394,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        163,
+        138,
+        100
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "visual_review": {
+      "sha256": "6afada075590b7a8f24496f2fc134261bbca1a99bae6e7dc1dd23229c1dcc13b",
+      "method": "assistant visual inspection of actual rendered PNG",
+      "assessment": "Gap above bottles, near pump heads, leaves bottle brand/label text readable; limited pump-edge overlap."
+    }
+  },
+  "AR0001": {
+    "status": "success",
+    "path": "AR0001/thumbnail.png",
+    "sha256": "a9fbbbb4fa5ad98ebed4950e7adbdeaf9ceaf1820d3b6e1ed18c584841bbbe54",
+    "fingerprint": "662475a653a16c5ffa3b3f54fe87c640d61ee8d235d75dc9ed178fa1c8baddbb",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-6.zip",
+        "member": "AR0001-4.png",
+        "raw_member": "AR0001-4.png",
+        "filename": "AR0001-4.png",
+        "sha256": "e3f26250c54334d5cd9f900fc97c3473aeb1f2129f09a2a0525301efbb043621"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/AR.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/AR.png",
+        "filename": "AR.png",
+        "sha256": "8d8abf2fc9622e1cee56c17c24cc76981978cb8c9a237eafd0e3617e643cb3c3"
+      },
+      "main_title": "Smooth & Pure Dry Shampoo Sheet",
+      "subtitles": [
+        "Cooling / Volume"
+      ],
+      "logo_box": [
+        446,
+        58,
+        578,
+        110
+      ],
+      "title_boxes": [
+        [
+          85,
+          122,
+          939,
+          173
+        ],
+        [
+          427,
+          179,
+          597,
+          220
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          390,
+          228,
+          635,
+          256
+        ]
+      ],
+      "cropped_source_size": [
+        891,
+        796
+      ],
+      "product_scale": 0.871859296482412,
+      "product_box": [
+        123,
+        276,
+        900,
+        970
+      ],
+      "product_area": [
+        48,
+        276,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.1193467336683418,
+      "badge_box": [
+        40,
+        500,
+        200,
+        660
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        170,
+        132,
+        132
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "IF0001": {
+    "status": "success",
+    "path": "IF0001/thumbnail.png",
+    "sha256": "1cd3a9e429dba0133090fbfca11ab0c4d44738211be88a71c3197a322180afcb",
+    "fingerprint": "656901ebb8a3636ebd6a8dcd0826ab242eee8f54c45aab5e4b30d81b3dd1f061",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-6.zip",
+        "member": "IF0001-2.png",
+        "raw_member": "IF0001-2.png",
+        "filename": "IF0001-2.png",
+        "sha256": "ffd0aadc732fddcc407aa2e9603e4d93d2e2525c2b4caf98a062a915cb48643f"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/IF.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/IF.png",
+        "filename": "IF.png",
+        "sha256": "73643d08896269d9c6b22bb6a5be48dd13648b6c73a52684347ac42669a67f68"
+      },
+      "main_title": "Mugwort Essence",
+      "subtitles": [],
+      "logo_box": [
+        408,
+        58,
+        616,
+        110
+      ],
+      "title_boxes": [
+        [
+          255,
+          122,
+          769,
+          171
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        826,
+        757
+      ],
+      "product_scale": 1.0290620871862615,
+      "product_box": [
+        87,
+        191,
+        937,
+        970
+      ],
+      "product_area": [
+        48,
+        191,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0911492734478203,
+      "badge_box": [
+        40,
+        40,
+        200,
+        200
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        144,
+        144,
+        108
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "IM0005": {
+    "status": "success",
+    "path": "IM0005/thumbnail.png",
+    "sha256": "78b4dc82d99c29be0995cb102c2b2f594e7c22d4329c9204a9026524443b462b",
+    "fingerprint": "027a9f1bb6283839d76daf1e3f2038645b0709fbc40ec91ae043e6c9d488e02d",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-6.zip",
+        "member": "IM0005-2.png",
+        "raw_member": "IM0005-2.png",
+        "filename": "IM0005-2.png",
+        "sha256": "50fad95ad85be05963a15e9de8ec50405fb6d8b6e3be1c17cd0cd974a3a672bc"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/IM.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/IM.png",
+        "filename": "IM.png",
+        "sha256": "9e6756ba5d892048772145c690f65be1b708d2d19b4bbf56a46a2a265b719f8e"
+      },
+      "main_title": "Fresh Oil Cut Sun Stick",
+      "subtitles": [],
+      "logo_box": [
+        426,
+        58,
+        598,
+        110
+      ],
+      "title_boxes": [
+        [
+          177,
+          122,
+          849,
+          163
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        590,
+        571
+      ],
+      "product_scale": 1.3782837127845884,
+      "product_box": [
+        105,
+        183,
+        918,
+        970
+      ],
+      "product_area": [
+        48,
+        183,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0332749562171628,
+      "badge_box": [
+        40,
+        659,
+        200,
+        819
+      ],
+      "badge_occupied_fraction": 0.01889670783918114,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        82,
+        151,
+        178
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "CX0001": {
+    "status": "success",
+    "path": "CX0001/thumbnail.png",
+    "sha256": "3cb5d055a868a14ac714e915499d28b7859f142b04d1fd516be2ac5f6e745371",
+    "fingerprint": "aa7e79bb143d532d93033cb2d9960542654b8b4da33d5b1ec2696f011db6886d",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-6.zip",
+        "member": "CX0001-2.png",
+        "raw_member": "CX0001-2.png",
+        "filename": "CX0001-2.png",
+        "sha256": "050bbd20e98a9f7b1f65b2b5f2515188044617a6816c0e5c1c8f2fcd0781e43d"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/CX.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/CX.png",
+        "filename": "CX.png",
+        "sha256": "08d62dd3c942cdab980f4173911eb5ab0b54b12a92029668717f73015df687b9"
+      },
+      "main_title": "Ultra-Light Invisible Sunscreen",
+      "subtitles": [],
+      "logo_box": [
+        385,
+        58,
+        639,
+        110
+      ],
+      "title_boxes": [
+        [
+          221,
+          122,
+          804,
+          173
+        ],
+        [
+          359,
+          179,
+          665,
+          219
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        795,
+        769
+      ],
+      "product_scale": 0.9505851755526658,
+      "product_box": [
+        134,
+        239,
+        890,
+        970
+      ],
+      "product_area": [
+        48,
+        239,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.033810143042913,
+      "badge_box": [
+        40,
+        40,
+        200,
+        200
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        60,
+        79,
+        195
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "DO0001": {
+    "status": "success",
+    "path": "DO0001/thumbnail.png",
+    "sha256": "00edc977b061d421093f852f90dfe93776c63c50e43f2a9401d711d2b9e58b97",
+    "fingerprint": "2e5eda776d04cfe7b1ae6d740b048c8f32052f46fc3343c0b36ecedbe718723a",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-6.zip",
+        "member": "DO0001-3.png",
+        "raw_member": "DO0001-3.png",
+        "filename": "DO0001-3.png",
+        "sha256": "d78c292ba8eb7d8faf20823c59f88649af063fa1288b8bb04f996ea2a2fea6e5"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/DO.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/DO.png",
+        "filename": "DO.png",
+        "sha256": "7bed43f91b5f39945cce7358a0ead80fd2f60999d426c8b556b03359d400bbf6"
+      },
+      "main_title": "Roll-On Deodorant",
+      "subtitles": [
+        "Orignial/Sensitive"
+      ],
+      "logo_box": [
+        474,
+        58,
+        550,
+        110
+      ],
+      "title_boxes": [
+        [
+          241,
+          122,
+          783,
+          163
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          384,
+          171,
+          639,
+          199
+        ]
+      ],
+      "cropped_source_size": [
+        1024,
+        1024
+      ],
+      "product_scale": 0.7333984375,
+      "product_box": [
+        136,
+        219,
+        887,
+        970
+      ],
+      "product_area": [
+        48,
+        219,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0,
+      "badge_box": [
+        40,
+        40,
+        200,
+        200
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        125,
+        141,
+        172
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "LK0001": {
+    "status": "success",
+    "path": "LK0001/thumbnail.png",
+    "sha256": "46f7aaf7984fbd21db2cf7998bd2327ec693fc5f987126aac0afa99ab362e3fa",
+    "fingerprint": "722c5b1364aa37bdf4b043efe340b299634cf817aeff3aefca9974fe2199201e",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-7.zip",
+        "member": "LK0001-9.png",
+        "raw_member": "LK0001-9.png",
+        "filename": "LK0001-9.png",
+        "sha256": "5d6512704db90a52fe44e078a80715fdfefc7065fd96827edf04dff61f1b6ad0"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/LK.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/LK.png",
+        "filename": "LK.png",
+        "sha256": "8a0230fca4befd51f00f1130b217a16ac8408f3bcb9163124e4e25d275f7002b"
+      },
+      "main_title": "Stain Lip Liner",
+      "subtitles": [
+        "4 Colors"
+      ],
+      "logo_box": [
+        443,
+        58,
+        580,
+        110
+      ],
+      "title_boxes": [
+        [
+          299,
+          122,
+          725,
+          173
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          453,
+          181,
+          572,
+          203
+        ]
+      ],
+      "cropped_source_size": [
+        895,
+        891
+      ],
+      "product_scale": 0.8383838383838383,
+      "product_box": [
+        137,
+        223,
+        887,
+        970
+      ],
+      "product_area": [
+        48,
+        223,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0044893378226711,
+      "badge_box": [
+        824,
+        335,
+        984,
+        495
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        180,
+        135,
+        135
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "EN0001": {
+    "status": "success",
+    "path": "EN0001/thumbnail.png",
+    "sha256": "28f5fda931e67b5bbee3d521dae4c978803e5ec0e21cc555053c3328dd057006",
+    "fingerprint": "250f4ca6a89806fa593af1cde60bb66dedadfb64103d62cdbd2fa96ce60a4532",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-7.zip",
+        "member": "EN0001-7.png",
+        "raw_member": "EN0001-7.png",
+        "filename": "EN0001-7.png",
+        "sha256": "9af22f6eb06148a1e6521b94e42f1b6bdafef2a5584b5a01ea396aa8727aac37"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/EN.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/EN.png",
+        "filename": "EN.png",
+        "sha256": "c44cc1c77037e34ddefd2f4a83b806733bb0a504f606480d45beff1cc9e6ceab"
+      },
+      "main_title": "makeup Tough Brow Sculpture",
+      "subtitles": [
+        "4 Colors 3-in-1"
+      ],
+      "logo_box": [
+        342,
+        58,
+        682,
+        86
+      ],
+      "title_boxes": [
+        [
+          65,
+          98,
+          959,
+          149
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          406,
+          157,
+          618,
+          179
+        ]
+      ],
+      "cropped_source_size": [
+        715,
+        796
+      ],
+      "product_scale": 0.9685929648241206,
+      "product_box": [
+        165,
+        199,
+        858,
+        970
+      ],
+      "product_area": [
+        48,
+        199,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.8982412060301508,
+      "badge_box": [
+        40,
+        815,
+        200,
+        975
+      ],
+      "badge_occupied_fraction": 0.003739973426504601,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        175,
+        99,
+        137
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "RP0001": {
+    "status": "success",
+    "path": "RP0001/thumbnail.png",
+    "sha256": "8c5dd4043fce0b7f878981efc29cc8d03ea7c0d7b941dafd5e5ea53ca4e867cc",
+    "fingerprint": "fb6420521329e0d1f27c4b2136ceddd6ac35a9f14c49bb169eebe3341cde007e",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-7.zip",
+        "member": "RP0001-2.png",
+        "raw_member": "RP0001-2.png",
+        "filename": "RP0001-2.png",
+        "sha256": "6816a23a8514cc273bc28207c21d972d785b87245d8d6287ae2a4bee5cd2c774"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/RP.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/RP.png",
+        "filename": "RP.png",
+        "sha256": "b277e94d351fd6bf41cea574780e49d4b41a4aa9e350dd6638aea213364fe0d2"
+      },
+      "main_title": "Water Parsley Calming Sun Cream",
+      "subtitles": [],
+      "logo_box": [
+        415,
+        58,
+        609,
+        110
+      ],
+      "title_boxes": [
+        [
+          115,
+          122,
+          910,
+          173
+        ],
+        [
+          418,
+          179,
+          606,
+          219
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        779,
+        621
+      ],
+      "product_scale": 1.1771336553945249,
+      "product_box": [
+        53,
+        239,
+        970,
+        970
+      ],
+      "product_area": [
+        48,
+        239,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.2544283413848631,
+      "badge_box": [
+        40,
+        184,
+        200,
+        344
+      ],
+      "badge_occupied_fraction": 0.012893066286107967,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        79,
+        157,
+        157
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "RC0001": {
+    "status": "success",
+    "path": "RC0001/thumbnail.png",
+    "sha256": "3679e0e31570bc56562f2091b87b21dceeb786577d3562da4cd21458718e8246",
+    "fingerprint": "77b4bc618fad6b02770de19f201956af747b211a9e76b11b840de82a4a1c55fe",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-7.zip",
+        "member": "RC0001-6.png",
+        "raw_member": "RC0001-6.png",
+        "filename": "RC0001-6.png",
+        "sha256": "045c7fb5340ad75b3be6c82ff4cc46dde836a3c9120166cc7f3b7277d10a082c"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/RC.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/RC.png",
+        "filename": "RC.png",
+        "sha256": "15a7d0b7c000d80d49cf5a7f2573381374307638598283086ed39f917e48261a"
+      },
+      "main_title": "Toothpaste",
+      "subtitles": [
+        "Eucalyptus & Mint, Lime & Sea Salt, Tea & Fresh Mint"
+      ],
+      "logo_box": [
+        446,
+        58,
+        577,
+        110
+      ],
+      "title_boxes": [
+        [
+          349,
+          122,
+          674,
+          173
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          128,
+          181,
+          897,
+          209
+        ]
+      ],
+      "cropped_source_size": [
+        805,
+        793
+      ],
+      "product_scale": 0.9344262295081968,
+      "product_box": [
+        136,
+        229,
+        888,
+        970
+      ],
+      "product_area": [
+        48,
+        229,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0151324085750315,
+      "badge_box": [
+        40,
+        817,
+        200,
+        977
+      ],
+      "badge_occupied_fraction": 0.04729097977461739,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        126,
+        151,
+        48
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "visual_review": {
+      "sha256": "3679e0e31570bc56562f2091b87b21dceeb786577d3562da4cd21458718e8246",
+      "method": "assistant visual inspection of actual rendered PNG",
+      "assessment": "Lower left placement intersects outer cap/shadow edge; toothpaste tube-front words remain visible."
+    }
+  },
+  "PR0008": {
+    "status": "success",
+    "path": "PR0008/thumbnail.png",
+    "sha256": "eb7b5adc2ffb9eaae469e4d61d7cd816c52d999f89e2515a5b229b1aaec6ae97",
+    "fingerprint": "eb8c57b8397a8e73b4d4d63544adbe6d99528acb2567a29b26b93d9a9461e4ca",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-7.zip",
+        "member": "PR0008-6.png",
+        "raw_member": "PR0008-6.png",
+        "filename": "PR0008-6.png",
+        "sha256": "0cf1cab2fc2cdeed79b0de43fe219c35fcb67f959310291b6ffd541c8118c095"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/PR.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/PR.png",
+        "filename": "PR.png",
+        "sha256": "24f77646a6bb33b77df17fe01c5d72871c6a44cbf0ada973b17ff9a511bbeff1"
+      },
+      "main_title": "Vitatinol Bouncy Balloon Lip Serum SPF35",
+      "subtitles": [
+        "5 Colors"
+      ],
+      "logo_box": [
+        448,
+        58,
+        576,
+        110
+      ],
+      "title_boxes": [
+        [
+          99,
+          122,
+          925,
+          173
+        ],
+        [
+          316,
+          179,
+          707,
+          219
+        ]
+      ],
+      "subtitle_boxes": [
+        [
+          453,
+          227,
+          572,
+          249
+        ]
+      ],
+      "cropped_source_size": [
+        894,
+        815
+      ],
+      "product_scale": 0.8601226993865031,
+      "product_box": [
+        127,
+        269,
+        896,
+        970
+      ],
+      "product_area": [
+        48,
+        269,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0969325153374234,
+      "badge_box": [
+        40,
+        745,
+        200,
+        905
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        137,
+        60,
+        99
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "MM0001": {
+    "status": "success",
+    "path": "MM0001/thumbnail.png",
+    "sha256": "bdc9d31bbc7f7f3935ae4335a09670601aca8bb2f70bd48e28e2791166294c47",
+    "fingerprint": "d3b2a0f965b9c9f699b38df5880fc61376e926a70d8dae2e6d32892576f892d1",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-7.zip",
+        "member": "MM0001-2.png",
+        "raw_member": "MM0001-2.png",
+        "filename": "MM0001-2.png",
+        "sha256": "11fc5c651fbbd255d4f4c5c45f1f198edf8a7f30643db2e639b7b1c90e94ca59"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/MM.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/MM.png",
+        "filename": "MM.png",
+        "sha256": "b9c709d4809ef99369991d6563bc0e05c100c4fec6d9fb40f1e868b0bfbab94e"
+      },
+      "main_title": "Calming Shot Azulene Ampoule",
+      "subtitles": [],
+      "logo_box": [
+        481,
+        58,
+        543,
+        110
+      ],
+      "title_boxes": [
+        [
+          191,
+          122,
+          833,
+          173
+        ],
+        [
+          383,
+          179,
+          640,
+          230
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        750,
+        636
+      ],
+      "product_scale": 1.1320754716981132,
+      "product_box": [
+        87,
+        250,
+        936,
+        970
+      ],
+      "product_area": [
+        48,
+        250,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.179245283018868,
+      "badge_box": [
+        40,
+        184,
+        200,
+        344
+      ],
+      "badge_occupied_fraction": 0.02711480734215836,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        129,
+        144,
+        172
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "visual_review": {
+      "sha256": "bdc9d31bbc7f7f3935ae4335a09670601aca8bb2f70bd48e28e2791166294c47",
+      "method": "assistant visual inspection of actual rendered PNG",
+      "assessment": "Upper left placement avoids the dropper bottles main labels; only a small dropper-edge portion intersects."
+    }
+  },
+  "SH0001": {
+    "status": "success",
+    "path": "SH0001/thumbnail.png",
+    "sha256": "d6cb911d7eb454d8881006ec49c6be359be61e391699cbbc9eae8b7b8bb522a6",
+    "fingerprint": "337eff17d1875eebfcda9a128a553727097bf132daa3023d199ef250fc08e7b1",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-7.zip",
+        "member": "SH0001-2.png",
+        "raw_member": "SH0001-2.png",
+        "filename": "SH0001-2.png",
+        "sha256": "19c46c9ed691be14c8f464300085eed23740e0c82110554945a9022b571b48c5"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/SH.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/SH.png",
+        "filename": "SH.png",
+        "sha256": "03e3e2b96499b1dae4e4998ebf4638fc4b4557f434637f2f9e6f30544ac89708"
+      },
+      "main_title": "Soft Vegan Cleansing Balm",
+      "subtitles": [],
+      "logo_box": [
+        388,
+        58,
+        635,
+        109
+      ],
+      "title_boxes": [
+        [
+          117,
+          121,
+          907,
+          172
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        725,
+        687
+      ],
+      "product_scale": 1.1324599708879184,
+      "product_box": [
+        101,
+        192,
+        922,
+        970
+      ],
+      "product_area": [
+        48,
+        192,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0553129548762736,
+      "badge_box": [
+        40,
+        752,
+        200,
+        912
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        165,
+        138,
+        123
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "TB0001": {
+    "status": "success",
+    "path": "TB0001/thumbnail.png",
+    "sha256": "56ae7ed9db1d470551567dab4452285799e452e6b68425399684dc3cd9e4e2fb",
+    "fingerprint": "12074e0019ad2c4ff79e5d98126bbf282f80f59b5db0a023eeb7de2ca1fa501f",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-7.zip",
+        "member": "TB0001-2.png",
+        "raw_member": "TB0001-2.png",
+        "filename": "TB0001-2.png",
+        "sha256": "5ff0fb04056c7b0b7606f9fc4a7068bf284724a3a6c6c98e184b87c71c3b8f8f"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/TB.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/TB.png",
+        "filename": "TB.png",
+        "sha256": "26a5549e470480ba42644258e8810450d692f5f4e4afb92f4ed24fa17fa7e43b"
+      },
+      "main_title": "Spot Gel / Clear Gel Cream",
+      "subtitles": [],
+      "logo_box": [
+        353,
+        58,
+        670,
+        110
+      ],
+      "title_boxes": [
+        [
+          124,
+          122,
+          901,
+          173
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        745,
+        831
+      ],
+      "product_scale": 0.9350180505415162,
+      "product_box": [
+        163,
+        193,
+        860,
+        970
+      ],
+      "product_area": [
+        48,
+        193,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.8965102286401926,
+      "badge_box": [
+        40,
+        221,
+        200,
+        381
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        60,
+        156,
+        99
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "ST0001": {
+    "status": "success",
+    "path": "ST0001/thumbnail.png",
+    "sha256": "3a1b4e9ace0ebd01243cfbaa0e5d5356930961b71b84f949c233bb8b8f5a094e",
+    "fingerprint": "e4268c4011346746ce9fb5714b905aac34b5b4429adc2a5c8d8a749996d3b44b",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-7.zip",
+        "member": "ST0001-2.png",
+        "raw_member": "ST0001-2.png",
+        "filename": "ST0001-2.png",
+        "sha256": "ba0cf32db89ba3f2783fd1fbd7cbe583a607607fcef8b58b7b78ffa72176090b"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/ST.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/ST.png",
+        "filename": "ST.png",
+        "sha256": "b8566d27d85bb89b51553184bfb4c75e63f50f63efaeefa85c495c307c24675f"
+      },
+      "main_title": "PDRN Skin Fit Aqua Sun Cream",
+      "subtitles": [],
+      "logo_box": [
+        427,
+        58,
+        597,
+        110
+      ],
+      "title_boxes": [
+        [
+          160,
+          122,
+          863,
+          173
+        ],
+        [
+          418,
+          179,
+          606,
+          219
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        650,
+        661
+      ],
+      "product_scale": 1.1059001512859303,
+      "product_box": [
+        152,
+        239,
+        871,
+        970
+      ],
+      "product_area": [
+        48,
+        239,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 0.983358547655068,
+      "badge_box": [
+        824,
+        743,
+        984,
+        903
+      ],
+      "badge_occupied_fraction": 0.0,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        118,
+        144,
+        158
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "AV0002": {
+    "status": "success",
+    "path": "AV0002/thumbnail.png",
+    "sha256": "55e6dce99d02e543dd6a15c338ad867af94323238dcdcf47b74aabc75481f859",
+    "fingerprint": "65c20380361b163d9dfca2d5a29be951df97ceba22fa9518c941c47f29941e4d",
+    "reused": false,
+    "layout": {
+      "design_version": 2,
+      "source": {
+        "archive": "화장품 썸네일-7.zip",
+        "member": "AV0002-1.png",
+        "raw_member": "AV0002-1.png",
+        "filename": "AV0002-1.png",
+        "sha256": "3059f7c2accf3dee7c5e7316370aacc8f5a52f2c162b042a37843f1afb48a2d4"
+      },
+      "brand_logo": {
+        "archive": "브랜드 로고.zip",
+        "member": "브랜드 로고/AV.png",
+        "raw_member": "║Ω╖ú╡σ ╖╬░φ/AV.png",
+        "filename": "AV.png",
+        "sha256": "ecd12a1442a8f9d95fd00ef5febbd551f8b58e82b3c778ded0faf5f1a6d77d7b"
+      },
+      "main_title": "Rejuvenating Neck Wrinkle Control Mask",
+      "subtitles": [],
+      "logo_box": [
+        397,
+        58,
+        627,
+        110
+      ],
+      "title_boxes": [
+        [
+          115,
+          122,
+          908,
+          173
+        ],
+        [
+          319,
+          179,
+          706,
+          220
+        ]
+      ],
+      "subtitle_boxes": [],
+      "cropped_source_size": [
+        1024,
+        1024
+      ],
+      "product_scale": 0.712890625,
+      "product_box": [
+        147,
+        240,
+        877,
+        970
+      ],
+      "product_area": [
+        48,
+        240,
+        976,
+        970
+      ],
+      "source_aspect_ratio": 1.0,
+      "badge_box": [
+        824,
+        184,
+        984,
+        344
+      ],
+      "badge_occupied_fraction": 0.205600118104424,
+      "badge_resized_product": false,
+      "frame_rgb": [
+        163,
+        138,
+        126
+      ],
+      "frame_width": 26,
+      "frame_inset": 12,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "visual_review": {
+      "sha256": "55e6dce99d02e543dd6a15c338ad867af94323238dcdcf47b74aabc75481f859",
+      "method": "assistant visual inspection of actual rendered PNG",
+      "assessment": "Upper right image backdrop only, away from model face and neck patch details."
+    }
+  }
+}

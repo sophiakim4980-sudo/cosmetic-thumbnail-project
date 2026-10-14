@@ -1,70 +1,36 @@
 {"code": "SN0001", "type": "thumbnail_failed", "error": "brand: SN"}
-{"code": "WM0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.2546); no bottom fallback"}
-{"code": "GF0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.7347); no bottom fallback"}
-{"code": "KL0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.1899); no bottom fallback"}
+{"code": "GF0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "ET0001", "type": "missing_option_reference", "row": 29}
 {"code": "ET0001", "type": "missing_option_reference", "row": 30}
 {"code": "ET0001", "type": "missing_option_reference", "row": 31}
 {"code": "ET0001", "type": "missing_option_reference", "row": 32}
 {"code": "ET0001", "type": "missing_option_reference", "row": 33}
-{"code": "ET0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.6889); no bottom fallback"}
-{"code": "GA0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.3747); no bottom fallback"}
+{"code": "ET0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "IC0001", "type": "option_failed", "row": 44, "reference": "IC0001-3", "error": "option: IC0001-3"}
 {"code": "IC0001", "type": "option_failed", "row": 45, "reference": "IC0001-4", "error": "option: IC0001-4"}
-{"code": "IM0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.1973); no bottom fallback"}
-{"code": "BN0002", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.3332); no bottom fallback"}
-{"code": "AD0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.6590); no bottom fallback"}
-{"code": "WM0002", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.6295); no bottom fallback"}
+{"code": "BN0002", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
+{"code": "AD0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
+{"code": "WM0002", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "YM0001", "type": "thumbnail_failed", "error": "brand: YM"}
 {"code": "SN0002", "type": "thumbnail_failed", "error": "brand: SN"}
 {"code": "ME0001", "type": "missing_option_reference", "row": 138}
 {"code": "ME0001", "type": "missing_option_reference", "row": 139}
-{"code": "ME0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.4537); no bottom fallback"}
-{"code": "GA0002", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.1974); no bottom fallback"}
-{"code": "EU0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.0861); no bottom fallback"}
-{"code": "DQ0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.2104); no bottom fallback"}
-{"code": "HY0002", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.4080); no bottom fallback"}
-{"code": "DG0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.1016); no bottom fallback"}
+{"code": "ME0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
+{"code": "EU0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
+{"code": "HY0002", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "ET0002", "type": "missing_option_reference", "row": 188}
 {"code": "ET0002", "type": "missing_option_reference", "row": 189}
-{"code": "IN0002", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.0783); no bottom fallback"}
-{"code": "ET0003", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.0202); no bottom fallback"}
-{"code": "AB0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.5767); no bottom fallback"}
-{"code": "MZ0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.3876); no bottom fallback"}
-{"code": "DF0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.7331); no bottom fallback"}
+{"code": "AB0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
+{"code": "DF0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "SN0003", "type": "thumbnail_failed", "error": "brand: SN"}
-{"code": "EU0002", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.0687); no bottom fallback"}
-{"code": "AV0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.1347); no bottom fallback"}
-{"code": "KB0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.3441); no bottom fallback"}
 {"code": "SN0004", "type": "thumbnail_failed", "error": "brand: SN"}
 {"code": "SN0005", "type": "thumbnail_failed", "error": "brand: SN"}
-{"code": "AT0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.3920); no bottom fallback"}
-{"code": "HY0003", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.5792); no bottom fallback"}
-{"code": "GV0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.0524); no bottom fallback"}
-{"code": "ET0004", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.0499); no bottom fallback"}
-{"code": "NC0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.2508); no bottom fallback"}
-{"code": "BP0004", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.0270); no bottom fallback"}
-{"code": "PP0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.2606); no bottom fallback"}
+{"code": "HY0003", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
+{"code": "NC0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "HH0001", "type": "thumbnail_failed", "error": "brand: HH"}
-{"code": "SC0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.1722); no bottom fallback"}
-{"code": "EU0004", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.0220); no bottom fallback"}
-{"code": "JS0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.3837); no bottom fallback"}
-{"code": "GA0004", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.1035); no bottom fallback"}
-{"code": "AC0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.1899); no bottom fallback"}
-{"code": "DJ0004", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.2763); no bottom fallback"}
-{"code": "PR0006", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.1938); no bottom fallback"}
-{"code": "AR0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.4638); no bottom fallback"}
-{"code": "IF0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.2991); no bottom fallback"}
-{"code": "IM0005", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.0795); no bottom fallback"}
-{"code": "CX0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.4197); no bottom fallback"}
-{"code": "DO0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.4933); no bottom fallback"}
-{"code": "LK0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.0709); no bottom fallback"}
-{"code": "EN0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.3545); no bottom fallback"}
-{"code": "RP0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.2297); no bottom fallback"}
-{"code": "RC0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.3566); no bottom fallback"}
-{"code": "PR0008", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.1895); no bottom fallback"}
-{"code": "MM0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.3660); no bottom fallback"}
-{"code": "SH0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.5618); no bottom fallback"}
-{"code": "TB0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.0221); no bottom fallback"}
-{"code": "ST0001", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.0319); no bottom fallback"}
-{"code": "AV0002", "type": "thumbnail_failed", "error": "badge_review: upper candidates overlap product (0.5697); no bottom fallback"}
+{"code": "DJ0004", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
+{"code": "IF0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
+{"code": "IM0005", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
+{"code": "DO0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
+{"code": "RP0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
+{"code": "SH0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
