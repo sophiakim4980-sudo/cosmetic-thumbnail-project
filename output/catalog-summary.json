@@ -11,11 +11,11 @@
   "missing_option_references": [
     {
       "code": "IC0001",
-      "reference": "IC0001-4"
+      "reference": "IC0001-3"
     },
     {
       "code": "IC0001",
-      "reference": "IC0001-3"
+      "reference": "IC0001-4"
     }
   ],
   "blank_option_reference_rows": [

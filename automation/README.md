@@ -25,3 +25,7 @@ V6 배지는 상품명 아래 상단 좌측을 우선하고 우측도 검토합�
 ZIP은 내용·상태가 이미 최신이면 바이트와 수정 시각을 유지하고, 바뀐 상품만 재생성합니다. CRC와 내부 PNG 바이트를 검증합니다.
 
 [최종 V6 보고서](../output/V6-REPORT.md) · [18개 미리보기](../previews/v6/README.md) · [전체 카탈로그](../previews/catalog/README.md). [V5 보고서](../output/V5-REPORT.md)는 이전 단계 기록입니다.
+
+## V7 파일명 규칙
+
+대표 파일은 `output/<품명>/<엑셀 썸네일 파일명>.png`입니다. 옵션 이름은 유지합니다. 기존 결과의 이름만 변경하려면 `python automation/rename_thumbnails.py` 후 `python automation/catalog.py --finalize-only`를 실행합니다. [V7 검수 보고서](../output/V7-REPORT.md)를 참조하세요.

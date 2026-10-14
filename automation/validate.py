@@ -8,7 +8,7 @@ from zipfile import ZipFile
 from openpyxl import Workbook
 from PIL import Image, ImageChops
 
-from generate import Assets, SAMPLES, groups_from_excel, split_title, make_thumbnail
+from generate import Assets, SAMPLES, groups_from_excel, split_title, make_thumbnail, thumbnail_filename
 
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
@@ -39,7 +39,7 @@ for code in SAMPLES:
     sample = report['samples'][code]
     assert sample['status'] == 'success'
     assert [o['output'] for o in sample['options']] == expected[code]
-    thumb = Image.open(OUT/code/'thumbnail.png')
+    thumb = Image.open(OUT/code/thumbnail_filename(report['groups'][code]))
     assert thumb.size == (1024,1024) and thumb.format == 'PNG'
     layout = sample['thumbnail']
     assert thumb.getpixel((0,0)) == (255,255,255)
@@ -79,7 +79,7 @@ for code in SAMPLES:
         assert bounds[2] <= box[2] and bounds[3] <= box[3]
     with ZipFile(OUT/f'{code}.zip') as z:
         assert z.testzip() is None
-        assert set(z.namelist()) == {f'{code}/thumbnail.png', *[f'{code}/options/{n}' for n in expected[code]]}
+        assert set(z.namelist()) == {f'{code}/{thumbnail_filename(report["groups"][code])}', *[f'{code}/options/{n}' for n in expected[code]]}
         for name in z.namelist(): assert z.read(name) == (OUT/name).read_bytes()
     Image.open(PREVIEWS/f'{code}-preview.png').verify()
 assert set(report['samples']) == set(SAMPLES)

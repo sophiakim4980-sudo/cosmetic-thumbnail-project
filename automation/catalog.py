@@ -13,7 +13,7 @@ from PIL import Image, ImageChops, ImageDraw
 from badge_rules import circle_intersects_box
 
 from generate import (Assets, SAMPLES, font, groups_from_excel, make_option,
-                      make_thumbnail, split_title, white_image, relocate_thumbnail, REVISION_ARCHIVES)
+                      make_thumbnail, thumbnail_filename, split_title, white_image, relocate_thumbnail, REVISION_ARCHIVES)
 
 
 def digest(path):
@@ -166,12 +166,12 @@ def render_catalog(root, output, only=(), retry_failed=False):
                 raise ValueError('Exactly one explicit brand/thumbnail reference required')
             refs=[assets.match(group['brand_refs'][0],'brand'),assets.match(group['thumbnail_refs'][0],'thumbnail')]
             fingerprint=source_fingerprint(group,[i['sha256'] for i in refs],renderer)
-            path=folder/'thumbnail.png'
+            path=folder/thumbnail_filename(group)
             if (valid_saved(old.get('thumbnail',{}),path,fingerprint)
                     and old['thumbnail']['layout'].get('design_version') in (5,6)):
                 details=old['thumbnail']['layout']; reused=True
                 checked_thumbnail(path,details,group,assets)
-            elif (code not in annotations and previous_groups.get(code)==group
+            elif (previous_groups.get(code)==group
                     and old.get('thumbnail',{}).get('status')=='success' and path.exists()
                     and digest(path)==old['thumbnail'].get('sha256')):
                 # Preserve already approved designs when sources and effective metadata match.
@@ -203,7 +203,7 @@ def render_catalog(root, output, only=(), retry_failed=False):
             elif details['badge_occupied_fraction'] > .02:
                 result['issues'].append({'type':'badge_review','occupied_fraction':details['badge_occupied_fraction']})
         except Exception as e:
-            stale=folder/'thumbnail.png'
+            stale=folder/thumbnail_filename(group)
             candidate=None
             if candidate_details and stale.exists():
                 import shutil
@@ -331,7 +331,7 @@ def package_and_previews(root,output,state,groups):
     index += ['', '| 품명 | 상태 | 대표 PNG | 옵션 | ZIP |','|---|---|---|---|---|']
     for code in codes:
         p=products.get(code,{})
-        thumb=f'[보기](../../output/{code}/thumbnail.png)' if p.get('thumbnail',{}).get('status')=='success' else '미제작'
+        thumb=f"[보기](../../output/{p['thumbnail']['path']})" if p.get('thumbnail',{}).get('status')=='success' else '미제작'
         n=sum(o.get('status')=='success' for o in p.get('options',{}).values())
         index.append(f"| {code} | {p.get('status','unrun')} | {thumb} | [{n}개](../../output/{code}/options) | [다운로드](../../archives/{code}.zip) |")
     (previews/'README.md').write_text('\n'.join(index)+'\n',encoding='utf-8')

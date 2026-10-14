@@ -37,7 +37,7 @@
 
 ## 산출물 경로
 
-- 개별 대표·옵션: `output/<품명>/thumbnail.png`, `output/<품명>/options/`
+- 개별 대표·옵션: `output/<품명>/<엑셀 썸네일 파일명>.png`, `output/<품명>/options/`
 - 품명별 ZIP: `archives/<품명>.zip`
 - 전체 목록 및 클릭 가능한 PNG/ZIP: `previews/catalog/README.md`
 - 8개 미리보기: `previews/catalog/page-01.png` ~ `page-08.png`

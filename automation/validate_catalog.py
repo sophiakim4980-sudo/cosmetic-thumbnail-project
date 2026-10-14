@@ -8,13 +8,17 @@ from zipfile import ZipFile
 from PIL import Image
 
 from catalog import checked_option, checked_thumbnail, digest, atomic_json
-from generate import Assets, groups_from_excel
+from generate import Assets, groups_from_excel, thumbnail_filename
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'output'
 state=json.loads((OUT/'catalog-state.json').read_text())
 index=json.loads((OUT/'catalog-source-index.json').read_text())
 groups=index['groups'];products=state['products']
+excel_groups,_=groups_from_excel(ROOT/'화장품 썸네일_수정.xlsx')
+assert set(excel_groups)==set(groups)
+for code,g in groups.items():
+    assert thumbnail_filename(g)==thumbnail_filename(excel_groups[code]), 'Stale Excel filename mapping'
 assert set(groups)==set(products), 'Unrun/extra product groups'
 assets=Assets(ROOT)
 mark=Image.open(ROOT/'pick&mood.kr 로고.png').convert('RGBA')
@@ -44,7 +48,8 @@ for number,(code,g) in enumerate(groups.items(),1):
         counts['badge_positions'][thumb['layout']['badge_position']]+=1
         path=OUT/thumb['path'];assert digest(path)==thumb['sha256']
         checked_thumbnail(path,thumb['layout'],g,assets)
-        files[f'{code}/thumbnail.png']=path
+        assert path == OUT/code/thumbnail_filename(g), 'Excel thumbnail filename mismatch'
+        files[thumb['path']]=path
         counts['thumbnails']+=1
         if thumb['layout'].get('visual_review_required') or (thumb['layout'].get('design_version',5)<6 and thumb['layout']['badge_occupied_fraction']>.02):
             review=thumb.get('visual_review')
@@ -53,7 +58,7 @@ for number,(code,g) in enumerate(groups.items(),1):
                 assert review['decision']=='approved' and review['source_sha256']==thumb['layout']['source']['sha256']
     else:
         if 'badge_review:' not in thumb.get('error',''): counts['missing_thumbnail_products'].append(code)
-        assert not (OUT/code/'thumbnail.png').exists(), 'Failed item has a stale thumbnail'
+        assert not (OUT/code/thumbnail_filename(g)).exists(), 'Failed item has a stale thumbnail'
     refs={o['reference'] for o in g['options']}
     assert refs==set(p['options']), f'Missing option status: {code}'
     option_count=0
@@ -91,8 +96,8 @@ for number,(code,g) in enumerate(groups.items(),1):
     rows.append([code,p['status'],thumb['status'],option_count,len(refs),'; '.join(i['type'] for i in issues)])
     if number%25==0:print(f'Validated {number}/{len(groups)} products',flush=True)
 
-assert set(p.name for p in OUT.glob('*/thumbnail.png')) == {'thumbnail.png'}
-assert len(list(OUT.glob('*/thumbnail.png')))==counts['thumbnails']
+assert not list(OUT.glob('*/thumbnail.png')), 'Legacy thumbnail filenames remain'
+assert len(list(OUT.glob('*/*.png')))==counts['thumbnails']
 assert len(list(OUT.glob('*/options/*.png')))==counts['options']
 assert len(list((ROOT/'archives').glob('*.zip')))==len(groups)
 for path in (ROOT/'previews/catalog').glob('page-*.png'):Image.open(path).verify()

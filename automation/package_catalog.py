@@ -13,7 +13,7 @@ if destination.is_relative_to(ROOT):raise ValueError('Keep the large bundle outs
 destination.parent.mkdir(parents=True,exist_ok=True)
 files=[ROOT/'README.md',*ROOT.glob('automation/*.py'),*ROOT.glob('automation/*.json'),
        ROOT/'automation/README.md',ROOT/'automation/requirements.txt',
-       *ROOT.glob('output/*/thumbnail.png'),*ROOT.glob('output/*/options/*.png'),
+       *ROOT.glob('output/*/*.png'),*ROOT.glob('output/*/options/*.png'),
        *ROOT.glob('output/catalog-*'),ROOT/'output/CATALOG_REPORT.md',
        *ROOT.glob('previews/catalog/*')]
 files=sorted(set(p for p in files if p.is_file()))
