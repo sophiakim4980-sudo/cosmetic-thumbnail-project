@@ -1,29 +1,14 @@
-{"code": "GF0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
+{"code": "GF0001", "type": "thumbnail_review", "error": "badge_review: no safe upper candidate"}
 {"code": "ET0001", "type": "missing_option_reference", "row": 29}
 {"code": "ET0001", "type": "missing_option_reference", "row": 30}
 {"code": "ET0001", "type": "missing_option_reference", "row": 31}
 {"code": "ET0001", "type": "missing_option_reference", "row": 32}
 {"code": "ET0001", "type": "missing_option_reference", "row": 33}
-{"code": "ET0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "IC0001", "type": "option_failed", "row": 44, "reference": "IC0001-3", "error": "option: IC0001-3"}
 {"code": "IC0001", "type": "option_failed", "row": 45, "reference": "IC0001-4", "error": "option: IC0001-4"}
-{"code": "BN0002", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "AD0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "WM0002", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "ME0001", "type": "missing_option_reference", "row": 138}
 {"code": "ME0001", "type": "missing_option_reference", "row": 139}
-{"code": "ME0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "EU0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "HY0002", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
+{"code": "HY0002", "type": "thumbnail_review", "error": "badge_review: no safe upper candidate"}
 {"code": "ET0002", "type": "missing_option_reference", "row": 188}
 {"code": "ET0002", "type": "missing_option_reference", "row": 189}
-{"code": "AB0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "DF0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "HY0003", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "NC0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "DJ0004", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "IF0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "IM0005", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "DO0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "RP0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "SH0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
+{"code": "DF0001", "type": "thumbnail_review", "error": "badge_review: no safe upper candidate"}

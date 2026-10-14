@@ -1,0 +1,210 @@
+{
+  "missing_option_references": [
+    {
+      "reference": "IC0001-3",
+      "match": null,
+      "reason": "No exact filename or stem in all original and revised source archives."
+    },
+    {
+      "reference": "IC0001-4",
+      "match": null,
+      "reason": "No exact filename or stem in all original and revised source archives."
+    }
+  ],
+  "blank_option_rows": [
+    {
+      "code": "ET0001",
+      "row": 29,
+      "values": {
+        "품명": null,
+        "브랜드": "ETUDE",
+        "상품명": "Curl Fix Mascara (5 Options)",
+        "옵션명": "01 Black",
+        "옵션 파일": null,
+        "썸네일 파일": null
+      }
+    },
+    {
+      "code": "ET0001",
+      "row": 30,
+      "values": {
+        "품명": null,
+        "브랜드": "ETUDE",
+        "상품명": "Curl Fix Mascara (5 Options)",
+        "옵션명": "02 Brown",
+        "옵션 파일": null,
+        "썸네일 파일": null
+      }
+    },
+    {
+      "code": "ET0001",
+      "row": 31,
+      "values": {
+        "품명": null,
+        "브랜드": "ETUDE",
+        "상품명": "Curl Fix Mascara (5 Options)",
+        "옵션명": "03 Gray Brown",
+        "옵션 파일": null,
+        "썸네일 파일": null
+      }
+    },
+    {
+      "code": "ET0001",
+      "row": 32,
+      "values": {
+        "품명": null,
+        "브랜드": "ETUDE",
+        "상품명": "Curl Fix Mascara (5 Options)",
+        "옵션명": "04 Volume",
+        "옵션 파일": null,
+        "썸네일 파일": null
+      }
+    },
+    {
+      "code": "ET0001",
+      "row": 33,
+      "values": {
+        "품명": null,
+        "브랜드": "ETUDE",
+        "상품명": "Curl Fix Mascara (5 Options)",
+        "옵션명": "(NEW) 05 Long Lash",
+        "옵션 파일": null,
+        "썸네일 파일": null
+      }
+    },
+    {
+      "code": "ME0001",
+      "row": 138,
+      "values": {
+        "품명": null,
+        "브랜드": "MAEIL",
+        "상품명": "Selex Profit Sports Protein Shake (2 Flavor)",
+        "옵션명": "(1+1) NutyChoco 45g",
+        "옵션 파일": null,
+        "썸네일 파일": null
+      }
+    },
+    {
+      "code": "ME0001",
+      "row": 139,
+      "values": {
+        "품명": null,
+        "브랜드": "MAEIL",
+        "상품명": "Selex Profit Sports Protein Shake (2 Flavor)",
+        "옵션명": "(1+1) Misutgaru 45g",
+        "옵션 파일": null,
+        "썸네일 파일": null
+      }
+    },
+    {
+      "code": "ET0002",
+      "row": 188,
+      "values": {
+        "품명": null,
+        "브랜드": "ETUDE",
+        "상품명": "Line Fix Brush Liner (2 Colors)",
+        "옵션명": "(1+1) 01 Black",
+        "옵션 파일": null,
+        "썸네일 파일": null
+      }
+    },
+    {
+      "code": "ET0002",
+      "row": 189,
+      "values": {
+        "품명": null,
+        "브랜드": "ETUDE",
+        "상품명": "Line Fix Brush Liner (2 Colors)",
+        "옵션명": "(1+1) 02 Brown",
+        "옵션 파일": null,
+        "썸네일 파일": null
+      }
+    }
+  ],
+  "related_actual_archive_images": [
+    {
+      "archive": "화장품 썸네일-1.zip",
+      "member": "ET0001-1.png",
+      "filename": "ET0001-1.png",
+      "sha256": "65eefc4731d22da08fc64ef25db8a74c83352d2438641405223ec58b25c39c7d"
+    },
+    {
+      "archive": "화장품 썸네일-1.zip",
+      "member": "ET0001-2.png",
+      "filename": "ET0001-2.png",
+      "sha256": "46a81bb14fed84c1a03be9ebacccfc43c9aa7b45b7a0509e9d7705d2e860c1f9"
+    },
+    {
+      "archive": "화장품 썸네일-1.zip",
+      "member": "ET0001-3.png",
+      "filename": "ET0001-3.png",
+      "sha256": "de99172803166dc1c9049618263db0c9a5eb80e5bfac8d63d97993c8efdcd055"
+    },
+    {
+      "archive": "화장품 썸네일-1.zip",
+      "member": "ET0001-4.png",
+      "filename": "ET0001-4.png",
+      "sha256": "ebac989b90b148f349b0d9d0bc09f939f10bb0f2dbd65d01886bd6a6cd199374"
+    },
+    {
+      "archive": "화장품 썸네일-1.zip",
+      "member": "ET0001-5.png",
+      "filename": "ET0001-5.png",
+      "sha256": "27efbcf9bd4d88fc3b94e6d68c27934b09d6cfe5790b4b793341bfa6a6fb8604"
+    },
+    {
+      "archive": "화장품 썸네일-1.zip",
+      "member": "IC0001-5.png",
+      "filename": "IC0001-5.png",
+      "sha256": "38f8adc6aae8f05b0932d2e396691c0f41d290b1c7d8c0ad2453d3958378b9f1"
+    },
+    {
+      "archive": "화장품 썸네일-1.zip",
+      "member": "IC0001-1.png",
+      "filename": "IC0001-1.png",
+      "sha256": "89cdf714799b7c5c6e4368046022f1e0c2543b37020cde38594b88d23b7db185"
+    },
+    {
+      "archive": "화장품 썸네일-1.zip",
+      "member": "IC0001-2.png",
+      "filename": "IC0001-2.png",
+      "sha256": "94fd504761e8d2dc7b443d1d0ce5d35d0fb56233cda49669cab6e04ab0b4bfb5"
+    },
+    {
+      "archive": "화장품 썸네일-2.zip",
+      "member": "ME0001-3.png",
+      "filename": "ME0001-3.png",
+      "sha256": "97c617007170ffefacf077a977d1235ae8d2e4a97edb7d69d3352cc326dd9ba4"
+    },
+    {
+      "archive": "화장품 썸네일-2.zip",
+      "member": "ME0001-1.png",
+      "filename": "ME0001-1.png",
+      "sha256": "12d2ea1be3b6ff24485b11cdc6c74d948d252fedd5aeb7f361eea29ad94292a9"
+    },
+    {
+      "archive": "화장품 썸네일-2.zip",
+      "member": "ME0001-2.png",
+      "filename": "ME0001-2.png",
+      "sha256": "92b270fc140fad715e994fb4e8e17309268a9e433c0abf7f79d7bf3fe20d868e"
+    },
+    {
+      "archive": "화장품 썸네일-2.zip",
+      "member": "ET0002-3.png",
+      "filename": "ET0002-3.png",
+      "sha256": "452f46c08969eaea96ddfe0a1591111c516023a9256885bd2b9997b2e5e9765c"
+    },
+    {
+      "archive": "화장품 썸네일-2.zip",
+      "member": "ET0002-1.png",
+      "filename": "ET0002-1.png",
+      "sha256": "5856ef244427ee14561429fff62513e410bd3007b0a89697e0b4f55c0b2badde"
+    },
+    {
+      "archive": "화장품 썸네일-2.zip",
+      "member": "ET0002-2.png",
+      "filename": "ET0002-2.png",
+      "sha256": "af1fd4129ff489b346605457b91431e2dfaf4055e10a56e9f8856e3cef78fba3"
+    }
+  ]
+}

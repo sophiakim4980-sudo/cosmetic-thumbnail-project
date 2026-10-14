@@ -2,11 +2,11 @@
   "raw_excel_product_codes": 182,
   "corrected_product_groups": 183,
   "brands": 112,
-  "thumbnails": 165,
+  "thumbnails": 180,
   "options": 596,
   "zips": 183,
-  "complete_products": 163,
-  "incomplete_products": 20,
+  "complete_products": 176,
+  "incomplete_products": 7,
   "missing_thumbnail_products": [],
   "missing_option_references": [
     {
@@ -58,28 +58,13 @@
   ],
   "unexpected_render_failures": [],
   "badge_positions": {
-    "upper_right": 46,
-    "upper_left": 119
+    "upper_right": 49,
+    "upper_left": 131
   },
   "badge_review_products": [
     "GF0001",
-    "ET0001",
-    "BN0002",
-    "AD0001",
-    "WM0002",
-    "ME0001",
-    "EU0001",
     "HY0002",
-    "AB0001",
-    "DF0001",
-    "HY0003",
-    "NC0001",
-    "DJ0004",
-    "IF0001",
-    "IM0005",
-    "DO0001",
-    "RP0001",
-    "SH0001"
+    "DF0001"
   ],
   "unique_missing_asset_references": [
     "IC0001-3",

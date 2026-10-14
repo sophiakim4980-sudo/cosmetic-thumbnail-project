@@ -21,15 +21,15 @@ class V5Tests(unittest.TestCase):
     def test_right_when_left_is_occupied(self):
         im=Image.new('RGB',(1024,1024),'white')
         ImageDraw.Draw(im).rectangle((48,210,350,500),fill='black')
-        self.assertEqual(choose_badge(im,200,220)[0],866)
+        self.assertEqual(choose_badge(im,200,220,allow_overlap=False)[0],866)
 
     def test_no_bottom_fallback(self):
         im=Image.new('RGB',(1024,1024),'white')
         ImageDraw.Draw(im).rectangle((40,212,984,600),fill='black')
         with self.assertRaisesRegex(ValueError,'badge_review'):
-            choose_badge(im,200,220)
+            choose_badge(im,200,220,allow_overlap=False)
         with self.assertRaisesRegex(ValueError,'badge_review'):
-            choose_badge(im,200,220,manual=[866,860])
+            choose_badge(im,200,220,manual=[866,860],allow_overlap=False)
 
     def test_revised_priority_and_combined_zip_separation(self):
         assets=Assets(ROOT)

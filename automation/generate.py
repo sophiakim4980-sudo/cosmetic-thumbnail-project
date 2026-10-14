@@ -10,6 +10,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
 
+from badge_rules import circle_intersects_box, important_regions
 from openpyxl import load_workbook
 from PIL import Image, ImageChops, ImageDraw, ImageFont, ImageOps, ImageStat
 
@@ -252,11 +253,11 @@ def frame_color(product):
     return color
 
 
-def choose_badge(canvas, text_bottom, product_top, inset=78, protected_boxes=(), manual=None):
+def choose_badge(canvas, text_bottom, product_top, inset=78, protected_boxes=(), manual=None, critical_boxes=(), allow_overlap=True):
     """Only two upper candidates, with 40 px clearance from the inner frame.
 
     Never fall back to the bottom or resize the independently fitted product.
-    Non-white overlap is conservatively rejected and sent for manual review.
+    V6 protects annotated/OCR labels; source overlap only ranks positions.
     """
     occupied = ImageChops.difference(canvas, Image.new('RGB', canvas.size, 'white')).convert('L')
     occupied = occupied.point(lambda p: 255 if p > 18 else 0)
@@ -264,7 +265,8 @@ def choose_badge(canvas, text_bottom, product_top, inset=78, protected_boxes=(),
     cy = max(text_bottom + 12 + radius, inset + radius)
     # Explore only the upper corners; never scan lower product whitespace.
     candidates = [(cx, y) for y in range(cy, min(product_top+160,866)+1,8)
-                  for cx in (inset+radius,1024-inset-radius)]
+                  for cx in ([*range(inset+radius,351,8),*range(674,1024-inset-radius+1,8)]
+                             if allow_overlap else (inset+radius,1024-inset-radius))]
     if manual is not None:
         candidates = [tuple(manual)]
     mask = Image.new('L', (161,161), 0)
@@ -278,13 +280,15 @@ def choose_badge(canvas, text_bottom, product_top, inset=78, protected_boxes=(),
         if any(box[0] < p[2]+8 and box[2] > p[0]-8 and box[1] < p[3]+8
                and box[3] > p[1]-8 for p in protected_boxes):
             continue
+        if allow_overlap and any(circle_intersects_box((cx,cy), box) for box in critical_boxes):
+            continue
         overlap = ImageStat.Stat(occupied.crop((cx-80,cy-80,cx+81,cy+81)), mask=mask).mean[0]/255
         scores.append((overlap, cx, cy))
     if not scores:
         raise ValueError('badge_review: no safe upper candidate')
     # Stable left preference when the two candidates have equivalent occupancy.
-    overlap, cx, cy = min(scores, key=lambda v: (round(v[0],6), v[2], v[1]))
-    if overlap > .02:
+    overlap, cx, cy = min(scores, key=lambda v: ((v[1]>512) if allow_overlap else 0, round(v[0],6), v[2], v[1]))
+    if not allow_overlap and overlap > .02:
         raise ValueError(f'badge_review: upper candidates overlap product ({overlap:.4f}); no bottom fallback')
     return cx, cy, overlap
 
@@ -302,8 +306,13 @@ def relocate_thumbnail(group, assets, original_path, layout, destination):
     product = product.resize((x1-x,y1-y), Image.Resampling.LANCZOS)
     color = tuple(details['frame_rgb'])
     text_bottom = max(b[3] for b in details['title_boxes']+details['subtitle_boxes'])
+    v6=group.get('badge_policy_version') == 6
+    regions,region_method=important_regions(canvas,details['product_box'],group,details['source']['sha256']) if v6 else ([], 'V5 legacy')
     dxs, dys = [0], [0]
-    if group.get('allow_product_translation'):
+    if v6 and group.get('v6_product_translation'):
+        dxs=[group['v6_product_translation'][0]]
+        dys=[group['v6_product_translation'][1]]
+    if group.get('allow_product_translation') and not v6:
         left, top, right, bottom = details['product_area']
         dxs = sorted(set([0,left-x,right-x1]), key=abs)
         maximum_down = max(0,min(160,bottom-y1))
@@ -314,17 +323,21 @@ def relocate_thumbnail(group, assets, original_path, layout, destination):
     selected = None
     for dy in dys:
         for dx in dxs:
+            left,top,right,bottom=details['product_area']
+            if not (left <= x+dx and x1+dx <= right and top <= y+dy and y1+dy <= bottom):
+                continue
             candidate = base.copy()
             candidate.paste(product,(x+dx,y+dy))
             ImageDraw.Draw(candidate).rectangle((12,12,1011,1011),outline=color,width=26)
             try:
                 cx,cy,overlap = choose_badge(candidate,text_bottom,details['product_area'][1],
                     protected_boxes=[details['logo_box'],*details['title_boxes'],*details['subtitle_boxes']],
-                    manual=group.get('badge_center'))
+                    manual=group.get('badge_center'),
+                    critical_boxes=[[b[0]+dx,b[1]+dy,b[2]+dx,b[3]+dy] for b in regions],allow_overlap=v6)
                 selected = (candidate,dx,dy,cx,cy,overlap)
                 break
             except ValueError:
-                if not group.get('allow_product_translation'):
+                if not group.get('allow_product_translation') or v6:
                     raise
         if selected: break
     if selected is None:
@@ -336,11 +349,14 @@ def relocate_thumbnail(group, assets, original_path, layout, destination):
     draw.ellipse((cx-80,cy-80,cx+80,cy+80), fill=color)
     draw.text((cx,cy), '1+1', fill='white', font=font(51,True), anchor='mm')
     canvas.save(destination)
-    details.update(design_version=5,badge_box=[cx-80,cy-80,cx+80,cy+80],
+    details.update(design_version=6 if v6 else 5,badge_box=[cx-80,cy-80,cx+80,cy+80],
         badge_occupied_fraction=overlap,badge_position='upper_left' if cx<512 else 'upper_right',
         badge_frame_clearance=min(cx-80-38,986-cx-80,cy-80-38,986-cy-80),
         badge_resized_product=False,layout_preserved=(dx==0 and dy==0),
         product_size_preserved=True)
+    if v6:
+        details.update(critical_regions=[[b[0]+dx,b[1]+dy,b[2]+dx,b[3]+dy] for b in regions],critical_region_method=region_method,
+                       visual_review_required=(overlap>.02))
     return details
 
 
@@ -385,12 +401,14 @@ def make_thumbnail(g, assets, destination):
     ratio = cropped_size[0]/cropped_size[1]
     py = top if ratio > 1.35 else bottom-product.height
     canvas.paste(product, (x, py))
+    regions,region_method=important_regions(canvas,[x,py,x+product.width,py+product.height],g,product_item['sha256'])
     cx, cy, occupancy = choose_badge(canvas, text_bottom, top,
-                                    protected_boxes=[logo_box,*title_boxes,*subtitle_boxes], manual=g.get('badge_center'))
+                                    protected_boxes=[logo_box,*title_boxes,*subtitle_boxes], manual=g.get('badge_center'),
+                                    critical_boxes=regions,allow_overlap=True)
     draw.ellipse((cx-80, cy-80, cx+80, cy+80), fill=color)
     draw.text((cx, cy), '1+1', fill='white', font=font(51, True), anchor='mm')
     canvas.save(destination)
-    return {'design_version': 5, 'source': product_item, 'brand_logo': logo_item,
+    return {'design_version': 6, 'source': product_item, 'brand_logo': logo_item,
             'main_title': main, 'subtitles': notes, 'logo_box': logo_box,
             'title_boxes': title_boxes, 'subtitle_boxes': subtitle_boxes,
             'cropped_source_size': list(cropped_size), 'product_scale': scale,
@@ -399,6 +417,8 @@ def make_thumbnail(g, assets, destination):
             'badge_box': [cx-80, cy-80, cx+80, cy+80],
             'badge_position': 'upper_left' if cx < 512 else 'upper_right',
             'badge_frame_clearance': min(cx-80-38,986-cx-80,cy-80-38,986-cy-80),
+            'critical_regions': regions, 'critical_region_method':region_method,
+            'visual_review_required': occupancy>.02 or not g.get('important_region_annotation'),
             'badge_occupied_fraction': occupancy, 'badge_resized_product': False,
             'frame_rgb': color, 'frame_width': frame_width, 'frame_inset': frame_inset,
             'background_rgb': [255,255,255], 'size': [1024, 1024]}

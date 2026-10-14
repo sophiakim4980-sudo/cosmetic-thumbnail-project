@@ -8,8 +8,8 @@
         "status": "success",
         "path": "RL0001/thumbnail.png",
         "sha256": "9b8a991c399cd4af27ce2952a26a4d857114118aa5b8ba93897044a34d0e2057",
-        "fingerprint": "cce0107cdb68e5efd9ab4621ba5ce41873573e29fa174d0ab4dcedd67badf74a",
-        "reused": false,
+        "fingerprint": "cd4f5f6cf12837504367c3894b61ff0663582729ba3028889b25e6c8aaddfb79",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -173,8 +173,8 @@
         "status": "success",
         "path": "MP0001/thumbnail.png",
         "sha256": "592d7d715cc363fed35be58fb9328ffb0e799118491f10c8b7d0a9082d7edb99",
-        "fingerprint": "47d18aa0702eece50b5fdfb8bebc4fc3cde49376307e9990a5974be6e3dfe6e4",
-        "reused": false,
+        "fingerprint": "2236f4999bd5c03908c1f4b67325c3307e8972b016796d39a4013e9ea210ee43",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -344,8 +344,8 @@
         "status": "success",
         "path": "LL0001/thumbnail.png",
         "sha256": "bb1ab8d5dd57c3cc3b5a16bba8e85285a020d581c5102325921b56f1dcfdd765",
-        "fingerprint": "ebfdee8b02de7d8fc328477fb05738a5645647dc5e27ac4e5890ff76f3ce3d8f",
-        "reused": false,
+        "fingerprint": "792a95b86b0907959b7d78157c98470f99af0b0ce736e18a06296ad693b94d86",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -518,7 +518,7 @@
         "status": "success",
         "path": "SN0001/thumbnail.png",
         "sha256": "30fbe403be83f317b355068113d21a438625d559abaf0d13f4af8fe94642a4ed",
-        "fingerprint": "7dcc641c5059f4583fe7341ee43b1354becbb5d8dac1870baf49c44bb91a2c95",
+        "fingerprint": "5ccc8a2a78dd37510217eadd0004222bffbca18b260f42601bcea4bc270a727f",
         "reused": true,
         "layout": {
           "design_version": 5,
@@ -684,8 +684,8 @@
         "status": "success",
         "path": "WM0001/thumbnail.png",
         "sha256": "cc70939ad3744411c4a19d088f1fb63563ed791b08c66919a185a3af27d18920",
-        "fingerprint": "6cfad69465536cdd6e735c15da2ec628bb3915c4cfd268bdfd54da261e237a18",
-        "reused": false,
+        "fingerprint": "3e3538dd30b62c866c96bd91805920f190ab2344c2031d07a75bebba531d50ba",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -886,8 +886,8 @@
       "code": "GF0001",
       "status": "incomplete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "review_required",
+        "error": "badge_review: no safe upper candidate"
       },
       "options": {
         "GF0001-1": {
@@ -1141,14 +1141,14 @@
       },
       "issues": [
         {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+          "type": "thumbnail_review",
+          "error": "badge_review: no safe upper candidate"
         }
       ],
       "expected_option_references": 8,
       "zip": {
         "path": "archives/GF0001.zip",
-        "sha256": "ede020bd49bd75ca8081013f178d08fbabfdb0f208b2c9bde6e150a5b9a10a96"
+        "sha256": "00b276ddbf9e3f86031324c7d49f95ffa8477cd2cb4080cbeeabecb826e15893"
       }
     },
     "KL0001": {
@@ -1158,8 +1158,8 @@
         "status": "success",
         "path": "KL0001/thumbnail.png",
         "sha256": "d6167d3a9837449621db442127a3a94115f6c0e5294c95e8027f57b8f1d2ddb8",
-        "fingerprint": "05e216736ae79cf66d5c6d031fa3a4a08c4e6ad8cc487258541cdf5f8177a5dd",
-        "reused": false,
+        "fingerprint": "d5ae40a62a61d26de05ff70e11b86ef589557607cc155f68d4c7b366026c7901",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -1360,8 +1360,140 @@
       "code": "ET0001",
       "status": "incomplete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "ET0001/thumbnail.png",
+        "sha256": "8263dee4d244bd45e28e2cf2b681bb66c16499faa830d0cf6d3596596d8358c9",
+        "fingerprint": "a77a1f5116762adedc1161a0ced62464af50a710ff98508231353c4d0580305b",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-1.zip",
+            "member": "ET0001-2.png",
+            "raw_member": "ET0001-2.png",
+            "filename": "ET0001-2.png",
+            "sha256": "46a81bb14fed84c1a03be9ebacccfc43c9aa7b45b7a0509e9d7705d2e860c1f9"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/ET.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/ET.png",
+            "filename": "ET.png",
+            "sha256": "69546fab0a9efa0b90a7c80a1cd2de9139064b93024a60a09de39502984cb6de"
+          },
+          "main_title": "Curl Fix Mascara",
+          "subtitles": [
+            "5 Options"
+          ],
+          "logo_box": [
+            450,
+            58,
+            573,
+            110
+          ],
+          "title_boxes": [
+            [
+              269,
+              122,
+              755,
+              163
+            ]
+          ],
+          "subtitle_boxes": [
+            [
+              442,
+              171,
+              582,
+              199
+            ]
+          ],
+          "cropped_source_size": [
+            720,
+            653
+          ],
+          "product_scale": 1.1500765696784074,
+          "product_box": [
+            98,
+            219,
+            926,
+            970
+          ],
+          "product_area": [
+            48,
+            219,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.1026033690658499,
+          "badge_box": [
+            270,
+            211,
+            430,
+            371
+          ],
+          "badge_occupied_fraction": 0.5775798435116383,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            170,
+            132,
+            144
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            0,
+            0
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 173,
+          "layout_preserved": true,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              140,
+              544,
+              217,
+              750
+            ],
+            [
+              260,
+              544,
+              350,
+              750
+            ],
+            [
+              495,
+              263,
+              579,
+              304
+            ],
+            [
+              495,
+              470,
+              804,
+              800
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "8263dee4d244bd45e28e2cf2b681bb66c16499faa830d0cf6d3596596d8358c9",
+          "source_sha256": "46a81bb14fed84c1a03be9ebacccfc43c9aa7b45b7a0509e9d7705d2e860c1f9",
+          "reviewer": "Codex image inspection",
+          "note": "Badge overlaps a plain mascara cap; ETUDE and Curl Fix labels remain fully visible.",
+          "policy_version": 6
+        }
       },
       "options": {
         "ET0001-1": {
@@ -1545,16 +1677,12 @@
           "type": "missing_option_reference",
           "code": "ET0001",
           "row": 33
-        },
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
         }
       ],
       "expected_option_references": 5,
       "zip": {
         "path": "archives/ET0001.zip",
-        "sha256": "7f1cea7a84c69e9903e2a8b1d7665fc3f85148a01939edd2fd7ecd272572e306"
+        "sha256": "e4704090802d0391ca57f281ef785298eb3fa0303a109357fa42132557a8b798"
       }
     },
     "RL0002": {
@@ -1564,8 +1692,8 @@
         "status": "success",
         "path": "RL0002/thumbnail.png",
         "sha256": "263eaf83b4b96e56e4ed2ed189b73e3ff863906679484142c0e176917b749384",
-        "fingerprint": "e0decdfbe9d4575dfc6daa1283396e60a347db3410ecb041240d47f7fa4ba558",
-        "reused": false,
+        "fingerprint": "a6cd4c3ffff6061e45d6b6f3ea4a397d04d737242770d81fd18f1f0036b528e5",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -1735,8 +1863,8 @@
         "status": "success",
         "path": "GA0001/thumbnail.png",
         "sha256": "47a30be71d8c7945659768590f9d3566b5389f8a3eb2bd898dc2f629bc738008",
-        "fingerprint": "c1bfe647138a12c80d04e5901d4ecf0c2c0f1dc7a43d2ea73ea572f8972e3c4f",
-        "reused": false,
+        "fingerprint": "2172f66db72a6540456aa7faa249e4687d05145f1ec308a0690ff2d07d9f1964",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -1900,8 +2028,8 @@
         "status": "success",
         "path": "CM0001/thumbnail.png",
         "sha256": "54224fb063c35f77d6c64754fd72b85ff936b4f0a56da5c1ba7111dd1ea30366",
-        "fingerprint": "f380873bf57d25d24ca646b81daa59398940749138ac81f1d28a7be39b961cdf",
-        "reused": false,
+        "fingerprint": "ae12714e45f82420a4503cffafe58868eb70913b0151fd43a0940d17af5da6be",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -2071,8 +2199,8 @@
         "status": "success",
         "path": "MP0002/thumbnail.png",
         "sha256": "4bf621450bda4263ae16995dd4cf21845539011d6db984eca422d71a78de99f2",
-        "fingerprint": "b0b581dbf720e0d6f6ed3fe4c5840ef7ed57bfa9d65e931b1d460697ccb82c87",
-        "reused": false,
+        "fingerprint": "8ea8d119b440fb67afc5965c01be377432fd13c858b525db52441dbaf8711117",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -2242,8 +2370,8 @@
         "status": "success",
         "path": "IC0001/thumbnail.png",
         "sha256": "4e3015682499d5475ddb108a3442dfe10dedc9a6218cc9aeb07cf94cd4ebb33e",
-        "fingerprint": "d668913dfb76a1962f9e26f73cbe9935914b9d440ff03a932cd59b6f306e9bfd",
-        "reused": false,
+        "fingerprint": "864d8472bc5234a0c2a30634be36c52af9f25e752e4c1d03d335e61defcd7a3d",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -2453,8 +2581,8 @@
         "status": "success",
         "path": "CQ0001/thumbnail.png",
         "sha256": "648ee82417f391cde310062d2cd0c4b369d51364f0d522192adddce0a4b3b2b0",
-        "fingerprint": "52d3c20ea465bc268d5e7aad9a262fa6d06fb31a74d0953d9f6aadcd9d4703e3",
-        "reused": false,
+        "fingerprint": "d043e8369e2d551a3eb05bd8fe081b96e1ff8f921db9dca5d01e3b95d404e06b",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -2624,8 +2752,8 @@
         "status": "success",
         "path": "MD0001/thumbnail.png",
         "sha256": "cea88a90716f2c8b7309cb5e6a6cce5598adf42ffe176fcb658e0199621eb984",
-        "fingerprint": "3bee999170e230b63efd3b169e36e872610f25069d0e4f6593bb508501d54b52",
-        "reused": false,
+        "fingerprint": "d89a72be6384513fd74dc7b3cce93960703067fa72932776e2b468aa159b3948",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -3090,8 +3218,8 @@
         "status": "success",
         "path": "BD0001/thumbnail.png",
         "sha256": "831dc6389a58f91a64053da1ee5e89dbfddca9d8fedccb409d34722df490cf88",
-        "fingerprint": "84920b5ad091141fe57c684ca739a67bfa88f5ea69445dc59851c17705f7f163",
-        "reused": false,
+        "fingerprint": "9dd58715d5cac811e977759ce34ba2d2cf206af96332d6542f38456bd8d4d780",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -3261,8 +3389,8 @@
         "status": "success",
         "path": "IM0001/thumbnail.png",
         "sha256": "ef9862121f4687be81d2dc75a99d5e2e7e39cf9d27f2db6aa1f91e1155a0e14d",
-        "fingerprint": "85787d50d5e96b1bbd565433dd5081120d325278599ea85bf3fd2d08b16e4781",
-        "reused": false,
+        "fingerprint": "2d38a92cba6d9aaede0d237989a2a372322d0fa36ba4d445e3503359945c4b8e",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -3463,8 +3591,8 @@
         "status": "success",
         "path": "IM0002/thumbnail.png",
         "sha256": "003caae880fdaab8377282d4a66ecbb622b5edd147d971b71bb3a64ad3ec0d54",
-        "fingerprint": "379eaaddcf1cc9adf9b1fa820541b8ef299700e0765613bbf9226e563f7ac9a4",
-        "reused": false,
+        "fingerprint": "7f63fdf75159801cf0a562af61c32ae4590493bd54757ae2fa2872fbc97aa3cc",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -3659,8 +3787,8 @@
         "status": "success",
         "path": "BN0001/thumbnail.png",
         "sha256": "ea9169d901cce792854a783d5cde1dc85af7cbc65204403609ba4e1a125722d2",
-        "fingerprint": "f726072b3b9edfa1007a6538220f62f1a1461c01b3ec497a322002cc9c86930a",
-        "reused": false,
+        "fingerprint": "e6f02f25b63ec03f8a79817c272347fdd98e31c658f107af1cb564b07dfd353a",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -3825,10 +3953,136 @@
     },
     "BN0002": {
       "code": "BN0002",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "BN0002/thumbnail.png",
+        "sha256": "28e3365194cdfc97cfc00741bc21d9be468992e2057c1df2a961c32b991c72c7",
+        "fingerprint": "100444e982eaac6cbc01fe78187353f09a8ff84674694f63d6017b375bd594b0",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-1.zip",
+            "member": "BN0002-5.png",
+            "raw_member": "BN0002-5.png",
+            "filename": "BN0002-5.png",
+            "sha256": "cdef480b0a646c65af6b941b2bce13411b6c952ca3bb9cc1c0a5588efc81fb11"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/BN.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/BN.png",
+            "filename": "BN.png",
+            "sha256": "5a99e18983df99c5e3827b6a455e92ac0e3214eb59592befef3a530a986b707f"
+          },
+          "main_title": "Gel Toner Pads",
+          "subtitles": [
+            "Double Pack"
+          ],
+          "logo_box": [
+            370,
+            58,
+            654,
+            110
+          ],
+          "title_boxes": [
+            [
+              295,
+              122,
+              729,
+              163
+            ]
+          ],
+          "subtitle_boxes": [
+            [
+              423,
+              171,
+              602,
+              193
+            ]
+          ],
+          "cropped_source_size": [
+            919,
+            753
+          ],
+          "product_scale": 1.00531208499336,
+          "product_box": [
+            50,
+            213,
+            974,
+            970
+          ],
+          "product_area": [
+            48,
+            213,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.2204515272244356,
+          "badge_box": [
+            78,
+            205,
+            238,
+            365
+          ],
+          "badge_occupied_fraction": 0.33315289601889675,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            180,
+            135,
+            135
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            0,
+            0
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 40,
+          "layout_preserved": true,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              151,
+              374,
+              503,
+              568
+            ],
+            [
+              633,
+              374,
+              973,
+              568
+            ],
+            [
+              700,
+              691,
+              970,
+              931
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "28e3365194cdfc97cfc00741bc21d9be468992e2057c1df2a961c32b991c72c7",
+          "source_sha256": "cdef480b0a646c65af6b941b2bce13411b6c952ca3bb9cc1c0a5588efc81fb11",
+          "reviewer": "Codex image inspection",
+          "note": "Only the upper-left lid edge is covered; Biodance and product labels are clear.",
+          "policy_version": 6
+        }
       },
       "options": {
         "BN0002-1": {
@@ -3956,16 +4210,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BN0002.zip",
-        "sha256": "d458c63ca9a086fc44251c80f8e5ab84d6a28708b596377b451fd60f8ec82346"
+        "sha256": "6b9f555fe8f8adcbb1c943d4c20e4ef670b23e1b65bcbd14b5f9ca79cffed39e"
       }
     },
     "CL0001": {
@@ -3975,8 +4224,8 @@
         "status": "success",
         "path": "CL0001/thumbnail.png",
         "sha256": "5aed238396bdee35d8a8077c90e7dc55869f094d73eb49e72e042331c3ec1acf",
-        "fingerprint": "f570fff4765e24ad932c1d2ab82a0056c789b6c7414c49bbf258af60ce48aea1",
-        "reused": false,
+        "fingerprint": "024126a144c04c1a6e46a6378878050d0fe57509396becd1f239dba6c6a819f9",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -4435,8 +4684,8 @@
         "status": "success",
         "path": "CL0002/thumbnail.png",
         "sha256": "912a0c7291ae27fe5f91ea7fb47f6304520fb73a842305c9834b00dc534846ed",
-        "fingerprint": "630a725d9a4762bec70cadb4a77454c438e2273de45fcd074e3300b370ad899c",
-        "reused": false,
+        "fingerprint": "f4702c0199da6fcdc1eb5576d7fc0dd9f1cbd98236c6d2d09fcc7deef3c7f493",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -5056,8 +5305,8 @@
         "status": "success",
         "path": "HY0001/thumbnail.png",
         "sha256": "2cde4aa62aaf5c35c379373d04b841b805ed03cdafb9e644bace6c882a023a81",
-        "fingerprint": "3f629481f81280b4591e5d5f0113d4054a9cb0948379cdfe58403fb27923c00c",
-        "reused": false,
+        "fingerprint": "836ea0435003e20156f3be4c1b34f4bc40666ca247dd022154fefce2e0cf0970",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -5227,8 +5476,8 @@
         "status": "success",
         "path": "PR0001/thumbnail.png",
         "sha256": "58ba13018ee3b8253d75ba3662e730320b467bcae326e7687c67adf83c0cc3b4",
-        "fingerprint": "ac5942bf32c9b010fd062782a3c92ec6b5754d391a5287ad275bf51de89cda72",
-        "reused": false,
+        "fingerprint": "9c8cdc3c9097de722a80896ef45796153fcf7a5536228454cfad73a067baa200",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -5392,8 +5641,8 @@
         "status": "success",
         "path": "BL0001/thumbnail.png",
         "sha256": "746e1ee096447008c4e4a5890ee5843f056f89d9da59b879460357d17bc7707b",
-        "fingerprint": "e8e5687aa17dcfe0fb49db7a851934a4537e109d82f1f32d9e3c09f578ac3e7a",
-        "reused": false,
+        "fingerprint": "21124d3ac90810ef4c42b96bea58a2b864ca48d518da998b688596905bc101a4",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -5687,8 +5936,8 @@
         "status": "success",
         "path": "DS0001/thumbnail.png",
         "sha256": "8927e163fe037ec6090a751e454a3bc9b78fbed45039a039833cbdab4acb9ea5",
-        "fingerprint": "036c875734062c494b438ebb3f2af9d6946f898c347be86b0a75c274ea7c8d2d",
-        "reused": false,
+        "fingerprint": "9375ee367e660bf6b5bbfa3beffe8e05659a81240bca80caa1283868136b9078",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -5856,10 +6105,142 @@
     },
     "AD0001": {
       "code": "AD0001",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "AD0001/thumbnail.png",
+        "sha256": "2d38c04c330bd13958eefd7d7454eb7962db99569e65a450d9dd5afb1d8ae8d2",
+        "fingerprint": "126ce80d605ec5d8a7ab13ce5908ef191c4537cba298a76f8b1f42ff484c15b7",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-2.zip",
+            "member": "AD0001-5.png",
+            "raw_member": "AD0001-5.png",
+            "filename": "AD0001-5.png",
+            "sha256": "eae55f214950f7763508d52889bbfe9fcc67769d481cf2f179c4250d8dde3a4e"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/AD.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/AD.png",
+            "filename": "AD.png",
+            "sha256": "0ee72623e85e5b9e8b06e46294068250827b4c5f1e514b3655553b01059b5127"
+          },
+          "main_title": "Plus Hangover Helper",
+          "subtitles": [
+            "Plus, A, V"
+          ],
+          "logo_box": [
+            376,
+            58,
+            648,
+            100
+          ],
+          "title_boxes": [
+            [
+              193,
+              112,
+              832,
+              163
+            ]
+          ],
+          "subtitle_boxes": [
+            [
+              444,
+              171,
+              580,
+              196
+            ]
+          ],
+          "cropped_source_size": [
+            1024,
+            1024
+          ],
+          "product_scale": 0.736328125,
+          "product_box": [
+            135,
+            216,
+            889,
+            970
+          ],
+          "product_area": [
+            48,
+            216,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.0,
+          "badge_box": [
+            78,
+            208,
+            238,
+            368
+          ],
+          "badge_occupied_fraction": 0.666355002214458,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            195,
+            99,
+            60
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            0,
+            0
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 40,
+          "layout_preserved": true,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              156,
+              546,
+              310,
+              813
+            ],
+            [
+              396,
+              389,
+              550,
+              620
+            ],
+            [
+              490,
+              659,
+              664,
+              910
+            ],
+            [
+              667,
+              447,
+              823,
+              707
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "2d38c04c330bd13958eefd7d7454eb7962db99569e65a450d9dd5afb1d8ae8d2",
+          "source_sha256": "eae55f214950f7763508d52889bbfe9fcc67769d481cf2f179c4250d8dde3a4e",
+          "reviewer": "Codex image inspection",
+          "note": "Badge occupies the gray photo backdrop and does not cover a product or label.",
+          "policy_version": 6
+        }
       },
       "options": {
         "AD0001-1": {
@@ -5987,24 +6368,145 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 4,
       "zip": {
         "path": "archives/AD0001.zip",
-        "sha256": "4fc47ab8a96f5b999b68999c95330abb2c42e2ebc435740aedd465c0fa17349f"
+        "sha256": "af1a9a5e02f69675716f963a400c1297b028b7cf9c5a720115db2460df1bab6e"
       }
     },
     "WM0002": {
       "code": "WM0002",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "WM0002/thumbnail.png",
+        "sha256": "85d128cd89118e7edeecfd5912371177208a135b2c5a34b9189f47b79b6484d5",
+        "fingerprint": "6f53a0ce6fb5f588be2d6178593145ebb7f96e11cc47e2c0833eea2a1654e608",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-2.zip",
+            "member": "WM0002-10.png",
+            "raw_member": "WM0002-10.png",
+            "filename": "WM0002-10.png",
+            "sha256": "1f159318cb3ccd976a780aeb735dab910f3bed4e000ebecf7ca13772b5096060"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/WM.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/WM.png",
+            "filename": "WM.png",
+            "sha256": "9fa25ada98ff6c349a64458a4d31e32f0c2be4160d5f45f7e8b65e41a7a36c3b"
+          },
+          "main_title": "Natural Hard Brow Pencil",
+          "subtitles": [
+            "9 Colors"
+          ],
+          "logo_box": [
+            342,
+            58,
+            682,
+            106
+          ],
+          "title_boxes": [
+            [
+              142,
+              118,
+              883,
+              159
+            ]
+          ],
+          "subtitle_boxes": [
+            [
+              453,
+              167,
+              572,
+              189
+            ]
+          ],
+          "cropped_source_size": [
+            1024,
+            1024
+          ],
+          "product_scale": 0.7431640625,
+          "product_box": [
+            131,
+            209,
+            892,
+            970
+          ],
+          "product_area": [
+            48,
+            209,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.0,
+          "badge_box": [
+            716,
+            228,
+            876,
+            388
+          ],
+          "badge_occupied_fraction": 0.968948378524679,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            171,
+            137,
+            120
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            0,
+            0
+          ],
+          "badge_position": "upper_right",
+          "badge_frame_clearance": 110,
+          "layout_preserved": true,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              308,
+              395,
+              801,
+              699
+            ],
+            [
+              340,
+              775,
+              697,
+              891
+            ],
+            [
+              729,
+              745,
+              891,
+              970
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "85d128cd89118e7edeecfd5912371177208a135b2c5a34b9189f47b79b6484d5",
+          "source_sha256": "1f159318cb3ccd976a780aeb735dab910f3bed4e000ebecf7ca13772b5096060",
+          "reviewer": "Codex image inspection",
+          "note": "Aligned over the existing source badge to avoid duplication; eyebrow/eyes and package labels are clear.",
+          "policy_version": 6
+        }
       },
       "options": {
         "WM0002-1": {
@@ -6287,16 +6789,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 9,
       "zip": {
         "path": "archives/WM0002.zip",
-        "sha256": "2404d86429c7d1a14441fe2d158aac6165174957f1d245d5e28aa7d166d8dc86"
+        "sha256": "9029ee0d5e796254141931483f8cc146efa5c3055f24a7be222df52bc06578a7"
       }
     },
     "RL0003": {
@@ -6306,8 +6803,8 @@
         "status": "success",
         "path": "RL0003/thumbnail.png",
         "sha256": "b4d21f56a7d044c52b7b2b8c2df2025ec6a470e58b0f9f66c1f372bd99f445fc",
-        "fingerprint": "cdeed2b7f0f1e8ff319d392e3c32ebae0982d95330e37d0921ef6e546f39c71f",
-        "reused": false,
+        "fingerprint": "e99c4ab7a14a0a1da6cd755196661e2ee060a83832a7e3f4aed86afa312bf899",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -6480,8 +6977,8 @@
         "status": "success",
         "path": "TS0001/thumbnail.png",
         "sha256": "6da0ee2b5f07394846909f1e8e206fa8577da49cdc1064884fd17cddd372796b",
-        "fingerprint": "a97e20883bb348e58a20acf5f5c74392947e3660d19dd0fa21c13f02ff908d78",
-        "reused": false,
+        "fingerprint": "3d3e530fd208e1813ce38b226cde6c6728ad38e46e6e4a09ba877e3c7bcade46",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -6645,7 +7142,7 @@
         "status": "success",
         "path": "YM0001/thumbnail.png",
         "sha256": "456a0d62a43708522cd1304d08c0a0dae47709dc084b372b50b16b11fdbf425d",
-        "fingerprint": "fb0cc4318e71491b9e084bd4fc85b038b6d08bcfb07ce626b6ec6e6016538d9c",
+        "fingerprint": "14728a8718ca86991116607795d81d8d3fa77082bea04d76f1ba30c111e345f2",
         "reused": true,
         "layout": {
           "design_version": 5,
@@ -6814,8 +7311,8 @@
         "status": "success",
         "path": "HB0001/thumbnail.png",
         "sha256": "ecc1f480c035537a692d933244c0680f1e255b20dc57e5261891f57044ed35b7",
-        "fingerprint": "010e04cabe645c821c5338df4824162d0d541f144da3ea5c44a08d1ea3c3f7c6",
-        "reused": false,
+        "fingerprint": "ff54d6a825ed6b6f7c5fe4902d1dcdf90ef53c9f7c28932c971b4489dad27a8e",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -7010,7 +7507,7 @@
         "status": "success",
         "path": "SN0002/thumbnail.png",
         "sha256": "303678c1be33abd81bb6feb83beaa46939a33dbe9b39d038a8fce769e17ce3f0",
-        "fingerprint": "a8e7db13d2daed2532de7d539835660f468024b440c4130c975a7ddfbfe7b318",
+        "fingerprint": "3c364ca5d4609b72d0ed58750bb859c466eefdb4468ee3d3f541b4cdaacd0cf1",
         "reused": true,
         "layout": {
           "design_version": 5,
@@ -7167,8 +7664,158 @@
       "code": "ME0001",
       "status": "incomplete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "ME0001/thumbnail.png",
+        "sha256": "1b3332ec60db134c70647605f15db37650a3c32ab55a522e9d215e149b7892d0",
+        "fingerprint": "b19b0a43151202876874c972a3fd56fd1f314ca90d056e07fa18528884e2ce89",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-2.zip",
+            "member": "ME0001-3.png",
+            "raw_member": "ME0001-3.png",
+            "filename": "ME0001-3.png",
+            "sha256": "97c617007170ffefacf077a977d1235ae8d2e4a97edb7d69d3352cc326dd9ba4"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/ME.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/ME.png",
+            "filename": "ME.png",
+            "sha256": "23bcd96ea7aeb14b664dd3396c9ee8e8593fb9de8a3155e342fe56a7d2321752"
+          },
+          "main_title": "Selex Profit Sports Protein Shake",
+          "subtitles": [
+            "2 Flavor"
+          ],
+          "logo_box": [
+            453,
+            58,
+            570,
+            110
+          ],
+          "title_boxes": [
+            [
+              121,
+              122,
+              904,
+              173
+            ],
+            [
+              423,
+              179,
+              601,
+              220
+            ]
+          ],
+          "subtitle_boxes": [
+            [
+              453,
+              228,
+              570,
+              250
+            ]
+          ],
+          "cropped_source_size": [
+            840,
+            688
+          ],
+          "product_scale": 1.0174418604651163,
+          "product_box": [
+            84,
+            270,
+            939,
+            970
+          ],
+          "product_area": [
+            48,
+            270,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.2209302325581395,
+          "badge_box": [
+            786,
+            262,
+            946,
+            422
+          ],
+          "badge_occupied_fraction": 0.45366861867034103,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            138,
+            151,
+            69
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            0,
+            0
+          ],
+          "badge_position": "upper_right",
+          "badge_frame_clearance": 40,
+          "layout_preserved": true,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              168,
+              397,
+              263,
+              443
+            ],
+            [
+              266,
+              418,
+              347,
+              474
+            ],
+            [
+              165,
+              477,
+              440,
+              698
+            ],
+            [
+              598,
+              397,
+              696,
+              444
+            ],
+            [
+              700,
+              418,
+              783,
+              476
+            ],
+            [
+              590,
+              477,
+              870,
+              698
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "1b3332ec60db134c70647605f15db37650a3c32ab55a522e9d215e149b7892d0",
+          "source_sha256": "97c617007170ffefacf077a977d1235ae8d2e4a97edb7d69d3352cc326dd9ba4",
+          "reviewer": "Codex image inspection",
+          "note": "Upper-right pouch shoulder overlaps; Maeil, Selex and major nutrition/product labels remain visible.",
+          "policy_version": 6
+        }
       },
       "options": {
         "ME0001-1": {
@@ -7244,16 +7891,12 @@
           "type": "missing_option_reference",
           "code": "ME0001",
           "row": 139
-        },
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
         }
       ],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ME0001.zip",
-        "sha256": "809dcc668e5f029d3fe3e92ce4c9a8a77702e6e6669717389e9f7a9e40e9d2bf"
+        "sha256": "daaf935808085c91a6d40e7f9d2126b9db800316d478f9c7ecda0099026677c6"
       }
     },
     "AH0001": {
@@ -7263,8 +7906,8 @@
         "status": "success",
         "path": "AH0001/thumbnail.png",
         "sha256": "db7142dce6c81397350a82b71ef79630abd98007cc922d166c7a91f159cd0ab5",
-        "fingerprint": "f0fdb4aa5ced2651435934b65f829fb4754cc6a862448eb36fb8a8af1f4ed3db",
-        "reused": false,
+        "fingerprint": "a01bcb458afb6091b83fba60abdb3e5f6b87ed2d93b2b238c079a59c196aebfc",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -7428,8 +8071,8 @@
         "status": "success",
         "path": "TR0001/thumbnail.png",
         "sha256": "6d8a3bb930583ca4201c2cece3702523a91e01a621648b00c0f2f7a9588a3206",
-        "fingerprint": "a0012e16f11f0a4c58d3252878d4cfdbebb2a664b0e2cd58a5405461e0a9bb31",
-        "reused": false,
+        "fingerprint": "f2fd9c51002048f4c5c61b8d71cfaa9230fcbfa3f5c1f53a69b5cb42c0342883",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -7593,8 +8236,8 @@
         "status": "success",
         "path": "RL0004/thumbnail.png",
         "sha256": "9b2a63a2f0b7633e39c08d8192b9e55103dba23999b334be156a00a8aaf9d71e",
-        "fingerprint": "9b483677fbaba304a1352393f996519cd38c44790e48cba106bc8a491d88a5e3",
-        "reused": false,
+        "fingerprint": "e4b31a23af884d481ae61f8280ddbe54cb6deb4c3f5a93a16eb02c0304d5eab7",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -7758,8 +8401,8 @@
         "status": "success",
         "path": "TR0002/thumbnail.png",
         "sha256": "e17b0c35b48590fd6269463e6e60ed521cc4183fbec493a82d43e5f9201f2e0d",
-        "fingerprint": "c940fc53d9ac691ab2bf1293a7af18bf7f27c2b49e974fb84f4d53dc3f54f949",
-        "reused": false,
+        "fingerprint": "493e9a4d558a10b650fe9d27727ba206a6884fc597a8404d5ccfcb0f8804711a",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -7923,8 +8566,8 @@
         "status": "success",
         "path": "NV0001/thumbnail.png",
         "sha256": "096fabdbef6f78f2c5525fc4ae429d8b21680717de0110a69c17886364129d9a",
-        "fingerprint": "0d80ac15b06220faaa634ff35f1887158d87c5bb5015cf9534496dea8a4402ad",
-        "reused": false,
+        "fingerprint": "e82da9eb7485a4da71aba8f0298759acad846bdab3b750311a4df81981b0fe82",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -8097,8 +8740,8 @@
         "status": "success",
         "path": "IN0001/thumbnail.png",
         "sha256": "5d84d7c54c7fe8ea4894b72021ecdb2f6e20c58c846d102af3d0d5e373fb8b5e",
-        "fingerprint": "4d66bb24f419a32e18906a7a0f0d5312d09e2efcf9ef6227b30a8ed235094bfd",
-        "reused": false,
+        "fingerprint": "069cf013cf3e766b256c1b37c48e19d2769038ffa9c970a270a0b352c9f3d27b",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -8262,8 +8905,8 @@
         "status": "success",
         "path": "RB0001/thumbnail.png",
         "sha256": "c4179c981b434fa98bd183efa2a4efb842399aeb3a709515d576026545a6597e",
-        "fingerprint": "8c7a6d3e4c1fd79774174f0603606a6fe462c29b9427794ea3db60138d945048",
-        "reused": false,
+        "fingerprint": "8f2c159bfafd6ec048bf2ffc6fc7ccff0e1a4863df37acd0943037d5ef6b9623",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -8427,8 +9070,8 @@
         "status": "success",
         "path": "PR0002/thumbnail.png",
         "sha256": "26496db7f1534e5508f6dedbd7b022f29100ac003f16a0f43cf8edd223e38b03",
-        "fingerprint": "9a53d68be8b537f345eb8f85a5c85d84dbd589e6cf82b4baf919d18430c66376",
-        "reused": false,
+        "fingerprint": "94eb3515df08a99b51218bfae274e1952c94ac0bd56507b941baab1952570c1d",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -8660,8 +9303,8 @@
         "status": "success",
         "path": "GA0002/thumbnail.png",
         "sha256": "94dea805b34442d8684f32190fce79dfb280324767227f81b13d513152252202",
-        "fingerprint": "69f1e0481162e01ab1c07d4dfb587f78485b92fbbdf3ce60edc5bf83cec5710d",
-        "reused": false,
+        "fingerprint": "d008f7741168d04217738a5531a4d8f5a467a0b6e56fadeaa67bb78b494ec9c7",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -8826,10 +9469,133 @@
     },
     "EU0001": {
       "code": "EU0001",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "EU0001/thumbnail.png",
+        "sha256": "ad59b153b66f24f7af6dcee6209484fbfa95a3d32bb218c3fef6e602b4857593",
+        "fingerprint": "f91768e811fb18e427b736b50eaa2d804e5552ded01dfebda219bf596855d1ed",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-2.zip",
+            "member": "EU0001-2.png",
+            "raw_member": "EU0001-2.png",
+            "filename": "EU0001-2.png",
+            "sha256": "25d7b1396a2f85e7009a11d06fdc48ed0c0906a6be4d1e7f710b6c0a462902d7"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/EU.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/EU.png",
+            "filename": "EU.png",
+            "sha256": "77ec58b8a3818c6d180ae71692c0a1e23e7ab5fc3fe73d8664270e6bfa83f174"
+          },
+          "main_title": "Aquaporin Active Rich Cream",
+          "subtitles": [],
+          "logo_box": [
+            449,
+            58,
+            575,
+            110
+          ],
+          "title_boxes": [
+            [
+              85,
+              122,
+              939,
+              173
+            ]
+          ],
+          "subtitle_boxes": [],
+          "cropped_source_size": [
+            770,
+            745
+          ],
+          "product_scale": 1.042953020134228,
+          "product_box": [
+            110,
+            193,
+            913,
+            970
+          ],
+          "product_area": [
+            48,
+            193,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.0335570469798658,
+          "badge_box": [
+            174,
+            185,
+            334,
+            345
+          ],
+          "badge_occupied_fraction": 0.10240637763889572,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            120,
+            144,
+            156
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            0,
+            0
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 136,
+          "layout_preserved": true,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              250,
+              445,
+              435,
+              585
+            ],
+            [
+              630,
+              225,
+              831,
+              272
+            ],
+            [
+              550,
+              312,
+              880,
+              464
+            ],
+            [
+              550,
+              578,
+              785,
+              692
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "ad59b153b66f24f7af6dcee6209484fbfa95a3d32bb218c3fef6e602b4857593",
+          "source_sha256": "25d7b1396a2f85e7009a11d06fdc48ed0c0906a6be4d1e7f710b6c0a462902d7",
+          "reviewer": "Codex image inspection",
+          "note": "Overlap is confined to the metal lid; jar/box brand and product lettering is clear.",
+          "policy_version": 6
+        }
       },
       "options": {
         "EU0001-1": {
@@ -8895,16 +9661,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/EU0001.zip",
-        "sha256": "1165b4960e7516f03214c4e5597e70770e31788854118fb941d2632d4f436d2c"
+        "sha256": "a263c0723133b03c1d36678ac46562b570fce0950cbc88ffdc7db19c3ccc6dfa"
       }
     },
     "CF0001": {
@@ -8914,8 +9675,8 @@
         "status": "success",
         "path": "CF0001/thumbnail.png",
         "sha256": "e5f9adcdf24e67f31a1ff6cff430c4ac75e5f3b9ac1ea26ed9ec26572feb4a0b",
-        "fingerprint": "b6f79ebcf942080f505b82ae8b56a720dcb9841c06d5de2013293b513d3a3c60",
-        "reused": false,
+        "fingerprint": "739332dbb90a7f1eb92386805e858597f2ffa95ba16e27b0d526db3f603522b3",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -9181,8 +9942,8 @@
         "status": "success",
         "path": "DQ0001/thumbnail.png",
         "sha256": "d8799b5fb2cf4e316814543f661be7b1005f9f30685074d06eac0a819d075bcc",
-        "fingerprint": "7a2fa18515b7d9e87453ff317e0df189cd6218b5a62ed149b190298132f27918",
-        "reused": false,
+        "fingerprint": "54f4797a77d361be831d9ab8c3dceb61d204a603694d8120e2666e0fdaf260da",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -9352,8 +10113,8 @@
       "code": "HY0002",
       "status": "incomplete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "review_required",
+        "error": "badge_review: no safe upper candidate"
       },
       "options": {
         "HY0002-1": {
@@ -9421,14 +10182,14 @@
       },
       "issues": [
         {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+          "type": "thumbnail_review",
+          "error": "badge_review: no safe upper candidate"
         }
       ],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/HY0002.zip",
-        "sha256": "a4630d44eef58cc3b49887845c4fa1562fe755ee00bf4e7672cb321e1198022c"
+        "sha256": "8fa66a6a293abb677bc091ded5d3a2222ef2ac69eaf57b96fdf1bbe16f914c89"
       }
     },
     "AN0001": {
@@ -9438,8 +10199,8 @@
         "status": "success",
         "path": "AN0001/thumbnail.png",
         "sha256": "517aa714ff61ca1e82af1096c16dd8f9cb908be3c3639265d9891ba0ad4a7749",
-        "fingerprint": "a2572a51bf9452aa1f0807e91db2f895c2caabda520de6a03688770b15b6344d",
-        "reused": false,
+        "fingerprint": "3a2084c2b98c79d82cd3a2e496ed7af934b0452606a69accaf5ebc0cfffb2881",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -9609,8 +10370,8 @@
         "status": "success",
         "path": "SF0001/thumbnail.png",
         "sha256": "1578366b553175f0999e3056b3b1f5ec1b2b34703703fa8bf643ab92ba608e4b",
-        "fingerprint": "0cb7882ea008ea798613bf98dc2bd1a4464012d1a2f762fbac44c7de6f1045cf",
-        "reused": false,
+        "fingerprint": "e646cb67dd1a86aa9f62a4504c960524d7408d42ebc8c48876cfa93ffc5808ee",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -9789,8 +10550,8 @@
         "status": "success",
         "path": "DG0001/thumbnail.png",
         "sha256": "e9ae9c2e3022c1866a591d9538d65079d9c57cd1732445b3fc0833dd597cba3f",
-        "fingerprint": "16b954411b715f4c0ae593c7fb2d0af8ea3c184cc538dba3fec8dd0831e0dd62",
-        "reused": false,
+        "fingerprint": "0e3f38aae528dcd7accdd193f2d92680d63c53d066905e651015a508efa2fd8f",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -9960,8 +10721,8 @@
         "status": "success",
         "path": "RM0001/thumbnail.png",
         "sha256": "d4b6f9a31a187896b933982e2232c865ab46fe3c2e9d930448b06f1c90335694",
-        "fingerprint": "0425e4a5028bec40a800dc026d1009e051698b452815f892155905253652849e",
-        "reused": false,
+        "fingerprint": "18f8fe062d964901215ea66fa07fab2a5d8f816ff7bec00b16ada8e0cbb4f558",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -10351,8 +11112,8 @@
         "status": "success",
         "path": "ET0002/thumbnail.png",
         "sha256": "9edbf18102985c439e71df6e40f7e4dca910818866ae8953f13a5606869c591e",
-        "fingerprint": "5b51158aedb436e89c20ce03241819f42a162ab1d956fe5390dc2f683e40eadf",
-        "reused": false,
+        "fingerprint": "4f8455a6afcb3824b33c85ec340f999d7227449611a7bf5f1ee847232354dc71",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -10536,8 +11297,8 @@
         "status": "success",
         "path": "IN0002/thumbnail.png",
         "sha256": "e4ff28d235bfa7404c324f4f48bcbdf0776d32492d0f938fd4804e8ab726d65b",
-        "fingerprint": "28c321ae0d201cf605d425d3a73df38f2322d7eb0da4d82beb5038ccd528d5ac",
-        "reused": false,
+        "fingerprint": "a7c12546c1c0fc9861aaa642fcce22e695edd670a175cb3fea95eab02cf2bbb6",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -10738,8 +11499,8 @@
         "status": "success",
         "path": "PT0001/thumbnail.png",
         "sha256": "0e49870fe91da4063ad3b64bf7b539e14f9f6ac8e70943befeb23cc7c6baacba",
-        "fingerprint": "ad3e7cb8b5b09af8c59c46b7ea1edd8480945bf649718d91df6cfe099d18162b",
-        "reused": false,
+        "fingerprint": "34f1fc452f9e0eb2757c75ffe284ed6c2e99bfdc618d716cccecda986a3a87a2",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -10909,8 +11670,8 @@
         "status": "success",
         "path": "BP0001/thumbnail.png",
         "sha256": "dfcf917126171174d98db86a35bcd0895602ddc83654fa7e3f4bb908a3a584af",
-        "fingerprint": "240b514efe9729b6bdca3ab764a484aa12bbfd16f8dcbf52a2b9eb09b32a9a5d",
-        "reused": false,
+        "fingerprint": "bbc506365ae215f17b83aff00c11c4af43a2966ad534320530f053d589c67a00",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -11105,8 +11866,8 @@
         "status": "success",
         "path": "TR0003/thumbnail.png",
         "sha256": "8a2c5c64970ce3d53583dff97974b5acf5a50959b57a4c516f79ef7dd69fd778",
-        "fingerprint": "d575b557abac182ebeff54bd41c1c3bd15c23407e166b9ae387238f49e37d7da",
-        "reused": false,
+        "fingerprint": "80bc9ac41a02ddf4dc687975f13a0fecc2ead81885702f25104ca2632f658977",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -11400,8 +12161,8 @@
         "status": "success",
         "path": "CN0001/thumbnail.png",
         "sha256": "ab9c8f67ea5a4865b06ec69a841abbf7c791e3e2d13aeb90434c32f95a40b226",
-        "fingerprint": "5fac1d28695fe7795bd90700eb48c8438e809f20d289fb187f20bdf836288881",
-        "reused": false,
+        "fingerprint": "b807defe4c2e32e665068d16f255848f76d286ced3ff525780a5652c3a2967ed",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -11571,8 +12332,8 @@
         "status": "success",
         "path": "LL0002/thumbnail.png",
         "sha256": "7b1a89a7fdd68ebc2240faa8efdc68abf0cfd4987b9a316be7184271a987ba1c",
-        "fingerprint": "62cf27e7fdb383332d0948d4c8b47fb873aa2ba89697de54db2f65e4ffe30eb8",
-        "reused": false,
+        "fingerprint": "24a150a9ba4c121e452b890206dc4af04be713afd4eb12603ada0b3bf6e0323a",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -11742,8 +12503,8 @@
         "status": "success",
         "path": "ET0003/thumbnail.png",
         "sha256": "d96e00c2f2735dcfd086efcb403f6171ad271bbf328dc8c5acd648241cffc421",
-        "fingerprint": "231f40a668a3db0713368251efc2a72122e5a5b0e9a1b78a73db126d09392d3b",
-        "reused": false,
+        "fingerprint": "7f637ad20c0463f7f4b9321c3293b8bbe6a0bcfde9db13b21f98d03fd853f277",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -11871,10 +12632,145 @@
     },
     "AB0001": {
       "code": "AB0001",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "AB0001/thumbnail.png",
+        "sha256": "8b4d9a0caf146d1e81d95be9eb587a99c545876d9f1a2c59b8b7a7d372a46597",
+        "fingerprint": "87ab20c03c8ee4765adb5e45853a2af934cc8a2e80bd8ef9a4acc8dcd71f3ffc",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-3.zip",
+            "member": "AB0001-2.png",
+            "raw_member": "AB0001-2.png",
+            "filename": "AB0001-2.png",
+            "sha256": "024e365e1d7198e30dbefaf5a02be8820b192232e1c220a6ee119d01a156a853"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/AB.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/AB.png",
+            "filename": "AB.png",
+            "sha256": "c9a2deb306c09f7cbd5934ff1024b5bf3b1db63bfb9ee1a6696c60ca117bb3ad"
+          },
+          "main_title": "Glutathiosame CC Sunscreen",
+          "subtitles": [],
+          "logo_box": [
+            428,
+            58,
+            595,
+            110
+          ],
+          "title_boxes": [
+            [
+              88,
+              122,
+              935,
+              163
+            ]
+          ],
+          "subtitle_boxes": [],
+          "cropped_source_size": [
+            664,
+            666
+          ],
+          "product_scale": 1.1816816816816818,
+          "product_box": [
+            119,
+            183,
+            904,
+            970
+          ],
+          "product_area": [
+            48,
+            183,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 0.996996996996997,
+          "badge_box": [
+            78,
+            175,
+            238,
+            335
+          ],
+          "badge_occupied_fraction": 0.6192608631464988,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            163,
+            138,
+            113
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            0,
+            0
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 40,
+          "layout_preserved": true,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              255,
+              302,
+              450,
+              354
+            ],
+            [
+              210,
+              360,
+              454,
+              409
+            ],
+            [
+              650,
+              302,
+              850,
+              354
+            ],
+            [
+              609,
+              360,
+              857,
+              409
+            ],
+            [
+              280,
+              491,
+              448,
+              565
+            ],
+            [
+              675,
+              491,
+              846,
+              565
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "8b4d9a0caf146d1e81d95be9eb587a99c545876d9f1a2c59b8b7a7d372a46597",
+          "source_sha256": "024e365e1d7198e30dbefaf5a02be8820b192232e1c220a6ee119d01a156a853",
+          "reviewer": "Codex image inspection",
+          "note": "Only the tube seal/outer edge overlaps; Abib, product description and SPF label remain visible.",
+          "policy_version": 6
+        }
       },
       "options": {
         "AB0001-1": {
@@ -11940,16 +12836,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AB0001.zip",
-        "sha256": "0472da14d6d1c4e695afa832484748c5a132a86a1d49fa928ba898bdf21e8911"
+        "sha256": "368cc465dfc712cc1e3d19f781b51ae077389f807e5c2bec90c6d9ed01155a06"
       }
     },
     "WM0003": {
@@ -11959,8 +12850,8 @@
         "status": "success",
         "path": "WM0003/thumbnail.png",
         "sha256": "aa76a6c6d99bacc0374dcb49b9ec68f3b6a43b711385fc8bc34d53721ce9d65b",
-        "fingerprint": "25dda4c6d6d8333eccd4ddc6b490a7510cffa7a98ab02456da5992d662df4d7c",
-        "reused": false,
+        "fingerprint": "8d267cac4532668444844b30cb6a25b1cc0b0eb3cdfa8cc8acf7b65e68198546",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -12161,8 +13052,8 @@
         "status": "success",
         "path": "MZ0001/thumbnail.png",
         "sha256": "3dfbb33cbe6d76d53e86a4403a4f574c13b9650830e630d36b37adec35bae148",
-        "fingerprint": "04928fee2d48c02ab1944a0387be5b0712cd5a6a936dca4e5a971b6d5ef9afe4",
-        "reused": false,
+        "fingerprint": "55d3d21301530228913fba86c4964313e70cfb545e6e3b8cb838e6281d6e2cf2",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -12326,8 +13217,8 @@
         "status": "success",
         "path": "PR0003/thumbnail.png",
         "sha256": "bbb31ed47fe5e613e033c455e2e372ea509c0b6ccc71e57bd83b4f248756027f",
-        "fingerprint": "e2181d9f42723c76bef8af15817ee6f58c2729957a958c41d43bf87eeb384b88",
-        "reused": false,
+        "fingerprint": "96668645d9fe2d91d63797882578aafce868d21afd01a40b4db4279eb2f77456",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -12593,8 +13484,8 @@
         "status": "success",
         "path": "BY0001/thumbnail.png",
         "sha256": "cd2505ac29067bcd32ea99883fb7ac5b5bf03ec5482f7b4872097299afce16ce",
-        "fingerprint": "a431aa95d4c51007e2eb6973a674bab8073c425fc856ffe820715e77a78c8415",
-        "reused": false,
+        "fingerprint": "071a2cda304277e1a0b0cf55fe7c4cf4d40091434588daf5f9a19aaac5823526",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -12764,8 +13655,8 @@
         "status": "success",
         "path": "HB0002/thumbnail.png",
         "sha256": "f702bde4829343b50f8611bd3a2f0dd17bc0734110c3354ed3d2c5ac7d972a17",
-        "fingerprint": "caa95eb5278b277fa00f85c924d7fc182b0fd7569c7de4e7171bce432f822fa2",
-        "reused": false,
+        "fingerprint": "554f6482d735b6815808695467bd0c27604e5e01d6431d1882b08eefb0f1d500",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -12935,8 +13826,8 @@
         "status": "success",
         "path": "DJ0001/thumbnail.png",
         "sha256": "4d04395ccbcb934d07c22bc45c3e133afd48f783c29f29315cd8fa9ed170766d",
-        "fingerprint": "3517503051f57776c3916de0f68e3e95f2e86f0435692e1b12a4e256a7002d98",
-        "reused": false,
+        "fingerprint": "1a6126755890f7982f07c4e277f6c139d3737e373870e2121d59543df12910fb",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -13106,8 +13997,8 @@
         "status": "success",
         "path": "DJ0002/thumbnail.png",
         "sha256": "bfb82830baf7a2f99e725c472587ec02cdce7a32c79ceccd5dac2de3b3e6c851",
-        "fingerprint": "6e514643556fedb4979434e19bdc5cbbcdb18ef8d7d00da3d7ce3aedc4451be5",
-        "reused": false,
+        "fingerprint": "70887d082b689009d13536f0d326a7e6849a215950979b74e9ab34a567bf71eb",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -13277,8 +14168,8 @@
         "status": "success",
         "path": "GR0001/thumbnail.png",
         "sha256": "eb11a1e0e3fd6204df726a27dd2ff31ce6b38c6f650916469140295ef0d978ed",
-        "fingerprint": "b8cd0af5a26616ffc802b9e8a3807d981edeb8421bae36060441246bb521c8c6",
-        "reused": false,
+        "fingerprint": "78a0b797f5435d755e18bb7c8c8dca1faa18232648330c2c922cdcd09d2e1a9e",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -13575,8 +14466,8 @@
         "status": "success",
         "path": "IM0003/thumbnail.png",
         "sha256": "5af2379fb7acdafe62539cc4c91f352f99925e146126bbc05b4ff9031b6c8e01",
-        "fingerprint": "01713ac73e50e79087e0a1ff789021e76bcd1999f6b51598372563a5394fc5ed",
-        "reused": false,
+        "fingerprint": "a8680c6e4fb3090a0257d2e9af6edcc666d85e398f6016d53837548938085d5b",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -13780,8 +14671,8 @@
         "status": "success",
         "path": "ND0001/thumbnail.png",
         "sha256": "1c45eeee4fc07e7c31eead9bca3d1b8be3a7399f8e2652c12c50a15000be510f",
-        "fingerprint": "d58f8bcc3aa2a7dcb186071ce5d4ea81cb85126efb8074feb96fd9dd23f095b2",
-        "reused": false,
+        "fingerprint": "f942d13dc6bbf01d8edc36711c515a2e6a4fd353f64ef0b4ba42964feebdcec9",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -13914,8 +14805,8 @@
         "status": "success",
         "path": "HP0001/thumbnail.png",
         "sha256": "a1b1e953dbfc730f817eaf7cadaae9c9126ba5b2df9f63bda38cb9cbd26aa413",
-        "fingerprint": "3767d80161ebbc229e589558fdac73391f2d5a3fb2377bcbad4797a1fe1871fa",
-        "reused": false,
+        "fingerprint": "a19293d83a9272b632416ad5568f1c55bbe4f8e7476265f713b8fe83a6016201",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -14110,8 +15001,8 @@
         "status": "success",
         "path": "LT0001/thumbnail.png",
         "sha256": "fd576ebbead40222f46ea2ecc94dd010fa75789e191413016701c501c17fb497",
-        "fingerprint": "bc677e8249b9737784f9e9c3b98344390ec4424b73c635ccae18fe7d7bd33499",
-        "reused": false,
+        "fingerprint": "1f8a313d967810869f0d00a94d7608b7d81db2e464662658a65436702b968d50",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -14306,8 +15197,8 @@
         "status": "success",
         "path": "SL0001/thumbnail.png",
         "sha256": "08e36c8839b3c90e96999687a6407e6def7c28a823f990d83b1b3668f62b4f6f",
-        "fingerprint": "8d36021097d7550adf58d9dadf594047b4150c42f078ad0e4e174677fafecb05",
-        "reused": false,
+        "fingerprint": "381f200bc869b80f8e0b65992b574dc084daeb7814ad861d19e97bc6ea7d7465",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -14480,8 +15371,8 @@
         "status": "success",
         "path": "DK0001/thumbnail.png",
         "sha256": "75c828aa4de0001ade67b6f1e244fa86ac41ea6313d336475321232f69d24ea0",
-        "fingerprint": "615eb36c87c6d671c0be25121a155b81710a861da7caa63d91152fe0c88cf97c",
-        "reused": false,
+        "fingerprint": "fcdc49ffc91b18430535815399a9dd1042d1f53cf5a15076d7964533b182067d",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -14620,8 +15511,8 @@
         "status": "success",
         "path": "PR0004/thumbnail.png",
         "sha256": "7e2db48afd0fd84ac0ecb4155762eae77d77311ff76fc53d86c0cc584fecbea6",
-        "fingerprint": "2f5c320c1e3e74c49df601e73e59d795ee6b8fe2d6dd56c332cf1a1bcf9d5731",
-        "reused": false,
+        "fingerprint": "0b93c7f63620c239860d94e712bf5771f767a516579baeb50b017cd061263628",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -14782,8 +15673,8 @@
       "code": "DF0001",
       "status": "incomplete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "review_required",
+        "error": "badge_review: no safe upper candidate"
       },
       "options": {
         "DF0001-1": {
@@ -14882,14 +15773,14 @@
       },
       "issues": [
         {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+          "type": "thumbnail_review",
+          "error": "badge_review: no safe upper candidate"
         }
       ],
       "expected_option_references": 3,
       "zip": {
         "path": "archives/DF0001.zip",
-        "sha256": "6fb5a61db637225bc9bd88ee986374507156ecf82429be9d297ef70a04b5aeec"
+        "sha256": "3712548d3d884839b6a89cba4489ce84c9b66d41ff10c9ff60281a2c0b9a0687"
       }
     },
     "SN0003": {
@@ -14899,7 +15790,7 @@
         "status": "success",
         "path": "SN0003/thumbnail.png",
         "sha256": "97c12acac96caf27577d490a1c05f542fca1f93e9fa436017de8d8f9e410898c",
-        "fingerprint": "d1d99b2b9520092645b2b56a6dfab8743f1fae17c5eb45bad79b1676253187d0",
+        "fingerprint": "887e313ebc8b0a1211e9a0508da0c048b06ae7a12d181d2f8a3bb751455ec7f9",
         "reused": true,
         "layout": {
           "design_version": 5,
@@ -15059,8 +15950,8 @@
         "status": "success",
         "path": "CS0001/thumbnail.png",
         "sha256": "d4a98565036b39907be7b1eff3e98542fa6027acb054e1cb7f4fce942ccf34ce",
-        "fingerprint": "c6aba0d7174af57541048bae54e3c88b6ba5da253d351cfa5a8284796a355dad",
-        "reused": false,
+        "fingerprint": "20d923e75edbaf0ada5e964fd95ec521f47791fa5f1826b5a721b3dfb2624367",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -15456,8 +16347,8 @@
         "status": "success",
         "path": "DW0001/thumbnail.png",
         "sha256": "986d90d8f27bd93b642ce8f47747ac3c55e739b3c7f7a4e357f995656ac02f33",
-        "fingerprint": "3507b6efa3dc67c35e6a207986db48a6f60ee457b55f8dcdae12a1eaadbd1b2e",
-        "reused": false,
+        "fingerprint": "29461a2ad7527366213514e09b1b44e2ec77ae92187d30a2157b5ff802f84026",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -15884,8 +16775,8 @@
         "status": "success",
         "path": "EU0002/thumbnail.png",
         "sha256": "31eb1365780e6cb2aa36a6b151d73670b361f06be06564471e16ad5c33b36340",
-        "fingerprint": "cd3d3805f7e44c72792a15810ce34f53f905b71e6a1167c910623d10e203e60c",
-        "reused": false,
+        "fingerprint": "df0f62f3b00783c70831357c2b55faceeb4b6ac62213c8f38efb31986d335f63",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -16055,8 +16946,8 @@
         "status": "success",
         "path": "SP0001/thumbnail.png",
         "sha256": "fcf4c12fc74c8ed788954cf0e62a8154d420bc64b00e18e157469ee1f84bbc59",
-        "fingerprint": "4ea52e06c009aa15e61b63dc5e4a115f69ab238e2b2b04726d7134d709e3dbc7",
-        "reused": false,
+        "fingerprint": "3a260ced75758d376afb9ef628015ea927f68073c08554ab08332a120240ff84",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -16220,8 +17111,8 @@
         "status": "success",
         "path": "BP0002/thumbnail.png",
         "sha256": "f3fde04f193e5adc0e032edf8ffe3069f0fb1e8b3e50c538c9c9c05e42d13866",
-        "fingerprint": "07abfb9720fc46a5fd7a2c504877415bc4aed6e5c585c8429b19ae32fddaa38b",
-        "reused": false,
+        "fingerprint": "b73d514cf39a9c43017c202380fa76ed795dcefc2cb11bc5b609307dbaabc18d",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -16453,8 +17344,8 @@
         "status": "success",
         "path": "MS0001/thumbnail.png",
         "sha256": "36e056c88335d79caaa17ba5821e3f1f2dd81823cd976c1165afe5614bc1b563",
-        "fingerprint": "916d9b263987fa6eaac54a4905ed2ca50ca3fbddc60fbc02ee7f10e2fc320687",
-        "reused": false,
+        "fingerprint": "113b3c04fff9fa6c35519bcf9c065d3617e281a0a3411fdea1814bcda066b881",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -16624,8 +17515,8 @@
         "status": "success",
         "path": "AV0001/thumbnail.png",
         "sha256": "5622d99692931bfa6f3dbca3d7d316dc94147e655fb36e0417e012a7495b425c",
-        "fingerprint": "452e9042c8d71e6a0cc4835f3416f794acd0b3cfa67ba50ac8c8533a84af007c",
-        "reused": false,
+        "fingerprint": "60d7b04c87d55e42bea7f217e163621beaba9e5ada46163b58c2877195c1e1a1",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -16835,8 +17726,8 @@
         "status": "success",
         "path": "DJ0003/thumbnail.png",
         "sha256": "096529596b161b25b0f3358b608dcc045d9f94885c9d954eeb46e6ff4beb5c7f",
-        "fingerprint": "876048f7c42f84cc8d85dc1f0d2348c4c86a5ea35b5fc83fd3aa98d72870edbc",
-        "reused": false,
+        "fingerprint": "52543fab107e4f2187f520c8b40aa12db88f2e8a88ccc0f20f608666bc132279",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -17006,8 +17897,8 @@
         "status": "success",
         "path": "KB0001/thumbnail.png",
         "sha256": "5ddb66ab631c50e1b228e12ad3b48011857283a48d4944692b73654ced97c35e",
-        "fingerprint": "2aec50c14ad837bd789608c0e57beeb37fcea2e39cae0ba81a418218165b44a9",
-        "reused": false,
+        "fingerprint": "dc59b05a1e4b302d6d881b43c813e7bec1cdff846a70b3a6b2a6fccd281a7e32",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -17800,7 +18691,7 @@
         "status": "success",
         "path": "SN0004/thumbnail.png",
         "sha256": "47462af144fb93344f27254fde160b30d40310b369b76af9d963d83f63bba48c",
-        "fingerprint": "5687e960adc8dd31fc0786971051b74b6e2fb90cd5f9d7a14fce1c31953d1d67",
+        "fingerprint": "900b7a6318e8326443d0c26caa611ed23b649a0f6e30d65a5fa5c04f51823e97",
         "reused": true,
         "layout": {
           "design_version": 5,
@@ -17966,7 +18857,7 @@
         "status": "success",
         "path": "SN0005/thumbnail.png",
         "sha256": "35344465e1bac6027d176fc7a5828f4fb09380d9e43d16b83df5ebb5880d5b60",
-        "fingerprint": "8e4d1a5d8d412b975015a076a80e09c6d09143c618fd5fdd505e42aa152ea06f",
+        "fingerprint": "744a6eeec0cda563ba367b708f8335cd187967e86fed169a0c1ceb8dce834c71",
         "reused": true,
         "layout": {
           "design_version": 5,
@@ -18141,8 +19032,8 @@
         "status": "success",
         "path": "AS0001/thumbnail.png",
         "sha256": "4999682dbbaf68d056f31a840a7ab5c981c4896f1c90c3dc6539d5664e80bd2e",
-        "fingerprint": "144e0f50dd50a3787740d347e6bac30f0c80eaad0875da4ce67309a6f0b5db50",
-        "reused": false,
+        "fingerprint": "3a1c54b505efc0f278a6d9fdd97764e1c057d4bf336ecb68931fea98ee75667a",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -18374,8 +19265,8 @@
         "status": "success",
         "path": "BF0001/thumbnail.png",
         "sha256": "8cb0b2cb859cfc2a43d7dd0f52ffc01d0c5b9131c6ff44f99e337a29e356230e",
-        "fingerprint": "d045519e340085228a85b1997b5bc2cea21ed49f9076c322acfdb4e439e0977c",
-        "reused": false,
+        "fingerprint": "ceddc962de2d25d9474057551ab80923bfd6c533e1a7b35a0b8de51e163a702b",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -18610,8 +19501,8 @@
         "status": "success",
         "path": "TR0004/thumbnail.png",
         "sha256": "bc5e1bff1c22e61ab436ce12541618ef80ab84e74a9792485324cb4810518923",
-        "fingerprint": "53966ceba07ec817ccaa8136a6ba97c28b692e844a1e4683b4f4aec5700f15e1",
-        "reused": false,
+        "fingerprint": "9eefc6e757a46b00d7eeb4f379e500402b14e9c7aace6b2dcb508f8bd0d733cd",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -18790,8 +19681,8 @@
         "status": "success",
         "path": "BB0001/thumbnail.png",
         "sha256": "807c62445e49fbdde536259896d6da9a26e279b1c0590c368c8734ba7d568c3e",
-        "fingerprint": "4a5994a53aff05c0b5fa393f974479b76bf09ec487ec3fbb4e7b2a62ba1debfb",
-        "reused": false,
+        "fingerprint": "fa109407a046e6bc8a7da0176b7b2e92a2bca815584768d53b9b6105aa177a51",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -19361,8 +20252,8 @@
         "status": "success",
         "path": "AT0001/thumbnail.png",
         "sha256": "14b3a8da5319df365188da240ee06e3d636e01a902492ce0798cbcaaeb3ada71",
-        "fingerprint": "518b60d6204937dc810743f96fc10b62dbbbb98b749e5ba4d3f299f749f78325",
-        "reused": false,
+        "fingerprint": "6045ac5fe7d3639a3d0cc5887042c4fb2758e4615cb426854a8673df89e94cba",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -19656,8 +20547,8 @@
         "status": "success",
         "path": "AM0001/thumbnail.png",
         "sha256": "99588602bfb13d0d0b1b55f6b4ace3d8171a7584df66bb087dd274347a18dba0",
-        "fingerprint": "067fca13f945d2e4d99e71382b64187ff1623f17f5a63e1fe03a409dfd99e593",
-        "reused": false,
+        "fingerprint": "bf008b6f580a1ac595c119a22b31c7ddc05f62b2e5dbe5dd4f3d7c30e3c23405",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -19830,8 +20721,8 @@
         "status": "success",
         "path": "MX0001/thumbnail.png",
         "sha256": "c62148143a46abf986bbf2fe5e6f7a0f1c9710cecbd815db4642d0d02949d890",
-        "fingerprint": "893b1477fe3acea2fc2d09862000582a207eb6b4a00a9db708634c63d63cde8d",
-        "reused": false,
+        "fingerprint": "8b23d4078f4795fb6eab10689b4927a7626873e0db9a1286b9a35277f2f7394f",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -20001,8 +20892,8 @@
         "status": "success",
         "path": "CK0001/thumbnail.png",
         "sha256": "be20e417413999290bb043c85dec6f87928e099c57c9bd3c1f1bcb33f6b7ee9e",
-        "fingerprint": "ab27d1a858b534bc4437638d8035440f006cc35803ab3bf076f271c7cd7dfb64",
-        "reused": false,
+        "fingerprint": "1059aa017ede389a1f3707a659d4f8c76001342765e6beec86ea7949f61a21ef",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -20204,10 +21095,133 @@
     },
     "HY0003": {
       "code": "HY0003",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "HY0003/thumbnail.png",
+        "sha256": "26698c6960011dd6c5a691f830dd2394d9b1a2bcd5fbb3abed89d0184ac68251",
+        "fingerprint": "9729a8b324d28303b3cec727e2f7d289d14bbfd03e6a361b264535bc2b8cb144",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-4.zip",
+            "member": "HY0003-2.png",
+            "raw_member": "HY0003-2.png",
+            "filename": "HY0003-2.png",
+            "sha256": "c51bdb8423ba9ba05e119dfcbb2f58e0f77ef8d4d13ab8052181b6269098ede0"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/HY.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/HY.png",
+            "filename": "HY.png",
+            "sha256": "f22ef08e02a09892f3d7b623ee96235f9a00dcafbbc5a83d581e3d5e07ad7c0f"
+          },
+          "main_title": "Yuja Sleeping Pack",
+          "subtitles": [],
+          "logo_box": [
+            351,
+            58,
+            673,
+            110
+          ],
+          "title_boxes": [
+            [
+              235,
+              122,
+              790,
+              173
+            ]
+          ],
+          "subtitle_boxes": [],
+          "cropped_source_size": [
+            614,
+            607
+          ],
+          "product_scale": 1.2800658978583197,
+          "product_box": [
+            119,
+            193,
+            905,
+            970
+          ],
+          "product_area": [
+            48,
+            193,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.0115321252059308,
+          "badge_box": [
+            78,
+            273,
+            238,
+            433
+          ],
+          "badge_occupied_fraction": 0.5991831110673687,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            156,
+            144,
+            84
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            0,
+            0
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 40,
+          "layout_preserved": true,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              273,
+              350,
+              391,
+              443
+            ],
+            [
+              671,
+              350,
+              788,
+              443
+            ],
+            [
+              270,
+              796,
+              360,
+              865
+            ],
+            [
+              675,
+              796,
+              763,
+              865
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "26698c6960011dd6c5a691f830dd2394d9b1a2bcd5fbb3abed89d0184ac68251",
+          "source_sha256": "c51bdb8423ba9ba05e119dfcbb2f58e0f77ef8d4d13ab8052181b6269098ede0",
+          "reviewer": "Codex image inspection",
+          "note": "Only the outer yellow tube edge overlaps; Korean wording and HANYUL brand remain visible.",
+          "policy_version": 6
+        }
       },
       "options": {
         "HY0003-1": {
@@ -20273,16 +21287,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/HY0003.zip",
-        "sha256": "8fe7edba4271691211d33c8e265b8421a20f2cad4ed11526bd978f49acfdd703"
+        "sha256": "c5651da1eb05ee5bd8e364b0c74fee3830df9e580cc3719ffa5da9ed385ec4a2"
       }
     },
     "CR0001": {
@@ -20292,8 +21301,8 @@
         "status": "success",
         "path": "CR0001/thumbnail.png",
         "sha256": "81e9e9a0518c1f4cb58cd4df79eff7f564a75356b1f9a6d2d4dafe2ce87ee930",
-        "fingerprint": "499bdfec5b1b7f86e82a02ecfc64b4b400b508530a8bad2bebfc4091613e9f00",
-        "reused": false,
+        "fingerprint": "59f390325434cb2e4e81ffc48d23db216a1ddd25fe90ed3b60c68c61da7dddf6",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -20528,8 +21537,8 @@
         "status": "success",
         "path": "HM0001/thumbnail.png",
         "sha256": "ff7535fccb3df184fe5a07413814d94d2e068a75479670898f076bdbaca3c774",
-        "fingerprint": "628d066b1b14b89a066b9631eb02efdba75d1031ca37107178ec8a201fc64451",
-        "reused": false,
+        "fingerprint": "4068a2d181c5b0dcae9b8445b9a332cdfad204ce16fc8b575eebd91bf1ed6303",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -20801,8 +21810,8 @@
         "status": "success",
         "path": "BP0003/thumbnail.png",
         "sha256": "7b20c9cc74fc43262b02134bdcf9a74c5a48d835d3609328d418f644a6b67da6",
-        "fingerprint": "a29cea15b634545f306f0ca0e70a2b419cfada5c8fd56cb5573281d69d19d51a",
-        "reused": false,
+        "fingerprint": "a850db05b366f5bdbab984f50e7d290329ddb14d5987c74c5247fb69e06fa0ad",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -20972,8 +21981,8 @@
         "status": "success",
         "path": "KM0001/thumbnail.png",
         "sha256": "5357954ee0659becb653f365dfb8d0d309a32b375f9a75970ffecd530050a945",
-        "fingerprint": "c94e7d8693a7f8a2a43a661ad01f6b9031db39d65b8e782787ff016af303a93b",
-        "reused": false,
+        "fingerprint": "847b673b82f9239ed400b91f036a6f39d7dd5ee973c4e76ea14a55e9b9942ded",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -21146,8 +22155,8 @@
         "status": "success",
         "path": "IM0004/thumbnail.png",
         "sha256": "498a37e44931a97ee47858a911ffe9aee21c28f4293937a413bb719935583db9",
-        "fingerprint": "153644c152aaee9b8dc9f35130ecd2264a46a4f07bc57530ae98bf4b732f5d9f",
-        "reused": false,
+        "fingerprint": "e6c58213c418ab59099e604777892353069f890fd8a2eb642547adcde829d8fd",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -21280,8 +22289,8 @@
         "status": "success",
         "path": "CN0002/thumbnail.png",
         "sha256": "7c5368ed9c884e377063a209a6c55afbc9d41744c8e0df494075719ab4784a71",
-        "fingerprint": "bd18cd464a9986de59fdabb6423ac2d0893727d248576ec6e4e3038b4412b80a",
-        "reused": false,
+        "fingerprint": "516d72afbee53bfa2b34de2662c14b1c923bb6ea37fc736282ea5966f5dd5e1c",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -21451,8 +22460,8 @@
         "status": "success",
         "path": "GV0001/thumbnail.png",
         "sha256": "7d14161af3178907801ce09cec98c2e073ac0e917d35efa311725dc0067b72ba",
-        "fingerprint": "4cc6e1937a2a18bad399b0489fa91aef04e183614463abcc68ac25abceceb610",
-        "reused": false,
+        "fingerprint": "ee9ce51663afc787780eeeaa2b14f5d5f2d535dce1daaa1bf24b1b0f21ec6efa",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -21687,8 +22696,8 @@
         "status": "success",
         "path": "ET0004/thumbnail.png",
         "sha256": "831e657eaee7b2e29b2e5c525b58a4e4622bf12b893fe71201a10b3da541fa4f",
-        "fingerprint": "e786d79ad754fde122592bbbe25ef52c9c66f3593221c276a7d406df693a17bb",
-        "reused": false,
+        "fingerprint": "e638dc2ccd2c527d4522a45e94691beb33b5719eda058ba4a06954850da112c7",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -21892,8 +22901,8 @@
         "status": "success",
         "path": "ET0005/thumbnail.png",
         "sha256": "d725c5a73e0c6bf5830116338004a47d62cde9d2fc62d6c8ea4c0b17bfc80031",
-        "fingerprint": "60daec842643cc088f9dbf0ff90efa1c4ea1c7585c877c6e7b528d47df8b9b3c",
-        "reused": false,
+        "fingerprint": "238ab0f005187e1a859be24ae105a7bf3945e81d22bbb4a212f59eafd89e4547",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -22061,10 +23070,196 @@
     },
     "NC0001": {
       "code": "NC0001",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "NC0001/thumbnail.png",
+        "sha256": "b06f82d63f240d1901d9a2b0b9b70a60cd24a1f9584ce72aa32ad4fa1257c06c",
+        "fingerprint": "ec18894dca62e7f3c7930fe9846af422006ee38003c70c01795f899532c596bc",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-5.zip",
+            "member": "NC0001-3.png",
+            "raw_member": "NC0001-3.png",
+            "filename": "NC0001-3.png",
+            "sha256": "2bcb4c4c5f968ac01b867cfa490f7f68a160fc1d9978b3713da5e86b010bfe8a"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/NC.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/NC.png",
+            "filename": "NC.png",
+            "sha256": "5330e152bba171faee69dae288056143020b96a010508702531b992cb0dcb5dc"
+          },
+          "main_title": "Easy Pick Blemish Patch Relief",
+          "subtitles": [
+            "3 Types"
+          ],
+          "logo_box": [
+            429,
+            58,
+            594,
+            110
+          ],
+          "title_boxes": [
+            [
+              64,
+              122,
+              961,
+              173
+            ]
+          ],
+          "subtitle_boxes": [
+            [
+              457,
+              181,
+              566,
+              208
+            ]
+          ],
+          "cropped_source_size": [
+            761,
+            737
+          ],
+          "product_scale": 1.0067842605156039,
+          "product_box": [
+            210,
+            228,
+            976,
+            970
+          ],
+          "product_area": [
+            48,
+            228,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.0325644504748983,
+          "badge_box": [
+            78,
+            252,
+            238,
+            412
+          ],
+          "badge_occupied_fraction": 0.0588061611141184,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            96,
+            151,
+            151
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            81,
+            0
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 40,
+          "layout_preserved": false,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              227,
+              241,
+              290,
+              282
+            ],
+            [
+              246,
+              303,
+              278,
+              333
+            ],
+            [
+              282,
+              304,
+              314,
+              333
+            ],
+            [
+              317,
+              302,
+              353,
+              335
+            ],
+            [
+              459,
+              235,
+              582,
+              358
+            ],
+            [
+              616,
+              246,
+              661,
+              282
+            ],
+            [
+              674,
+              246,
+              712,
+              282
+            ],
+            [
+              609,
+              308,
+              779,
+              349
+            ],
+            [
+              846,
+              236,
+              965,
+              359
+            ],
+            [
+              231,
+              374,
+              270,
+              398
+            ],
+            [
+              615,
+              370,
+              652,
+              394
+            ],
+            [
+              276,
+              404,
+              516,
+              486
+            ],
+            [
+              681,
+              375,
+              886,
+              464
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "b06f82d63f240d1901d9a2b0b9b70a60cd24a1f9584ce72aa32ad4fa1257c06c",
+          "source_sha256": "2bcb4c4c5f968ac01b867cfa490f7f68a160fc1d9978b3713da5e86b010bfe8a",
+          "reviewer": "Codex image inspection",
+          "note": "Product translated +81px without resizing; Easy Pick, size/count labels, 3M and Nexcare remain visible.",
+          "policy_version": 6
+        }
       },
       "options": {
         "NC0001-1": {
@@ -22161,16 +23356,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 3,
       "zip": {
         "path": "archives/NC0001.zip",
-        "sha256": "ba0bce66d1fe351b6a8629edaeb0f739f62ce2d12463397c832a9ac7b029c34a"
+        "sha256": "774a2f79a29bd1676a5509679472ef0fd1ece598f9c4ecc203d5c4e0966db210"
       }
     },
     "BP0004": {
@@ -22180,8 +23370,8 @@
         "status": "success",
         "path": "BP0004/thumbnail.png",
         "sha256": "dec0b45043022e43d13456cd6847ecf8d3cb445fd5ba65f85883cf743889afd8",
-        "fingerprint": "424894e8eec1ed893b0327d19d9d5dc892efa03c5baee99fefcc07696c2c3572",
-        "reused": false,
+        "fingerprint": "2b232f52f3011134b34074edb285b89b5cf67297d1049094584becb870a9ef84",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -22314,8 +23504,8 @@
         "status": "success",
         "path": "RV0001/thumbnail.png",
         "sha256": "24288ac7948b14ae56c033a21b2cd066397befed79dac92949b62959fb253b48",
-        "fingerprint": "1af410e26a8811460489bbe6d5815461913a6d7340fa39f0837cc682e5a3b5b6",
-        "reused": false,
+        "fingerprint": "a9b5ea83830af8ebbfc4cc40e2f6d4f2b5f14dc02ea587dba1a32e953405ab82",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -22547,8 +23737,8 @@
         "status": "success",
         "path": "RM0002/thumbnail.png",
         "sha256": "4d50eee2b2639c8d6f0cf29f7ca0b0d3afde9395e68c3e3dc0e4dbb85f07abea",
-        "fingerprint": "e0cdc1e37edc144c225f82df2d576875a9c4c21cac7f099472f44f5ad2f1e769",
-        "reused": false,
+        "fingerprint": "521bb6bbd5afcff42bbefdacaecdc7700a3790585f6aec9fc274dccd3d0f42d8",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -22783,8 +23973,8 @@
         "status": "success",
         "path": "PP0001/thumbnail.png",
         "sha256": "2ffdc9095ad49eb91ab26bccee90e8bd07de461149ba29ac00845749ea923412",
-        "fingerprint": "55e61111ad765c7ec749bf84a573d56e9fe4d0950a6c73f4a806cf807c8929fe",
-        "reused": false,
+        "fingerprint": "91b4d976cc51b4575c63c35e17990c60d9cf2685d73a819a61029e7dacc874e7",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -23019,8 +24209,8 @@
         "status": "success",
         "path": "MB0001/thumbnail.png",
         "sha256": "b111e0132c92860da00491938dc39bd03f73231aab79af7566df176533802de5",
-        "fingerprint": "7791ad13c70636e1a0edcf0087108fe59ddbd0746f72e9032d3d424c2ab4490e",
-        "reused": false,
+        "fingerprint": "3bc92a845005cedf9a030acdc94ab9368997d39dcc3fa597baaea4566cf41efe",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -23317,8 +24507,8 @@
         "status": "success",
         "path": "PR0005/thumbnail.png",
         "sha256": "efa8fb40d981e7d9d06b5a28f0bdfa08be0631375ea735a264132bee6d3d9fe9",
-        "fingerprint": "0da8f58dc471b41b21fb4343ffa357bedb15730bdc8469b7f2b5de9b692ce399",
-        "reused": false,
+        "fingerprint": "c80df4deb5d95bebdc8de9cc95b1c45a0b3155dc41076597a4fd17b7f8426ad6",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -23488,8 +24678,8 @@
         "status": "success",
         "path": "GA0003/thumbnail.png",
         "sha256": "ccf9fd5e098958f88add3e0db2049770f4fc16035195484cab29fa02c605f2f0",
-        "fingerprint": "30a3dea205437ae5e46124ca97b9078dc7b4a542111d52b36d4bdbbdee8cbb6f",
-        "reused": false,
+        "fingerprint": "ed556b83516f4fe489f615309d90a923ce1f22a95c6eac09a0cbdf2ee71edd64",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -23659,8 +24849,8 @@
         "status": "success",
         "path": "HG0001/thumbnail.png",
         "sha256": "a18268a4f6652f39ec31c19a40b05740cfa85e5e10f589988bf4d30f5b7048a5",
-        "fingerprint": "a910f95e6075b00d6874ad78545796c5b9d98902cd9f1e3422d8949e1e7d3887",
-        "reused": false,
+        "fingerprint": "37e380d2095db013ee1e2eb51de477d5fb6b8a7c8b9ea81d90449f7114650bf3",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -23824,8 +25014,8 @@
         "status": "success",
         "path": "EU0003/thumbnail.png",
         "sha256": "0c6adf042756e06ebdb23124f489c0a2be20ef41c073bb109a7d3979ca897db2",
-        "fingerprint": "75917367c41ba21034157cf9bf0274839c6d47af15abd25d184b015e250dd766",
-        "reused": false,
+        "fingerprint": "b3fae0205d01256b0df045965e1a2b94c2b52160eaaccc1fe8cabad99482a189",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -23995,7 +25185,7 @@
         "status": "success",
         "path": "HH0001/thumbnail.png",
         "sha256": "6bcb840b3a37d447486c224a663322ed3df86cd4122589b16f89da20e3c7cefb",
-        "fingerprint": "a8e0af9ba7257538c17200489e76fbc9547f731d18956760a365406da971f6b1",
+        "fingerprint": "2656956ab47aabe4afc3065db3e819642596efbea8f8c6ddd8dada6b150f0547",
         "reused": true,
         "layout": {
           "design_version": 5,
@@ -24257,8 +25447,8 @@
         "status": "success",
         "path": "IS0001/thumbnail.png",
         "sha256": "fa86a91d0a9c33dbdedca226e59e4723a23c9cb72bf63a0f6aaec905f5707ca6",
-        "fingerprint": "1334a988c7499634ba84ae58eadf35bd91fd61cbb05a922d1af6e4b8703d7130",
-        "reused": false,
+        "fingerprint": "afae496dafa3a93e99865510478c073128b1ca085df141788b4509712e04cfb3",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -24555,8 +25745,8 @@
         "status": "success",
         "path": "CN0003/thumbnail.png",
         "sha256": "5077d298ead47bfa8ac0988b5487fd6f1e6a57cf22b5a4976d08acd9639c7d55",
-        "fingerprint": "94a77ce497fa026afe5249b7fde48975059407f6749af1ff27150215c66ee355",
-        "reused": false,
+        "fingerprint": "202a4514b8177c6b2eb2f51dbe9ebfe3485b8b70faca8a49a785ab0e5e6113e3",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -24720,8 +25910,8 @@
         "status": "success",
         "path": "BC0001/thumbnail.png",
         "sha256": "486340107adf1735d99c70669db47dac5fe115b3e75e9a3c51bc948dc3e837ac",
-        "fingerprint": "e762def6987ee74e0230c32bc3aec0d38194d50a4f25bdd3f8fc056aba99ac02",
-        "reused": false,
+        "fingerprint": "fe9c1ce1a2b9b53b1a02793c8c605bf582255eed90eab06a4a0ad0c1a268c835",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -24891,8 +26081,8 @@
         "status": "success",
         "path": "ET0006/thumbnail.png",
         "sha256": "4511a2cd5023a384e39101626aa54779e24096cfaa19f3213c82c39ae150e727",
-        "fingerprint": "d866a8798d0f9446434a4819676fbbf545bcb4dce493434ac41434e3ad46e04e",
-        "reused": false,
+        "fingerprint": "a739c5154642b9ff997ed0a1a344983327a055e343f1ec4b4e11fcecaa200165",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -25062,8 +26252,8 @@
         "status": "success",
         "path": "BW0001/thumbnail.png",
         "sha256": "95a84cdb56027fa92a7ec65e62f4f48b352b8cbc3c9052b456908c12ef663ad3",
-        "fingerprint": "3649a7db639c60923c69dd157df885701647b574191184b39dbc75ecd7774618",
-        "reused": false,
+        "fingerprint": "44682294e69b1cd768aa3463a050a66572c6ce1ebedabc7fc53f49369c2742a0",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -25233,8 +26423,8 @@
         "status": "success",
         "path": "TR0005/thumbnail.png",
         "sha256": "3ad6d3da45ba87ef9b2c0f33d016d51b27af9fc61c60a8199a9c23a04e815aec",
-        "fingerprint": "94cb6b716d5014e5892e358b3744922edc787e457b401701aa5746a5f8ad425b",
-        "reused": false,
+        "fingerprint": "8465730ab3080c82a832d27458134dc84010c83b65bf1ec423ed7cd8a706c35c",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -25407,8 +26597,8 @@
         "status": "success",
         "path": "SC0001/thumbnail.png",
         "sha256": "b4bf0fcb011d594688b08a450d2899d15261a603bc743d5f51adc47acc6bb94a",
-        "fingerprint": "c62580b17bc3341442ba55b7dde52ae60d0f4d6949e54a98d6b6aaa42decb2f0",
-        "reused": false,
+        "fingerprint": "7ba6ed8eced776c31eae1710966b7ea8e628415b6fdbe2d29d9a64ee3717ebfa",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -25572,8 +26762,8 @@
         "status": "success",
         "path": "CK0002/thumbnail.png",
         "sha256": "d1c67f1992d180819eb0c794710795f53259ca16078f5e7a2d9c2c4afd588996",
-        "fingerprint": "a85d3dd465cd8b2b703e95d86ab1e56f1073b0e501e93b98263d67cec3f61f28",
-        "reused": false,
+        "fingerprint": "e478743d60a3b64526361ea556b805abc249e142926f0e26fc1a76252d95323e",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -25743,8 +26933,8 @@
         "status": "success",
         "path": "BR0001/thumbnail.png",
         "sha256": "044cb592d0d089c3ec2b36f7686018999d6814d9769e36b6bfc9566eafcf1b99",
-        "fingerprint": "99a06c42986b254dc1af3112023d4307583e29f86b344c945553ef1272c7ad04",
-        "reused": false,
+        "fingerprint": "987cbf66a055796401707bc73b96fd79dfb7b79fffbad2f952a167510d1cbdf5",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -25979,8 +27169,8 @@
         "status": "success",
         "path": "ET0007/thumbnail.png",
         "sha256": "f3ede94571e27529734f4c49778672aac4be15c437191e591e098ccf3495817e",
-        "fingerprint": "257df62ccc547e03949ccbd9ac9fb0bc950b28247087229e8c40fdce3ff008a5",
-        "reused": false,
+        "fingerprint": "6166a30c4995198844ebb8e6eb1684212ad3b864022ec4f897248fca77c84cb9",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -26159,8 +27349,8 @@
         "status": "success",
         "path": "CN0004/thumbnail.png",
         "sha256": "d644ef829db7bbe8b42c6a944b93a87d016c8e56051a68ef4c34d9fef6bbdf32",
-        "fingerprint": "7b2b8b1aec139659bd33b6b65f0650e9e29306a0e52f55056841e8bf9c181e15",
-        "reused": false,
+        "fingerprint": "4f38931d3b8512b28c8df5b4309914c4905505d2be968ff75c5befe3c1487480",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -26339,8 +27529,8 @@
         "status": "success",
         "path": "TR0006/thumbnail.png",
         "sha256": "230b07e3f5661ecb5215c55bec7b53ecac11f2890d99eddc54d157727b1297b6",
-        "fingerprint": "a10520474682e6ba2de501a44c90b8d6b66be64c8309981e9ab9392a4c8b6743",
-        "reused": false,
+        "fingerprint": "7bc4d21cf61c13ca8b8e64fce9a33dab11268129d046640b6923f30ef225fec5",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -26479,8 +27669,8 @@
         "status": "success",
         "path": "DM0001/thumbnail.png",
         "sha256": "51c0bf850ce7a9256e177acbd189edc83db0105a69e5fc2585f09c1b1c716860",
-        "fingerprint": "8f34aff54ecd7069b6e817f7882fd47d54e98d0987c8416d753515612cd14e3d",
-        "reused": false,
+        "fingerprint": "d4d0c6d599f6ecee5b72c94f01d10edbf66b436b117fa981fabc6f968bbbfdd2",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -26659,8 +27849,8 @@
         "status": "success",
         "path": "EU0004/thumbnail.png",
         "sha256": "983458f6b4699d4852d708c61b55dcc998855bc54ecea6ec96c63eb007d336d4",
-        "fingerprint": "226f6b51b7d3a1646a307e7ad3a0e4b850af6991d2004b1d3fac20e0b883dcec",
-        "reused": false,
+        "fingerprint": "44a94e3d02b9033e4f3be6cf33f0569b3a94368f3eda53992fd040ffe563623e",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -26830,8 +28020,8 @@
         "status": "success",
         "path": "JS0001/thumbnail.png",
         "sha256": "5fca51f9d6d725e02b08bb4216ded5981a6b85f21a71d20fe68de0f0c732954e",
-        "fingerprint": "9b7858ea57db596b491155360642d2d4145b401d3f2841dbb5449895e034ac09",
-        "reused": false,
+        "fingerprint": "9e8e43a6bbe72c7fd5c1bee8ecb73467f4b04a2aca4e92b3f6bada4a5141ee91",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -26995,8 +28185,8 @@
         "status": "success",
         "path": "GA0004/thumbnail.png",
         "sha256": "245ca552cccf9e577f42036c174cbf5ed370688bc18d297f9434cd34d750732d",
-        "fingerprint": "205fec309832e4c4a38fa660194da4a461fc6de9e56ac4be897ad8dea4c9305f",
-        "reused": false,
+        "fingerprint": "bfcdd49b1e009e7ee6f0d2a02882ffc7298e8e7e08b2ef57842ea948ff2464e8",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -27166,8 +28356,8 @@
         "status": "success",
         "path": "BP0005/thumbnail.png",
         "sha256": "e63397890bcc30a69ac906254301c7555cfcd383dc588d42f75d46a5ce1887c5",
-        "fingerprint": "deb53c2bb005da07461526a005096f92db502aae2c5ab811ea0209d50ad683f0",
-        "reused": false,
+        "fingerprint": "4e561e4f482984311c15ec28e3ab2b1d658f82b69fe7d86673636eaf361fcdf4",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -27306,8 +28496,8 @@
         "status": "success",
         "path": "DW0002/thumbnail.png",
         "sha256": "6dab24f2771815a92b69ab60f77fae394a89eb8305459a174004839cf17ecd8f",
-        "fingerprint": "779f40a390bfc1c6e7337956eb0f40cf0c1eea041ac806eda29041d37a419e71",
-        "reused": false,
+        "fingerprint": "eb48a309f7ff1e94149479217f50fd5058b5a1b340d5bda9fb5d6e32a47f05de",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -27477,8 +28667,8 @@
         "status": "success",
         "path": "WM0004/thumbnail.png",
         "sha256": "8c5f70ef00a0596bdefc1c53854d5080a249b620df6a601a4fdf99bb1308ccf8",
-        "fingerprint": "a81ec73249b38de15df94fd92e4fa3305f2dc7b4003df09d3b84ef32cfa1f20d",
-        "reused": false,
+        "fingerprint": "f7088a11b301fc3c0873576509db32c3ee55da5748e495c6715ff43a576d5c32",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -28060,8 +29250,8 @@
         "status": "success",
         "path": "AW0001/thumbnail.png",
         "sha256": "7791896b9cca9e352bd055b8b4021a77d3e98edfd7df0741bdce54d4cd53147a",
-        "fingerprint": "985ef11e05abe7cbe0294df6c3ecfdd3e2b2a2cf150e4f92ccb73333f550125c",
-        "reused": false,
+        "fingerprint": "a205e999133e6476a2de55d81a91deadcabc24d3f64e901f448a329fc7bebd04",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -28231,8 +29421,8 @@
         "status": "success",
         "path": "TH0001/thumbnail.png",
         "sha256": "0e0447d16f265f7a475d695d4bc1894884c797ca7fdad2a02171f5353ceb4329",
-        "fingerprint": "98fe09bc605e4390edd7a7496b017a7b23d5ca60dc4185a429dced5914e9853f",
-        "reused": false,
+        "fingerprint": "a639b22719189fec4c4ed565f266d01e5d9442aada1c985c8aeac2ceca17ec3a",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -28405,8 +29595,8 @@
         "status": "success",
         "path": "AC0001/thumbnail.png",
         "sha256": "e10fab55848aae08004ff3ff144a8886493f239a75b5215104e8840b46989e72",
-        "fingerprint": "2471c070d39823e70648bc859b6e5fc0a2e4fa64dc35254108c1f89522053025",
-        "reused": false,
+        "fingerprint": "6ffd50be2426951c4bbfb13cb9a6317bbaac906ae922d1fa98014a86a7ee2f79",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -28570,8 +29760,8 @@
         "status": "success",
         "path": "LS0001/thumbnail.png",
         "sha256": "8b632e59ed2e7a48a9951ebc7295938ea23bf6c6211063241eb8742dab92d6a0",
-        "fingerprint": "87a7e202a12b4d95a30b9644ea019bae848b419d61559333eccc2fc6850f5502",
-        "reused": false,
+        "fingerprint": "34cac620c8a5feedc9fab7ab8400616fd639416411a397b3a2ba1cf08450402c",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -28775,8 +29965,8 @@
         "status": "success",
         "path": "SM0001/thumbnail.png",
         "sha256": "52b529c80eebb3e4e38e928ce5c420471e4f4c39908322c40cc330b0e10f52a1",
-        "fingerprint": "6717cce94b63344b3aed59f71fb3212fc79c91a8991b98f3ad3f41f0fb610278",
-        "reused": false,
+        "fingerprint": "3dc1153227b20339843d4912cd5817480518eda1137ffad90dbcb2724a495628",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -29352,8 +30542,8 @@
         "status": "success",
         "path": "CU0001/thumbnail.png",
         "sha256": "11d1ae597cb0a0f68735868c1114192b1f075356094a76710c60517102180f8f",
-        "fingerprint": "c78cd84c867bbbcdab371e036dee21a4fcda88ab1fd044e279948c3b644e485a",
-        "reused": false,
+        "fingerprint": "9e60b0dbaa8b3e2aafa8d65a1f55db2cc67dd4f0307a0abdec6d70b72e8a9f77",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -29512,10 +30702,151 @@
     },
     "DJ0004": {
       "code": "DJ0004",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "DJ0004/thumbnail.png",
+        "sha256": "ca34e22695426756b2d10386f7e45a83b8c2422d8113adcd729164841318353c",
+        "fingerprint": "7309ee99541ea1d8a19ad2fbaa943ed20a7e8560216cc4f5a9666ac72233b6ac",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-6.zip",
+            "member": "DJ0004-4.png",
+            "raw_member": "DJ0004-4.png",
+            "filename": "DJ0004-4.png",
+            "sha256": "c7354e9f89ce5f0e4a2724a88ebdb415cb8058f90278ac73656fdec21b58cafe"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/DJ.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/DJ.png",
+            "filename": "DJ.png",
+            "sha256": "7f581b00ebd36899ee9e8e7b96e33fa68241a6774941469ed51d680c1de7fc4c"
+          },
+          "main_title": "Cicapair Intensive Soothing Repair Serum",
+          "subtitles": [],
+          "logo_box": [
+            373,
+            58,
+            650,
+            110
+          ],
+          "title_boxes": [
+            [
+              108,
+              122,
+              916,
+              173
+            ],
+            [
+              313,
+              179,
+              712,
+              230
+            ]
+          ],
+          "subtitle_boxes": [],
+          "cropped_source_size": [
+            878,
+            737
+          ],
+          "product_scale": 0.9769335142469471,
+          "product_box": [
+            83,
+            250,
+            941,
+            970
+          ],
+          "product_area": [
+            48,
+            250,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.191316146540027,
+          "badge_box": [
+            270,
+            250,
+            430,
+            410
+          ],
+          "badge_occupied_fraction": 0.8152649968013386,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            60,
+            156,
+            99
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            0,
+            0
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 212,
+          "layout_preserved": true,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              140,
+              306,
+              260,
+              339
+            ],
+            [
+              140,
+              393,
+              291,
+              429
+            ],
+            [
+              140,
+              444,
+              446,
+              480
+            ],
+            [
+              630,
+              359,
+              843,
+              446
+            ],
+            [
+              682,
+              265,
+              818,
+              333
+            ],
+            [
+              340,
+              729,
+              598,
+              870
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "ca34e22695426756b2d10386f7e45a83b8c2422d8113adcd729164841318353c",
+          "source_sha256": "c7354e9f89ce5f0e4a2724a88ebdb415cb8058f90278ac73656fdec21b58cafe",
+          "reviewer": "Codex image inspection",
+          "note": "Plain upper pouch region overlaps; Dr.Jart+, Cicapair and product-description labels remain visible.",
+          "policy_version": 6
+        }
       },
       "options": {
         "DJ0004-1": {
@@ -29612,16 +30943,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 3,
       "zip": {
         "path": "archives/DJ0004.zip",
-        "sha256": "c5062a27d754e06a1631382a5b51334b216b4e3e0d8f7cef045dceb967cc6a1e"
+        "sha256": "2c7f9995ff3b62fb52fe5193468d86e20211892aadb012160a30df11ff4ea417"
       }
     },
     "PR0006": {
@@ -29631,8 +30957,8 @@
         "status": "success",
         "path": "PR0006/thumbnail.png",
         "sha256": "bdd28dfe857bc7a718ac121ec20007a5216c3ebbe23595fe16b10353109f9cc2",
-        "fingerprint": "c2f0104f27c88717d4f2a215c2b3899fd1af450e1c24d1364644bbb980cf2549",
-        "reused": false,
+        "fingerprint": "b96db0fbfb3f5f44790629bdc825937c82b24f1fd9f85957ac5a9885106d4cae",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -29991,8 +31317,8 @@
         "status": "success",
         "path": "BC0002/thumbnail.png",
         "sha256": "5e2759f2ad7ab605f0904680997e6ac51387b5cdcc0e3e6dc5a4101d13fb9fda",
-        "fingerprint": "41e20b071f0baed8137f2558ed806ac5d39e97b7fab5db3b84edc8ec4743c10a",
-        "reused": false,
+        "fingerprint": "5d4eab2e8b7220e092882c0268baff32f611140043e06d2501eb363dba2d40ca",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -30162,8 +31488,8 @@
         "status": "success",
         "path": "HY0004/thumbnail.png",
         "sha256": "f32ddf01607bf748c227d43c03a2a7ada9c2e5fac3534d1cf733305ff4f10b56",
-        "fingerprint": "7ca47e8ad7870dcb8455e880a63cfbcf9bb0d5e6ae530cdcc8c966ea7cb07d21",
-        "reused": false,
+        "fingerprint": "ea45a087a2675f24eaa79030c96e5a928a9563f01db4d6ebef4a5b0fc5741543",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -30327,8 +31653,8 @@
         "status": "success",
         "path": "AR0001/thumbnail.png",
         "sha256": "4ae837ac8a8548a5b5671c80c71f05b5d085ba0774d35c723e7d6df9a0f43288",
-        "fingerprint": "a180d48536ad40cc33d8f5df5773a25d8770726c9d31647f3547a01f4a027a8b",
-        "reused": false,
+        "fingerprint": "7aa7c588506a56d9c23f1e158560c094175468948e5cdf58aa49f4b160a5d765",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -30533,10 +31859,139 @@
     },
     "IF0001": {
       "code": "IF0001",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "IF0001/thumbnail.png",
+        "sha256": "40772b61b6ad3091754611a07b69a362d73a2272ac05a1c1695c2825c01c35e9",
+        "fingerprint": "4996a76f52d1cf02f00000af60db02556355105999d50d3d96f15cc8f535d3f9",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-6.zip",
+            "member": "IF0001-2.png",
+            "raw_member": "IF0001-2.png",
+            "filename": "IF0001-2.png",
+            "sha256": "ffd0aadc732fddcc407aa2e9603e4d93d2e2525c2b4caf98a062a915cb48643f"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/IF.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/IF.png",
+            "filename": "IF.png",
+            "sha256": "73643d08896269d9c6b22bb6a5be48dd13648b6c73a52684347ac42669a67f68"
+          },
+          "main_title": "Mugwort Essence",
+          "subtitles": [],
+          "logo_box": [
+            408,
+            58,
+            616,
+            110
+          ],
+          "title_boxes": [
+            [
+              255,
+              122,
+              769,
+              171
+            ]
+          ],
+          "subtitle_boxes": [],
+          "cropped_source_size": [
+            826,
+            757
+          ],
+          "product_scale": 1.0290620871862615,
+          "product_box": [
+            87,
+            191,
+            937,
+            970
+          ],
+          "product_area": [
+            48,
+            191,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.0911492734478203,
+          "badge_box": [
+            270,
+            183,
+            430,
+            343
+          ],
+          "badge_occupied_fraction": 0.14315240391713005,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            144,
+            144,
+            108
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            0,
+            0
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 145,
+          "layout_preserved": true,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              128,
+              363,
+              339,
+              430
+            ],
+            [
+              404,
+              363,
+              615,
+              430
+            ],
+            [
+              145,
+              730,
+              338,
+              867
+            ],
+            [
+              424,
+              730,
+              618,
+              867
+            ],
+            [
+              617,
+              301,
+              917,
+              447
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "40772b61b6ad3091754611a07b69a362d73a2272ac05a1c1695c2825c01c35e9",
+          "source_sha256": "ffd0aadc732fddcc407aa2e9603e4d93d2e2525c2b4caf98a062a915cb48643f",
+          "reviewer": "Codex image inspection",
+          "note": "Plain cap edges overlap; Im from and Mugwort Essence lettering are clear.",
+          "policy_version": 6
+        }
       },
       "options": {
         "IF0001-1": {
@@ -30602,16 +32057,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/IF0001.zip",
-        "sha256": "57cc4b0069102dac3adba216bb415be3c9867c8fbcded8ccd6c57cb2b75a6221"
+        "sha256": "7baac44a5b2cc969bab61977048899b78e0197fbc17c175cd4c7aec08b41f156"
       }
     },
     "BY0002": {
@@ -30621,8 +32071,8 @@
         "status": "success",
         "path": "BY0002/thumbnail.png",
         "sha256": "bb79e24943174095fed26959587a91f52b5bc0e512ebf48ad0b662d2478732c3",
-        "fingerprint": "f2c1b22c95ad3924711f0835f3c5c15c8ad72e17b75f771ae00b9aa1728551e0",
-        "reused": false,
+        "fingerprint": "23ca959c599c7eed58eabbe59c6cef5b377e1916de956532fa1a6fa03536eea9",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -30761,8 +32211,8 @@
         "status": "success",
         "path": "ET0008/thumbnail.png",
         "sha256": "f9f2d6a05855a2a5e319ab81f188bdfd203d6a0800cc27253e034970dab571c3",
-        "fingerprint": "83bce9a275c22790b775dc07dadcdc2b223ebf1c0621617ab93d72378fdb9881",
-        "reused": false,
+        "fingerprint": "b792fb85d33211624009782e5ebe084759942d9f0441d5982e0e64115ab55036",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -30926,8 +32376,8 @@
         "status": "success",
         "path": "BP0006/thumbnail.png",
         "sha256": "fc25299183a5fa3bad77db2618d7c7b8cd4b35fde616134f8d5515d25f6b8cad",
-        "fingerprint": "e6f98ef065de4e2515a909762dabbf782c484a7eaadeb84fe631a66cb0ccc65e",
-        "reused": false,
+        "fingerprint": "ad0c290806a46d33693df0a1972312005fe4ae2a8c7824ad95c1c968d6d20e0f",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -31097,8 +32547,8 @@
         "status": "success",
         "path": "BG0001/thumbnail.png",
         "sha256": "9c692fc77d4d4bc1aaf24e6f07bebafe91f4c84a46cd857785f4f025d628f039",
-        "fingerprint": "acf92bc869efa9b70107b89a88e3c8b388d295c6f8bd486211eb9c6845b81610",
-        "reused": false,
+        "fingerprint": "9058261f7eb8a35c92a19dc2b9d64a42ef200fcc95e218a295fdb40f8b88ac8a",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -31328,10 +32778,145 @@
     },
     "IM0005": {
       "code": "IM0005",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "IM0005/thumbnail.png",
+        "sha256": "536cd6755b29da10ea29797dd7eb71bb8f39a9f04baac1b547a8d79716066a2d",
+        "fingerprint": "e256b5c4889afe0587dd243ef02acdda8f6bc008215736c620bbfd7bd6725873",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-6.zip",
+            "member": "IM0005-2.png",
+            "raw_member": "IM0005-2.png",
+            "filename": "IM0005-2.png",
+            "sha256": "50fad95ad85be05963a15e9de8ec50405fb6d8b6e3be1c17cd0cd974a3a672bc"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/IM.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/IM.png",
+            "filename": "IM.png",
+            "sha256": "9e6756ba5d892048772145c690f65be1b708d2d19b4bbf56a46a2a265b719f8e"
+          },
+          "main_title": "Fresh Oil Cut Sun Stick",
+          "subtitles": [],
+          "logo_box": [
+            426,
+            58,
+            598,
+            110
+          ],
+          "title_boxes": [
+            [
+              177,
+              122,
+              849,
+              163
+            ]
+          ],
+          "subtitle_boxes": [],
+          "cropped_source_size": [
+            590,
+            571
+          ],
+          "product_scale": 1.3782837127845884,
+          "product_box": [
+            163,
+            183,
+            976,
+            970
+          ],
+          "product_area": [
+            48,
+            183,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.0332749562171628,
+          "badge_box": [
+            78,
+            175,
+            238,
+            335
+          ],
+          "badge_occupied_fraction": 0.030854780768662958,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            82,
+            151,
+            178
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            58,
+            0
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 40,
+          "layout_preserved": false,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              262,
+              242,
+              465,
+              332
+            ],
+            [
+              669,
+              242,
+              872,
+              332
+            ],
+            [
+              281,
+              428,
+              460,
+              490
+            ],
+            [
+              684,
+              428,
+              863,
+              490
+            ],
+            [
+              313,
+              520,
+              426,
+              616
+            ],
+            [
+              716,
+              520,
+              829,
+              616
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "536cd6755b29da10ea29797dd7eb71bb8f39a9f04baac1b547a8d79716066a2d",
+          "source_sha256": "50fad95ad85be05963a15e9de8ec50405fb6d8b6e3be1c17cd0cd974a3a672bc",
+          "reviewer": "Codex image inspection",
+          "note": "Product translated +58px with unchanged scale; badge overlaps plain edge without hiding IDEAL branding.",
+          "policy_version": 6
+        }
       },
       "options": {
         "IM0005-1": {
@@ -31397,16 +32982,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/IM0005.zip",
-        "sha256": "9cb08def7b0630956eec552b1b17bf05d87e5b8263ed6036cb24723f032653b4"
+        "sha256": "4728ebc1d8449718f9481805457ec8a5540f082967dc307065963a941fb37a73"
       }
     },
     "AC0002": {
@@ -31416,8 +32996,8 @@
         "status": "success",
         "path": "AC0002/thumbnail.png",
         "sha256": "52b634f428f6247ee9c93016ed5c216f38a391b7227ff79ecd434f4cda71fe4d",
-        "fingerprint": "508371f06974b35b0139834873382d555c8d891e31776d63775c27c77485fcb1",
-        "reused": false,
+        "fingerprint": "3348e9700fa9f0206751a83d4c64fcc8522f3afc14cca2ae2b25abbd356876df",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -31596,8 +33176,8 @@
         "status": "success",
         "path": "OE0001/thumbnail.png",
         "sha256": "0fc07c3a9ceba9f24d5e45fe38cf1595f80532edfb60d4f95d8fe2b43fc8119f",
-        "fingerprint": "fba417cdaaae73e75e1ac9ca2a3de1255add40b64f9797e8842a7847c2d71b83",
-        "reused": false,
+        "fingerprint": "7597667c74a601525f64ebe46be32d627108b517b3981cb3ecbc1c312e2389e6",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -31730,8 +33310,8 @@
         "status": "success",
         "path": "CX0001/thumbnail.png",
         "sha256": "fb1fd8e678c5c9161f80b1a57f13d4b03eb3583515aed8af89113a00330a7ee6",
-        "fingerprint": "66da029ca5fff8e89676766058d469c856c203218c30235ae14ac11f182be03d",
-        "reused": false,
+        "fingerprint": "e5952079a64a518795097106fd88e3fc3e47e2b0fc9301ddccba3c9b8b6339b2",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -31896,10 +33476,166 @@
     },
     "DO0001": {
       "code": "DO0001",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "DO0001/thumbnail.png",
+        "sha256": "6bc1f6d7b0dca9938766b36f52d3611344dd54a38e7cc1b77a9a0d55009ac41e",
+        "fingerprint": "33934cc6c7c7d0c61edcf78fae7a3a830d283bce649785ce3a0b70aa83d79529",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-6.zip",
+            "member": "DO0001-3.png",
+            "raw_member": "DO0001-3.png",
+            "filename": "DO0001-3.png",
+            "sha256": "d78c292ba8eb7d8faf20823c59f88649af063fa1288b8bb04f996ea2a2fea6e5"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/DO.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/DO.png",
+            "filename": "DO.png",
+            "sha256": "7bed43f91b5f39945cce7358a0ead80fd2f60999d426c8b556b03359d400bbf6"
+          },
+          "main_title": "Roll-On Deodorant",
+          "subtitles": [
+            "Orignial/Sensitive"
+          ],
+          "logo_box": [
+            474,
+            58,
+            550,
+            110
+          ],
+          "title_boxes": [
+            [
+              241,
+              122,
+              783,
+              163
+            ]
+          ],
+          "subtitle_boxes": [
+            [
+              384,
+              171,
+              639,
+              199
+            ]
+          ],
+          "cropped_source_size": [
+            1024,
+            1024
+          ],
+          "product_scale": 0.7333984375,
+          "product_box": [
+            136,
+            219,
+            887,
+            970
+          ],
+          "product_area": [
+            48,
+            219,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.0,
+          "badge_box": [
+            270,
+            211,
+            430,
+            371
+          ],
+          "badge_occupied_fraction": 0.9673736528714137,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            125,
+            141,
+            172
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            0,
+            0
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 173,
+          "layout_preserved": true,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              188,
+              343,
+              252,
+              389
+            ],
+            [
+              520,
+              341,
+              580,
+              389
+            ],
+            [
+              434,
+              292,
+              519,
+              351
+            ],
+            [
+              172,
+              407,
+              477,
+              495
+            ],
+            [
+              496,
+              408,
+              829,
+              496
+            ],
+            [
+              230,
+              632,
+              325,
+              914
+            ],
+            [
+              492,
+              632,
+              582,
+              914
+            ],
+            [
+              753,
+              632,
+              840,
+              914
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "6bc1f6d7b0dca9938766b36f52d3611344dd54a38e7cc1b77a9a0d55009ac41e",
+          "source_sha256": "d78c292ba8eb7d8faf20823c59f88649af063fa1288b8bb04f996ea2a2fea6e5",
+          "reviewer": "Codex image inspection",
+          "note": "Badge overlaps the photo backdrop/wool; sheep facial features and all product labels remain visible.",
+          "policy_version": 6
+        }
       },
       "options": {
         "DO0001-1": {
@@ -31965,16 +33701,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DO0001.zip",
-        "sha256": "c5fa717b4319de4783a2d3f0c52d2624d6203759734661f160912becad403aa2"
+        "sha256": "56ec2644457a68ba9756540e4321c1e4ff865b159028cebfc4b801ddb6e7e68a"
       }
     },
     "EL0001": {
@@ -31984,8 +33715,8 @@
         "status": "success",
         "path": "EL0001/thumbnail.png",
         "sha256": "11ed0c373f5b593d2266f098ca2177f2ded9d8b15584c078fe17c011f67e17a4",
-        "fingerprint": "29c5b96edbb13630a01dfa4c9356b1ec8711051de9414bd3797e03345d9dec7d",
-        "reused": false,
+        "fingerprint": "4fdf384ea1bf024833198a201a842e13f05fac8271a3272169f1bcbea7bc7863",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -32251,8 +33982,8 @@
         "status": "success",
         "path": "LK0001/thumbnail.png",
         "sha256": "f3c1b7b0c0a1d6de8820295da06e766d8bfef736e790606c9fa3784c14422337",
-        "fingerprint": "7de55d3a19aa358fde995ed23f4d3bd2ee3c00d4eb3c562fc3e99682da332108",
-        "reused": false,
+        "fingerprint": "fcef75db9da6d4ee182e28d4f5d9865fef6711edd20ebc948dff23860f991741",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -32611,8 +34342,8 @@
         "status": "success",
         "path": "DJ0005/thumbnail.png",
         "sha256": "09283d71856268b6c1e88754a2fb73ea6ee3d1cc7157804efed6b4f262d459d6",
-        "fingerprint": "32b3297d35246980efc9a40fd452b0037b99dcf1625683f52975cad5f35e104f",
-        "reused": false,
+        "fingerprint": "e673f55b1adeba84f7dfd227daa25186f86eef402ed294cfe64591278b83f7c2",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -32782,8 +34513,8 @@
         "status": "success",
         "path": "CK0003/thumbnail.png",
         "sha256": "48642a597ab422266249863f225e43eb9157322c9e3f7ad37735c098f621640e",
-        "fingerprint": "85b27e3c0b9d93a6b639e6f01d2c57f61421386bc379ce20171c8f267f627606",
-        "reused": false,
+        "fingerprint": "ccbfcb37aedc1b81d0dec463a1e8c3cfa9436d0caf1f1bcba307b471d25e2ab4",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -32947,8 +34678,8 @@
         "status": "success",
         "path": "EN0001/thumbnail.png",
         "sha256": "5cb5ef60e753b559faa8f04cba48c5eb9445e4c158665dfa24ccf20cb4f9012b",
-        "fingerprint": "6cd19e9daf5b7f17ff83def02d41a98ee1353d7308f58285318b7d06983335aa",
-        "reused": false,
+        "fingerprint": "c9b85f246bfa0ce73c8aa6f53b1b479691355aab493e90a263f4b3fcc286f439",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -33245,8 +34976,8 @@
         "status": "success",
         "path": "MX0002/thumbnail.png",
         "sha256": "d15d2431d38ce93e66da55c2da96e77c62d3fac422f0f1442d688c80adadc541",
-        "fingerprint": "6a71068a2b3907c7cf868e7e725a67c0d3d79180a11b74d4ded2396ee84b873a",
-        "reused": false,
+        "fingerprint": "f4fc15e7c1e92c695c7d28279b7eb9cfb1d7a535f58ae5b16c9546b71eeb33da",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -33405,10 +35136,133 @@
     },
     "RP0001": {
       "code": "RP0001",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "RP0001/thumbnail.png",
+        "sha256": "f6e23a94e98b45cf6a362db898d8f7f1c19e37188f9152d000680d7080f3e1c9",
+        "fingerprint": "1e695699943ae5aa4f3777f0ce48448df6d98f3873723bb1d6c967053bb47c4f",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-7.zip",
+            "member": "RP0001-2.png",
+            "raw_member": "RP0001-2.png",
+            "filename": "RP0001-2.png",
+            "sha256": "6816a23a8514cc273bc28207c21d972d785b87245d8d6287ae2a4bee5cd2c774"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/RP.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/RP.png",
+            "filename": "RP.png",
+            "sha256": "b277e94d351fd6bf41cea574780e49d4b41a4aa9e350dd6638aea213364fe0d2"
+          },
+          "main_title": "Water Parsley Calming Sun Cream",
+          "subtitles": [],
+          "logo_box": [
+            415,
+            58,
+            609,
+            110
+          ],
+          "title_boxes": [
+            [
+              115,
+              122,
+              910,
+              173
+            ],
+            [
+              418,
+              179,
+              606,
+              219
+            ]
+          ],
+          "subtitle_boxes": [],
+          "cropped_source_size": [
+            779,
+            621
+          ],
+          "product_scale": 1.1771336553945249,
+          "product_box": [
+            53,
+            239,
+            970,
+            970
+          ],
+          "product_area": [
+            48,
+            239,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.2544283413848631,
+          "badge_box": [
+            78,
+            231,
+            238,
+            391
+          ],
+          "badge_occupied_fraction": 0.22966389449338123,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            79,
+            157,
+            157
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            0,
+            0
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 40,
+          "layout_preserved": true,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              233,
+              414,
+              383,
+              559
+            ],
+            [
+              492,
+              437,
+              641,
+              553
+            ],
+            [
+              676,
+              252,
+              924,
+              473
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "f6e23a94e98b45cf6a362db898d8f7f1c19e37188f9152d000680d7080f3e1c9",
+          "source_sha256": "6816a23a8514cc273bc28207c21d972d785b87245d8d6287ae2a4bee5cd2c774",
+          "reviewer": "Codex image inspection",
+          "note": "Only slanted tube seal/outer edge overlaps; rataplan and SPF/benefit labels remain visible.",
+          "policy_version": 6
+        }
       },
       "options": {
         "RP0001-1": {
@@ -33474,16 +35328,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/RP0001.zip",
-        "sha256": "647c3506311e3baf51a949c2c0e98d2dfe553cc0e18ce52a79a4c05e2acafb70"
+        "sha256": "5da84d54f2a9e2ce61393471265669f638212a4128183670ffb1b6bda680b1f6"
       }
     },
     "DW0003": {
@@ -33493,8 +35342,8 @@
         "status": "success",
         "path": "DW0003/thumbnail.png",
         "sha256": "04ed6686a8d745b820a73a30d4193506cab67ac8832472d0b62ed2ba2f281322",
-        "fingerprint": "b7779b3df9ac6b0ff83b8d528493f07f64d996eb8869319e9826d26315c435bc",
-        "reused": false,
+        "fingerprint": "ed1619de8befbf0aa46c87a1c9241bac90645927559be568d4c0f40cd400ff93",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -33664,8 +35513,8 @@
         "status": "success",
         "path": "SO0001/thumbnail.png",
         "sha256": "7009777b209c7432787bbf08e4df3c8beeaf673faa4118e780df6e78ab156ca7",
-        "fingerprint": "49416a588df7708bb46dc9a267e9d183de42697ffbdcdb57cf1b0e09b1ff9b21",
-        "reused": false,
+        "fingerprint": "f95de1a5531fe8f124bd0f1e5aa4e732c08754ce7f7a34765d5f93a82a5acad8",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -33838,8 +35687,8 @@
         "status": "success",
         "path": "RC0001/thumbnail.png",
         "sha256": "5fdc77d7c9e138336a746bd69bfa60b5200d89ac2417dd7ab130ebc4ae972ec7",
-        "fingerprint": "1ed8061cb220e5cb47be30d9948682143137efcd4465324047e4d42df5a39e4c",
-        "reused": false,
+        "fingerprint": "9e01b6f1fceefd06a07892783e7ae0fec72e7073da468058b4a175ce458a8240",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -34105,8 +35954,8 @@
         "status": "success",
         "path": "NF0001/thumbnail.png",
         "sha256": "6ccb4130cb48bcd8e222fa0bd359535187b37898367764140b5855f278c85a76",
-        "fingerprint": "4956815a7a7713a62324c7099c5c35308178e85850d432c24a53867ee8d30d10",
-        "reused": false,
+        "fingerprint": "4329ec7778e5ca98a0e33b52ee1b3cd7c44890275d6cc7aa440966001b7a2a68",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -34270,8 +36119,8 @@
         "status": "success",
         "path": "BH0001/thumbnail.png",
         "sha256": "193d43a446592cba4fc950819fe18b145fee738344c9d0b00f15ae68fcfe5621",
-        "fingerprint": "be5ccb5348a0f6a247b818db261fe60690037f39b16ccbf7eb3d791c2c91d5a6",
-        "reused": false,
+        "fingerprint": "e63e76477600964db228ff531af7f916763d4add641bc8d3ffde27e3e663a1ab",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -34512,8 +36361,8 @@
         "status": "success",
         "path": "BL0002/thumbnail.png",
         "sha256": "cdec57306bc0693bf5b25f105996a90e81a5238ada6fcc52a86f5f01d7baa042",
-        "fingerprint": "b088f4e5d8f92f76abf4655e1b7371b4a98ee3428a029b5e5ecf436a9c2fc7a7",
-        "reused": false,
+        "fingerprint": "6c5e8935d32cc895f74bdea7ec4244e9aef386f873d8e12d66c708635651fe31",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -34745,8 +36594,8 @@
         "status": "success",
         "path": "LV0001/thumbnail.png",
         "sha256": "bb4b32c4d2602210eb7650af421810a209c00d6c326042a5bec48bf53f3b3a9c",
-        "fingerprint": "80576aa3ee3dc2c589cc581bab76fe4904da45a07c3addf2ee113403527501a0",
-        "reused": false,
+        "fingerprint": "575c32ee3efdc719d2c0e83ba55a6faf75d2b274da30f72bd3a97eae5586d874",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -34885,8 +36734,8 @@
         "status": "success",
         "path": "PR0007/thumbnail.png",
         "sha256": "c2fe10831e0abec634e4928d21ae541bbe1e917bdc933fe33cd953b19dbde08f",
-        "fingerprint": "0e8b1a62e621697433d368d8efc088afb56f57dd206e6dfc21a2e8963c654ddf",
-        "reused": false,
+        "fingerprint": "d54e642c567ea08d16d773fffe02b72896f4ac8791674c20f37ed203c8f69e3b",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -35050,8 +36899,8 @@
         "status": "success",
         "path": "DH0001/thumbnail.png",
         "sha256": "ff20f69fc8c8321641e2cdf97339e5e5efb5d44a3c42d1bc53831ce4ee86e217",
-        "fingerprint": "686733c78bbb8fe4e59b1a5bfe47e3c6584b1e24959562b87edb76fa9f5475e3",
-        "reused": false,
+        "fingerprint": "9c2c9dc7258f63ba6ef346f694fcd6db8b0feac02f4df6ee5ac89e1562783351",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -35246,8 +37095,8 @@
         "status": "success",
         "path": "PR0008/thumbnail.png",
         "sha256": "d07171e49a0502e968ced11e67099209f5a7103a3d087c7ea3960b266806819d",
-        "fingerprint": "beac42149e089b98de8233866d202d751fb171e9b1aa45dc249a0f32424039bc",
-        "reused": false,
+        "fingerprint": "dc37940759350799e1849d256c672eb264ee0027a6419d346b93176208e96132",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -35519,8 +37368,8 @@
         "status": "success",
         "path": "CP0001/thumbnail.png",
         "sha256": "aa0ccf592ca94778e2bcfe8b619b1ff24a39db155c3b6f4c273a7e7e41823f0f",
-        "fingerprint": "a909781326900b6ea792aaf2571ad27c408c10dbce78ce0f99b234fdec865071",
-        "reused": false,
+        "fingerprint": "7dcf90c4a77b85bb7e58817d43bb43a7cd549ae87c82e8ccce6d40dfbabb77c0",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -35684,8 +37533,8 @@
         "status": "success",
         "path": "MM0001/thumbnail.png",
         "sha256": "9d885fa1aabcdf3a6363aaad972252c443481b0330fce75a88db982378779242",
-        "fingerprint": "3c32cfc0e900c82443b2699f7135fba28c2fa5c7fed1336dfef11a4212428fd8",
-        "reused": false,
+        "fingerprint": "28d17e6e1750c2b39579736f643fcb4cfc027ac5e38c1f6c302a58f3b103b1ef",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -35855,8 +37704,8 @@
         "status": "success",
         "path": "NT0001/thumbnail.png",
         "sha256": "dc3582055e5a2e1af11050136c0a051ac0f0ff2a6f7b3c0d9438500629619a33",
-        "fingerprint": "d8c070ac4283659fd70fddea42f79b6205d118abf12267d060f2f3f1b5c35b64",
-        "reused": false,
+        "fingerprint": "08ed07b8fb9bbe3f23e68ea65f9b12608cecc52361192ce2957d9ad3cbc73d54",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -36024,10 +37873,139 @@
     },
     "SH0001": {
       "code": "SH0001",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "badge_review: upper corners unsafe even after size-preserving product translations"
+        "status": "success",
+        "path": "SH0001/thumbnail.png",
+        "sha256": "6bf92e57c439a4d508e12632c11725634609188075e7a18ff916393ba2bd734b",
+        "fingerprint": "d2a07c8ac9a070af68f82a84eb5c85753914662e7eca7ee54b7380ac61e13c39",
+        "reused": false,
+        "layout": {
+          "design_version": 6,
+          "source": {
+            "archive": "화장품 썸네일-7.zip",
+            "member": "SH0001-2.png",
+            "raw_member": "SH0001-2.png",
+            "filename": "SH0001-2.png",
+            "sha256": "19c46c9ed691be14c8f464300085eed23740e0c82110554945a9022b571b48c5"
+          },
+          "brand_logo": {
+            "archive": "브랜드 로고.zip",
+            "member": "브랜드 로고/SH.png",
+            "raw_member": "║Ω╖ú╡σ ╖╬░φ/SH.png",
+            "filename": "SH.png",
+            "sha256": "03e3e2b96499b1dae4e4998ebf4638fc4b4557f434637f2f9e6f30544ac89708"
+          },
+          "main_title": "Soft Vegan Cleansing Balm",
+          "subtitles": [],
+          "logo_box": [
+            388,
+            58,
+            635,
+            109
+          ],
+          "title_boxes": [
+            [
+              117,
+              121,
+              907,
+              172
+            ]
+          ],
+          "subtitle_boxes": [],
+          "cropped_source_size": [
+            725,
+            687
+          ],
+          "product_scale": 1.1324599708879184,
+          "product_box": [
+            101,
+            192,
+            922,
+            970
+          ],
+          "product_area": [
+            48,
+            192,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.0553129548762736,
+          "badge_box": [
+            786,
+            184,
+            946,
+            344
+          ],
+          "badge_occupied_fraction": 0.7724029329265292,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            165,
+            138,
+            123
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ],
+          "product_translation": [
+            0,
+            0
+          ],
+          "badge_position": "upper_right",
+          "badge_frame_clearance": 40,
+          "layout_preserved": true,
+          "product_size_preserved": true,
+          "critical_regions": [
+            [
+              641,
+              741,
+              847,
+              920
+            ],
+            [
+              579,
+              468,
+              850,
+              630
+            ],
+            [
+              632,
+              384,
+              854,
+              439
+            ],
+            [
+              216,
+              253,
+              407,
+              304
+            ],
+            [
+              216,
+              513,
+              407,
+              565
+            ]
+          ],
+          "critical_region_method": "source-bound visual annotations",
+          "visual_review_required": true
+        },
+        "visual_review": {
+          "decision": "approved",
+          "sha256": "6bf92e57c439a4d508e12632c11725634609188075e7a18ff916393ba2bd734b",
+          "source_sha256": "19c46c9ed691be14c8f464300085eed23740e0c82110554945a9022b571b48c5",
+          "reviewer": "Codex image inspection",
+          "note": "Allowed white lid edge overlap; SHHOM and product lettering and before/after feature photos remain visible.",
+          "policy_version": 6
+        }
       },
       "options": {
         "SH0001-1": {
@@ -36093,16 +38071,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "badge_review: upper corners unsafe even after size-preserving product translations"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SH0001.zip",
-        "sha256": "11818b3db599aa34ffe48e074e52babce44df452cf2630cb28560db40a555aec"
+        "sha256": "51e4e7ecf5618f5886495bcb1fc5f14c924aefabe740b222c773fdad0e87023c"
       }
     },
     "TB0001": {
@@ -36112,8 +38085,8 @@
         "status": "success",
         "path": "TB0001/thumbnail.png",
         "sha256": "06c0ffef5c01df276a439eb006b4685b93be142147fddae0b81dc421dc26461c",
-        "fingerprint": "b74005df921a645d147e39a28e1d7198a8216f8d3ad946fdf9774646def2566f",
-        "reused": false,
+        "fingerprint": "9d9c020f132884f9a79717f53062c449f414ff9d95a7a38b420589c54737ffcc",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -36277,8 +38250,8 @@
         "status": "success",
         "path": "ST0001/thumbnail.png",
         "sha256": "c2a8d60af78391d883120a3337bf1da91597198d6137c804beda885805bfc48a",
-        "fingerprint": "527fab20ee48390293dfb6ba06d0683b8d15e0feefbb5321ff170f2f8845a7a9",
-        "reused": false,
+        "fingerprint": "dba2de9ade8549be69e6da6406026dfcb1f48614d4ea5f5d20376083847fcd79",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -36448,8 +38421,8 @@
         "status": "success",
         "path": "AV0002/thumbnail.png",
         "sha256": "97fc75dc8e6a35329d792ed524b642e2e10b10d78b16c3d557d684e55aeb1f86",
-        "fingerprint": "15909fcff162117ae19159d765a48e96c85e58c506690ee1089bae2b6a2ec88a",
-        "reused": false,
+        "fingerprint": "b30075c902915258a289d18278c72b014be76c12b81c7fc4a48eb2a412afbce3",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -36619,8 +38592,8 @@
         "status": "success",
         "path": "DL0001/thumbnail.png",
         "sha256": "ce98babc94f6d2347c23ec57edd67ec11c599a96b513ddd7fa4a890f27d59743",
-        "fingerprint": "2ae6e2cc6fe1b8ccce77d5db364220ec002930087ac8f58033b572c7264fe951",
-        "reused": false,
+        "fingerprint": "fe1cef8a82095f0619fb685c0f5fa3133cb52d613ab99f98e1ec1f4aec46a6e5",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {
@@ -36790,8 +38763,8 @@
         "status": "success",
         "path": "DN0001/thumbnail.png",
         "sha256": "aaec12264d3c2b8b97bab5f67f41633b28c237e06d211df6f4a8f9300a5d1999",
-        "fingerprint": "9f7dd9e5004a89f609aa8998d4cde9aef9bfd0c3b942c09f57006183a39e87a5",
-        "reused": false,
+        "fingerprint": "b85ea840a57d943e274610d36e38189ba9261bc7b61daa475aa745d7f8e199ae",
+        "reused": true,
         "layout": {
           "design_version": 5,
           "source": {

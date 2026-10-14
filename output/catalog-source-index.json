@@ -5132,7 +5132,50 @@
       "observed_brands": [
         "GOODFEEL"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "4f367cae5a5f39660b92b4708d3c299abefe8c55378772868119c29c6d9e1db6",
+        "product_box": [
+          48,
+          276,
+          976,
+          938
+        ],
+        "critical_regions": [
+          [
+            90,
+            374,
+            275,
+            432
+          ],
+          [
+            132,
+            436,
+            328,
+            610
+          ],
+          [
+            386,
+            428,
+            580,
+            628
+          ],
+          [
+            650,
+            375,
+            798,
+            618
+          ],
+          [
+            851,
+            432,
+            925,
+            553
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "KL0001": {
       "code": "KL0001",
@@ -5223,7 +5266,44 @@
       "observed_brands": [
         "ETUDE"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "46a81bb14fed84c1a03be9ebacccfc43c9aa7b45b7a0509e9d7705d2e860c1f9",
+        "product_box": [
+          98,
+          219,
+          926,
+          970
+        ],
+        "critical_regions": [
+          [
+            140,
+            544,
+            217,
+            750
+          ],
+          [
+            260,
+            544,
+            350,
+            750
+          ],
+          [
+            495,
+            263,
+            579,
+            304
+          ],
+          [
+            495,
+            470,
+            804,
+            800
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "RL0002": {
       "code": "RL0002",
@@ -5676,7 +5756,38 @@
       "observed_brands": [
         "BIODANCE"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "cdef480b0a646c65af6b941b2bce13411b6c952ca3bb9cc1c0a5588efc81fb11",
+        "product_box": [
+          50,
+          213,
+          974,
+          970
+        ],
+        "critical_regions": [
+          [
+            151,
+            374,
+            503,
+            568
+          ],
+          [
+            633,
+            374,
+            973,
+            568
+          ],
+          [
+            700,
+            691,
+            970,
+            931
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "CL0001": {
       "code": "CL0001",
@@ -6061,7 +6172,44 @@
       "observed_brands": [
         "ALDICOM"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "eae55f214950f7763508d52889bbfe9fcc67769d481cf2f179c4250d8dde3a4e",
+        "product_box": [
+          135,
+          216,
+          889,
+          970
+        ],
+        "critical_regions": [
+          [
+            156,
+            546,
+            310,
+            813
+          ],
+          [
+            396,
+            389,
+            550,
+            620
+          ],
+          [
+            490,
+            659,
+            664,
+            910
+          ],
+          [
+            667,
+            447,
+            823,
+            707
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "WM0002": {
       "code": "WM0002",
@@ -6134,7 +6282,42 @@
       "observed_brands": [
         "WAKEMAKE"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_center": [
+        796,
+        308
+      ],
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "1f159318cb3ccd976a780aeb735dab910f3bed4e000ebecf7ca13772b5096060",
+        "product_box": [
+          131,
+          209,
+          892,
+          970
+        ],
+        "critical_regions": [
+          [
+            308,
+            395,
+            801,
+            699
+          ],
+          [
+            340,
+            775,
+            697,
+            891
+          ],
+          [
+            729,
+            745,
+            891,
+            970
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "RL0003": {
       "code": "RL0003",
@@ -6323,7 +6506,56 @@
       "observed_brands": [
         "MAEIL"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "97c617007170ffefacf077a977d1235ae8d2e4a97edb7d69d3352cc326dd9ba4",
+        "product_box": [
+          84,
+          270,
+          939,
+          970
+        ],
+        "critical_regions": [
+          [
+            168,
+            397,
+            263,
+            443
+          ],
+          [
+            266,
+            418,
+            347,
+            474
+          ],
+          [
+            165,
+            477,
+            440,
+            698
+          ],
+          [
+            598,
+            397,
+            696,
+            444
+          ],
+          [
+            700,
+            418,
+            783,
+            476
+          ],
+          [
+            590,
+            477,
+            870,
+            698
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "AH0001": {
       "code": "AH0001",
@@ -6637,7 +6869,44 @@
       "observed_brands": [
         "EUCERIN"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "25d7b1396a2f85e7009a11d06fdc48ed0c0906a6be4d1e7f710b6c0a462902d7",
+        "product_box": [
+          110,
+          193,
+          913,
+          970
+        ],
+        "critical_regions": [
+          [
+            250,
+            445,
+            435,
+            585
+          ],
+          [
+            630,
+            225,
+            831,
+            272
+          ],
+          [
+            550,
+            312,
+            880,
+            464
+          ],
+          [
+            550,
+            578,
+            785,
+            692
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "CF0001": {
       "code": "CF0001",
@@ -6747,7 +7016,44 @@
       "observed_brands": [
         "HANYUL"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "24c9111881ea0e89d8726448ced887385929a3eacb717c3cc996e5aeebda09cf",
+        "product_box": [
+          48,
+          256,
+          976,
+          970
+        ],
+        "critical_regions": [
+          [
+            156,
+            372,
+            391,
+            509
+          ],
+          [
+            429,
+            323,
+            855,
+            458
+          ],
+          [
+            853,
+            330,
+            952,
+            535
+          ],
+          [
+            405,
+            699,
+            585,
+            881
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "AN0001": {
       "code": "AN0001",
@@ -7215,7 +7521,56 @@
       "observed_brands": [
         "ABIB"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "024e365e1d7198e30dbefaf5a02be8820b192232e1c220a6ee119d01a156a853",
+        "product_box": [
+          119,
+          183,
+          904,
+          970
+        ],
+        "critical_regions": [
+          [
+            255,
+            302,
+            450,
+            354
+          ],
+          [
+            210,
+            360,
+            454,
+            409
+          ],
+          [
+            650,
+            302,
+            850,
+            354
+          ],
+          [
+            609,
+            360,
+            857,
+            409
+          ],
+          [
+            280,
+            491,
+            448,
+            565
+          ],
+          [
+            675,
+            491,
+            846,
+            565
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "WM0003": {
       "code": "WM0003",
@@ -7757,7 +8112,74 @@
       "observed_brands": [
         "DERMAFIX"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "ab0a1c2204d75aaf9c06c16305798bd3d53c608426360b281c724010bd57d6b7",
+        "product_box": [
+          48,
+          263,
+          976,
+          876
+        ],
+        "critical_regions": [
+          [
+            119,
+            297,
+            307,
+            328
+          ],
+          [
+            460,
+            310,
+            606,
+            345
+          ],
+          [
+            906,
+            280,
+            956,
+            333
+          ],
+          [
+            129,
+            378,
+            293,
+            476
+          ],
+          [
+            460,
+            378,
+            610,
+            491
+          ],
+          [
+            737,
+            375,
+            898,
+            480
+          ],
+          [
+            133,
+            786,
+            362,
+            923
+          ],
+          [
+            435,
+            780,
+            623,
+            915
+          ],
+          [
+            665,
+            780,
+            935,
+            917
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "SN0003": {
       "code": "SN0003",
@@ -8752,7 +9174,44 @@
       "observed_brands": [
         "HANYUL"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "c51bdb8423ba9ba05e119dfcbb2f58e0f77ef8d4d13ab8052181b6269098ede0",
+        "product_box": [
+          119,
+          193,
+          905,
+          970
+        ],
+        "critical_regions": [
+          [
+            273,
+            350,
+            391,
+            443
+          ],
+          [
+            671,
+            350,
+            788,
+            443
+          ],
+          [
+            270,
+            796,
+            360,
+            865
+          ],
+          [
+            675,
+            796,
+            763,
+            865
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "CR0001": {
       "code": "CR0001",
@@ -9103,7 +9562,102 @@
       "observed_brands": [
         "NEXCARE"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "2bcb4c4c5f968ac01b867cfa490f7f68a160fc1d9978b3713da5e86b010bfe8a",
+        "product_box": [
+          129,
+          228,
+          895,
+          970
+        ],
+        "critical_regions": [
+          [
+            146,
+            241,
+            209,
+            282
+          ],
+          [
+            165,
+            303,
+            197,
+            333
+          ],
+          [
+            201,
+            304,
+            233,
+            333
+          ],
+          [
+            236,
+            302,
+            272,
+            335
+          ],
+          [
+            378,
+            235,
+            501,
+            358
+          ],
+          [
+            535,
+            246,
+            580,
+            282
+          ],
+          [
+            593,
+            246,
+            631,
+            282
+          ],
+          [
+            528,
+            308,
+            698,
+            349
+          ],
+          [
+            765,
+            236,
+            884,
+            359
+          ],
+          [
+            150,
+            374,
+            189,
+            398
+          ],
+          [
+            534,
+            370,
+            571,
+            394
+          ],
+          [
+            195,
+            404,
+            435,
+            486
+          ],
+          [
+            600,
+            375,
+            805,
+            464
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      },
+      "v6_product_translation": [
+        81,
+        0
+      ]
     },
     "BP0004": {
       "code": "BP0004",
@@ -10455,7 +11009,56 @@
       "observed_brands": [
         "DR.JART+"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "c7354e9f89ce5f0e4a2724a88ebdb415cb8058f90278ac73656fdec21b58cafe",
+        "product_box": [
+          83,
+          250,
+          941,
+          970
+        ],
+        "critical_regions": [
+          [
+            140,
+            306,
+            260,
+            339
+          ],
+          [
+            140,
+            393,
+            291,
+            429
+          ],
+          [
+            140,
+            444,
+            446,
+            480
+          ],
+          [
+            630,
+            359,
+            843,
+            446
+          ],
+          [
+            682,
+            265,
+            818,
+            333
+          ],
+          [
+            340,
+            729,
+            598,
+            870
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "PR0006": {
       "code": "PR0006",
@@ -10654,7 +11257,50 @@
       "observed_brands": [
         "I'M FROM"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "ffd0aadc732fddcc407aa2e9603e4d93d2e2525c2b4caf98a062a915cb48643f",
+        "product_box": [
+          87,
+          191,
+          937,
+          970
+        ],
+        "critical_regions": [
+          [
+            128,
+            363,
+            339,
+            430
+          ],
+          [
+            404,
+            363,
+            615,
+            430
+          ],
+          [
+            145,
+            730,
+            338,
+            867
+          ],
+          [
+            424,
+            730,
+            618,
+            867
+          ],
+          [
+            617,
+            301,
+            917,
+            447
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "BY0002": {
       "code": "BY0002",
@@ -10811,7 +11457,60 @@
       "observed_brands": [
         "IDEAL FOR MEN"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "50fad95ad85be05963a15e9de8ec50405fb6d8b6e3be1c17cd0cd974a3a672bc",
+        "product_box": [
+          105,
+          183,
+          918,
+          970
+        ],
+        "critical_regions": [
+          [
+            204,
+            242,
+            407,
+            332
+          ],
+          [
+            611,
+            242,
+            814,
+            332
+          ],
+          [
+            223,
+            428,
+            402,
+            490
+          ],
+          [
+            626,
+            428,
+            805,
+            490
+          ],
+          [
+            255,
+            520,
+            368,
+            616
+          ],
+          [
+            658,
+            520,
+            771,
+            616
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      },
+      "v6_product_translation": [
+        58,
+        0
+      ]
     },
     "AC0002": {
       "code": "AC0002",
@@ -10927,7 +11626,68 @@
       "observed_brands": [
         "DOVE"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "d78c292ba8eb7d8faf20823c59f88649af063fa1288b8bb04f996ea2a2fea6e5",
+        "product_box": [
+          136,
+          219,
+          887,
+          970
+        ],
+        "critical_regions": [
+          [
+            188,
+            343,
+            252,
+            389
+          ],
+          [
+            520,
+            341,
+            580,
+            389
+          ],
+          [
+            434,
+            292,
+            519,
+            351
+          ],
+          [
+            172,
+            407,
+            477,
+            495
+          ],
+          [
+            496,
+            408,
+            829,
+            496
+          ],
+          [
+            230,
+            632,
+            325,
+            914
+          ],
+          [
+            492,
+            632,
+            582,
+            914
+          ],
+          [
+            753,
+            632,
+            840,
+            914
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "EL0001": {
       "code": "EL0001",
@@ -11248,7 +12008,38 @@
       "observed_brands": [
         "RATAPLAN"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "6816a23a8514cc273bc28207c21d972d785b87245d8d6287ae2a4bee5cd2c774",
+        "product_box": [
+          53,
+          239,
+          970,
+          970
+        ],
+        "critical_regions": [
+          [
+            233,
+            414,
+            383,
+            559
+          ],
+          [
+            492,
+            437,
+            641,
+            553
+          ],
+          [
+            676,
+            252,
+            924,
+            473
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "DW0003": {
       "code": "DW0003",
@@ -11736,7 +12527,50 @@
       "observed_brands": [
         "SHHOM"
       ],
-      "allow_product_translation": true
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "19c46c9ed691be14c8f464300085eed23740e0c82110554945a9022b571b48c5",
+        "product_box": [
+          101,
+          192,
+          922,
+          970
+        ],
+        "critical_regions": [
+          [
+            641,
+            741,
+            847,
+            920
+          ],
+          [
+            579,
+            468,
+            850,
+            630
+          ],
+          [
+            632,
+            384,
+            854,
+            439
+          ],
+          [
+            216,
+            253,
+            407,
+            304
+          ],
+          [
+            216,
+            513,
+            407,
+            565
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "TB0001": {
       "code": "TB0001",
@@ -11938,6 +12772,10 @@
       "MM0001": [
         342,
         322
+      ],
+      "WM0002": [
+        796,
+        308
       ]
     },
     "allow_product_translation": [
@@ -11993,6 +12831,16 @@
       "TB0001",
       "ST0001",
       "AV0002"
-    ]
+    ],
+    "v6_product_translation": {
+      "IM0005": [
+        58,
+        0
+      ],
+      "NC0001": [
+        81,
+        0
+      ]
+    }
   }
 }
