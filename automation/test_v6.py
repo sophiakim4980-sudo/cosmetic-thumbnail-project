@@ -80,7 +80,7 @@ class V6Tests(unittest.TestCase):
             thumbnail=pending['products'][code]['thumbnail']
             self.assertEqual(thumbnail['status'],'review_required')
             self.assertIn('awaits visual verification',thumbnail['error'])
-            self.assertFalse((out/code/'thumbnail.png').exists())
+            self.assertFalse((out/code/'AB0001-2.png').exists())
             candidate=thumbnail['candidate']
             self.assertTrue((source/candidate['path']).exists())
             review={'decision':'approved','sha256':candidate['sha256'],

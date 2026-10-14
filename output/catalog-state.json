@@ -6,7 +6,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "RL0001/thumbnail.png",
+        "path": "RL0001/RL0001-2.png",
         "sha256": "9b8a991c399cd4af27ce2952a26a4d857114118aa5b8ba93897044a34d0e2057",
         "fingerprint": "cd4f5f6cf12837504367c3894b61ff0663582729ba3028889b25e6c8aaddfb79",
         "reused": true,
@@ -163,7 +163,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/RL0001.zip",
-        "sha256": "e7774fabc80c88b609181c26675513177f295fa9e60ca458a41e5f26a3ac859c"
+        "sha256": "8170fa8071ac674782df3c7e733c981a80e3e1cb9556985ece10266acbaabc88"
       }
     },
     "MP0001": {
@@ -171,7 +171,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "MP0001/thumbnail.png",
+        "path": "MP0001/MP0001-2.png",
         "sha256": "592d7d715cc363fed35be58fb9328ffb0e799118491f10c8b7d0a9082d7edb99",
         "fingerprint": "2236f4999bd5c03908c1f4b67325c3307e8972b016796d39a4013e9ea210ee43",
         "reused": true,
@@ -334,7 +334,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/MP0001.zip",
-        "sha256": "94f8e97f260d160c90fdbc4df31a7f46cb54cb7fada69235c3728d809ac7d93b"
+        "sha256": "fb15f9f82fce0c7db17600f6e17278fd4ae4394358e960c732f699f5705a551a"
       }
     },
     "LL0001": {
@@ -342,7 +342,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "LL0001/thumbnail.png",
+        "path": "LL0001/LL0001-2.png",
         "sha256": "bb1ab8d5dd57c3cc3b5a16bba8e85285a020d581c5102325921b56f1dcfdd765",
         "fingerprint": "792a95b86b0907959b7d78157c98470f99af0b0ce736e18a06296ad693b94d86",
         "reused": true,
@@ -508,7 +508,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/LL0001.zip",
-        "sha256": "0a46af8565803520c2b766fbf24b079dc56b8756c8f24527eb6e7dc20fd4c650"
+        "sha256": "2cc2999d10272bda5203350b3578fa2c1626de925dbbc90ae854f57e219e8061"
       }
     },
     "SN0001": {
@@ -516,7 +516,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "SN0001/thumbnail.png",
+        "path": "SN0001/SN0001-2.png",
         "sha256": "30fbe403be83f317b355068113d21a438625d559abaf0d13f4af8fe94642a4ed",
         "fingerprint": "5ccc8a2a78dd37510217eadd0004222bffbca18b260f42601bcea4bc270a727f",
         "reused": true,
@@ -674,7 +674,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SN0001.zip",
-        "sha256": "62a4769a0c026181b018328a09c674d25f8538a4aa2a38b17952b75a12996f6d"
+        "sha256": "e4269f27b5c4d5b346f9ebd17d1e488e942a4d6b2d6285d7b04eedf1c6bb201a"
       }
     },
     "WM0001": {
@@ -682,7 +682,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "WM0001/thumbnail.png",
+        "path": "WM0001/WM0001-4.png",
         "sha256": "cc70939ad3744411c4a19d088f1fb63563ed791b08c66919a185a3af27d18920",
         "fingerprint": "3e3538dd30b62c866c96bd91805920f190ab2344c2031d07a75bebba531d50ba",
         "reused": true,
@@ -879,7 +879,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/WM0001.zip",
-        "sha256": "43de484d5bf6e3f9cc64a2104063ccfb684108300c5c577beff9335605ad579b"
+        "sha256": "55ee78d4b515a6d138bd99fa4d472fa603c90c3e05aecae4a62e774d0cbb79b3"
       }
     },
     "GF0001": {
@@ -1156,7 +1156,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "KL0001/thumbnail.png",
+        "path": "KL0001/KL0001-1.png",
         "sha256": "d6167d3a9837449621db442127a3a94115f6c0e5294c95e8027f57b8f1d2ddb8",
         "fingerprint": "d5ae40a62a61d26de05ff70e11b86ef589557607cc155f68d4c7b366026c7901",
         "reused": true,
@@ -1353,7 +1353,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/KL0001.zip",
-        "sha256": "e79c4c551e43129d445c51cf7327284fcc3476dd1bb6efcc079a9140cac4633e"
+        "sha256": "c48485fd60d58a73686e769921899e8c956e1cb342e1f23c2f3906f373080b46"
       }
     },
     "ET0001": {
@@ -1361,7 +1361,7 @@
       "status": "incomplete",
       "thumbnail": {
         "status": "success",
-        "path": "ET0001/thumbnail.png",
+        "path": "ET0001/ET0001-2.png",
         "sha256": "8263dee4d244bd45e28e2cf2b681bb66c16499faa830d0cf6d3596596d8358c9",
         "fingerprint": "a77a1f5116762adedc1161a0ced62464af50a710ff98508231353c4d0580305b",
         "reused": false,
@@ -1682,7 +1682,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/ET0001.zip",
-        "sha256": "e4704090802d0391ca57f281ef785298eb3fa0303a109357fa42132557a8b798"
+        "sha256": "adb8dde5ddfd155e8d2c3336529f922cc68a9a85403a45a05a5f88632adf9f4d"
       }
     },
     "RL0002": {
@@ -1690,7 +1690,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "RL0002/thumbnail.png",
+        "path": "RL0002/RL0002-2.png",
         "sha256": "263eaf83b4b96e56e4ed2ed189b73e3ff863906679484142c0e176917b749384",
         "fingerprint": "a6cd4c3ffff6061e45d6b6f3ea4a397d04d737242770d81fd18f1f0036b528e5",
         "reused": true,
@@ -1853,7 +1853,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/RL0002.zip",
-        "sha256": "052603556ad4f3c4d27a8fac8ab4bfe0dd82a7a2c420329930e04e63cb752c91"
+        "sha256": "f2cf913eceea2d5b161d2cdb3097660098c65138919d426c1dc4dcdcbb1f4f93"
       }
     },
     "GA0001": {
@@ -1861,7 +1861,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "GA0001/thumbnail.png",
+        "path": "GA0001/GA0001-2.png",
         "sha256": "47a30be71d8c7945659768590f9d3566b5389f8a3eb2bd898dc2f629bc738008",
         "fingerprint": "2172f66db72a6540456aa7faa249e4687d05145f1ec308a0690ff2d07d9f1964",
         "reused": true,
@@ -2018,7 +2018,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/GA0001.zip",
-        "sha256": "7ae3e167d2913fea0aaa26e40ab766fa52070ac8f2c50a20808d7924108aadd9"
+        "sha256": "c909f9d0be5221424e4f24ee6ca713e43f60253c9b78acddd62cb92ee02dd743"
       }
     },
     "CM0001": {
@@ -2026,7 +2026,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CM0001/thumbnail.png",
+        "path": "CM0001/CM0001-2.png",
         "sha256": "54224fb063c35f77d6c64754fd72b85ff936b4f0a56da5c1ba7111dd1ea30366",
         "fingerprint": "ae12714e45f82420a4503cffafe58868eb70913b0151fd43a0940d17af5da6be",
         "reused": true,
@@ -2189,7 +2189,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CM0001.zip",
-        "sha256": "d969ad8f11dc5882badea9bd0f9ee18800e20b2b6986f771ff2b161cd549cc81"
+        "sha256": "cf03238e8ce6d7596a550e3a48ed6846d0c1758a5011c86b3b175fb8490eb854"
       }
     },
     "MP0002": {
@@ -2197,7 +2197,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "MP0002/thumbnail.png",
+        "path": "MP0002/MP0002-2.png",
         "sha256": "4bf621450bda4263ae16995dd4cf21845539011d6db984eca422d71a78de99f2",
         "fingerprint": "8ea8d119b440fb67afc5965c01be377432fd13c858b525db52441dbaf8711117",
         "reused": true,
@@ -2360,7 +2360,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/MP0002.zip",
-        "sha256": "6141eab3518b8de2d6065607e6108b4bbad65bd7acf51d683c0832849d54e7eb"
+        "sha256": "8dcf8fd0b4d125414650b1728eb80a26984c0e7d27412cfa606a826ac3d794af"
       }
     },
     "IC0001": {
@@ -2368,7 +2368,7 @@
       "status": "incomplete",
       "thumbnail": {
         "status": "success",
-        "path": "IC0001/thumbnail.png",
+        "path": "IC0001/IC0001-5.png",
         "sha256": "4e3015682499d5475ddb108a3442dfe10dedc9a6218cc9aeb07cf94cd4ebb33e",
         "fingerprint": "864d8472bc5234a0c2a30634be36c52af9f25e752e4c1d03d335e61defcd7a3d",
         "reused": true,
@@ -2571,7 +2571,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/IC0001.zip",
-        "sha256": "d895ec2c1e239adf1225402c7d546ebfc3bddd5eaf3faef41919465f4b850a8d"
+        "sha256": "de86c9b70d58c8724873d053fbdf83aeeb9740f70c6238ba0a98fdda18c5c939"
       }
     },
     "CQ0001": {
@@ -2579,7 +2579,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CQ0001/thumbnail.png",
+        "path": "CQ0001/CQ0001-2.png",
         "sha256": "648ee82417f391cde310062d2cd0c4b369d51364f0d522192adddce0a4b3b2b0",
         "fingerprint": "d043e8369e2d551a3eb05bd8fe081b96e1ff8f921db9dca5d01e3b95d404e06b",
         "reused": true,
@@ -2742,7 +2742,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CQ0001.zip",
-        "sha256": "31d4152532deb93593d2f2ef33d8effcb9ed89e313039bcadbf8175cc68c2cdc"
+        "sha256": "54cc862acd1cfab634d691127934e8632196b0947c32f3f296077d0defe0afb2"
       }
     },
     "MD0001": {
@@ -2750,7 +2750,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "MD0001/thumbnail.png",
+        "path": "MD0001/MD0001-12.png",
         "sha256": "cea88a90716f2c8b7309cb5e6a6cce5598adf42ffe176fcb658e0199621eb984",
         "fingerprint": "d89a72be6384513fd74dc7b3cce93960703067fa72932776e2b468aa159b3948",
         "reused": true,
@@ -3208,7 +3208,7 @@
       "expected_option_references": 11,
       "zip": {
         "path": "archives/MD0001.zip",
-        "sha256": "be9f490698a05b9d7b92b84080887aa5ee317f349e1365e7265475edb98374e5"
+        "sha256": "3fd048452d91f9fffe9800e7c89e1886c8eb4ff946b7517adbfd2513147a6480"
       }
     },
     "BD0001": {
@@ -3216,7 +3216,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BD0001/thumbnail.png",
+        "path": "BD0001/BD0001-2.png",
         "sha256": "831dc6389a58f91a64053da1ee5e89dbfddca9d8fedccb409d34722df490cf88",
         "fingerprint": "9dd58715d5cac811e977759ce34ba2d2cf206af96332d6542f38456bd8d4d780",
         "reused": true,
@@ -3379,7 +3379,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BD0001.zip",
-        "sha256": "83dbb70d5b65704a31cac90562c71a3878065b1f42d9fca9ed3721bcb0498030"
+        "sha256": "5ae8194ad17380f89f5a454516095c27b395e8c7c6720ebf307c592f34596d06"
       }
     },
     "IM0001": {
@@ -3387,7 +3387,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "IM0001/thumbnail.png",
+        "path": "IM0001/IM0001-2.png",
         "sha256": "ef9862121f4687be81d2dc75a99d5e2e7e39cf9d27f2db6aa1f91e1155a0e14d",
         "fingerprint": "2d38a92cba6d9aaede0d237989a2a372322d0fa36ba4d445e3503359945c4b8e",
         "reused": true,
@@ -3581,7 +3581,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/IM0001.zip",
-        "sha256": "bf4a82d4e418f63af24824dc0a675f76b7b2087d31ad089d5da0d8514d928db5"
+        "sha256": "aa371120efbfdab79336daa3d87e1ffae8ebd7f45761c1012ced18c45f90a718"
       }
     },
     "IM0002": {
@@ -3589,7 +3589,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "IM0002/thumbnail.png",
+        "path": "IM0002/IM0002-2.png",
         "sha256": "003caae880fdaab8377282d4a66ecbb622b5edd147d971b71bb3a64ad3ec0d54",
         "fingerprint": "7f63fdf75159801cf0a562af61c32ae4590493bd54757ae2fa2872fbc97aa3cc",
         "reused": true,
@@ -3777,7 +3777,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/IM0002.zip",
-        "sha256": "7e559de59c9632f23bff23073f7e4ac3bb4bf4a0ef3c2a1beff3671f7238ca22"
+        "sha256": "d9e5d566ca24178aa7cba6ce51951fdefb594d781166dd4cf97a24b5a83bda05"
       }
     },
     "BN0001": {
@@ -3785,7 +3785,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BN0001/thumbnail.png",
+        "path": "BN0001/BN0001-2.png",
         "sha256": "ea9169d901cce792854a783d5cde1dc85af7cbc65204403609ba4e1a125722d2",
         "fingerprint": "e6f02f25b63ec03f8a79817c272347fdd98e31c658f107af1cb564b07dfd353a",
         "reused": true,
@@ -3948,7 +3948,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BN0001.zip",
-        "sha256": "8e03447507c99956ce019173d8894892e349a8b8672845c8a41c83625f4237f3"
+        "sha256": "7090c0596e77a910bfc807921ed9f4d8fe347e2d20594e9580816e3e253058c5"
       }
     },
     "BN0002": {
@@ -3956,7 +3956,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BN0002/thumbnail.png",
+        "path": "BN0002/BN0002-5.png",
         "sha256": "28e3365194cdfc97cfc00741bc21d9be468992e2057c1df2a961c32b991c72c7",
         "fingerprint": "100444e982eaac6cbc01fe78187353f09a8ff84674694f63d6017b375bd594b0",
         "reused": false,
@@ -4214,7 +4214,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BN0002.zip",
-        "sha256": "6b9f555fe8f8adcbb1c943d4c20e4ef670b23e1b65bcbd14b5f9ca79cffed39e"
+        "sha256": "07279b6b77ae0b1a3fa2fe6f8cddc3382ccf720666a79053f0ff198ce909be6f"
       }
     },
     "CL0001": {
@@ -4222,7 +4222,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CL0001/thumbnail.png",
+        "path": "CL0001/CL0001-12.png",
         "sha256": "5aed238396bdee35d8a8077c90e7dc55869f094d73eb49e72e042331c3ec1acf",
         "fingerprint": "024126a144c04c1a6e46a6378878050d0fe57509396becd1f239dba6c6a819f9",
         "reused": true,
@@ -4674,7 +4674,7 @@
       "expected_option_references": 11,
       "zip": {
         "path": "archives/CL0001.zip",
-        "sha256": "55168975a76858b829357212fb8df09ad414e823462732120d8431057ddf377e"
+        "sha256": "44f05fb362d13d0bc524281b7e09d73fe43f5229a9cc8d335187f93e19475e58"
       }
     },
     "CL0002": {
@@ -4682,7 +4682,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CL0002/thumbnail.png",
+        "path": "CL0002/CL0002-17.png",
         "sha256": "912a0c7291ae27fe5f91ea7fb47f6304520fb73a842305c9834b00dc534846ed",
         "fingerprint": "f4702c0199da6fcdc1eb5576d7fc0dd9f1cbd98236c6d2d09fcc7deef3c7f493",
         "reused": true,
@@ -5295,7 +5295,7 @@
       "expected_option_references": 16,
       "zip": {
         "path": "archives/CL0002.zip",
-        "sha256": "245517ae39e311ec11ae0192032f2c4753d0a3284b02540957a2a310adbf4ead"
+        "sha256": "2bf5a40c52d86fe9b5b38f7b336574622c76249aaf8a80b75ae2e5f5d5f06295"
       }
     },
     "HY0001": {
@@ -5303,7 +5303,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "HY0001/thumbnail.png",
+        "path": "HY0001/HY0001-3.png",
         "sha256": "2cde4aa62aaf5c35c379373d04b841b805ed03cdafb9e644bace6c882a023a81",
         "fingerprint": "836ea0435003e20156f3be4c1b34f4bc40666ca247dd022154fefce2e0cf0970",
         "reused": true,
@@ -5466,7 +5466,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/HY0001.zip",
-        "sha256": "92776029257be819071d98cd45f752d74a293cfe47d9db2bd49ccfe89ea61188"
+        "sha256": "a579a9c280b0afa610a39bececcc7acd97236a34507a8ea3d746649bea3322a1"
       }
     },
     "PR0001": {
@@ -5474,7 +5474,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "PR0001/thumbnail.png",
+        "path": "PR0001/PR0001-1.png",
         "sha256": "58ba13018ee3b8253d75ba3662e730320b467bcae326e7687c67adf83c0cc3b4",
         "fingerprint": "9c8cdc3c9097de722a80896ef45796153fcf7a5536228454cfad73a067baa200",
         "reused": true,
@@ -5631,7 +5631,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/PR0001.zip",
-        "sha256": "acf62e6bcf6a7329a5fc7deaa1dabf1c6a6bfcad4160269a2be206559cfef63e"
+        "sha256": "cd0b9ac41c0125dacd22f5db0ff076de2511310c1ac81f0b99f000b7268ef822"
       }
     },
     "BL0001": {
@@ -5639,7 +5639,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BL0001/thumbnail.png",
+        "path": "BL0001/BL0001-7.png",
         "sha256": "746e1ee096447008c4e4a5890ee5843f056f89d9da59b879460357d17bc7707b",
         "fingerprint": "21124d3ac90810ef4c42b96bea58a2b864ca48d518da998b688596905bc101a4",
         "reused": true,
@@ -5926,7 +5926,7 @@
       "expected_option_references": 6,
       "zip": {
         "path": "archives/BL0001.zip",
-        "sha256": "f2d24aa1693f283a3c418664372fe2fac7ab902df73b26fb80b33f5ac4b89ebd"
+        "sha256": "f98ca6160675d64cfbeba076a1c0399dc364df6e954d2ddfd304ae1b77696fd7"
       }
     },
     "DS0001": {
@@ -5934,7 +5934,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DS0001/thumbnail.png",
+        "path": "DS0001/DS0001-2.png",
         "sha256": "8927e163fe037ec6090a751e454a3bc9b78fbed45039a039833cbdab4acb9ea5",
         "fingerprint": "9375ee367e660bf6b5bbfa3beffe8e05659a81240bca80caa1283868136b9078",
         "reused": true,
@@ -6100,7 +6100,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DS0001.zip",
-        "sha256": "505f5260f20fa11228bab365a32e7f9d07141dce9d738a152a012cba312794d8"
+        "sha256": "6a2444511ba0a74079750a59fce0eae5918b210c0d707f43f6b0379b81ede9ad"
       }
     },
     "AD0001": {
@@ -6108,7 +6108,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "AD0001/thumbnail.png",
+        "path": "AD0001/AD0001-5.png",
         "sha256": "2d38c04c330bd13958eefd7d7454eb7962db99569e65a450d9dd5afb1d8ae8d2",
         "fingerprint": "126ce80d605ec5d8a7ab13ce5908ef191c4537cba298a76f8b1f42ff484c15b7",
         "reused": false,
@@ -6372,7 +6372,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/AD0001.zip",
-        "sha256": "af1a9a5e02f69675716f963a400c1297b028b7cf9c5a720115db2460df1bab6e"
+        "sha256": "ebb3a05ba7d3dd4452eac63c7cb3961a79e673700ee4aca61f21d3b57b7702f0"
       }
     },
     "WM0002": {
@@ -6380,7 +6380,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "WM0002/thumbnail.png",
+        "path": "WM0002/WM0002-10.png",
         "sha256": "85d128cd89118e7edeecfd5912371177208a135b2c5a34b9189f47b79b6484d5",
         "fingerprint": "6f53a0ce6fb5f588be2d6178593145ebb7f96e11cc47e2c0833eea2a1654e608",
         "reused": false,
@@ -6793,7 +6793,7 @@
       "expected_option_references": 9,
       "zip": {
         "path": "archives/WM0002.zip",
-        "sha256": "9029ee0d5e796254141931483f8cc146efa5c3055f24a7be222df52bc06578a7"
+        "sha256": "4796c04b58ff5062cff0deb1c3210d89070fd5e31d729f337c6e0162ee98bd80"
       }
     },
     "RL0003": {
@@ -6801,7 +6801,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "RL0003/thumbnail.png",
+        "path": "RL0003/RL0003-1.png",
         "sha256": "b4d21f56a7d044c52b7b2b8c2df2025ec6a470e58b0f9f66c1f372bd99f445fc",
         "fingerprint": "e99c4ab7a14a0a1da6cd755196661e2ee060a83832a7e3f4aed86afa312bf899",
         "reused": true,
@@ -6967,7 +6967,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/RL0003.zip",
-        "sha256": "5bec2b7bc7a0390975b2a19e11364714c9f984f47631665e01ca6a802f83ba8a"
+        "sha256": "2243cdc5181ce27030180cbc94d51437d6f47cea8ea7966050dadcc5ee076140"
       }
     },
     "TS0001": {
@@ -6975,7 +6975,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "TS0001/thumbnail.png",
+        "path": "TS0001/TS0001-2.png",
         "sha256": "6da0ee2b5f07394846909f1e8e206fa8577da49cdc1064884fd17cddd372796b",
         "fingerprint": "3d3e530fd208e1813ce38b226cde6c6728ad38e46e6e4a09ba877e3c7bcade46",
         "reused": true,
@@ -7132,7 +7132,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/TS0001.zip",
-        "sha256": "afc212992f0023e9c1b92f4e0f00edbaefed40c63c61a20b884b62e41fe7f0c3"
+        "sha256": "87c4887137e05c0a90530d12aa07f9a16533f89201ce1c08258676ce78c1dbf4"
       }
     },
     "YM0001": {
@@ -7140,7 +7140,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "YM0001/thumbnail.png",
+        "path": "YM0001/YM0001-3.png",
         "sha256": "456a0d62a43708522cd1304d08c0a0dae47709dc084b372b50b16b11fdbf425d",
         "fingerprint": "14728a8718ca86991116607795d81d8d3fa77082bea04d76f1ba30c111e345f2",
         "reused": true,
@@ -7301,7 +7301,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/YM0001.zip",
-        "sha256": "666cfb78bb87152790912f8b15e226c0d25687f9b61511d9296efda23e687e9e"
+        "sha256": "cb6a1abc26c7716f264b34501fd154327500c4d193f931b0ef2d63e473660ac3"
       }
     },
     "HB0001": {
@@ -7309,7 +7309,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "HB0001/thumbnail.png",
+        "path": "HB0001/HB0001-3.png",
         "sha256": "ecc1f480c035537a692d933244c0680f1e255b20dc57e5261891f57044ed35b7",
         "fingerprint": "ff54d6a825ed6b6f7c5fe4902d1dcdf90ef53c9f7c28932c971b4489dad27a8e",
         "reused": true,
@@ -7497,7 +7497,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/HB0001.zip",
-        "sha256": "befe8a1ff076092943ec6fb6691376dd6fb6b1c7df87533b963eb743ae03fc6b"
+        "sha256": "78639b362a41c03c94b9d0b5242a25dde7b4890c26fddc06ce641673f95dbe84"
       }
     },
     "SN0002": {
@@ -7505,7 +7505,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "SN0002/thumbnail.png",
+        "path": "SN0002/SN0002-2.png",
         "sha256": "303678c1be33abd81bb6feb83beaa46939a33dbe9b39d038a8fce769e17ce3f0",
         "fingerprint": "3c364ca5d4609b72d0ed58750bb859c466eefdb4468ee3d3f541b4cdaacd0cf1",
         "reused": true,
@@ -7657,7 +7657,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SN0002.zip",
-        "sha256": "3955d6ca9ed98fb639270377faef01cacaeef4ac53114d6d2b363337417354e8"
+        "sha256": "2239c64fb088b056a0313ba1729d75666ed3890ea3bd8fb87745cf4e7b0a66d9"
       }
     },
     "ME0001": {
@@ -7665,7 +7665,7 @@
       "status": "incomplete",
       "thumbnail": {
         "status": "success",
-        "path": "ME0001/thumbnail.png",
+        "path": "ME0001/ME0001-3.png",
         "sha256": "1b3332ec60db134c70647605f15db37650a3c32ab55a522e9d215e149b7892d0",
         "fingerprint": "b19b0a43151202876874c972a3fd56fd1f314ca90d056e07fa18528884e2ce89",
         "reused": false,
@@ -7896,7 +7896,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ME0001.zip",
-        "sha256": "daaf935808085c91a6d40e7f9d2126b9db800316d478f9c7ecda0099026677c6"
+        "sha256": "b9dc0143a9826ddf8d8e824a52ea370426403851512b374703167106f4dabd41"
       }
     },
     "AH0001": {
@@ -7904,7 +7904,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "AH0001/thumbnail.png",
+        "path": "AH0001/AH0001-2.png",
         "sha256": "db7142dce6c81397350a82b71ef79630abd98007cc922d166c7a91f159cd0ab5",
         "fingerprint": "a01bcb458afb6091b83fba60abdb3e5f6b87ed2d93b2b238c079a59c196aebfc",
         "reused": true,
@@ -8061,7 +8061,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AH0001.zip",
-        "sha256": "9175cf87bdc77099b6f038d0a39f8ea9426713c453cd18fd8fca4e1bff71fbd6"
+        "sha256": "4f57451baee48b316367ced9d3fd75d499a6983617cd26ca268342b4475b776f"
       }
     },
     "TR0001": {
@@ -8069,7 +8069,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "TR0001/thumbnail.png",
+        "path": "TR0001/TR0001-2.png",
         "sha256": "6d8a3bb930583ca4201c2cece3702523a91e01a621648b00c0f2f7a9588a3206",
         "fingerprint": "f2fd9c51002048f4c5c61b8d71cfaa9230fcbfa3f5c1f53a69b5cb42c0342883",
         "reused": true,
@@ -8226,7 +8226,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/TR0001.zip",
-        "sha256": "8021150e5a00f490c16658c0130aaa881a0c9103ddcef30da91b62f14806227f"
+        "sha256": "db2dc9ba47d191293e4af35e07867b0ef5b6df13725583cd89031bb2badaeeb3"
       }
     },
     "RL0004": {
@@ -8234,7 +8234,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "RL0004/thumbnail.png",
+        "path": "RL0004/RL0004-2.png",
         "sha256": "9b2a63a2f0b7633e39c08d8192b9e55103dba23999b334be156a00a8aaf9d71e",
         "fingerprint": "e4b31a23af884d481ae61f8280ddbe54cb6deb4c3f5a93a16eb02c0304d5eab7",
         "reused": true,
@@ -8391,7 +8391,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/RL0004.zip",
-        "sha256": "113c0f1310a97b18fa0dc30390818708416d8bd97830c08a7b0d62ff97385b7c"
+        "sha256": "0de902918926a0c0421a7ca65e6734a43e12a1019b8777e5d049fe7fdb1f7731"
       }
     },
     "TR0002": {
@@ -8399,7 +8399,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "TR0002/thumbnail.png",
+        "path": "TR0002/TR0002-2.png",
         "sha256": "e17b0c35b48590fd6269463e6e60ed521cc4183fbec493a82d43e5f9201f2e0d",
         "fingerprint": "493e9a4d558a10b650fe9d27727ba206a6884fc597a8404d5ccfcb0f8804711a",
         "reused": true,
@@ -8556,7 +8556,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/TR0002.zip",
-        "sha256": "f8a681e77afc843f5abb2a1217c80e8cf1854656d32d271090c9db53f22a9a93"
+        "sha256": "25845a546c95497e1d560f7aa819937f41953529bc222036fefb21421b0e0f38"
       }
     },
     "NV0001": {
@@ -8564,7 +8564,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "NV0001/thumbnail.png",
+        "path": "NV0001/NV0001-2.png",
         "sha256": "096fabdbef6f78f2c5525fc4ae429d8b21680717de0110a69c17886364129d9a",
         "fingerprint": "e82da9eb7485a4da71aba8f0298759acad846bdab3b750311a4df81981b0fe82",
         "reused": true,
@@ -8730,7 +8730,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/NV0001.zip",
-        "sha256": "54cb793a8c57130b570113eb61b8b27b5cfeedf36e2ed2ac86d3debe5d00914c"
+        "sha256": "35369cbc55fb70d8983261324fbd7fb427ea7eac1374c6528ce9de3dadb42658"
       }
     },
     "IN0001": {
@@ -8738,7 +8738,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "IN0001/thumbnail.png",
+        "path": "IN0001/IN0001-2.png",
         "sha256": "5d84d7c54c7fe8ea4894b72021ecdb2f6e20c58c846d102af3d0d5e373fb8b5e",
         "fingerprint": "069cf013cf3e766b256c1b37c48e19d2769038ffa9c970a270a0b352c9f3d27b",
         "reused": true,
@@ -8895,7 +8895,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/IN0001.zip",
-        "sha256": "453a8d6e248edd2892a5c009c0adcf5416749b0bf919ec400516af8f5f2a2a4d"
+        "sha256": "46f640e34d412c652f5033b64db1a872f099a57eaf7e8b9878975b0c98083a9a"
       }
     },
     "RB0001": {
@@ -8903,7 +8903,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "RB0001/thumbnail.png",
+        "path": "RB0001/RB0001-2.png",
         "sha256": "c4179c981b434fa98bd183efa2a4efb842399aeb3a709515d576026545a6597e",
         "fingerprint": "8f2c159bfafd6ec048bf2ffc6fc7ccff0e1a4863df37acd0943037d5ef6b9623",
         "reused": true,
@@ -9060,7 +9060,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/RB0001.zip",
-        "sha256": "25a4278ae1510a477c17ea6680f43781700f880724d17d0d3995c4a612978de4"
+        "sha256": "cb4fa60a33e56105cce64ed06a786e454a93acf73ef5a50178603449a723a358"
       }
     },
     "PR0002": {
@@ -9068,7 +9068,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "PR0002/thumbnail.png",
+        "path": "PR0002/PR0002-3.png",
         "sha256": "26496db7f1534e5508f6dedbd7b022f29100ac003f16a0f43cf8edd223e38b03",
         "fingerprint": "94eb3515df08a99b51218bfae274e1952c94ac0bd56507b941baab1952570c1d",
         "reused": true,
@@ -9293,7 +9293,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/PR0002.zip",
-        "sha256": "287c8c14970df53a64f1dd4810011a262e494aec3bd82f4bcc092f005d3c06a2"
+        "sha256": "6d5ab30f42c5b305e29943ea35cd353d298a75fbb90ef760065b211e8a6e43a1"
       }
     },
     "GA0002": {
@@ -9301,7 +9301,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "GA0002/thumbnail.png",
+        "path": "GA0002/GA0002-2.png",
         "sha256": "94dea805b34442d8684f32190fce79dfb280324767227f81b13d513152252202",
         "fingerprint": "d008f7741168d04217738a5531a4d8f5a467a0b6e56fadeaa67bb78b494ec9c7",
         "reused": true,
@@ -9464,7 +9464,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/GA0002.zip",
-        "sha256": "5414a73ce88712365647a61038f4f8b2a3be2913fd488834231d3b968ffcc2d9"
+        "sha256": "df890497355e70c9bdc847d435df22178618af6cf80b9bf077f4144420fca171"
       }
     },
     "EU0001": {
@@ -9472,7 +9472,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "EU0001/thumbnail.png",
+        "path": "EU0001/EU0001-2.png",
         "sha256": "ad59b153b66f24f7af6dcee6209484fbfa95a3d32bb218c3fef6e602b4857593",
         "fingerprint": "f91768e811fb18e427b736b50eaa2d804e5552ded01dfebda219bf596855d1ed",
         "reused": false,
@@ -9665,7 +9665,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/EU0001.zip",
-        "sha256": "a263c0723133b03c1d36678ac46562b570fce0950cbc88ffdc7db19c3ccc6dfa"
+        "sha256": "3fbbc162807b745a85948a18dfd69961deea5aca43d9dd847af70f31e353cf41"
       }
     },
     "CF0001": {
@@ -9673,7 +9673,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CF0001/thumbnail.png",
+        "path": "CF0001/CF0001-6.png",
         "sha256": "e5f9adcdf24e67f31a1ff6cff430c4ac75e5f3b9ac1ea26ed9ec26572feb4a0b",
         "fingerprint": "739332dbb90a7f1eb92386805e858597f2ffa95ba16e27b0d526db3f603522b3",
         "reused": true,
@@ -9932,7 +9932,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/CF0001.zip",
-        "sha256": "9ab1888235a463de1d0f73ea913fb5bd83209fafcb05b8a16550120beb9e9869"
+        "sha256": "d1a929b7cbaa050b04276cfde8ff95df1f0561d6d6c5e9c2e9916744152ae02a"
       }
     },
     "DQ0001": {
@@ -9940,7 +9940,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DQ0001/thumbnail.png",
+        "path": "DQ0001/DQ0001-3.png",
         "sha256": "d8799b5fb2cf4e316814543f661be7b1005f9f30685074d06eac0a819d075bcc",
         "fingerprint": "54f4797a77d361be831d9ab8c3dceb61d204a603694d8120e2666e0fdaf260da",
         "reused": true,
@@ -10106,7 +10106,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DQ0001.zip",
-        "sha256": "3ed7687aafe9b8c39eeb7367089fa6b036608bd0a8e6ec0824815c597573a80d"
+        "sha256": "6881677e4476234c1e06059871ce5d972799ffb9a8b55a57f76efbe2b3b770f8"
       }
     },
     "HY0002": {
@@ -10197,7 +10197,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "AN0001/thumbnail.png",
+        "path": "AN0001/AN0001-2.png",
         "sha256": "517aa714ff61ca1e82af1096c16dd8f9cb908be3c3639265d9891ba0ad4a7749",
         "fingerprint": "3a2084c2b98c79d82cd3a2e496ed7af934b0452606a69accaf5ebc0cfffb2881",
         "reused": true,
@@ -10360,7 +10360,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AN0001.zip",
-        "sha256": "794b916d4d9c6d725c3646964047a1e5495ef21eddae6f88ba279fc3ae6666b3"
+        "sha256": "4ed4ab80e91fe1acf55712d5acdc263f63940e544a56b5bf0adaea3998756802"
       }
     },
     "SF0001": {
@@ -10368,7 +10368,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "SF0001/thumbnail.png",
+        "path": "SF0001/SF0001-2.png",
         "sha256": "1578366b553175f0999e3056b3b1f5ec1b2b34703703fa8bf643ab92ba608e4b",
         "fingerprint": "e646cb67dd1a86aa9f62a4504c960524d7408d42ebc8c48876cfa93ffc5808ee",
         "reused": true,
@@ -10540,7 +10540,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SF0001.zip",
-        "sha256": "e830729ce3e89c905291a766a887dd6271c4f7ba94e2007d8cd8678f7ca884e1"
+        "sha256": "0992c91acbf5f93db3846e4ecffd8d433175f7df7d846b332b2c68be862c8fd7"
       }
     },
     "DG0001": {
@@ -10548,7 +10548,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DG0001/thumbnail.png",
+        "path": "DG0001/DG0001-3.png",
         "sha256": "e9ae9c2e3022c1866a591d9538d65079d9c57cd1732445b3fc0833dd597cba3f",
         "fingerprint": "0e3f38aae528dcd7accdd193f2d92680d63c53d066905e651015a508efa2fd8f",
         "reused": true,
@@ -10711,7 +10711,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DG0001.zip",
-        "sha256": "af1d07a98c331736206a97098468906927cb48e29a2f852c5327e2289f078d42"
+        "sha256": "a5e90bd659fae06ad240d2da9bf62c52d34cdb39bb223b738519462378e1a5af"
       }
     },
     "RM0001": {
@@ -10719,7 +10719,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "RM0001/thumbnail.png",
+        "path": "RM0001/RM0001-10.png",
         "sha256": "d4b6f9a31a187896b933982e2232c865ab46fe3c2e9d930448b06f1c90335694",
         "fingerprint": "18f8fe062d964901215ea66fa07fab2a5d8f816ff7bec00b16ada8e0cbb4f558",
         "reused": true,
@@ -11102,7 +11102,7 @@
       "expected_option_references": 9,
       "zip": {
         "path": "archives/RM0001.zip",
-        "sha256": "3bedf6b4bd6edd5a4a1c7222de5701c3cfeb1417acedc96b7e9eaaab20882977"
+        "sha256": "fed1b722182b90de29b1f323328c509df5561d01d2b1a18a6280e47d6739a92c"
       }
     },
     "ET0002": {
@@ -11110,7 +11110,7 @@
       "status": "incomplete",
       "thumbnail": {
         "status": "success",
-        "path": "ET0002/thumbnail.png",
+        "path": "ET0002/ET0002-3.png",
         "sha256": "9edbf18102985c439e71df6e40f7e4dca910818866ae8953f13a5606869c591e",
         "fingerprint": "4f8455a6afcb3824b33c85ec340f999d7227449611a7bf5f1ee847232354dc71",
         "reused": true,
@@ -11287,7 +11287,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ET0002.zip",
-        "sha256": "9398ab80906650be02376d3d3546b49c0b8c3ade9974ebf0c0e76e2cb5d7a512"
+        "sha256": "7749c54ccd287dc78774c141098a13e66d14247c09ffed080f9b6d781151cf84"
       }
     },
     "IN0002": {
@@ -11295,7 +11295,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "IN0002/thumbnail.png",
+        "path": "IN0002/IN0002-3.png",
         "sha256": "e4ff28d235bfa7404c324f4f48bcbdf0776d32492d0f938fd4804e8ab726d65b",
         "fingerprint": "a7c12546c1c0fc9861aaa642fcce22e695edd670a175cb3fea95eab02cf2bbb6",
         "reused": true,
@@ -11489,7 +11489,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/IN0002.zip",
-        "sha256": "bb687e28fc6f35164bf6956de6c7fe87c02f58cb6a0f3d72a0062b30ed2e515d"
+        "sha256": "77015e890c7edee3b160d43aafdf6015cfe7188c07bea19b1ed0ef1fe33c11a0"
       }
     },
     "PT0001": {
@@ -11497,7 +11497,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "PT0001/thumbnail.png",
+        "path": "PT0001/PT0001-2.png",
         "sha256": "0e49870fe91da4063ad3b64bf7b539e14f9f6ac8e70943befeb23cc7c6baacba",
         "fingerprint": "34f1fc452f9e0eb2757c75ffe284ed6c2e99bfdc618d716cccecda986a3a87a2",
         "reused": true,
@@ -11660,7 +11660,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/PT0001.zip",
-        "sha256": "88bc77e6c85cbbdcfe28d7fae59768ab2c8524e1c54e73462fb88c343884255d"
+        "sha256": "8eeaa89fc7b5095b14510843e85e2a2971e6d159b9be31f88669772b191b007b"
       }
     },
     "BP0001": {
@@ -11668,7 +11668,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BP0001/thumbnail.png",
+        "path": "BP0001/BP0001-3.png",
         "sha256": "dfcf917126171174d98db86a35bcd0895602ddc83654fa7e3f4bb908a3a584af",
         "fingerprint": "bbc506365ae215f17b83aff00c11c4af43a2966ad534320530f053d589c67a00",
         "reused": true,
@@ -11856,7 +11856,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/BP0001.zip",
-        "sha256": "e17a73655d3f96466c8c41b6ba8bb166029e1e6cf08fecca988248b39822e98d"
+        "sha256": "a5d5e0bc0c0ec2bbf05936454813ab48232ce96fb6d4a9f6cc282cac10fb5b12"
       }
     },
     "TR0003": {
@@ -11864,7 +11864,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "TR0003/thumbnail.png",
+        "path": "TR0003/TR0003-7.png",
         "sha256": "8a2c5c64970ce3d53583dff97974b5acf5a50959b57a4c516f79ef7dd69fd778",
         "fingerprint": "80bc9ac41a02ddf4dc687975f13a0fecc2ead81885702f25104ca2632f658977",
         "reused": true,
@@ -12151,7 +12151,7 @@
       "expected_option_references": 6,
       "zip": {
         "path": "archives/TR0003.zip",
-        "sha256": "94d00f89d2a5db1f6c20787174ca2f5eec7d0e653aa5d89c23baa05026e6465a"
+        "sha256": "6cca802ca63834cd5355c275169193761d41214d2957a137835dfcf502825687"
       }
     },
     "CN0001": {
@@ -12159,7 +12159,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CN0001/thumbnail.png",
+        "path": "CN0001/CN0001-2.png",
         "sha256": "ab9c8f67ea5a4865b06ec69a841abbf7c791e3e2d13aeb90434c32f95a40b226",
         "fingerprint": "b807defe4c2e32e665068d16f255848f76d286ced3ff525780a5652c3a2967ed",
         "reused": true,
@@ -12322,7 +12322,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CN0001.zip",
-        "sha256": "1cef0a3b671a3f61c2a2e5461761ef6ba500341826db96fefd5371a06ba3ca93"
+        "sha256": "2abf25eaae9dac87ac64cc56d31f35a3b29b94d7786049580eedf5440e99e33b"
       }
     },
     "LL0002": {
@@ -12330,7 +12330,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "LL0002/thumbnail.png",
+        "path": "LL0002/LL0002-2.png",
         "sha256": "7b1a89a7fdd68ebc2240faa8efdc68abf0cfd4987b9a316be7184271a987ba1c",
         "fingerprint": "24a150a9ba4c121e452b890206dc4af04be713afd4eb12603ada0b3bf6e0323a",
         "reused": true,
@@ -12493,7 +12493,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/LL0002.zip",
-        "sha256": "a378b4f84c913b21771e5ec8d66244781cb9820068a7968744a364bbe6faea07"
+        "sha256": "d1f3b3c629f3f51e412eafc18cbed060b2ad3376e5a225f963921906dfec8235"
       }
     },
     "ET0003": {
@@ -12501,7 +12501,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "ET0003/thumbnail.png",
+        "path": "ET0003/ET0003-1.png",
         "sha256": "d96e00c2f2735dcfd086efcb403f6171ad271bbf328dc8c5acd648241cffc421",
         "fingerprint": "7f637ad20c0463f7f4b9321c3293b8bbe6a0bcfde9db13b21f98d03fd853f277",
         "reused": true,
@@ -12627,7 +12627,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/ET0003.zip",
-        "sha256": "8e4cf886aaea4dba462cd2f5bb461ebd9adaa8c572b0ef83ebf880035176a20b"
+        "sha256": "1f8a0e89d7efc5cadc7c6e7e3582b442c9aeae87d03d83940d0a8fbb8977bb6a"
       }
     },
     "AB0001": {
@@ -12635,7 +12635,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "AB0001/thumbnail.png",
+        "path": "AB0001/AB0001-2.png",
         "sha256": "8b4d9a0caf146d1e81d95be9eb587a99c545876d9f1a2c59b8b7a7d372a46597",
         "fingerprint": "87ab20c03c8ee4765adb5e45853a2af934cc8a2e80bd8ef9a4acc8dcd71f3ffc",
         "reused": false,
@@ -12840,7 +12840,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AB0001.zip",
-        "sha256": "368cc465dfc712cc1e3d19f781b51ae077389f807e5c2bec90c6d9ed01155a06"
+        "sha256": "c2b8cfa6fb87ae3dfd58cb146918c4064f14020b820d5ac1ec17a5c9952df999"
       }
     },
     "WM0003": {
@@ -12848,7 +12848,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "WM0003/thumbnail.png",
+        "path": "WM0003/WM0003-4.png",
         "sha256": "aa76a6c6d99bacc0374dcb49b9ec68f3b6a43b711385fc8bc34d53721ce9d65b",
         "fingerprint": "8d267cac4532668444844b30cb6a25b1cc0b0eb3cdfa8cc8acf7b65e68198546",
         "reused": true,
@@ -13042,7 +13042,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/WM0003.zip",
-        "sha256": "1ab053bf9d2ff47210c0241d1542dffe73b228ef25d28f289f11a0c341438e6e"
+        "sha256": "ce907891a02744eacdc1aee4897d3860bc89ddee1c1aca4c9b82e21e30d29764"
       }
     },
     "MZ0001": {
@@ -13050,7 +13050,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "MZ0001/thumbnail.png",
+        "path": "MZ0001/MZ0001-2.png",
         "sha256": "3dfbb33cbe6d76d53e86a4403a4f574c13b9650830e630d36b37adec35bae148",
         "fingerprint": "55d3d21301530228913fba86c4964313e70cfb545e6e3b8cb838e6281d6e2cf2",
         "reused": true,
@@ -13207,7 +13207,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/MZ0001.zip",
-        "sha256": "df3e21b32b2ba176cba8c3a2eee3fb920f1c88beaafecd48de290c8824956ea0"
+        "sha256": "ba88dba14a3569ae5bb6790bd747029cc6af461ced3954bcebe8de221ca06a95"
       }
     },
     "PR0003": {
@@ -13215,7 +13215,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "PR0003/thumbnail.png",
+        "path": "PR0003/PR0003-6.png",
         "sha256": "bbb31ed47fe5e613e033c455e2e372ea509c0b6ccc71e57bd83b4f248756027f",
         "fingerprint": "96668645d9fe2d91d63797882578aafce868d21afd01a40b4db4279eb2f77456",
         "reused": true,
@@ -13474,7 +13474,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/PR0003.zip",
-        "sha256": "ae5da16665dc5aa84b5c86926c15426a6f480b71e4307ff497460b8a12a9f936"
+        "sha256": "e952faa07f3f36ea3a15f41acefdf62e60d135a477cbb0df1b16e246dd8e4ea1"
       }
     },
     "BY0001": {
@@ -13482,7 +13482,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BY0001/thumbnail.png",
+        "path": "BY0001/BY0001-2.png",
         "sha256": "cd2505ac29067bcd32ea99883fb7ac5b5bf03ec5482f7b4872097299afce16ce",
         "fingerprint": "071a2cda304277e1a0b0cf55fe7c4cf4d40091434588daf5f9a19aaac5823526",
         "reused": true,
@@ -13645,7 +13645,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BY0001.zip",
-        "sha256": "66e451d8a966b29bbf22f71352ac0140831b0ef6c536020242c67f8254588f80"
+        "sha256": "0e8f33ab8b0588ba77252b7a0d8b53118084f653552fd46fd4f009f2471fc303"
       }
     },
     "HB0002": {
@@ -13653,7 +13653,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "HB0002/thumbnail.png",
+        "path": "HB0002/HB0002-2.png",
         "sha256": "f702bde4829343b50f8611bd3a2f0dd17bc0734110c3354ed3d2c5ac7d972a17",
         "fingerprint": "554f6482d735b6815808695467bd0c27604e5e01d6431d1882b08eefb0f1d500",
         "reused": true,
@@ -13816,7 +13816,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/HB0002.zip",
-        "sha256": "0b9f80b08ba83c6518b413b2f9f7a727bc06097ab0e2b54f433efc00415b1169"
+        "sha256": "1ea74936a7936001c98971800f9a3f71d9889f30c8aa1513a505bc98d0cb953d"
       }
     },
     "DJ0001": {
@@ -13824,7 +13824,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DJ0001/thumbnail.png",
+        "path": "DJ0001/DJ0001-2.png",
         "sha256": "4d04395ccbcb934d07c22bc45c3e133afd48f783c29f29315cd8fa9ed170766d",
         "fingerprint": "1a6126755890f7982f07c4e277f6c139d3737e373870e2121d59543df12910fb",
         "reused": true,
@@ -13987,7 +13987,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DJ0001.zip",
-        "sha256": "ecc1aee355c586d6435a2c7377fc93133e3caf4d3617cd0ec9aa374b88f6d8ac"
+        "sha256": "39104982bc951c9e2e4fb5b5fca9ece70efa1cf6c28eacee7c3da28503df0621"
       }
     },
     "DJ0002": {
@@ -13995,7 +13995,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DJ0002/thumbnail.png",
+        "path": "DJ0002/DJ0002-2.png",
         "sha256": "bfb82830baf7a2f99e725c472587ec02cdce7a32c79ceccd5dac2de3b3e6c851",
         "fingerprint": "70887d082b689009d13536f0d326a7e6849a215950979b74e9ab34a567bf71eb",
         "reused": true,
@@ -14158,7 +14158,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DJ0002.zip",
-        "sha256": "52245ab0ab6ecef9f3d4d6f245c725ce4eb92c822f0ebca0c823dd60ae243b7d"
+        "sha256": "e75a31a67e6a7273c8230936d6e1abe11d7dac40c6b1109ac60585b113d8f84d"
       }
     },
     "GR0001": {
@@ -14166,7 +14166,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "GR0001/thumbnail.png",
+        "path": "GR0001/GR0001-7.png",
         "sha256": "eb11a1e0e3fd6204df726a27dd2ff31ce6b38c6f650916469140295ef0d978ed",
         "fingerprint": "78a0b797f5435d755e18bb7c8c8dca1faa18232648330c2c922cdcd09d2e1a9e",
         "reused": true,
@@ -14456,7 +14456,7 @@
       "expected_option_references": 6,
       "zip": {
         "path": "archives/GR0001.zip",
-        "sha256": "266f795db4d83e56f7e44858311537b7e80775709144f939abe1be8ad3b66994"
+        "sha256": "a5844443fb7fce3c28e5e357e7662fc2a942ed1f5120d8827ac2063d4d91d865"
       }
     },
     "IM0003": {
@@ -14464,7 +14464,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "IM0003/thumbnail.png",
+        "path": "IM0003/IM0003-4.png",
         "sha256": "5af2379fb7acdafe62539cc4c91f352f99925e146126bbc05b4ff9031b6c8e01",
         "fingerprint": "a8680c6e4fb3090a0257d2e9af6edcc666d85e398f6016d53837548938085d5b",
         "reused": true,
@@ -14661,7 +14661,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/IM0003.zip",
-        "sha256": "d4b137c8eb8bc9f490635e4bfbfbcc0c2fcedf0964c4c9815a0ec302e03666dd"
+        "sha256": "dd942bb189698f3adf150d201c0fe00887b35a169f87a2981b1b204b178ddde6"
       }
     },
     "ND0001": {
@@ -14669,7 +14669,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "ND0001/thumbnail.png",
+        "path": "ND0001/ND0001-1.png",
         "sha256": "1c45eeee4fc07e7c31eead9bca3d1b8be3a7399f8e2652c12c50a15000be510f",
         "fingerprint": "f942d13dc6bbf01d8edc36711c515a2e6a4fd353f64ef0b4ba42964feebdcec9",
         "reused": true,
@@ -14795,7 +14795,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/ND0001.zip",
-        "sha256": "730204557a1563bd9056bb8c6a20055b95efc0e79cc86dd9ae7ba959e392066f"
+        "sha256": "6e14161be330f1f70cb45761e8012ca9033520c1032a618f720990e4ce12adbf"
       }
     },
     "HP0001": {
@@ -14803,7 +14803,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "HP0001/thumbnail.png",
+        "path": "HP0001/HP0001-2.png",
         "sha256": "a1b1e953dbfc730f817eaf7cadaae9c9126ba5b2df9f63bda38cb9cbd26aa413",
         "fingerprint": "a19293d83a9272b632416ad5568f1c55bbe4f8e7476265f713b8fe83a6016201",
         "reused": true,
@@ -14991,7 +14991,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/HP0001.zip",
-        "sha256": "ff8b870c6b7d2bdf47d8a2dd141ff8586a114547d7eb9d6affd629e9ae885027"
+        "sha256": "727b8245723f03bbb21d302b00d6fdf0e133bf1e46494fe98d8877b99ec77a06"
       }
     },
     "LT0001": {
@@ -14999,7 +14999,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "LT0001/thumbnail.png",
+        "path": "LT0001/LT0001-3.png",
         "sha256": "fd576ebbead40222f46ea2ecc94dd010fa75789e191413016701c501c17fb497",
         "fingerprint": "1f8a313d967810869f0d00a94d7608b7d81db2e464662658a65436702b968d50",
         "reused": true,
@@ -15187,7 +15187,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/LT0001.zip",
-        "sha256": "d8286725b5a7dd21479c87701b55d5670762eb5eea6a8ff6cabf19f42d5a0f7e"
+        "sha256": "2ca1106a888f95ee6e14394d25285d9f679637a9bc6ff38122921ae288d00158"
       }
     },
     "SL0001": {
@@ -15195,7 +15195,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "SL0001/thumbnail.png",
+        "path": "SL0001/SL0001-2.png",
         "sha256": "08e36c8839b3c90e96999687a6407e6def7c28a823f990d83b1b3668f62b4f6f",
         "fingerprint": "381f200bc869b80f8e0b65992b574dc084daeb7814ad861d19e97bc6ea7d7465",
         "reused": true,
@@ -15361,7 +15361,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SL0001.zip",
-        "sha256": "2ed7a3434dc72ebeaa63eff69df2a0b7ea02b7334ff4b2ecc101bb47757c7196"
+        "sha256": "1e89238bd6c63a839021936f1b3aa0e652dfa8a1776ef5c0e789f3c0aa1f693e"
       }
     },
     "DK0001": {
@@ -15369,7 +15369,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DK0001/thumbnail.png",
+        "path": "DK0001/DK0001-1.png",
         "sha256": "75c828aa4de0001ade67b6f1e244fa86ac41ea6313d336475321232f69d24ea0",
         "fingerprint": "fcdc49ffc91b18430535815399a9dd1042d1f53cf5a15076d7964533b182067d",
         "reused": true,
@@ -15501,7 +15501,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/DK0001.zip",
-        "sha256": "d87554a5ebca226c06524d5c5bde7721fb5b3a20ef443e02b8653699570ee3bf"
+        "sha256": "6e5518a7e376507fab0fded9bb76f4a1f868dc43c6974bf7f4c9ecd789d03382"
       }
     },
     "PR0004": {
@@ -15509,7 +15509,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "PR0004/thumbnail.png",
+        "path": "PR0004/PR0004-2.png",
         "sha256": "7e2db48afd0fd84ac0ecb4155762eae77d77311ff76fc53d86c0cc584fecbea6",
         "fingerprint": "0b93c7f63620c239860d94e712bf5771f767a516579baeb50b017cd061263628",
         "reused": true,
@@ -15666,7 +15666,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/PR0004.zip",
-        "sha256": "4bef9e825c9200a013853ab76d7d4fd49432ab4092c6135bd28b521b41ea1784"
+        "sha256": "769716342120587e6ce2480df2f934671aa39d803531634a53853583f44d674d"
       }
     },
     "DF0001": {
@@ -15788,7 +15788,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "SN0003/thumbnail.png",
+        "path": "SN0003/SN0003-2.png",
         "sha256": "97c12acac96caf27577d490a1c05f542fca1f93e9fa436017de8d8f9e410898c",
         "fingerprint": "887e313ebc8b0a1211e9a0508da0c048b06ae7a12d181d2f8a3bb751455ec7f9",
         "reused": true,
@@ -15940,7 +15940,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SN0003.zip",
-        "sha256": "7130e43e140e5afb8627ebef5366d47f71006a8a78a80d41de3638a8446d650c"
+        "sha256": "05632ad59d885f1fc80c8665a7f7fe33e3f9fe2980e04f93016551e9035e6153"
       }
     },
     "CS0001": {
@@ -15948,7 +15948,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CS0001/thumbnail.png",
+        "path": "CS0001/CS0001-10.png",
         "sha256": "d4a98565036b39907be7b1eff3e98542fa6027acb054e1cb7f4fce942ccf34ce",
         "fingerprint": "20d923e75edbaf0ada5e964fd95ec521f47791fa5f1826b5a721b3dfb2624367",
         "reused": true,
@@ -16337,7 +16337,7 @@
       "expected_option_references": 9,
       "zip": {
         "path": "archives/CS0001.zip",
-        "sha256": "e51594f22bade4ae412c1a0c2b91ec3c6491ac4126cbe0ce1b6b05f7a45cb0e2"
+        "sha256": "0b4fcb2d6544263e160910c9434d0c91924a0062e8a846ea4521a3f0881e24a7"
       }
     },
     "DW0001": {
@@ -16345,7 +16345,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DW0001/thumbnail.png",
+        "path": "DW0001/DW0001-11.png",
         "sha256": "986d90d8f27bd93b642ce8f47747ac3c55e739b3c7f7a4e357f995656ac02f33",
         "fingerprint": "29461a2ad7527366213514e09b1b44e2ec77ae92187d30a2157b5ff802f84026",
         "reused": true,
@@ -16765,7 +16765,7 @@
       "expected_option_references": 10,
       "zip": {
         "path": "archives/DW0001.zip",
-        "sha256": "abcfcf8b00ab99b82a0e5a6014151a78758c53ef7e620b9c9cd4bb0091d6cda7"
+        "sha256": "a8d53ff01bf0eb956eda16047b04bae00b28ae717ce549ea156c0a2b90a542bb"
       }
     },
     "EU0002": {
@@ -16773,7 +16773,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "EU0002/thumbnail.png",
+        "path": "EU0002/EU0002-2.png",
         "sha256": "31eb1365780e6cb2aa36a6b151d73670b361f06be06564471e16ad5c33b36340",
         "fingerprint": "df0f62f3b00783c70831357c2b55faceeb4b6ac62213c8f38efb31986d335f63",
         "reused": true,
@@ -16936,7 +16936,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/EU0002.zip",
-        "sha256": "ec1e42d1a0f193de582e1f19357aa3bf099efb230f1c1cd5547a1d3e0ce00415"
+        "sha256": "692f3429abed29e2d1422be82e0f54d7f76e8718e2ba734a4d8a7873d049d2b3"
       }
     },
     "SP0001": {
@@ -16944,7 +16944,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "SP0001/thumbnail.png",
+        "path": "SP0001/SP0001-2.png",
         "sha256": "fcf4c12fc74c8ed788954cf0e62a8154d420bc64b00e18e157469ee1f84bbc59",
         "fingerprint": "3a260ced75758d376afb9ef628015ea927f68073c08554ab08332a120240ff84",
         "reused": true,
@@ -17101,7 +17101,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SP0001.zip",
-        "sha256": "6e6c3045327c940051400ca35b12bd9c3eb1fca9b73219fc0c6ec51824653b77"
+        "sha256": "ddf7c2b0cf71aaa6668a3426beb5fe1d6f55fd679ae877b46e4bbe5c147fd065"
       }
     },
     "BP0002": {
@@ -17109,7 +17109,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BP0002/thumbnail.png",
+        "path": "BP0002/BP0002-5.png",
         "sha256": "f3fde04f193e5adc0e032edf8ffe3069f0fb1e8b3e50c538c9c9c05e42d13866",
         "fingerprint": "b73d514cf39a9c43017c202380fa76ed795dcefc2cb11bc5b609307dbaabc18d",
         "reused": true,
@@ -17334,7 +17334,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BP0002.zip",
-        "sha256": "ca342438235622c3ec9dcc891f82c0b1cb1af9f184df3e7ce5406218ba8d0934"
+        "sha256": "de92a5fa6feeca6a1fbf3b25e9b48cfe2d418e87839179706064d7cd0b179e87"
       }
     },
     "MS0001": {
@@ -17342,7 +17342,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "MS0001/thumbnail.png",
+        "path": "MS0001/MS0001-2.png",
         "sha256": "36e056c88335d79caaa17ba5821e3f1f2dd81823cd976c1165afe5614bc1b563",
         "fingerprint": "113b3c04fff9fa6c35519bcf9c065d3617e281a0a3411fdea1814bcda066b881",
         "reused": true,
@@ -17505,7 +17505,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/MS0001.zip",
-        "sha256": "0fc2e49c61620ff3d9a9b0645323315926565fc2d53eea65ffd02d68f9511750"
+        "sha256": "4446d2a99f90ca484e4113d4eaaca9ee57910e0049ff5fcb1adcb459c1115c38"
       }
     },
     "AV0001": {
@@ -17513,7 +17513,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "AV0001/thumbnail.png",
+        "path": "AV0001/AV0001-4.png",
         "sha256": "5622d99692931bfa6f3dbca3d7d316dc94147e655fb36e0417e012a7495b425c",
         "fingerprint": "60d7b04c87d55e42bea7f217e163621beaba9e5ada46163b58c2877195c1e1a1",
         "reused": true,
@@ -17716,7 +17716,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/AV0001.zip",
-        "sha256": "bbd240a66be6f967a90db0b88b33f55c0909674ee462ba8bcddad732612e77ef"
+        "sha256": "a7f974e629a2e02d4591066cd04e69ed40ce6c00ad9e27b9cff6888ceb0f8ea9"
       }
     },
     "DJ0003": {
@@ -17724,7 +17724,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DJ0003/thumbnail.png",
+        "path": "DJ0003/DJ0003-2.png",
         "sha256": "096529596b161b25b0f3358b608dcc045d9f94885c9d954eeb46e6ff4beb5c7f",
         "fingerprint": "52543fab107e4f2187f520c8b40aa12db88f2e8a88ccc0f20f608666bc132279",
         "reused": true,
@@ -17887,7 +17887,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DJ0003.zip",
-        "sha256": "8c5d479a56aeef4ffe3081051bf450806c297ceb1f1b7754c897cbe5bb4432ef"
+        "sha256": "87953fb5f1965b6171eaffd1b6b8cf5eb300abe443e9989d9dc61e265c36a311"
       }
     },
     "KB0001": {
@@ -17895,7 +17895,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "KB0001/thumbnail.png",
+        "path": "KB0001/KB0001-23.png",
         "sha256": "5ddb66ab631c50e1b228e12ad3b48011857283a48d4944692b73654ced97c35e",
         "fingerprint": "dc59b05a1e4b302d6d881b43c813e7bec1cdff846a70b3a6b2a6fccd281a7e32",
         "reused": true,
@@ -18681,7 +18681,7 @@
       "expected_option_references": 22,
       "zip": {
         "path": "archives/KB0001.zip",
-        "sha256": "272f9282c96e0e720294c97fcccbd4541761af3ab0005d5488a29305ff170c83"
+        "sha256": "b065a618ea7877d811d89ab398d0398cc469e18b6acd37305de0b91556996f28"
       }
     },
     "SN0004": {
@@ -18689,7 +18689,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "SN0004/thumbnail.png",
+        "path": "SN0004/SN0004-2.png",
         "sha256": "47462af144fb93344f27254fde160b30d40310b369b76af9d963d83f63bba48c",
         "fingerprint": "900b7a6318e8326443d0c26caa611ed23b649a0f6e30d65a5fa5c04f51823e97",
         "reused": true,
@@ -18847,7 +18847,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SN0004.zip",
-        "sha256": "3389f4ba09bc776a17c2b85f351ecb94b0893889190cba0d4088b29b24fef4bf"
+        "sha256": "562db924f9ec74ca7374377d0feb1235f5a6f63c15c44e7491431890c8434e79"
       }
     },
     "SN0005": {
@@ -18855,7 +18855,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "SN0005/thumbnail.png",
+        "path": "SN0005/SN0005-2.png",
         "sha256": "35344465e1bac6027d176fc7a5828f4fb09380d9e43d16b83df5ebb5880d5b60",
         "fingerprint": "744a6eeec0cda563ba367b708f8335cd187967e86fed169a0c1ceb8dce834c71",
         "reused": true,
@@ -19022,7 +19022,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SN0005.zip",
-        "sha256": "fd23336f8771a7038152390ae04dd84a5bf7fc0da1be1c911f68bfd8927bb751"
+        "sha256": "ae4ce036d03fc8e7153b607e6191523aaf118078eebd04ab1aa87155b97f8a46"
       }
     },
     "AS0001": {
@@ -19030,7 +19030,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "AS0001/thumbnail.png",
+        "path": "AS0001/AS0001-3.png",
         "sha256": "4999682dbbaf68d056f31a840a7ab5c981c4896f1c90c3dc6539d5664e80bd2e",
         "fingerprint": "3a1c54b505efc0f278a6d9fdd97764e1c057d4bf336ecb68931fea98ee75667a",
         "reused": true,
@@ -19255,7 +19255,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/AS0001.zip",
-        "sha256": "4d1131646e088c2b0350cc7b02594304d58c006054f829e338e0c944385d3c97"
+        "sha256": "9eab4c17ec5fc696051688b8fcd3859b317b8abe8edfbac028ef2ce9cbdbb5b5"
       }
     },
     "BF0001": {
@@ -19263,7 +19263,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BF0001/thumbnail.png",
+        "path": "BF0001/BF0001-5.png",
         "sha256": "8cb0b2cb859cfc2a43d7dd0f52ffc01d0c5b9131c6ff44f99e337a29e356230e",
         "fingerprint": "ceddc962de2d25d9474057551ab80923bfd6c533e1a7b35a0b8de51e163a702b",
         "reused": true,
@@ -19491,7 +19491,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BF0001.zip",
-        "sha256": "47cd3fb002cfd55ef857117a96690544de0df077aff8490da792608bd6d8a7c6"
+        "sha256": "30d3002b7f1a06f88ee1f01f1839d1d5570a451b220e53f592f7daff104a84c2"
       }
     },
     "TR0004": {
@@ -19499,7 +19499,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "TR0004/thumbnail.png",
+        "path": "TR0004/TR0004-2.png",
         "sha256": "bc5e1bff1c22e61ab436ce12541618ef80ab84e74a9792485324cb4810518923",
         "fingerprint": "9eefc6e757a46b00d7eeb4f379e500402b14e9c7aace6b2dcb508f8bd0d733cd",
         "reused": true,
@@ -19671,7 +19671,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/TR0004.zip",
-        "sha256": "da0e5c5ed3f8b1a072a86b3ea667374af009b50ff8eddb68f195b76cdf5c2623"
+        "sha256": "ac498fd3d29471df74324e2bc75914c443695c14dea403401af6315559d757e3"
       }
     },
     "BB0001": {
@@ -19679,7 +19679,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BB0001/thumbnail.png",
+        "path": "BB0001/BB0001-16.png",
         "sha256": "807c62445e49fbdde536259896d6da9a26e279b1c0590c368c8734ba7d568c3e",
         "fingerprint": "fa109407a046e6bc8a7da0176b7b2e92a2bca815584768d53b9b6105aa177a51",
         "reused": true,
@@ -20242,7 +20242,7 @@
       "expected_option_references": 15,
       "zip": {
         "path": "archives/BB0001.zip",
-        "sha256": "7ab63399a9a83e16e7f76a9e397a5c3109f966f143ac583e01003a59a65a2dea"
+        "sha256": "b305b5b3347be61d13419656d64f303f9e883d5e2f208e4afd28fdbc55ef2489"
       }
     },
     "AT0001": {
@@ -20250,7 +20250,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "AT0001/thumbnail.png",
+        "path": "AT0001/AT0001-7.png",
         "sha256": "14b3a8da5319df365188da240ee06e3d636e01a902492ce0798cbcaaeb3ada71",
         "fingerprint": "6045ac5fe7d3639a3d0cc5887042c4fb2758e4615cb426854a8673df89e94cba",
         "reused": true,
@@ -20537,7 +20537,7 @@
       "expected_option_references": 6,
       "zip": {
         "path": "archives/AT0001.zip",
-        "sha256": "5bcf4124b4edf9f59d3d8654a03d9025584c7352bd0d0cc6c03c1cea7c1c0397"
+        "sha256": "c32b07f59ae74fdc67ed064101564a97539192c5d058ef3b210feb4f398cd212"
       }
     },
     "AM0001": {
@@ -20545,7 +20545,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "AM0001/thumbnail.png",
+        "path": "AM0001/AM0001-2.png",
         "sha256": "99588602bfb13d0d0b1b55f6b4ace3d8171a7584df66bb087dd274347a18dba0",
         "fingerprint": "bf008b6f580a1ac595c119a22b31c7ddc05f62b2e5dbe5dd4f3d7c30e3c23405",
         "reused": true,
@@ -20711,7 +20711,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AM0001.zip",
-        "sha256": "c70fbf12e86ac37af45d7ca58df457f35c06eb97831124b01ac16298b0d6a29b"
+        "sha256": "e99c509de2a49b961ce93ebe316288207d69ac489a2ab914fe1a0620894f8f92"
       }
     },
     "MX0001": {
@@ -20719,7 +20719,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "MX0001/thumbnail.png",
+        "path": "MX0001/MX0001-2.png",
         "sha256": "c62148143a46abf986bbf2fe5e6f7a0f1c9710cecbd815db4642d0d02949d890",
         "fingerprint": "8b23d4078f4795fb6eab10689b4927a7626873e0db9a1286b9a35277f2f7394f",
         "reused": true,
@@ -20882,7 +20882,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/MX0001.zip",
-        "sha256": "dd542cc4c4ddfdabf51bfe260cfdd7b0fe0571282655c0d84c2342ebc1357409"
+        "sha256": "fc9e38e4f9540145e25618603e12751f12917ff2e745223e21996ee78c52ffd6"
       }
     },
     "CK0001": {
@@ -20890,7 +20890,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CK0001/thumbnail.png",
+        "path": "CK0001/CK0001-3.png",
         "sha256": "be20e417413999290bb043c85dec6f87928e099c57c9bd3c1f1bcb33f6b7ee9e",
         "fingerprint": "1059aa017ede389a1f3707a659d4f8c76001342765e6beec86ea7949f61a21ef",
         "reused": true,
@@ -21090,7 +21090,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/CK0001.zip",
-        "sha256": "0a97c062dfe0fdb16e7859429f4f763ded26eb77f731a63830cb1dec683d3148"
+        "sha256": "3c1a309e2a5fba8a0926e236f509fa15a2d5aaaeb6c0222d8348ff0bb70a2a35"
       }
     },
     "HY0003": {
@@ -21098,7 +21098,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "HY0003/thumbnail.png",
+        "path": "HY0003/HY0003-2.png",
         "sha256": "26698c6960011dd6c5a691f830dd2394d9b1a2bcd5fbb3abed89d0184ac68251",
         "fingerprint": "9729a8b324d28303b3cec727e2f7d289d14bbfd03e6a361b264535bc2b8cb144",
         "reused": false,
@@ -21291,7 +21291,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/HY0003.zip",
-        "sha256": "c5651da1eb05ee5bd8e364b0c74fee3830df9e580cc3719ffa5da9ed385ec4a2"
+        "sha256": "0a077d23f7fb4d5edbc19b428802e6e1d908fc42f5ae4d03609d3866b6219fbf"
       }
     },
     "CR0001": {
@@ -21299,7 +21299,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CR0001/thumbnail.png",
+        "path": "CR0001/CR0001-5.png",
         "sha256": "81e9e9a0518c1f4cb58cd4df79eff7f564a75356b1f9a6d2d4dafe2ce87ee930",
         "fingerprint": "59f390325434cb2e4e81ffc48d23db216a1ddd25fe90ed3b60c68c61da7dddf6",
         "reused": true,
@@ -21527,7 +21527,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/CR0001.zip",
-        "sha256": "6fe661310dcdee7842af66e2f0f850104aba911eac10809ea0a6cb7913e461b8"
+        "sha256": "017a363bf537f270b93c21f765601ff265c0a65a269f7e371d2870abc42cb007"
       }
     },
     "HM0001": {
@@ -21535,7 +21535,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "HM0001/thumbnail.png",
+        "path": "HM0001/HM0001-6.png",
         "sha256": "ff7535fccb3df184fe5a07413814d94d2e068a75479670898f076bdbaca3c774",
         "fingerprint": "4068a2d181c5b0dcae9b8445b9a332cdfad204ce16fc8b575eebd91bf1ed6303",
         "reused": true,
@@ -21800,7 +21800,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/HM0001.zip",
-        "sha256": "7b11bdea999931c06178b6f716bad55a7fb911b62a32e45c25229db6c59306d0"
+        "sha256": "1c6d83b2f1579433128ef743051f1802690114606766ee8520662591a7c13368"
       }
     },
     "BP0003": {
@@ -21808,7 +21808,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BP0003/thumbnail.png",
+        "path": "BP0003/BP0003-2.png",
         "sha256": "7b20c9cc74fc43262b02134bdcf9a74c5a48d835d3609328d418f644a6b67da6",
         "fingerprint": "a850db05b366f5bdbab984f50e7d290329ddb14d5987c74c5247fb69e06fa0ad",
         "reused": true,
@@ -21971,7 +21971,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BP0003.zip",
-        "sha256": "0beabc4a767e954f697f5edb2238f9ef654175037e655859c0f6dc8e4b4f316b"
+        "sha256": "3d89f170084ce62779c1eb88642e6b929613a45755894f706eed9387efe73c16"
       }
     },
     "KM0001": {
@@ -21979,7 +21979,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "KM0001/thumbnail.png",
+        "path": "KM0001/KM0001-2.png",
         "sha256": "5357954ee0659becb653f365dfb8d0d309a32b375f9a75970ffecd530050a945",
         "fingerprint": "847b673b82f9239ed400b91f036a6f39d7dd5ee973c4e76ea14a55e9b9942ded",
         "reused": true,
@@ -22145,7 +22145,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/KM0001.zip",
-        "sha256": "06f143dfab8e4e2098f9ab0487f2b9edb982e39ce6c664027315ca97e67cd6ab"
+        "sha256": "379b52c44199ffa782a63f12af46cd73cb8b5a03c69c69f0c78236b15625048e"
       }
     },
     "IM0004": {
@@ -22153,7 +22153,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "IM0004/thumbnail.png",
+        "path": "IM0004/IM0004-1.png",
         "sha256": "498a37e44931a97ee47858a911ffe9aee21c28f4293937a413bb719935583db9",
         "fingerprint": "e6c58213c418ab59099e604777892353069f890fd8a2eb642547adcde829d8fd",
         "reused": true,
@@ -22279,7 +22279,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/IM0004.zip",
-        "sha256": "c7f41ba44b6a49413380ffc3595125f5cf5a6266c19f5cf8ac006eab4edfa054"
+        "sha256": "4c42f6d8ad8a6f3c469de712b6d91adef00571f86bf4bc12a986fe8d0af860d7"
       }
     },
     "CN0002": {
@@ -22287,7 +22287,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CN0002/thumbnail.png",
+        "path": "CN0002/CN0002-2.png",
         "sha256": "7c5368ed9c884e377063a209a6c55afbc9d41744c8e0df494075719ab4784a71",
         "fingerprint": "516d72afbee53bfa2b34de2662c14b1c923bb6ea37fc736282ea5966f5dd5e1c",
         "reused": true,
@@ -22450,7 +22450,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CN0002.zip",
-        "sha256": "a64798ed970881ac56771e543ae72e7e31eb0ba654cc6a7e26f5cb54785cbc3c"
+        "sha256": "3d00b937146ee4fce42b95c21a6ffe44fe3d5440d95f67964ecc6e64ccad848d"
       }
     },
     "GV0001": {
@@ -22458,7 +22458,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "GV0001/thumbnail.png",
+        "path": "GV0001/GV0001-5.png",
         "sha256": "7d14161af3178907801ce09cec98c2e073ac0e917d35efa311725dc0067b72ba",
         "fingerprint": "ee9ce51663afc787780eeeaa2b14f5d5f2d535dce1daaa1bf24b1b0f21ec6efa",
         "reused": true,
@@ -22686,7 +22686,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/GV0001.zip",
-        "sha256": "c4e2a6e46b78fcdde7db7d24d603a7cc141be8a56966765a1c71e73ba06b0eb2"
+        "sha256": "0307b2029aa5297900dc320b95be8e782f25a83447f6df70843c356388786133"
       }
     },
     "ET0004": {
@@ -22694,7 +22694,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "ET0004/thumbnail.png",
+        "path": "ET0004/ET0004-4.png",
         "sha256": "831e657eaee7b2e29b2e5c525b58a4e4622bf12b893fe71201a10b3da541fa4f",
         "fingerprint": "e638dc2ccd2c527d4522a45e94691beb33b5719eda058ba4a06954850da112c7",
         "reused": true,
@@ -22891,7 +22891,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/ET0004.zip",
-        "sha256": "5ab865e1988e7fc6a96961733a1a5482dfa3658d79d177cf4bcc602abe1042e8"
+        "sha256": "a3d03232e4fbae248b52c8bce26eddc31f7caa3f44c06a3a16471ad5e9a9293e"
       }
     },
     "ET0005": {
@@ -22899,7 +22899,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "ET0005/thumbnail.png",
+        "path": "ET0005/ET0005-3.png",
         "sha256": "d725c5a73e0c6bf5830116338004a47d62cde9d2fc62d6c8ea4c0b17bfc80031",
         "fingerprint": "238ab0f005187e1a859be24ae105a7bf3945e81d22bbb4a212f59eafd89e4547",
         "reused": true,
@@ -23065,7 +23065,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ET0005.zip",
-        "sha256": "2efb0fe7644d7ec79d85f1e937c8726d403fc27fbe3b07a16c683668ee3e2e84"
+        "sha256": "9c7e3ddeb7aae97f39d7e3b220e3e898e9636d3d2d630c2c2bff48f7add444bd"
       }
     },
     "NC0001": {
@@ -23073,7 +23073,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "NC0001/thumbnail.png",
+        "path": "NC0001/NC0001-3.png",
         "sha256": "b06f82d63f240d1901d9a2b0b9b70a60cd24a1f9584ce72aa32ad4fa1257c06c",
         "fingerprint": "ec18894dca62e7f3c7930fe9846af422006ee38003c70c01795f899532c596bc",
         "reused": false,
@@ -23360,7 +23360,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/NC0001.zip",
-        "sha256": "774a2f79a29bd1676a5509679472ef0fd1ece598f9c4ecc203d5c4e0966db210"
+        "sha256": "6a641b2c344841cf8db1e26a158967cb85fed02753952926441290a3371caf79"
       }
     },
     "BP0004": {
@@ -23368,7 +23368,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BP0004/thumbnail.png",
+        "path": "BP0004/BP0004-1.png",
         "sha256": "dec0b45043022e43d13456cd6847ecf8d3cb445fd5ba65f85883cf743889afd8",
         "fingerprint": "2b232f52f3011134b34074edb285b89b5cf67297d1049094584becb870a9ef84",
         "reused": true,
@@ -23494,7 +23494,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/BP0004.zip",
-        "sha256": "4eded7ff346a00054b5aeeefea68ff263af79576e77a90b3f8ba0bb0979f8096"
+        "sha256": "8e4d7caecf5c1624a0b0110a20cbe016d512f8a2dbe027958fc27c44ab379966"
       }
     },
     "RV0001": {
@@ -23502,7 +23502,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "RV0001/thumbnail.png",
+        "path": "RV0001/RV0001-5.png",
         "sha256": "24288ac7948b14ae56c033a21b2cd066397befed79dac92949b62959fb253b48",
         "fingerprint": "a9b5ea83830af8ebbfc4cc40e2f6d4f2b5f14dc02ea587dba1a32e953405ab82",
         "reused": true,
@@ -23727,7 +23727,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/RV0001.zip",
-        "sha256": "42392df7c24f206548260f5d9d068ec93601433915b7670604a4338ec820e878"
+        "sha256": "75f57b907d819ea4225bd480d0a35c9378070bd838f4a745b609141520844001"
       }
     },
     "RM0002": {
@@ -23735,7 +23735,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "RM0002/thumbnail.png",
+        "path": "RM0002/RM0002-5.png",
         "sha256": "4d50eee2b2639c8d6f0cf29f7ca0b0d3afde9395e68c3e3dc0e4dbb85f07abea",
         "fingerprint": "521bb6bbd5afcff42bbefdacaecdc7700a3790585f6aec9fc274dccd3d0f42d8",
         "reused": true,
@@ -23963,7 +23963,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/RM0002.zip",
-        "sha256": "5c4c36a1db1c2bbe8b2407227596ea975284ad68c4bdcb265ff9bf828500a5fb"
+        "sha256": "db925a504b299c9eec734cc1d4d865b78c99a2a3fdc4f7c629dbc6ce8933ee8a"
       }
     },
     "PP0001": {
@@ -23971,7 +23971,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "PP0001/thumbnail.png",
+        "path": "PP0001/PP0001-5.png",
         "sha256": "2ffdc9095ad49eb91ab26bccee90e8bd07de461149ba29ac00845749ea923412",
         "fingerprint": "91b4d976cc51b4575c63c35e17990c60d9cf2685d73a819a61029e7dacc874e7",
         "reused": true,
@@ -24199,7 +24199,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/PP0001.zip",
-        "sha256": "4fd9b4b02efefede751601808cd917edb5d10426fe8398b765ab12fc48031bbb"
+        "sha256": "d5e3e2145805ee3454db1c40b4b16f17c4e567ef3b372309e5dd7f8fa80e6cf9"
       }
     },
     "MB0001": {
@@ -24207,7 +24207,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "MB0001/thumbnail.png",
+        "path": "MB0001/MB0001-7.png",
         "sha256": "b111e0132c92860da00491938dc39bd03f73231aab79af7566df176533802de5",
         "fingerprint": "3bc92a845005cedf9a030acdc94ab9368997d39dcc3fa597baaea4566cf41efe",
         "reused": true,
@@ -24497,7 +24497,7 @@
       "expected_option_references": 6,
       "zip": {
         "path": "archives/MB0001.zip",
-        "sha256": "7275f7fe7391843491b822d20ea0afd4a4ecdec6a2a3d32d8b5c4cf9e74e97e8"
+        "sha256": "76a378181ca945e624e46be4444ff734ff7277b7b702a82e4769ed5598d67dac"
       }
     },
     "PR0005": {
@@ -24505,7 +24505,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "PR0005/thumbnail.png",
+        "path": "PR0005/PR0005-2.png",
         "sha256": "efa8fb40d981e7d9d06b5a28f0bdfa08be0631375ea735a264132bee6d3d9fe9",
         "fingerprint": "c80df4deb5d95bebdc8de9cc95b1c45a0b3155dc41076597a4fd17b7f8426ad6",
         "reused": true,
@@ -24668,7 +24668,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/PR0005.zip",
-        "sha256": "632cfa9a37c4aa309de85e4cd44f6eacfe5667565c3bae0897128e03a4413291"
+        "sha256": "32f25e01a8d539712bf377346cfc8f7ea7b7fec272fce64640a4c4908484d826"
       }
     },
     "GA0003": {
@@ -24676,7 +24676,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "GA0003/thumbnail.png",
+        "path": "GA0003/GA0003-2.png",
         "sha256": "ccf9fd5e098958f88add3e0db2049770f4fc16035195484cab29fa02c605f2f0",
         "fingerprint": "ed556b83516f4fe489f615309d90a923ce1f22a95c6eac09a0cbdf2ee71edd64",
         "reused": true,
@@ -24839,7 +24839,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/GA0003.zip",
-        "sha256": "d27be26fda2396307e780939eb40074b73ec60d08c1e409f11e1286dfd1e81b7"
+        "sha256": "daf22d89677d6f528ebad62c1df21fa258d923327b6442fb97e1c19bf8ffd557"
       }
     },
     "HG0001": {
@@ -24847,7 +24847,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "HG0001/thumbnail.png",
+        "path": "HG0001/HG0001-2.png",
         "sha256": "a18268a4f6652f39ec31c19a40b05740cfa85e5e10f589988bf4d30f5b7048a5",
         "fingerprint": "37e380d2095db013ee1e2eb51de477d5fb6b8a7c8b9ea81d90449f7114650bf3",
         "reused": true,
@@ -25004,7 +25004,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/HG0001.zip",
-        "sha256": "e8de5e57d96825d23aa7176fedc2b9c424f65fb0acc3aac7e548214f9f84caa6"
+        "sha256": "1766696b0f67b34892b6f4ea6c611c8867bd7a74a5ffb3a0fcafa9744ed2263f"
       }
     },
     "EU0003": {
@@ -25012,7 +25012,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "EU0003/thumbnail.png",
+        "path": "EU0003/EU0003-2.png",
         "sha256": "0c6adf042756e06ebdb23124f489c0a2be20ef41c073bb109a7d3979ca897db2",
         "fingerprint": "b3fae0205d01256b0df045965e1a2b94c2b52160eaaccc1fe8cabad99482a189",
         "reused": true,
@@ -25175,7 +25175,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/EU0003.zip",
-        "sha256": "fa6bbb1dd757ce7c7c6d0f0a3bb95f033a976ca0650fa6cd6a4fe0532a09ae09"
+        "sha256": "409361b4a45431d24559f9b2e37cb3e9cacc42e1ceb548c7bbb0028b83cea176"
       }
     },
     "HH0001": {
@@ -25183,7 +25183,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "HH0001/thumbnail.png",
+        "path": "HH0001/HH0001-6.png",
         "sha256": "6bcb840b3a37d447486c224a663322ed3df86cd4122589b16f89da20e3c7cefb",
         "fingerprint": "2656956ab47aabe4afc3065db3e819642596efbea8f8c6ddd8dada6b150f0547",
         "reused": true,
@@ -25437,7 +25437,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/HH0001.zip",
-        "sha256": "852b17d4906653080b932878b63b27b6365d0d698f78836c7f9daf9865d77358"
+        "sha256": "efa53c6cf0832950c0e26d44784084bbf3bae88a964f429a2a8788d26ca8ef12"
       }
     },
     "IS0001": {
@@ -25445,7 +25445,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "IS0001/thumbnail.png",
+        "path": "IS0001/IS0001-7.png",
         "sha256": "fa86a91d0a9c33dbdedca226e59e4723a23c9cb72bf63a0f6aaec905f5707ca6",
         "fingerprint": "afae496dafa3a93e99865510478c073128b1ca085df141788b4509712e04cfb3",
         "reused": true,
@@ -25735,7 +25735,7 @@
       "expected_option_references": 6,
       "zip": {
         "path": "archives/IS0001.zip",
-        "sha256": "6ec439d83bcc73479a614c54381bd133cc9a5f6790142aa48ec07b5e0d725c83"
+        "sha256": "1b041f746fc087f2df2469e32c26ae3b5c2e221ef59e6aa95111e8d7e5d4aa46"
       }
     },
     "CN0003": {
@@ -25743,7 +25743,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CN0003/thumbnail.png",
+        "path": "CN0003/CN0003-2.png",
         "sha256": "5077d298ead47bfa8ac0988b5487fd6f1e6a57cf22b5a4976d08acd9639c7d55",
         "fingerprint": "202a4514b8177c6b2eb2f51dbe9ebfe3485b8b70faca8a49a785ab0e5e6113e3",
         "reused": true,
@@ -25900,7 +25900,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CN0003.zip",
-        "sha256": "2c583351ed225c438a56e0d9cf945d390baac346fb6057757eca619a98b0a247"
+        "sha256": "9de9e872c00cf63b2de218e0d7b8349c9f6b885c938b4ba84ae8396f799ef7ec"
       }
     },
     "BC0001": {
@@ -25908,7 +25908,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BC0001/thumbnail.png",
+        "path": "BC0001/BC0001-2.png",
         "sha256": "486340107adf1735d99c70669db47dac5fe115b3e75e9a3c51bc948dc3e837ac",
         "fingerprint": "fe9c1ce1a2b9b53b1a02793c8c605bf582255eed90eab06a4a0ad0c1a268c835",
         "reused": true,
@@ -26071,7 +26071,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BC0001.zip",
-        "sha256": "b97ab82f1c71be73037aff8b612e38721e9389981c5907a43192dfa0b29ca5b1"
+        "sha256": "1bd079227f34ef369d3c34821aeb4665fcbcdb430ad0530090adcfd6473dcd96"
       }
     },
     "ET0006": {
@@ -26079,7 +26079,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "ET0006/thumbnail.png",
+        "path": "ET0006/ET0006-2.png",
         "sha256": "4511a2cd5023a384e39101626aa54779e24096cfaa19f3213c82c39ae150e727",
         "fingerprint": "a739c5154642b9ff997ed0a1a344983327a055e343f1ec4b4e11fcecaa200165",
         "reused": true,
@@ -26242,7 +26242,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ET0006.zip",
-        "sha256": "2d63390e50a0695ae09a5ff7053d2ca0ee8380e3daa921439a4620461116ae4c"
+        "sha256": "b888de33d819fa00309c49ba816d16bcc2b3016a72ec052af9252c3614245803"
       }
     },
     "BW0001": {
@@ -26250,7 +26250,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BW0001/thumbnail.png",
+        "path": "BW0001/BW0001-2.png",
         "sha256": "95a84cdb56027fa92a7ec65e62f4f48b352b8cbc3c9052b456908c12ef663ad3",
         "fingerprint": "44682294e69b1cd768aa3463a050a66572c6ce1ebedabc7fc53f49369c2742a0",
         "reused": true,
@@ -26413,7 +26413,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BW0001.zip",
-        "sha256": "68504d300339aced5c5687c256f8ebf68e3b6db878c6ff48f2290528b55e703a"
+        "sha256": "ee61ae28871652f87061fbf53052e0dbeab7acc554249eb9059b653350933fa3"
       }
     },
     "TR0005": {
@@ -26421,7 +26421,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "TR0005/thumbnail.png",
+        "path": "TR0005/TR0005-2.png",
         "sha256": "3ad6d3da45ba87ef9b2c0f33d016d51b27af9fc61c60a8199a9c23a04e815aec",
         "fingerprint": "8465730ab3080c82a832d27458134dc84010c83b65bf1ec423ed7cd8a706c35c",
         "reused": true,
@@ -26587,7 +26587,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/TR0005.zip",
-        "sha256": "b7cf6d3c16b820ffa85e50e72b6a8bd648e82f64d0de3b19c0f5016120cfa514"
+        "sha256": "2e310d499663fbaf07ca6030a46cedcdef7e111099c55a37974ae43cc81f8fd7"
       }
     },
     "SC0001": {
@@ -26595,7 +26595,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "SC0001/thumbnail.png",
+        "path": "SC0001/SC0001-2.png",
         "sha256": "b4bf0fcb011d594688b08a450d2899d15261a603bc743d5f51adc47acc6bb94a",
         "fingerprint": "7ba6ed8eced776c31eae1710966b7ea8e628415b6fdbe2d29d9a64ee3717ebfa",
         "reused": true,
@@ -26752,7 +26752,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SC0001.zip",
-        "sha256": "8bfdbb222e9dd97b9ce82f0dcc9fbb7691c2fec042804dead5c184b7d6f5c9f2"
+        "sha256": "b2d26f6838e06ce8d6ef6a7614dcc365bc8c0b448d969c513426165a5ade9d6c"
       }
     },
     "CK0002": {
@@ -26760,7 +26760,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CK0002/thumbnail.png",
+        "path": "CK0002/CK0002-2.png",
         "sha256": "d1c67f1992d180819eb0c794710795f53259ca16078f5e7a2d9c2c4afd588996",
         "fingerprint": "e478743d60a3b64526361ea556b805abc249e142926f0e26fc1a76252d95323e",
         "reused": true,
@@ -26923,7 +26923,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CK0002.zip",
-        "sha256": "f1a6e29ac5265b2617b4cdc5056fd1970410b1e8cfc32184399f5194490a21c2"
+        "sha256": "572f6590f887d3d44c8219188d28d3eaea1425ad63b0c5475130b97a2c285fed"
       }
     },
     "BR0001": {
@@ -26931,7 +26931,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BR0001/thumbnail.png",
+        "path": "BR0001/BR0001-5.png",
         "sha256": "044cb592d0d089c3ec2b36f7686018999d6814d9769e36b6bfc9566eafcf1b99",
         "fingerprint": "987cbf66a055796401707bc73b96fd79dfb7b79fffbad2f952a167510d1cbdf5",
         "reused": true,
@@ -27159,7 +27159,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BR0001.zip",
-        "sha256": "1e6662c071d18bbcebc16ca124509e6ef3761bcc4b59f71b3830c2542993a2de"
+        "sha256": "d3920243b9538a0e7dacc4c9a23c35a23b3a6573a13f3eb090fdc74cb9a857c2"
       }
     },
     "ET0007": {
@@ -27167,7 +27167,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "ET0007/thumbnail.png",
+        "path": "ET0007/ET0007-2.png",
         "sha256": "f3ede94571e27529734f4c49778672aac4be15c437191e591e098ccf3495817e",
         "fingerprint": "6166a30c4995198844ebb8e6eb1684212ad3b864022ec4f897248fca77c84cb9",
         "reused": true,
@@ -27339,7 +27339,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ET0007.zip",
-        "sha256": "960bb728acc46ea40478ac5e98da1dacfcea74f1884df45ab449fa4052ffa237"
+        "sha256": "5e3ef4837e5986d170cecee93916e3951beaaa836b02810d14ae38142cb1f54d"
       }
     },
     "CN0004": {
@@ -27347,7 +27347,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CN0004/thumbnail.png",
+        "path": "CN0004/CN0004-2.png",
         "sha256": "d644ef829db7bbe8b42c6a944b93a87d016c8e56051a68ef4c34d9fef6bbdf32",
         "fingerprint": "4f38931d3b8512b28c8df5b4309914c4905505d2be968ff75c5befe3c1487480",
         "reused": true,
@@ -27519,7 +27519,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CN0004.zip",
-        "sha256": "463ad47827a80cf4447178e15f2237cac43c9fe18675a88528a3b054b8b99b75"
+        "sha256": "9651a73ebe01948bb67a5392b9d9bf51acebf13e814937e9f9b5bfcc388a1454"
       }
     },
     "TR0006": {
@@ -27527,7 +27527,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "TR0006/thumbnail.png",
+        "path": "TR0006/TR0006-1.png",
         "sha256": "230b07e3f5661ecb5215c55bec7b53ecac11f2890d99eddc54d157727b1297b6",
         "fingerprint": "7bc4d21cf61c13ca8b8e64fce9a33dab11268129d046640b6923f30ef225fec5",
         "reused": true,
@@ -27659,7 +27659,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/TR0006.zip",
-        "sha256": "1b9b95a77a6c3aa6f05a9135211f4ee0fd0ce39e78f1c032736140628bf41976"
+        "sha256": "113a43ea25e66c5107c73e4e05ac754fd610c369d5e66418eba415207516624f"
       }
     },
     "DM0001": {
@@ -27667,7 +27667,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DM0001/thumbnail.png",
+        "path": "DM0001/DM0001-3.png",
         "sha256": "51c0bf850ce7a9256e177acbd189edc83db0105a69e5fc2585f09c1b1c716860",
         "fingerprint": "d4d0c6d599f6ecee5b72c94f01d10edbf66b436b117fa981fabc6f968bbbfdd2",
         "reused": true,
@@ -27839,7 +27839,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DM0001.zip",
-        "sha256": "c959275746583c2fe90fb0b5f96c9804540c3c48a3b045751bea5ded3066920c"
+        "sha256": "7915894ff15ba9d3bb637c9ffff5e9d6a4886e91892e04f05b45ff8791066257"
       }
     },
     "EU0004": {
@@ -27847,7 +27847,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "EU0004/thumbnail.png",
+        "path": "EU0004/EU0004-2.png",
         "sha256": "983458f6b4699d4852d708c61b55dcc998855bc54ecea6ec96c63eb007d336d4",
         "fingerprint": "44a94e3d02b9033e4f3be6cf33f0569b3a94368f3eda53992fd040ffe563623e",
         "reused": true,
@@ -28010,7 +28010,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/EU0004.zip",
-        "sha256": "3000bd6127c2d4e660438d279d30967678e6b1f67ea136a7116ed096266b0ddd"
+        "sha256": "bf7de9c6a54ea8f4ccab8f2318517d037b8908eb36f81a45622c317a1bf18c04"
       }
     },
     "JS0001": {
@@ -28018,7 +28018,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "JS0001/thumbnail.png",
+        "path": "JS0001/JS0001-2.png",
         "sha256": "5fca51f9d6d725e02b08bb4216ded5981a6b85f21a71d20fe68de0f0c732954e",
         "fingerprint": "9e8e43a6bbe72c7fd5c1bee8ecb73467f4b04a2aca4e92b3f6bada4a5141ee91",
         "reused": true,
@@ -28175,7 +28175,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/JS0001.zip",
-        "sha256": "b8e4669dbd23d33d7fa415443069a540b1d104aada10513a52029692f832db0a"
+        "sha256": "18530a5531404380c7709e84d16afc8ab0dba93dc8335966030d6d1b3e7cfd06"
       }
     },
     "GA0004": {
@@ -28183,7 +28183,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "GA0004/thumbnail.png",
+        "path": "GA0004/GA0004-2.png",
         "sha256": "245ca552cccf9e577f42036c174cbf5ed370688bc18d297f9434cd34d750732d",
         "fingerprint": "bfcdd49b1e009e7ee6f0d2a02882ffc7298e8e7e08b2ef57842ea948ff2464e8",
         "reused": true,
@@ -28346,7 +28346,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/GA0004.zip",
-        "sha256": "fd87742d5cd4a2de7ac349cd163e83df86c375680593ca39a993944bf8f48d3c"
+        "sha256": "4ac09c5cfeddb91ee27032307b7b555f357caadf71a0b00d22ae3a2a6a7a8c99"
       }
     },
     "BP0005": {
@@ -28354,7 +28354,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BP0005/thumbnail.png",
+        "path": "BP0005/BP0005-1.png",
         "sha256": "e63397890bcc30a69ac906254301c7555cfcd383dc588d42f75d46a5ce1887c5",
         "fingerprint": "4e561e4f482984311c15ec28e3ab2b1d658f82b69fe7d86673636eaf361fcdf4",
         "reused": true,
@@ -28486,7 +28486,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/BP0005.zip",
-        "sha256": "2cd3b08031d64b2d2a4558efd10fe72da5dc124b64b47649d4f21e9565fe25a5"
+        "sha256": "8ff032e64bb1a2753fd003059eae1c0bc8e2d83ee21caca93343fa1ec23556c8"
       }
     },
     "DW0002": {
@@ -28494,7 +28494,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DW0002/thumbnail.png",
+        "path": "DW0002/DW0002-2.png",
         "sha256": "6dab24f2771815a92b69ab60f77fae394a89eb8305459a174004839cf17ecd8f",
         "fingerprint": "eb48a309f7ff1e94149479217f50fd5058b5a1b340d5bda9fb5d6e32a47f05de",
         "reused": true,
@@ -28657,7 +28657,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DW0002.zip",
-        "sha256": "4fceaab3b831f00a3e3717f0f968c9f17396793c7b50ebc0cf11898810170e9f"
+        "sha256": "b9a138a87d4aad1a40ac11b39ddf8ac43bed7cdc0afe6ce3936b3f31f5b3ac47"
       }
     },
     "WM0004": {
@@ -28665,7 +28665,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "WM0004/thumbnail.png",
+        "path": "WM0004/WM0004-16.png",
         "sha256": "8c5f70ef00a0596bdefc1c53854d5080a249b620df6a601a4fdf99bb1308ccf8",
         "fingerprint": "f7088a11b301fc3c0873576509db32c3ee55da5748e495c6715ff43a576d5c32",
         "reused": true,
@@ -29240,7 +29240,7 @@
       "expected_option_references": 15,
       "zip": {
         "path": "archives/WM0004.zip",
-        "sha256": "1df078892bf73b7f270de80aec7614c2b6cc52def51cfbdb05d6af50bcdea1b2"
+        "sha256": "2ca5da22a76fc601e9bb7f668fbbb3a5d53bccd315721f95ac7df0602dc788f6"
       }
     },
     "AW0001": {
@@ -29248,7 +29248,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "AW0001/thumbnail.png",
+        "path": "AW0001/AW0001-2.png",
         "sha256": "7791896b9cca9e352bd055b8b4021a77d3e98edfd7df0741bdce54d4cd53147a",
         "fingerprint": "a205e999133e6476a2de55d81a91deadcabc24d3f64e901f448a329fc7bebd04",
         "reused": true,
@@ -29411,7 +29411,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AW0001.zip",
-        "sha256": "37be0e3254ddf9d6e7315b075f52d48e88cd7050e5544a4a89d87970e4424331"
+        "sha256": "d019a8da3c4aa6b25943e77e3c60a627ca27a225ae8033aaa8c7c140433489ec"
       }
     },
     "TH0001": {
@@ -29419,7 +29419,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "TH0001/thumbnail.png",
+        "path": "TH0001/TH0001-2.png",
         "sha256": "0e0447d16f265f7a475d695d4bc1894884c797ca7fdad2a02171f5353ceb4329",
         "fingerprint": "a639b22719189fec4c4ed565f266d01e5d9442aada1c985c8aeac2ceca17ec3a",
         "reused": true,
@@ -29585,7 +29585,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/TH0001.zip",
-        "sha256": "8f17fcf52ef4aa5c925cc47a47608e51a9924cc3f9b52101ff3b09f46a1cf11b"
+        "sha256": "f86abece448f11d62bca8e50f881b32dcee23d6ead98ad36e51e884c6032c4e5"
       }
     },
     "AC0001": {
@@ -29593,7 +29593,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "AC0001/thumbnail.png",
+        "path": "AC0001/AC0001-2.png",
         "sha256": "e10fab55848aae08004ff3ff144a8886493f239a75b5215104e8840b46989e72",
         "fingerprint": "6ffd50be2426951c4bbfb13cb9a6317bbaac906ae922d1fa98014a86a7ee2f79",
         "reused": true,
@@ -29750,7 +29750,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AC0001.zip",
-        "sha256": "a62bea6e6d175f54fb908fea0fd5e56cde8f2fa5408d44472d7c09d1512ec097"
+        "sha256": "fe8601080f16b144a711deeb8d020ed490c158a2badecd4f83a8dd9c1dc69f31"
       }
     },
     "LS0001": {
@@ -29758,7 +29758,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "LS0001/thumbnail.png",
+        "path": "LS0001/LS0001-4.png",
         "sha256": "8b632e59ed2e7a48a9951ebc7295938ea23bf6c6211063241eb8742dab92d6a0",
         "fingerprint": "34cac620c8a5feedc9fab7ab8400616fd639416411a397b3a2ba1cf08450402c",
         "reused": true,
@@ -29955,7 +29955,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/LS0001.zip",
-        "sha256": "9ad381f3bc63febd19cfe7f29fbda9f33afd086abb91ebdba3d6e28a009874b2"
+        "sha256": "77bc450322d31417e85d64875cd68fc26fb6c5face5e11cbe65926cf6519adb1"
       }
     },
     "SM0001": {
@@ -29963,7 +29963,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "SM0001/thumbnail.png",
+        "path": "SM0001/SM0001-16.png",
         "sha256": "52b529c80eebb3e4e38e928ce5c420471e4f4c39908322c40cc330b0e10f52a1",
         "fingerprint": "3dc1153227b20339843d4912cd5817480518eda1137ffad90dbcb2724a495628",
         "reused": true,
@@ -30532,7 +30532,7 @@
       "expected_option_references": 15,
       "zip": {
         "path": "archives/SM0001.zip",
-        "sha256": "950a87e73ba8b52744f474783a043ec570cbb9117e228fbf9c778bdf4f9c3bad"
+        "sha256": "02e2aeb7ec3adbda4e33c371373b09aff5d8b26f6d4bbf4bdc8f8424637b8d94"
       }
     },
     "CU0001": {
@@ -30540,7 +30540,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CU0001/thumbnail.png",
+        "path": "CU0001/CU0001-2.png",
         "sha256": "11d1ae597cb0a0f68735868c1114192b1f075356094a76710c60517102180f8f",
         "fingerprint": "9e60b0dbaa8b3e2aafa8d65a1f55db2cc67dd4f0307a0abdec6d70b72e8a9f77",
         "reused": true,
@@ -30697,7 +30697,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CU0001.zip",
-        "sha256": "4a874152a6081d5a3216b5dd96e9f0af885fb3bf66c41997aa2a8f1e77842462"
+        "sha256": "3639a45c9723e4cca1926bda3f96e45fa92b91adc41efe869e9825565dc6a8d4"
       }
     },
     "DJ0004": {
@@ -30705,7 +30705,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DJ0004/thumbnail.png",
+        "path": "DJ0004/DJ0004-4.png",
         "sha256": "ca34e22695426756b2d10386f7e45a83b8c2422d8113adcd729164841318353c",
         "fingerprint": "7309ee99541ea1d8a19ad2fbaa943ed20a7e8560216cc4f5a9666ac72233b6ac",
         "reused": false,
@@ -30947,7 +30947,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/DJ0004.zip",
-        "sha256": "2c7f9995ff3b62fb52fe5193468d86e20211892aadb012160a30df11ff4ea417"
+        "sha256": "8759f7f05003eabb5a7f77529c21a2e184159d47b4238d89794f0c5612dd9764"
       }
     },
     "PR0006": {
@@ -30955,7 +30955,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "PR0006/thumbnail.png",
+        "path": "PR0006/PR0006-9.png",
         "sha256": "bdd28dfe857bc7a718ac121ec20007a5216c3ebbe23595fe16b10353109f9cc2",
         "fingerprint": "b96db0fbfb3f5f44790629bdc825937c82b24f1fd9f85957ac5a9885106d4cae",
         "reused": true,
@@ -31307,7 +31307,7 @@
       "expected_option_references": 8,
       "zip": {
         "path": "archives/PR0006.zip",
-        "sha256": "130ebf49de1149a7205c36eb58ed5b423af79cf57eeaf22d7c170a495efaff78"
+        "sha256": "5d831238f11ec061b181502e950d92b42e3eafb1dadc2cb53ec5e571b04014a0"
       }
     },
     "BC0002": {
@@ -31315,7 +31315,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BC0002/thumbnail.png",
+        "path": "BC0002/BC0002-2.png",
         "sha256": "5e2759f2ad7ab605f0904680997e6ac51387b5cdcc0e3e6dc5a4101d13fb9fda",
         "fingerprint": "5d4eab2e8b7220e092882c0268baff32f611140043e06d2501eb363dba2d40ca",
         "reused": true,
@@ -31478,7 +31478,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BC0002.zip",
-        "sha256": "139d916471f651a624819053b7208aebd4b8e636cdc689fe6bb9979b34f16131"
+        "sha256": "f8d965df584263b787784dd72a0d3a68064cba2030a0960b90abd6ff186eca52"
       }
     },
     "HY0004": {
@@ -31486,7 +31486,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "HY0004/thumbnail.png",
+        "path": "HY0004/HY0004-2.png",
         "sha256": "f32ddf01607bf748c227d43c03a2a7ada9c2e5fac3534d1cf733305ff4f10b56",
         "fingerprint": "ea45a087a2675f24eaa79030c96e5a928a9563f01db4d6ebef4a5b0fc5741543",
         "reused": true,
@@ -31643,7 +31643,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/HY0004.zip",
-        "sha256": "ef419b22621c4746da1500394c7ff4f435485b1e6398d414b493fe06ec0e8cb5"
+        "sha256": "c11c63bd6e8fbf52933da61e8763037e8a45c90b217c30408f9bc9ee9a5d3493"
       }
     },
     "AR0001": {
@@ -31651,7 +31651,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "AR0001/thumbnail.png",
+        "path": "AR0001/AR0001-4.png",
         "sha256": "4ae837ac8a8548a5b5671c80c71f05b5d085ba0774d35c723e7d6df9a0f43288",
         "fingerprint": "7aa7c588506a56d9c23f1e158560c094175468948e5cdf58aa49f4b160a5d765",
         "reused": true,
@@ -31854,7 +31854,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/AR0001.zip",
-        "sha256": "5cb42b544f83e3b45ee90e068f3b97edff88aef428fca8c646ceb2400e5ba427"
+        "sha256": "111ab4ab7452223b586bba1b5459cfc4b6fd0a997a4a46700787a936fc0fc1d2"
       }
     },
     "IF0001": {
@@ -31862,7 +31862,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "IF0001/thumbnail.png",
+        "path": "IF0001/IF0001-2.png",
         "sha256": "40772b61b6ad3091754611a07b69a362d73a2272ac05a1c1695c2825c01c35e9",
         "fingerprint": "4996a76f52d1cf02f00000af60db02556355105999d50d3d96f15cc8f535d3f9",
         "reused": false,
@@ -32061,7 +32061,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/IF0001.zip",
-        "sha256": "7baac44a5b2cc969bab61977048899b78e0197fbc17c175cd4c7aec08b41f156"
+        "sha256": "b8f24c7985fa52813ba3ffe28f88ef026204cb54f8e26513d81ed60567bd01bf"
       }
     },
     "BY0002": {
@@ -32069,7 +32069,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BY0002/thumbnail.png",
+        "path": "BY0002/BY0002-1.png",
         "sha256": "bb79e24943174095fed26959587a91f52b5bc0e512ebf48ad0b662d2478732c3",
         "fingerprint": "23ca959c599c7eed58eabbe59c6cef5b377e1916de956532fa1a6fa03536eea9",
         "reused": true,
@@ -32201,7 +32201,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/BY0002.zip",
-        "sha256": "fe30218e5020003c908a6b2f98815096b7e1599cae16fe54a6dcce11b66e45da"
+        "sha256": "1d41709031616a1b103b4b1d9014e780fd8aba1ba0ab61b363752c374fdc802a"
       }
     },
     "ET0008": {
@@ -32209,7 +32209,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "ET0008/thumbnail.png",
+        "path": "ET0008/ET0008-2.png",
         "sha256": "f9f2d6a05855a2a5e319ab81f188bdfd203d6a0800cc27253e034970dab571c3",
         "fingerprint": "b792fb85d33211624009782e5ebe084759942d9f0441d5982e0e64115ab55036",
         "reused": true,
@@ -32366,7 +32366,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ET0008.zip",
-        "sha256": "33dc8a33b63e9eecba2d626ec512c05c8163d6aae19f6ec238e039b568bd583a"
+        "sha256": "200d7e693e63aca12cd47634f3a3098c621b79ce050bd4ab8e41478c5bdbac7b"
       }
     },
     "BP0006": {
@@ -32374,7 +32374,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BP0006/thumbnail.png",
+        "path": "BP0006/BP0006-1.png",
         "sha256": "fc25299183a5fa3bad77db2618d7c7b8cd4b35fde616134f8d5515d25f6b8cad",
         "fingerprint": "ad0c290806a46d33693df0a1972312005fe4ae2a8c7824ad95c1c968d6d20e0f",
         "reused": true,
@@ -32537,7 +32537,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BP0006.zip",
-        "sha256": "ebd19ebdc9c3650784054a189656c907ac22e208d6bb8739abc9e7a212136bae"
+        "sha256": "8bdc862d01e3463a9e59979aee58b1ab3f68087f1d6fafcfacee1fdb51b72424"
       }
     },
     "BG0001": {
@@ -32545,7 +32545,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BG0001/thumbnail.png",
+        "path": "BG0001/BG0001-5.png",
         "sha256": "9c692fc77d4d4bc1aaf24e6f07bebafe91f4c84a46cd857785f4f025d628f039",
         "fingerprint": "9058261f7eb8a35c92a19dc2b9d64a42ef200fcc95e218a295fdb40f8b88ac8a",
         "reused": true,
@@ -32773,7 +32773,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BG0001.zip",
-        "sha256": "ab01c55afb8e47cde89f198a081e824bdac494dae9ee0f198741ea41974ca596"
+        "sha256": "9b8e5a7530d703d3e68d7213946527a4bedc54918356a0e91c860b98c53a7156"
       }
     },
     "IM0005": {
@@ -32781,7 +32781,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "IM0005/thumbnail.png",
+        "path": "IM0005/IM0005-2.png",
         "sha256": "536cd6755b29da10ea29797dd7eb71bb8f39a9f04baac1b547a8d79716066a2d",
         "fingerprint": "e256b5c4889afe0587dd243ef02acdda8f6bc008215736c620bbfd7bd6725873",
         "reused": false,
@@ -32986,7 +32986,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/IM0005.zip",
-        "sha256": "4728ebc1d8449718f9481805457ec8a5540f082967dc307065963a941fb37a73"
+        "sha256": "b6016a42454ea3b84f1ac095f75a5570caffd819494ca8d75b3c2dcb9e7ec131"
       }
     },
     "AC0002": {
@@ -32994,7 +32994,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "AC0002/thumbnail.png",
+        "path": "AC0002/AC0002-2.png",
         "sha256": "52b634f428f6247ee9c93016ed5c216f38a391b7227ff79ecd434f4cda71fe4d",
         "fingerprint": "3348e9700fa9f0206751a83d4c64fcc8522f3afc14cca2ae2b25abbd356876df",
         "reused": true,
@@ -33166,7 +33166,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AC0002.zip",
-        "sha256": "2b8ac36fc0b0a30e457ee9bd62d2b01eae81cd31594009ebef29de520ba36f0c"
+        "sha256": "c02bee515d068166aa98d0ed13ec839b2efecea52ce7758e57e2b13d45c8653f"
       }
     },
     "OE0001": {
@@ -33174,7 +33174,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "OE0001/thumbnail.png",
+        "path": "OE0001/OE0001-1.png",
         "sha256": "0fc07c3a9ceba9f24d5e45fe38cf1595f80532edfb60d4f95d8fe2b43fc8119f",
         "fingerprint": "7597667c74a601525f64ebe46be32d627108b517b3981cb3ecbc1c312e2389e6",
         "reused": true,
@@ -33300,7 +33300,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/OE0001.zip",
-        "sha256": "69dc1aad8e5f4d8437dad1416d1c3199f3df0ed21aa506b9cf5f54834dec9988"
+        "sha256": "bd100d9b08094c8e4b4e51fdb00bfc407fbe0093a892fcd4d64468960072e9bf"
       }
     },
     "CX0001": {
@@ -33308,7 +33308,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CX0001/thumbnail.png",
+        "path": "CX0001/CX0001-2.png",
         "sha256": "fb1fd8e678c5c9161f80b1a57f13d4b03eb3583515aed8af89113a00330a7ee6",
         "fingerprint": "e5952079a64a518795097106fd88e3fc3e47e2b0fc9301ddccba3c9b8b6339b2",
         "reused": true,
@@ -33471,7 +33471,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CX0001.zip",
-        "sha256": "a7e0dccf97a765480d9f552547bec17c4ae88a0012949119f06daf81124621ec"
+        "sha256": "c3a4017dff2475ac081bd62b4793d673bb330ba02cdb3ae09c5bcb8d067311ea"
       }
     },
     "DO0001": {
@@ -33479,7 +33479,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DO0001/thumbnail.png",
+        "path": "DO0001/DO0001-3.png",
         "sha256": "6bc1f6d7b0dca9938766b36f52d3611344dd54a38e7cc1b77a9a0d55009ac41e",
         "fingerprint": "33934cc6c7c7d0c61edcf78fae7a3a830d283bce649785ce3a0b70aa83d79529",
         "reused": false,
@@ -33705,7 +33705,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DO0001.zip",
-        "sha256": "56ec2644457a68ba9756540e4321c1e4ff865b159028cebfc4b801ddb6e7e68a"
+        "sha256": "edf73a2a616e6e91a42b69ee4cf81e59aa3f3cc6e01e4d2c1ca5868a0fc00a74"
       }
     },
     "EL0001": {
@@ -33713,7 +33713,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "EL0001/thumbnail.png",
+        "path": "EL0001/EL0001-6.png",
         "sha256": "11ed0c373f5b593d2266f098ca2177f2ded9d8b15584c078fe17c011f67e17a4",
         "fingerprint": "4fdf384ea1bf024833198a201a842e13f05fac8271a3272169f1bcbea7bc7863",
         "reused": true,
@@ -33972,7 +33972,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/EL0001.zip",
-        "sha256": "3b0886b138570c2312c349637ffc8bd2c58864be6df81bb62a2d3c5e2149c1a8"
+        "sha256": "e0ac62b83266048ee999ed20efdd4682312dd039091e0f3eeee682f97c1afee5"
       }
     },
     "LK0001": {
@@ -33980,7 +33980,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "LK0001/thumbnail.png",
+        "path": "LK0001/LK0001-9.png",
         "sha256": "f3c1b7b0c0a1d6de8820295da06e766d8bfef736e790606c9fa3784c14422337",
         "fingerprint": "fcef75db9da6d4ee182e28d4f5d9865fef6711edd20ebc948dff23860f991741",
         "reused": true,
@@ -34332,7 +34332,7 @@
       "expected_option_references": 8,
       "zip": {
         "path": "archives/LK0001.zip",
-        "sha256": "9fc7e2d3a1fc52789590b0ccc8e5c268f6b297e275964c4a9345b598218e20af"
+        "sha256": "cc3d2af38f37015f4de256126acb8ee83266ab24cc064de8ba472257a168d0d3"
       }
     },
     "DJ0005": {
@@ -34340,7 +34340,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DJ0005/thumbnail.png",
+        "path": "DJ0005/DJ0005-2.png",
         "sha256": "09283d71856268b6c1e88754a2fb73ea6ee3d1cc7157804efed6b4f262d459d6",
         "fingerprint": "e673f55b1adeba84f7dfd227daa25186f86eef402ed294cfe64591278b83f7c2",
         "reused": true,
@@ -34503,7 +34503,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DJ0005.zip",
-        "sha256": "734e2d6104e657ab293192c73e722242dc87e9e8b3b8de48ae870788ca567936"
+        "sha256": "aafcf88c8163d9b848e613bb7c701dc3cfe91747e20e3a52c9dd4ace4965003f"
       }
     },
     "CK0003": {
@@ -34511,7 +34511,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CK0003/thumbnail.png",
+        "path": "CK0003/CK0003-2.png",
         "sha256": "48642a597ab422266249863f225e43eb9157322c9e3f7ad37735c098f621640e",
         "fingerprint": "ccbfcb37aedc1b81d0dec463a1e8c3cfa9436d0caf1f1bcba307b471d25e2ab4",
         "reused": true,
@@ -34668,7 +34668,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CK0003.zip",
-        "sha256": "52cdb4a524e1256d59eff7ba13c5edd85653dee8f004a0161fe1fea2e6b65950"
+        "sha256": "3e7f8b32514048a9c37d0a9eaabdbcf617fe48e9295e72eeebbbbafd3c2bcae7"
       }
     },
     "EN0001": {
@@ -34676,7 +34676,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "EN0001/thumbnail.png",
+        "path": "EN0001/EN0001-7.png",
         "sha256": "5cb5ef60e753b559faa8f04cba48c5eb9445e4c158665dfa24ccf20cb4f9012b",
         "fingerprint": "c9b85f246bfa0ce73c8aa6f53b1b479691355aab493e90a263f4b3fcc286f439",
         "reused": true,
@@ -34966,7 +34966,7 @@
       "expected_option_references": 6,
       "zip": {
         "path": "archives/EN0001.zip",
-        "sha256": "b8ca37c19f8a6666d33c1280c9883d1a9f5043fd4fbd0ade2cd2e3071fa12c84"
+        "sha256": "d1807748b2e5135e67f286a7a437862af4471710c5e371d09aaada1c39b0de9f"
       }
     },
     "MX0002": {
@@ -34974,7 +34974,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "MX0002/thumbnail.png",
+        "path": "MX0002/MX0002-2.png",
         "sha256": "d15d2431d38ce93e66da55c2da96e77c62d3fac422f0f1442d688c80adadc541",
         "fingerprint": "f4fc15e7c1e92c695c7d28279b7eb9cfb1d7a535f58ae5b16c9546b71eeb33da",
         "reused": true,
@@ -35131,7 +35131,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/MX0002.zip",
-        "sha256": "7cf5c058db3b9be0f575989612f1d4a7a0687e0be79f25766c94084ac43e3a27"
+        "sha256": "c8db5663fc55abe17d439386c640861e0bc581e1b3828424cdbd3291f5387b2e"
       }
     },
     "RP0001": {
@@ -35139,7 +35139,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "RP0001/thumbnail.png",
+        "path": "RP0001/RP0001-2.png",
         "sha256": "f6e23a94e98b45cf6a362db898d8f7f1c19e37188f9152d000680d7080f3e1c9",
         "fingerprint": "1e695699943ae5aa4f3777f0ce48448df6d98f3873723bb1d6c967053bb47c4f",
         "reused": false,
@@ -35332,7 +35332,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/RP0001.zip",
-        "sha256": "5da84d54f2a9e2ce61393471265669f638212a4128183670ffb1b6bda680b1f6"
+        "sha256": "b701c7c04078834b90518e8498fd8697c44b6e16d90b9946f1866f008d43dd8f"
       }
     },
     "DW0003": {
@@ -35340,7 +35340,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DW0003/thumbnail.png",
+        "path": "DW0003/DW0003-2.png",
         "sha256": "04ed6686a8d745b820a73a30d4193506cab67ac8832472d0b62ed2ba2f281322",
         "fingerprint": "ed1619de8befbf0aa46c87a1c9241bac90645927559be568d4c0f40cd400ff93",
         "reused": true,
@@ -35503,7 +35503,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DW0003.zip",
-        "sha256": "d63e907e5cc3cf9d1fff5a0833a75c75a39efd43b331482e3939a00cee13af1a"
+        "sha256": "9a99fe9891dcbf6bbdb6e195494abf13d92a290ea66fcb3df9594a2b601dbdcd"
       }
     },
     "SO0001": {
@@ -35511,7 +35511,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "SO0001/thumbnail.png",
+        "path": "SO0001/SO0001-2.png",
         "sha256": "7009777b209c7432787bbf08e4df3c8beeaf673faa4118e780df6e78ab156ca7",
         "fingerprint": "f95de1a5531fe8f124bd0f1e5aa4e732c08754ce7f7a34765d5f93a82a5acad8",
         "reused": true,
@@ -35677,7 +35677,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SO0001.zip",
-        "sha256": "236d3a44bcf427c19f63f2a73a88a20c305ef98b333cbdf0e55a754b973768a0"
+        "sha256": "70afe23b9c8141f09f7935a8708a43ec9af021b5b86e8885342471629702bb88"
       }
     },
     "RC0001": {
@@ -35685,7 +35685,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "RC0001/thumbnail.png",
+        "path": "RC0001/RC0001-6.png",
         "sha256": "5fdc77d7c9e138336a746bd69bfa60b5200d89ac2417dd7ab130ebc4ae972ec7",
         "fingerprint": "9e01b6f1fceefd06a07892783e7ae0fec72e7073da468058b4a175ce458a8240",
         "reused": true,
@@ -35944,7 +35944,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/RC0001.zip",
-        "sha256": "4e71ed880e3cd82ff5ea846581633db470423fffd1b2b1ec231df35f06217dce"
+        "sha256": "0b78b1d11244167ea470ed410a7b9b6f303b75ec78a7329b009793632636b96b"
       }
     },
     "NF0001": {
@@ -35952,7 +35952,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "NF0001/thumbnail.png",
+        "path": "NF0001/NF0001-2.png",
         "sha256": "6ccb4130cb48bcd8e222fa0bd359535187b37898367764140b5855f278c85a76",
         "fingerprint": "4329ec7778e5ca98a0e33b52ee1b3cd7c44890275d6cc7aa440966001b7a2a68",
         "reused": true,
@@ -36109,7 +36109,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/NF0001.zip",
-        "sha256": "38e03053d56a9216e9c7c53eecefd20a90575e95d492807aacbc8562a489f925"
+        "sha256": "2463a003fddb39dfae427e71815f8359c15bfdb641dcff072a4408665b13780d"
       }
     },
     "BH0001": {
@@ -36117,7 +36117,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BH0001/thumbnail.png",
+        "path": "BH0001/BH0001-5.png",
         "sha256": "193d43a446592cba4fc950819fe18b145fee738344c9d0b00f15ae68fcfe5621",
         "fingerprint": "e63e76477600964db228ff531af7f916763d4add641bc8d3ffde27e3e663a1ab",
         "reused": true,
@@ -36351,7 +36351,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BH0001.zip",
-        "sha256": "495ed2f30313eba107ed788cb38a2eccfc60d24547d8719b3d6a2bb371eadd22"
+        "sha256": "e6c74ca6ec6fe6581ee29766e36f7a7bbac2c4f3439cc26624ce58eb6b922c9a"
       }
     },
     "BL0002": {
@@ -36359,7 +36359,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "BL0002/thumbnail.png",
+        "path": "BL0002/BL0002-5.png",
         "sha256": "cdec57306bc0693bf5b25f105996a90e81a5238ada6fcc52a86f5f01d7baa042",
         "fingerprint": "6c5e8935d32cc895f74bdea7ec4244e9aef386f873d8e12d66c708635651fe31",
         "reused": true,
@@ -36584,7 +36584,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BL0002.zip",
-        "sha256": "0f45ee01ab86047b87cfdef63ffe50fcc154e0d8a36a42bb62fdbcc9aeb7715f"
+        "sha256": "33ed90fe7883d5203d5ff2e53fc18c33e788a694debb619e5d12802c75e1026c"
       }
     },
     "LV0001": {
@@ -36592,7 +36592,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "LV0001/thumbnail.png",
+        "path": "LV0001/LV0001-1.png",
         "sha256": "bb4b32c4d2602210eb7650af421810a209c00d6c326042a5bec48bf53f3b3a9c",
         "fingerprint": "575c32ee3efdc719d2c0e83ba55a6faf75d2b274da30f72bd3a97eae5586d874",
         "reused": true,
@@ -36724,7 +36724,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/LV0001.zip",
-        "sha256": "d599a51117e2888e95c578e56fbc14473d8aa5200c818870bb8a01cbefdb7385"
+        "sha256": "c706d05bc05098f58c172c599dcf430f195e7e66bb50995a93e00bf7f1916572"
       }
     },
     "PR0007": {
@@ -36732,7 +36732,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "PR0007/thumbnail.png",
+        "path": "PR0007/PR0007-2.png",
         "sha256": "c2fe10831e0abec634e4928d21ae541bbe1e917bdc933fe33cd953b19dbde08f",
         "fingerprint": "d54e642c567ea08d16d773fffe02b72896f4ac8791674c20f37ed203c8f69e3b",
         "reused": true,
@@ -36889,7 +36889,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/PR0007.zip",
-        "sha256": "6eadf807cdc8b29c6ca26c5a4af18210f257f1173c1632b1ba5952c59efe84f0"
+        "sha256": "e35abfeb1be6741d2b59d80ea8f7a3387f0049210ea4c93fee480e020b49bf81"
       }
     },
     "DH0001": {
@@ -36897,7 +36897,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DH0001/thumbnail.png",
+        "path": "DH0001/DH0001-3.png",
         "sha256": "ff20f69fc8c8321641e2cdf97339e5e5efb5d44a3c42d1bc53831ce4ee86e217",
         "fingerprint": "9c2c9dc7258f63ba6ef346f694fcd6db8b0feac02f4df6ee5ac89e1562783351",
         "reused": true,
@@ -37085,7 +37085,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/DH0001.zip",
-        "sha256": "57e321a054df1ff8002088e87789a6bb26cd7ec4049f337bf7f30674b7bd2555"
+        "sha256": "40dfd0c52d3c4531270d8dd2c676c8d4fc0c0057eeae40064325fb89827d170a"
       }
     },
     "PR0008": {
@@ -37093,7 +37093,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "PR0008/thumbnail.png",
+        "path": "PR0008/PR0008-6.png",
         "sha256": "d07171e49a0502e968ced11e67099209f5a7103a3d087c7ea3960b266806819d",
         "fingerprint": "dc37940759350799e1849d256c672eb264ee0027a6419d346b93176208e96132",
         "reused": true,
@@ -37358,7 +37358,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/PR0008.zip",
-        "sha256": "690403deae65f2a6cacfba2681e27a13a969ba820e76d30a058e21d712395855"
+        "sha256": "6552224a2db95f647fb931c9c3c999a7a560ace0502b9f6882c52cf1cfd2014a"
       }
     },
     "CP0001": {
@@ -37366,7 +37366,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "CP0001/thumbnail.png",
+        "path": "CP0001/CP0001-2.png",
         "sha256": "aa0ccf592ca94778e2bcfe8b619b1ff24a39db155c3b6f4c273a7e7e41823f0f",
         "fingerprint": "7dcf90c4a77b85bb7e58817d43bb43a7cd549ae87c82e8ccce6d40dfbabb77c0",
         "reused": true,
@@ -37523,7 +37523,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CP0001.zip",
-        "sha256": "add55dd421ab966b7deb11c7e18fdc003e54a79b3e7458a61586de9bcc5e242c"
+        "sha256": "54b81436eb9344764da5d02974afb834ea4de876f622d489486d1832dc407aee"
       }
     },
     "MM0001": {
@@ -37531,7 +37531,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "MM0001/thumbnail.png",
+        "path": "MM0001/MM0001-2.png",
         "sha256": "9d885fa1aabcdf3a6363aaad972252c443481b0330fce75a88db982378779242",
         "fingerprint": "28d17e6e1750c2b39579736f643fcb4cfc027ac5e38c1f6c302a58f3b103b1ef",
         "reused": true,
@@ -37694,7 +37694,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/MM0001.zip",
-        "sha256": "0b5f1bd7174a09c6805d9261fc3733c066ae6df9ba8c9478fedf88af595b45d1"
+        "sha256": "92eb77c8908ce9054361b69ce1420009f98f0c67577f9919a1e103e296a7881d"
       }
     },
     "NT0001": {
@@ -37702,7 +37702,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "NT0001/thumbnail.png",
+        "path": "NT0001/NT0001-2.png",
         "sha256": "dc3582055e5a2e1af11050136c0a051ac0f0ff2a6f7b3c0d9438500629619a33",
         "fingerprint": "08ed07b8fb9bbe3f23e68ea65f9b12608cecc52361192ce2957d9ad3cbc73d54",
         "reused": true,
@@ -37868,7 +37868,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/NT0001.zip",
-        "sha256": "19300229be1a6872efc8e86245b95cf029205a610e73ba8fcb3f417fc08b1dd9"
+        "sha256": "0c2b6245faf30a10be083c67492ef248a09ea6b15892e391817dfbc41555fb87"
       }
     },
     "SH0001": {
@@ -37876,7 +37876,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "SH0001/thumbnail.png",
+        "path": "SH0001/SH0001-2.png",
         "sha256": "6bf92e57c439a4d508e12632c11725634609188075e7a18ff916393ba2bd734b",
         "fingerprint": "d2a07c8ac9a070af68f82a84eb5c85753914662e7eca7ee54b7380ac61e13c39",
         "reused": false,
@@ -38075,7 +38075,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SH0001.zip",
-        "sha256": "51e4e7ecf5618f5886495bcb1fc5f14c924aefabe740b222c773fdad0e87023c"
+        "sha256": "9341b6bb68bdd8e1943289a042309012619dfad551b16a248e6e45319af2cb18"
       }
     },
     "TB0001": {
@@ -38083,7 +38083,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "TB0001/thumbnail.png",
+        "path": "TB0001/TB0001-2.png",
         "sha256": "06c0ffef5c01df276a439eb006b4685b93be142147fddae0b81dc421dc26461c",
         "fingerprint": "9d9c020f132884f9a79717f53062c449f414ff9d95a7a38b420589c54737ffcc",
         "reused": true,
@@ -38240,7 +38240,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/TB0001.zip",
-        "sha256": "330d1eca605b5af2bc89e27d4d3dca5ea75cd2d113d105761468f66efb7303a8"
+        "sha256": "1f565cdfbff202f56c08d34a653ec8217929974a0f23fe601e617f816c7f8071"
       }
     },
     "ST0001": {
@@ -38248,7 +38248,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "ST0001/thumbnail.png",
+        "path": "ST0001/ST0001-2.png",
         "sha256": "c2a8d60af78391d883120a3337bf1da91597198d6137c804beda885805bfc48a",
         "fingerprint": "dba2de9ade8549be69e6da6406026dfcb1f48614d4ea5f5d20376083847fcd79",
         "reused": true,
@@ -38411,7 +38411,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ST0001.zip",
-        "sha256": "9fc341dfbe0c01899ccce390d5dc546f5eff331e0c5b48fc53b91c028b391d92"
+        "sha256": "04d03724fb342395eb1fcae72921a9975136609154c2ca933010b68ee2995fc2"
       }
     },
     "AV0002": {
@@ -38419,7 +38419,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "AV0002/thumbnail.png",
+        "path": "AV0002/AV0002-1.png",
         "sha256": "97fc75dc8e6a35329d792ed524b642e2e10b10d78b16c3d557d684e55aeb1f86",
         "fingerprint": "b30075c902915258a289d18278c72b014be76c12b81c7fc4a48eb2a412afbce3",
         "reused": true,
@@ -38582,7 +38582,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AV0002.zip",
-        "sha256": "08203ba13721e952eba43fe7bab90500b131593c529af1f3a5e84b4a6cd4cf1d"
+        "sha256": "72524f2c94de79104e977d21a125cbb55efe563ed2696a454ea24338c2fb61bc"
       }
     },
     "DL0001": {
@@ -38590,7 +38590,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DL0001/thumbnail.png",
+        "path": "DL0001/DL0001-2.png",
         "sha256": "ce98babc94f6d2347c23ec57edd67ec11c599a96b513ddd7fa4a890f27d59743",
         "fingerprint": "fe1cef8a82095f0619fb685c0f5fa3133cb52d613ab99f98e1ec1f4aec46a6e5",
         "reused": true,
@@ -38753,7 +38753,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DL0001.zip",
-        "sha256": "e97d5819d1327c91598e0032d1c6ef013da21dce66950cfbac2a158f334cf784"
+        "sha256": "da37a17c283ad10d85cbbcd49a82ed104cfc778ee7117b25775269cbad0d3ff9"
       }
     },
     "DN0001": {
@@ -38761,7 +38761,7 @@
       "status": "complete",
       "thumbnail": {
         "status": "success",
-        "path": "DN0001/thumbnail.png",
+        "path": "DN0001/DN0001-1.png",
         "sha256": "aaec12264d3c2b8b97bab5f67f41633b28c237e06d211df6f4a8f9300a5d1999",
         "fingerprint": "b85ea840a57d943e274610d36e38189ba9261bc7b61daa475aa745d7f8e199ae",
         "reused": true,
@@ -38924,7 +38924,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DN0001.zip",
-        "sha256": "387b2e07b2743d15953e00fa7c2cdce5e2d180fc00a3a47c16f3b4d5dd880209"
+        "sha256": "7ef97156d7c0c261314491ffc2187c4c260eaab44a05e30360d5bbe5113cd2dd"
       }
     }
   }

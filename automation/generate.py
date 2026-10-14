@@ -134,6 +134,18 @@ class Assets:
             return ImageOps.exif_transpose(source).convert('RGBA')
 
 
+def thumbnail_filename(group):
+    """Use the unique Excel reference verbatim, normalizing only its extension."""
+    refs=group['thumbnail_refs']
+    if len(refs)!=1 or not isinstance(refs[0],str) or not refs[0]:
+        raise ValueError('Exactly one nonempty thumbnail filename required')
+    name=refs[0]
+    if '/' in name or '\\' in name or name in ('.','..'):
+        raise ValueError('Thumbnail filename must be a basename')
+    suffix=Path(name).suffix
+    return (name[:-len(suffix)] if suffix else name)+'.png'
+
+
 def groups_from_excel(path, row_overrides=None):
     wb = load_workbook(path, read_only=True, data_only=True)
     rows = iter(wb.active.values)
@@ -439,8 +451,8 @@ def make_option(source, mark, destination):
     return {'size': list(canvas.size), 'logo_box': [x, y, x+logo.width, y+logo.height]}
 
 
-def preview(code, folder, options):
-    paths = [folder/'thumbnail.png'] + [folder/'options'/name for name in options]
+def preview(code, folder, options, thumbnail_name):
+    paths = [folder/thumbnail_name] + [folder/'options'/name for name in options]
     columns = min(3, len(paths))
     rows = (len(paths)+columns-1)//columns
     page = Image.new('RGB', (columns*360, 80+rows*410), '#f1f3f5')
@@ -529,7 +541,7 @@ def run(root, output, reuse_options=False, preview_dir=None, compare_with=None):
             g = groups[code]
             folder = output/code
             (folder/'options').mkdir(parents=True, exist_ok=True)
-            layout = make_thumbnail(g, assets, folder/'thumbnail.png')
+            layout = make_thumbnail(g, assets, folder/thumbnail_filename(g))
             options, option_results = [], []
             for option in g['options']:
                 item = assets.match(option['reference'], 'option')
@@ -549,14 +561,14 @@ def run(root, output, reuse_options=False, preview_dir=None, compare_with=None):
                     details = make_option(assets.image(item), mark, folder/'options'/name)
                 option_results.append({**option, 'source': item, 'output': name, **details})
                 options.append(name)
-            page = preview(code, folder, options)
+            page = preview(code, folder, options, thumbnail_filename(g))
             page.save(preview_dir/f'{code}-preview.png')
             if compare_with:
-                compare_preview(code, compare_with/f'{code}.png', folder/'thumbnail.png').save(
+                compare_preview(code, compare_with/f'{code}.png', folder/thumbnail_filename(g)).save(
                     preview_dir/f'{code}-comparison.png')
             pages.append(page)
             with ZipFile(output/f'{code}.zip', 'w', ZIP_DEFLATED) as z:
-                for file in [folder/'thumbnail.png'] + [folder/'options'/name for name in options]:
+                for file in [folder/thumbnail_filename(g)] + [folder/'options'/name for name in options]:
                     z.write(file, file.relative_to(output))
             report['samples'][code] = {'status': 'success', 'thumbnail': layout, 'options': option_results}
         except Exception as e:
@@ -570,7 +582,7 @@ def run(root, output, reuse_options=False, preview_dir=None, compare_with=None):
         thumbnails = Image.new('RGB', (1080, 420), 'white')
         for i, code in enumerate(SAMPLES):
             ImageDraw.Draw(thumbnails).text((i*360+16, 16), code, font=font(23, True), fill='black')
-            with Image.open(output/code/'thumbnail.png') as image:
+            with Image.open(output/code/thumbnail_filename(groups[code])) as image:
                 thumbnails.paste(image.resize((340,340), Image.Resampling.LANCZOS), (i*360+10,64))
         thumbnails.save(preview_dir/'thumbnails-overview.png')
     (output/'analysis.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')

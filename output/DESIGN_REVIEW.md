@@ -20,7 +20,7 @@
 
 ## 확인 경로
 
-- 대표: `output/<품명>/thumbnail.png`
+- 대표: `output/<품명>/<엑셀 썸네일 파일명>.png`
 - 왼쪽 기존 / 오른쪽 수정: `previews/<품명>-comparison.png`
 - 대표 3장 한 화면: `previews/thumbnails-overview.png`
 - 옵션 포함 미리보기: `previews/all-samples-preview.png`

@@ -11,3 +11,7 @@
 183개 ZIP 중 12개는 부분 결과이며 내부 STATUS.json에 상태와 누락을 명시했습니다. 8개 상품의 대표 썸네일은 필요한 원본 파일이 없어 만들지 않았습니다. 전체 완료로 간주하지 마세요.
 
 `sample-deliverables.zip`, `previews/before/` 및 수정 전후 비교는 기존 샘플 이력입니다. 최신 전체 생산 기록은 catalog 보고서와 archives 폴더를 기준으로 확인하세요.
+
+## V7 파일명 규칙
+
+대표 파일은 `output/<품명>/<엑셀 썸네일 파일명>.png`입니다. 옵션 이름은 유지합니다. 기존 결과의 이름만 변경하려면 `python automation/rename_thumbnails.py` 후 `python automation/catalog.py --finalize-only`를 실행합니다. [V7 검수 보고서](output/V7-REPORT.md)를 참조하세요.
