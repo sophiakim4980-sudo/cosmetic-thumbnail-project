@@ -4655,6 +4655,258 @@
           "sha256": "8bd2e9b15bc78ea0781518b7a526c2588b2b3e22994bf795a7819620836463c7"
         }
       ]
+    },
+    {
+      "archive": "BB0001-1~16.zip",
+      "crc": "passed",
+      "images": [
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-16.png",
+          "filename": "BB0001-16.png",
+          "sha256": "42ed09579b6b2c4d02005468755985a7c489ed755bd9d50f6645be04ca840b59"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-1.png",
+          "filename": "BB0001-1.png",
+          "sha256": "79754a8c2a162c9d305e8f328584bf0e14269ed8604ff53a399088bdcc643b23"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-2.png",
+          "filename": "BB0001-2.png",
+          "sha256": "3c7ba7eae52f8056a279a2af8a3ac2f2b7e11d00d56770fc1c5bbb7195253c20"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-3.png",
+          "filename": "BB0001-3.png",
+          "sha256": "f88bce526117a23ca2e09004e87c829bc0751627a56789636639264a7176a7e8"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-4.png",
+          "filename": "BB0001-4.png",
+          "sha256": "a170c90eea3c6bb5b067af0e44b069373f33a9e800afa1fcc63a2c296f040ce8"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-5.png",
+          "filename": "BB0001-5.png",
+          "sha256": "d493ebf73306e0cc329aa1de5dc2b498f6e3397ef907d7889afae61854db3535"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-6.png",
+          "filename": "BB0001-6.png",
+          "sha256": "7cd5e6dc04e77ac71a6ba60eeee4c27dc2976c6e2cae1940dff6830a68945c45"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-7.png",
+          "filename": "BB0001-7.png",
+          "sha256": "a9567a76ce8e2a382b93382dd3ef2f9ea5a02d7c46e5a7fca6081054bae19047"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-8.png",
+          "filename": "BB0001-8.png",
+          "sha256": "69b2b16de8d1a65bdc6818ac82b1a68d2923f3db05e2ce58c7c4850a72277953"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-9.png",
+          "filename": "BB0001-9.png",
+          "sha256": "a312bf478715d59f633d0a5173448c803e9e0fff3ef0dbec5f635e57160a745c"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-10.png",
+          "filename": "BB0001-10.png",
+          "sha256": "333b3a69c497169bbe604a06933aa95d1c0c3867209d7984da05c9a9063a0202"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-11.png",
+          "filename": "BB0001-11.png",
+          "sha256": "2f5531a8fa2fcfef3ca12623678595d8c07e2ad7865f82a7bb503974087db660"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-12.png",
+          "filename": "BB0001-12.png",
+          "sha256": "cddaa8891b6df0f09c1d233eda0898aae31b9dde4d43346beacdbd0db32e5437"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-13.png",
+          "filename": "BB0001-13.png",
+          "sha256": "6646647b116b6380565b94b58d83574d90e4e4edd0d2a895719540f6c807d2b8"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-14.png",
+          "filename": "BB0001-14.png",
+          "sha256": "3b5a7b38d66263bfa8c6d9a30ef76c4287048c3b41fa52ca6f8917bdf56ad68a"
+        },
+        {
+          "archive": "BB0001-1~16.zip",
+          "member": "BB0001-15.png",
+          "filename": "BB0001-15.png",
+          "sha256": "4e76b6f0dfbb4f42bd363556ea970d6686ced10276f9d3e4e4e98adade9f1726"
+        }
+      ]
+    },
+    {
+      "archive": "HH0001-1~6.zip",
+      "crc": "passed",
+      "images": [
+        {
+          "archive": "HH0001-1~6.zip",
+          "member": "HH0001-6.png",
+          "filename": "HH0001-6.png",
+          "sha256": "4b56e1a05884b1a823a3963391db0a28d937c3b1bcd2f9b713c4cc2362918a2d"
+        },
+        {
+          "archive": "HH0001-1~6.zip",
+          "member": "HH0001-1.png",
+          "filename": "HH0001-1.png",
+          "sha256": "49a2ebf0b2e1ba7df6692438d95ff0e236595e62001d3b032bff1f3684026d7d"
+        },
+        {
+          "archive": "HH0001-1~6.zip",
+          "member": "HH0001-2.png",
+          "filename": "HH0001-2.png",
+          "sha256": "1e29685e18e6338a7b3ba334a6371837cadecdf3cd1c70850f71bf0fcc87bb25"
+        },
+        {
+          "archive": "HH0001-1~6.zip",
+          "member": "HH0001-3.png",
+          "filename": "HH0001-3.png",
+          "sha256": "8730780f966c1d9c16a746e16befd84e78454ab396bd7156fbdc9d067103e65c"
+        },
+        {
+          "archive": "HH0001-1~6.zip",
+          "member": "HH0001-4.png",
+          "filename": "HH0001-4.png",
+          "sha256": "be36c22fd288b4247052c5e97479180b800b54f14313a755076f780831d35720"
+        },
+        {
+          "archive": "HH0001-1~6.zip",
+          "member": "HH0001-5.png",
+          "filename": "HH0001-5.png",
+          "sha256": "485583af2731c26dfb63b2d2eed718e257cad0b652f53613ad5e38222d9f45dc"
+        }
+      ]
+    },
+    {
+      "archive": "SN0001-1~2.zip",
+      "crc": "passed",
+      "images": [
+        {
+          "archive": "SN0001-1~2.zip",
+          "member": "SN0001-1.png",
+          "filename": "SN0001-1.png",
+          "sha256": "8a81656b1e369797d784cb6972188b2b5ba9602666c41c6f72983539151c5d68"
+        },
+        {
+          "archive": "SN0001-1~2.zip",
+          "member": "SN0001-2.png",
+          "filename": "SN0001-2.png",
+          "sha256": "0bd193aeec475bb6c9751fd1ee453756dc9a2ab9c7ed9409e1c911c9e8ecac6c"
+        }
+      ]
+    },
+    {
+      "archive": "SN0002-1~2.zip",
+      "crc": "passed",
+      "images": [
+        {
+          "archive": "SN0002-1~2.zip",
+          "member": "SN0002-1.png",
+          "filename": "SN0002-1.png",
+          "sha256": "73caebb6a4dfa1cbbc8457450e8886594f12fb7a150b161c2abae1ddafb1241b"
+        },
+        {
+          "archive": "SN0002-1~2.zip",
+          "member": "SN0002-2.png",
+          "filename": "SN0002-2.png",
+          "sha256": "b0c2dd5ba5f76638c6886a5db347c5a509bc0717a7b1cdebdf1b97e3fa3df3aa"
+        }
+      ]
+    },
+    {
+      "archive": "SN0003-1~2.zip",
+      "crc": "passed",
+      "images": [
+        {
+          "archive": "SN0003-1~2.zip",
+          "member": "SN0003-1.png",
+          "filename": "SN0003-1.png",
+          "sha256": "423cc4680831e46d647375f17e9434742aa1556ccddcda904077b5cf677f207f"
+        },
+        {
+          "archive": "SN0003-1~2.zip",
+          "member": "SN0003-2.png",
+          "filename": "SN0003-2.png",
+          "sha256": "f5fdb27b000623e32b0c2ba113b4ea00b312c60da7d21cba7ab42363c42adc7d"
+        }
+      ]
+    },
+    {
+      "archive": "SN0004-1,2 SN0005-1,2.zip",
+      "crc": "passed",
+      "images": [
+        {
+          "archive": "SN0004-1,2 SN0005-1,2.zip",
+          "member": "SN0004-1.png",
+          "filename": "SN0004-1.png",
+          "sha256": "429456bb35fe1676ba1d0655e284e4796720c90a99be4c3582785dfcd5aff21a"
+        },
+        {
+          "archive": "SN0004-1,2 SN0005-1,2.zip",
+          "member": "SN0004-2.png",
+          "filename": "SN0004-2.png",
+          "sha256": "fcf57ba9a600c2fb9017257e99e548eb43eeef0ee143e44219371ed7a22fa133"
+        },
+        {
+          "archive": "SN0004-1,2 SN0005-1,2.zip",
+          "member": "SN0005-1.png",
+          "filename": "SN0005-1.png",
+          "sha256": "3471660878502d8c3cbf49e6c9ec87f7318d9e3d205516f1bd81384753274531"
+        },
+        {
+          "archive": "SN0004-1,2 SN0005-1,2.zip",
+          "member": "SN0005-2.png",
+          "filename": "SN0005-2.png",
+          "sha256": "9773fee2567d3059f57d45e0b4ab157156f7e592f5a1bce95e88a9e0343f1754"
+        }
+      ]
+    },
+    {
+      "archive": "YM0001-1~3.zip",
+      "crc": "passed",
+      "images": [
+        {
+          "archive": "YM0001-1~3.zip",
+          "member": "YM0001-3.png",
+          "filename": "YM0001-3.png",
+          "sha256": "c6476d2a2899d7edbc69d1de906e709abc380fb85b57716332d3df2a5968109d"
+        },
+        {
+          "archive": "YM0001-1~3.zip",
+          "member": "YM0001-1.png",
+          "filename": "YM0001-1.png",
+          "sha256": "0869386789d9b7a93584dde3bcbbd69aed6b42cb9563d9a0bb9265f51e202754"
+        },
+        {
+          "archive": "YM0001-1~3.zip",
+          "member": "YM0001-2.png",
+          "filename": "YM0001-2.png",
+          "sha256": "d2b6f4b97499e9235331fa16bf5892ddfe2434b8895d6f362b9e3ba1191ff122"
+        }
+      ]
     }
   ],
   "groups": {
@@ -4812,7 +5064,8 @@
       ],
       "observed_brands": [
         "WAKEMAKE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "GF0001": {
       "code": "GF0001",
@@ -4878,7 +5131,51 @@
       ],
       "observed_brands": [
         "GOODFEEL"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "4f367cae5a5f39660b92b4708d3c299abefe8c55378772868119c29c6d9e1db6",
+        "product_box": [
+          48,
+          276,
+          976,
+          938
+        ],
+        "critical_regions": [
+          [
+            90,
+            374,
+            275,
+            432
+          ],
+          [
+            132,
+            436,
+            328,
+            610
+          ],
+          [
+            386,
+            428,
+            580,
+            628
+          ],
+          [
+            650,
+            375,
+            798,
+            618
+          ],
+          [
+            851,
+            432,
+            925,
+            553
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "KL0001": {
       "code": "KL0001",
@@ -4914,7 +5211,8 @@
       ],
       "observed_brands": [
         "KALO"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "ET0001": {
       "code": "ET0001",
@@ -4967,7 +5265,45 @@
       ],
       "observed_brands": [
         "ETUDE"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "46a81bb14fed84c1a03be9ebacccfc43c9aa7b45b7a0509e9d7705d2e860c1f9",
+        "product_box": [
+          98,
+          219,
+          926,
+          970
+        ],
+        "critical_regions": [
+          [
+            140,
+            544,
+            217,
+            750
+          ],
+          [
+            260,
+            544,
+            350,
+            750
+          ],
+          [
+            495,
+            263,
+            579,
+            304
+          ],
+          [
+            495,
+            470,
+            804,
+            800
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "RL0002": {
       "code": "RL0002",
@@ -5027,7 +5363,8 @@
       ],
       "observed_brands": [
         "GOODAL"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "CM0001": {
       "code": "CM0001",
@@ -5309,7 +5646,8 @@
       ],
       "observed_brands": [
         "IDEAL FOR MEN"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "IM0002": {
       "code": "IM0002",
@@ -5417,7 +5755,39 @@
       ],
       "observed_brands": [
         "BIODANCE"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "cdef480b0a646c65af6b941b2bce13411b6c952ca3bb9cc1c0a5588efc81fb11",
+        "product_box": [
+          50,
+          213,
+          974,
+          970
+        ],
+        "critical_regions": [
+          [
+            151,
+            374,
+            503,
+            568
+          ],
+          [
+            633,
+            374,
+            973,
+            568
+          ],
+          [
+            700,
+            691,
+            970,
+            931
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "CL0001": {
       "code": "CL0001",
@@ -5801,7 +6171,45 @@
       ],
       "observed_brands": [
         "ALDICOM"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "eae55f214950f7763508d52889bbfe9fcc67769d481cf2f179c4250d8dde3a4e",
+        "product_box": [
+          135,
+          216,
+          889,
+          970
+        ],
+        "critical_regions": [
+          [
+            156,
+            546,
+            310,
+            813
+          ],
+          [
+            396,
+            389,
+            550,
+            620
+          ],
+          [
+            490,
+            659,
+            664,
+            910
+          ],
+          [
+            667,
+            447,
+            823,
+            707
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "WM0002": {
       "code": "WM0002",
@@ -5873,7 +6281,43 @@
       ],
       "observed_brands": [
         "WAKEMAKE"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_center": [
+        796,
+        308
+      ],
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "1f159318cb3ccd976a780aeb735dab910f3bed4e000ebecf7ca13772b5096060",
+        "product_box": [
+          131,
+          209,
+          892,
+          970
+        ],
+        "critical_regions": [
+          [
+            308,
+            395,
+            801,
+            699
+          ],
+          [
+            340,
+            775,
+            697,
+            891
+          ],
+          [
+            729,
+            745,
+            891,
+            970
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "RL0003": {
       "code": "RL0003",
@@ -5939,9 +6383,7 @@
       "code": "YM0001",
       "rows": [
         129,
-        130,
-        131,
-        132
+        130
       ],
       "brand": "YUMEAL",
       "title": "Soy Milk Granola Shake (Tasty & Easy)",
@@ -5970,9 +6412,9 @@
     "HB0001": {
       "code": "HB0001",
       "rows": [
-        133,
-        134,
-        135
+        131,
+        132,
+        133
       ],
       "brand": "HEALING BIRD",
       "title": "Hyaluron Milk Hair Essence",
@@ -5984,17 +6426,17 @@
       ],
       "options": [
         {
-          "row": 133,
+          "row": 131,
           "name": "150ml",
           "reference": "HB0001-1"
         },
         {
-          "row": 134,
+          "row": 132,
           "name": "150ml + 30ml",
           "reference": "HB0001-2"
         },
         {
-          "row": 135,
+          "row": 133,
           "name": "150ml + 150ml",
           "reference": "HB0001-3"
         }
@@ -6006,8 +6448,8 @@
     "SN0002": {
       "code": "SN0002",
       "rows": [
-        136,
-        137
+        134,
+        135
       ],
       "brand": "S.NATURE",
       "title": "Aqua Rice Foam Cleanser",
@@ -6019,12 +6461,12 @@
       ],
       "options": [
         {
-          "row": 136,
+          "row": 134,
           "name": "160ml",
           "reference": "SN0002-1"
         },
         {
-          "row": 137,
+          "row": 135,
           "name": "160ml + 160ml",
           "reference": "SN0002-2"
         }
@@ -6036,10 +6478,10 @@
     "ME0001": {
       "code": "ME0001",
       "rows": [
+        136,
+        137,
         138,
-        139,
-        140,
-        141
+        139
       ],
       "brand": "MAEIL",
       "title": "Selex Profit Sports Protein Shake (2 Flavor)",
@@ -6051,25 +6493,75 @@
       ],
       "options": [
         {
-          "row": 138,
+          "row": 136,
           "name": "NutyChoco 45g",
           "reference": "ME0001-1"
         },
         {
-          "row": 139,
+          "row": 137,
           "name": "Misutgaru 45g",
           "reference": "ME0001-2"
         }
       ],
       "observed_brands": [
         "MAEIL"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "97c617007170ffefacf077a977d1235ae8d2e4a97edb7d69d3352cc326dd9ba4",
+        "product_box": [
+          84,
+          270,
+          939,
+          970
+        ],
+        "critical_regions": [
+          [
+            168,
+            397,
+            263,
+            443
+          ],
+          [
+            266,
+            418,
+            347,
+            474
+          ],
+          [
+            165,
+            477,
+            440,
+            698
+          ],
+          [
+            598,
+            397,
+            696,
+            444
+          ],
+          [
+            700,
+            418,
+            783,
+            476
+          ],
+          [
+            590,
+            477,
+            870,
+            698
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "AH0001": {
       "code": "AH0001",
       "rows": [
-        142,
-        143
+        140,
+        141
       ],
       "brand": "AHC",
       "title": "Masters Aqua Rich Sun Cream",
@@ -6081,12 +6573,12 @@
       ],
       "options": [
         {
-          "row": 142,
+          "row": 140,
           "name": "50ml",
           "reference": "AH0001-1"
         },
         {
-          "row": 143,
+          "row": 141,
           "name": "50ml + 50ml",
           "reference": "AH0001-2"
         }
@@ -6098,8 +6590,8 @@
     "TR0001": {
       "code": "TR0001",
       "rows": [
-        144,
-        145
+        142,
+        143
       ],
       "brand": "TORRIDEN",
       "title": "Dive In Moisture Sun Cream",
@@ -6111,12 +6603,12 @@
       ],
       "options": [
         {
-          "row": 144,
+          "row": 142,
           "name": "60ml",
           "reference": "TR0001-1"
         },
         {
-          "row": 145,
+          "row": 143,
           "name": "60ml + 60ml",
           "reference": "TR0001-2"
         }
@@ -6128,8 +6620,8 @@
     "RL0004": {
       "code": "RL0004",
       "rows": [
-        146,
-        147
+        144,
+        145
       ],
       "brand": "ROUND LAB",
       "title": "1025 Dokdo Cleansing Water",
@@ -6141,12 +6633,12 @@
       ],
       "options": [
         {
-          "row": 146,
+          "row": 144,
           "name": "400ml",
           "reference": "RL0004-1"
         },
         {
-          "row": 147,
+          "row": 145,
           "name": "400ml + 400ml",
           "reference": "RL0004-2"
         }
@@ -6158,8 +6650,8 @@
     "TR0002": {
       "code": "TR0002",
       "rows": [
-        148,
-        149
+        146,
+        147
       ],
       "brand": "TORRIDEN",
       "title": "Solid In Ceramide Lip Essence",
@@ -6171,12 +6663,12 @@
       ],
       "options": [
         {
-          "row": 148,
+          "row": 146,
           "name": "11ml",
           "reference": "TR0002-1"
         },
         {
-          "row": 149,
+          "row": 147,
           "name": "11ml + 11ml",
           "reference": "TR0002-2"
         }
@@ -6188,8 +6680,8 @@
     "NV0001": {
       "code": "NV0001",
       "rows": [
-        150,
-        151
+        148,
+        149
       ],
       "brand": "NIVEA",
       "title": "Lip Care Moisture (4.8g)",
@@ -6201,12 +6693,12 @@
       ],
       "options": [
         {
-          "row": 150,
+          "row": 148,
           "name": "4.8g",
           "reference": "NV0001-1"
         },
         {
-          "row": 151,
+          "row": 149,
           "name": "4.8g + 4.8g",
           "reference": "NV0001-2"
         }
@@ -6218,8 +6710,8 @@
     "IN0001": {
       "code": "IN0001",
       "rows": [
-        152,
-        153
+        150,
+        151
       ],
       "brand": "INNISFREE",
       "title": "Tone Up Sun Cream Pink",
@@ -6231,12 +6723,12 @@
       ],
       "options": [
         {
-          "row": 152,
+          "row": 150,
           "name": "50ml",
           "reference": "IN0001-1"
         },
         {
-          "row": 153,
+          "row": 151,
           "name": "50ml + 50ml",
           "reference": "IN0001-2"
         }
@@ -6248,8 +6740,8 @@
     "RB0001": {
       "code": "RB0001",
       "rows": [
-        154,
-        155
+        152,
+        153
       ],
       "brand": "REAL BARRIER",
       "title": "Extreme Cream",
@@ -6261,12 +6753,12 @@
       ],
       "options": [
         {
-          "row": 154,
+          "row": 152,
           "name": "70ml",
           "reference": "RB0001-1"
         },
         {
-          "row": 155,
+          "row": 153,
           "name": "70ml + 70ml",
           "reference": "RB0001-2"
         }
@@ -6278,10 +6770,10 @@
     "PR0002": {
       "code": "PR0002",
       "rows": [
+        154,
+        155,
         156,
-        157,
-        158,
-        159
+        157
       ],
       "brand": "PRIMERA",
       "title": "Mild And Perfect Cleansing Oil To Foam",
@@ -6293,22 +6785,22 @@
       ],
       "options": [
         {
-          "row": 156,
+          "row": 154,
           "name": "100ml",
           "reference": "PR0002-1"
         },
         {
-          "row": 157,
+          "row": 155,
           "name": "200ml",
           "reference": "PR0002-2"
         },
         {
-          "row": 158,
+          "row": 156,
           "name": "200ml + 200ml (Bottle)",
           "reference": "PR0002-3"
         },
         {
-          "row": 159,
+          "row": 157,
           "name": "200ml (+Refill 200ml)",
           "reference": "PR0002-4"
         }
@@ -6320,8 +6812,8 @@
     "GA0002": {
       "code": "GA0002",
       "rows": [
-        160,
-        161
+        158,
+        159
       ],
       "brand": "GOODAL",
       "title": "Heartleaf soothing Tone Up Sun Cream",
@@ -6333,25 +6825,26 @@
       ],
       "options": [
         {
-          "row": 160,
+          "row": 158,
           "name": "50ml",
           "reference": "GA0002-1"
         },
         {
-          "row": 161,
+          "row": 159,
           "name": "50ml + 50ml",
           "reference": "GA0002-2"
         }
       ],
       "observed_brands": [
         "GOODAL"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "EU0001": {
       "code": "EU0001",
       "rows": [
-        162,
-        163
+        160,
+        161
       ],
       "brand": "EUCERIN",
       "title": "Aquaporin Active Rich Cream",
@@ -6363,28 +6856,66 @@
       ],
       "options": [
         {
-          "row": 162,
+          "row": 160,
           "name": "50ml (No Box)",
           "reference": "EU0001-1"
         },
         {
-          "row": 163,
+          "row": 161,
           "name": "50ml + 50ml",
           "reference": "EU0001-2"
         }
       ],
       "observed_brands": [
         "EUCERIN"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "25d7b1396a2f85e7009a11d06fdc48ed0c0906a6be4d1e7f710b6c0a462902d7",
+        "product_box": [
+          110,
+          193,
+          913,
+          970
+        ],
+        "critical_regions": [
+          [
+            250,
+            445,
+            435,
+            585
+          ],
+          [
+            630,
+            225,
+            831,
+            272
+          ],
+          [
+            550,
+            312,
+            880,
+            464
+          ],
+          [
+            550,
+            578,
+            785,
+            692
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "CF0001": {
       "code": "CF0001",
       "rows": [
+        162,
+        163,
         164,
         165,
-        166,
-        167,
-        168
+        166
       ],
       "brand": "CELL FUSION C",
       "title": "Post Alpha Cooling Pad (Cooling, Cica Cooling, Vita Cooling)",
@@ -6396,27 +6927,27 @@
       ],
       "options": [
         {
-          "row": 164,
+          "row": 162,
           "name": "Cooling Pad 70p",
           "reference": "CF0001-1"
         },
         {
-          "row": 165,
+          "row": 163,
           "name": "(1+1) Cooling Pad 70p + 70p",
           "reference": "CF0001-2"
         },
         {
-          "row": 166,
+          "row": 164,
           "name": "Cica Cooling Pad 70p",
           "reference": "CF0001-3"
         },
         {
-          "row": 167,
+          "row": 165,
           "name": "(1+1) Cica Cooling Pad 70p + 70p",
           "reference": "CF0001-4"
         },
         {
-          "row": 168,
+          "row": 166,
           "name": "Vita Cooling Pad 70p",
           "reference": "CF0001-5"
         }
@@ -6428,8 +6959,8 @@
     "DQ0001": {
       "code": "DQ0001",
       "rows": [
-        169,
-        170
+        167,
+        168
       ],
       "brand": "DASIQUE",
       "title": "Mood Up Mascara Long&Curl (2 Colors)",
@@ -6441,25 +6972,26 @@
       ],
       "options": [
         {
-          "row": 169,
+          "row": 167,
           "name": "(1+1) 01 Black",
           "reference": "DQ0001-1"
         },
         {
-          "row": 170,
+          "row": 168,
           "name": "(1+1) 02 Choco Brown",
           "reference": "DQ0001-2"
         }
       ],
       "observed_brands": [
         "DASIQUE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "HY0002": {
       "code": "HY0002",
       "rows": [
-        171,
-        172
+        169,
+        170
       ],
       "brand": "HANYUL",
       "title": "Pure Artemisia Watery Calming Pad",
@@ -6471,25 +7003,63 @@
       ],
       "options": [
         {
-          "row": 171,
+          "row": 169,
           "name": "60p",
           "reference": "HY0002-1"
         },
         {
-          "row": 172,
+          "row": 170,
           "name": "60p (+Refill 60p)",
           "reference": "HY0002-2"
         }
       ],
       "observed_brands": [
         "HANYUL"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "24c9111881ea0e89d8726448ced887385929a3eacb717c3cc996e5aeebda09cf",
+        "product_box": [
+          48,
+          256,
+          976,
+          970
+        ],
+        "critical_regions": [
+          [
+            156,
+            372,
+            391,
+            509
+          ],
+          [
+            429,
+            323,
+            855,
+            458
+          ],
+          [
+            853,
+            330,
+            952,
+            535
+          ],
+          [
+            405,
+            699,
+            585,
+            881
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "AN0001": {
       "code": "AN0001",
       "rows": [
-        173,
-        174
+        171,
+        172
       ],
       "brand": "ANUA",
       "title": "Heartleaf Pore Control Cleansing Oil",
@@ -6501,12 +7071,12 @@
       ],
       "options": [
         {
-          "row": 173,
+          "row": 171,
           "name": "200ml",
           "reference": "AN0001-1"
         },
         {
-          "row": 174,
+          "row": 172,
           "name": "200ml + 200ml",
           "reference": "AN0001-2"
         }
@@ -6518,8 +7088,8 @@
     "SF0001": {
       "code": "SF0001",
       "rows": [
-        175,
-        176
+        173,
+        174
       ],
       "brand": "SKINFOOD",
       "title": "Carrot Carotene Calming Water Pad (+Carrot PDRN Pad 2P*3ea)",
@@ -6531,12 +7101,12 @@
       ],
       "options": [
         {
-          "row": 175,
+          "row": 173,
           "name": "60p",
           "reference": "SF0001-1"
         },
         {
-          "row": 176,
+          "row": 174,
           "name": "60p + 30P",
           "reference": "SF0001-2"
         }
@@ -6548,8 +7118,8 @@
     "DG0001": {
       "code": "DG0001",
       "rows": [
-        177,
-        178
+        175,
+        176
       ],
       "brand": "DR.G",
       "title": "Red Blemish Clear Hyal Cica Soothing Serum",
@@ -6561,32 +7131,33 @@
       ],
       "options": [
         {
-          "row": 177,
+          "row": 175,
           "name": "50ml",
           "reference": "DG0001-1"
         },
         {
-          "row": 178,
+          "row": 176,
           "name": "50ml (+Refill 50ml)",
           "reference": "DG0001-2"
         }
       ],
       "observed_brands": [
         "DR.G"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "RM0001": {
       "code": "RM0001",
       "rows": [
+        177,
+        178,
         179,
         180,
         181,
         182,
         183,
         184,
-        185,
-        186,
-        187
+        185
       ],
       "brand": "rom&nd",
       "title": "Han All Flat Brow (6 colors)",
@@ -6598,47 +7169,47 @@
       ],
       "options": [
         {
-          "row": 179,
+          "row": 177,
           "name": "#C1 Classic Gray",
           "reference": "RM0001-1"
         },
         {
-          "row": 180,
+          "row": 178,
           "name": "#W1 Gentle Brown",
           "reference": "RM0001-2"
         },
         {
-          "row": 181,
+          "row": 179,
           "name": "#W3 Merry Blondy",
           "reference": "RM0001-3"
         },
         {
-          "row": 182,
+          "row": 180,
           "name": "#C3 Modern Beige",
           "reference": "RM0001-4"
         },
         {
-          "row": 183,
+          "row": 181,
           "name": "#W2 Mild Woody",
           "reference": "RM0001-5"
         },
         {
-          "row": 184,
+          "row": 182,
           "name": "#C2 Grace Taupe",
           "reference": "RM0001-6"
         },
         {
-          "row": 185,
+          "row": 183,
           "name": "(1+1) #W1 Gentle Brown",
           "reference": "RM0001-7"
         },
         {
-          "row": 186,
+          "row": 184,
           "name": "(1+1) #C2 Grace Taupe",
           "reference": "RM0001-8"
         },
         {
-          "row": 187,
+          "row": 185,
           "name": "(1+1) #C1 Classic Gray",
           "reference": "RM0001-9"
         }
@@ -6650,10 +7221,10 @@
     "ET0002": {
       "code": "ET0002",
       "rows": [
+        186,
+        187,
         188,
-        189,
-        190,
-        191
+        189
       ],
       "brand": "ETUDE",
       "title": "Line Fix Brush Liner (2 Colors)",
@@ -6665,12 +7236,12 @@
       ],
       "options": [
         {
-          "row": 188,
+          "row": 186,
           "name": "01 Black",
           "reference": "ET0002-1"
         },
         {
-          "row": 189,
+          "row": 187,
           "name": "02 Brown",
           "reference": "ET0002-2"
         }
@@ -6682,9 +7253,9 @@
     "IN0002": {
       "code": "IN0002",
       "rows": [
-        192,
-        193,
-        194
+        190,
+        191,
+        192
       ],
       "brand": "INNISFREE",
       "title": "Green Tea Seed Hyaluronic Cream",
@@ -6696,30 +7267,31 @@
       ],
       "options": [
         {
-          "row": 192,
+          "row": 190,
           "name": "50ml",
           "reference": "IN0002-1"
         },
         {
-          "row": 193,
+          "row": 191,
           "name": "50ml + 20ml",
           "reference": "IN0002-2"
         },
         {
-          "row": 194,
+          "row": 192,
           "name": "50ml + 50ml",
           "reference": "IN0002-3"
         }
       ],
       "observed_brands": [
         "INNISFREE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "PT0001": {
       "code": "PT0001",
       "rows": [
-        195,
-        196
+        193,
+        194
       ],
       "brand": "POINT&",
       "title": "Deep Clean All Kill Lip & Eye Makeup Remover",
@@ -6731,12 +7303,12 @@
       ],
       "options": [
         {
-          "row": 195,
+          "row": 193,
           "name": "200ml",
           "reference": "PT0001-1"
         },
         {
-          "row": 196,
+          "row": 194,
           "name": "200ml + 200ml",
           "reference": "PT0001-2"
         }
@@ -6748,9 +7320,9 @@
     "BP0001": {
       "code": "BP0001",
       "rows": [
-        197,
-        198,
-        199
+        195,
+        196,
+        197
       ],
       "brand": "BEPLAIN",
       "title": "Mung Bean Milk Peeling Gel",
@@ -6762,17 +7334,17 @@
       ],
       "options": [
         {
-          "row": 197,
+          "row": 195,
           "name": "120ml",
           "reference": "BP0001-1"
         },
         {
-          "row": 198,
+          "row": 196,
           "name": "120ml + 40ml",
           "reference": "BP0001-2"
         },
         {
-          "row": 199,
+          "row": 197,
           "name": "120ml + 120ml",
           "reference": "BP0001-3"
         }
@@ -6784,12 +7356,12 @@
     "TR0003": {
       "code": "TR0003",
       "rows": [
+        198,
+        199,
         200,
         201,
         202,
-        203,
-        204,
-        205
+        203
       ],
       "brand": "TORRIDEN",
       "title": "Dive-In Multi Pad / Balanceful Cica Toner Pad",
@@ -6801,32 +7373,32 @@
       ],
       "options": [
         {
-          "row": 200,
+          "row": 198,
           "name": "Dive-In 80ml",
           "reference": "TR0003-1"
         },
         {
-          "row": 201,
+          "row": 199,
           "name": "Dive-In 80p (+10p)",
           "reference": "TR0003-2"
         },
         {
-          "row": 202,
+          "row": 200,
           "name": "Dive-In 80p (+80p)",
           "reference": "TR0003-3"
         },
         {
-          "row": 203,
+          "row": 201,
           "name": "Balanceful Cica 60p",
           "reference": "TR0003-4"
         },
         {
-          "row": 204,
+          "row": 202,
           "name": "Balanceful Cica 60p (+10p)",
           "reference": "TR0003-5"
         },
         {
-          "row": 205,
+          "row": 203,
           "name": "Balanceful Cica 60p (+60p)",
           "reference": "TR0003-6"
         }
@@ -6838,8 +7410,8 @@
     "CN0001": {
       "code": "CN0001",
       "rows": [
-        206,
-        207
+        204,
+        205
       ],
       "brand": "CNP Laboratory",
       "title": "Derma+ Answer Active Boost 1:1 Ampule",
@@ -6851,12 +7423,12 @@
       ],
       "options": [
         {
-          "row": 206,
+          "row": 204,
           "name": "30ml",
           "reference": "CN0001-1"
         },
         {
-          "row": 207,
+          "row": 205,
           "name": "30ml + 30ml",
           "reference": "CN0001-2"
         }
@@ -6868,8 +7440,8 @@
     "LL0002": {
       "code": "LL0002",
       "rows": [
-        208,
-        209
+        206,
+        207
       ],
       "brand": "LAYER LAB",
       "title": "Panthenol Intensive Cream Plus",
@@ -6881,12 +7453,12 @@
       ],
       "options": [
         {
-          "row": 208,
+          "row": 206,
           "name": "60ml",
           "reference": "LL0002-1"
         },
         {
-          "row": 209,
+          "row": 207,
           "name": "60ml + 60ml",
           "reference": "LL0002-2"
         }
@@ -6898,7 +7470,7 @@
     "ET0003": {
       "code": "ET0003",
       "rows": [
-        210
+        208
       ],
       "brand": "ETUDE",
       "title": "Power Eyelash Ampoule",
@@ -6910,20 +7482,21 @@
       ],
       "options": [
         {
-          "row": 210,
+          "row": 208,
           "name": null,
           "reference": "ET0003-1"
         }
       ],
       "observed_brands": [
         "ETUDE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "AB0001": {
       "code": "AB0001",
       "rows": [
-        211,
-        212
+        209,
+        210
       ],
       "brand": "ABIB",
       "title": "Glutathiosame CC Sunscreen",
@@ -6935,26 +7508,76 @@
       ],
       "options": [
         {
-          "row": 211,
+          "row": 209,
           "name": "50ml",
           "reference": "AB0001-1"
         },
         {
-          "row": 212,
+          "row": 210,
           "name": "50ml + 50ml",
           "reference": "AB0001-2"
         }
       ],
       "observed_brands": [
         "ABIB"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "024e365e1d7198e30dbefaf5a02be8820b192232e1c220a6ee119d01a156a853",
+        "product_box": [
+          119,
+          183,
+          904,
+          970
+        ],
+        "critical_regions": [
+          [
+            255,
+            302,
+            450,
+            354
+          ],
+          [
+            210,
+            360,
+            454,
+            409
+          ],
+          [
+            650,
+            302,
+            850,
+            354
+          ],
+          [
+            609,
+            360,
+            857,
+            409
+          ],
+          [
+            280,
+            491,
+            448,
+            565
+          ],
+          [
+            675,
+            491,
+            846,
+            565
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "WM0003": {
       "code": "WM0003",
       "rows": [
-        213,
-        214,
-        215
+        211,
+        212,
+        213
       ],
       "brand": "WAKEMAKE",
       "title": "Strong Volume / Black Tinting Lash Ampoule",
@@ -6966,17 +7589,17 @@
       ],
       "options": [
         {
-          "row": 213,
+          "row": 211,
           "name": "Lash Ampoule",
           "reference": "WM0003-1"
         },
         {
-          "row": 214,
+          "row": 212,
           "name": "(1+1) Lash Ampoule",
           "reference": "WM0003-2"
         },
         {
-          "row": 215,
+          "row": 213,
           "name": "Strong Black Tinting Ampoule",
           "reference": "WM0003-3"
         }
@@ -6988,8 +7611,8 @@
     "MZ0001": {
       "code": "MZ0001",
       "rows": [
-        216,
-        217
+        214,
+        215
       ],
       "brand": "MIMZ",
       "title": "Mild Watery Sunscreen",
@@ -7001,28 +7624,29 @@
       ],
       "options": [
         {
-          "row": 216,
+          "row": 214,
           "name": "50ml",
           "reference": "MZ0001-1"
         },
         {
-          "row": 217,
+          "row": 215,
           "name": "50ml + 50ml",
           "reference": "MZ0001-2"
         }
       ],
       "observed_brands": [
         "MIMZ"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "PR0003": {
       "code": "PR0003",
       "rows": [
+        216,
+        217,
         218,
         219,
-        220,
-        221,
-        222
+        220
       ],
       "brand": "PRIMERA",
       "title": "Mild And Perfect Cleansing Oil (To Foam/ To Bubble)",
@@ -7034,27 +7658,27 @@
       ],
       "options": [
         {
-          "row": 218,
+          "row": 216,
           "name": "To Foam 100ml (for travel)",
           "reference": "PR0003-1"
         },
         {
-          "row": 219,
+          "row": 217,
           "name": "To Foam 200ml",
           "reference": "PR0003-2"
         },
         {
-          "row": 220,
+          "row": 218,
           "name": "To Foam 200ml + 200ml",
           "reference": "PR0003-3"
         },
         {
-          "row": 221,
+          "row": 219,
           "name": "To Foam Bubble 150ml",
           "reference": "PR0003-4"
         },
         {
-          "row": 222,
+          "row": 220,
           "name": "To Foam Bubble 150ml + 150ml",
           "reference": "PR0003-5"
         }
@@ -7066,8 +7690,8 @@
     "BY0001": {
       "code": "BY0001",
       "rows": [
-        223,
-        224
+        221,
+        222
       ],
       "brand": "BEYOND",
       "title": "Angel Aqua Ion Hyalu 10% Water Cream",
@@ -7079,12 +7703,12 @@
       ],
       "options": [
         {
-          "row": 223,
+          "row": 221,
           "name": "100ml + 100ml",
           "reference": "BY0001-1"
         },
         {
-          "row": 224,
+          "row": 222,
           "name": "200ml",
           "reference": "BY0001-2"
         }
@@ -7096,8 +7720,8 @@
     "HB0002": {
       "code": "HB0002",
       "rows": [
-        225,
-        226
+        223,
+        224
       ],
       "brand": "HEALING BIRD",
       "title": "Hyaluronic Milk Line Hair Essence Mist Shampoo",
@@ -7109,12 +7733,12 @@
       ],
       "options": [
         {
-          "row": 225,
+          "row": 223,
           "name": "200ml",
           "reference": "HB0002-1"
         },
         {
-          "row": 226,
+          "row": 224,
           "name": "200ml + 200ml",
           "reference": "HB0002-2"
         }
@@ -7126,8 +7750,8 @@
     "DJ0001": {
       "code": "DJ0001",
       "rows": [
-        227,
-        228
+        225,
+        226
       ],
       "brand": "DR.JART+",
       "title": "Ceramidin Ultra Moisturizing Cream",
@@ -7139,12 +7763,12 @@
       ],
       "options": [
         {
-          "row": 227,
+          "row": 225,
           "name": "50ml (No Box)",
           "reference": "DJ0001-1"
         },
         {
-          "row": 228,
+          "row": 226,
           "name": "50ml + 50ml",
           "reference": "DJ0001-2"
         }
@@ -7156,8 +7780,8 @@
     "DJ0002": {
       "code": "DJ0002",
       "rows": [
-        229,
-        230
+        227,
+        228
       ],
       "brand": "DR.JART+",
       "title": "Ceramidin Skin Barrier Moisturizing Cream",
@@ -7169,12 +7793,12 @@
       ],
       "options": [
         {
-          "row": 229,
+          "row": 227,
           "name": "50ml",
           "reference": "DJ0002-1"
         },
         {
-          "row": 230,
+          "row": 228,
           "name": "50ml + 50ml",
           "reference": "DJ0002-2"
         }
@@ -7186,12 +7810,12 @@
     "GR0001": {
       "code": "GR0001",
       "rows": [
+        229,
+        230,
         231,
         232,
         233,
-        234,
-        235,
-        236
+        234
       ],
       "brand": "GRAFEN",
       "title": "Triple Lip Balm PRO (Handsome / Color / Lip Sense / Naked)",
@@ -7203,32 +7827,32 @@
       ],
       "options": [
         {
-          "row": 231,
+          "row": 229,
           "name": "Handsome Lip",
           "reference": "GR0001-1"
         },
         {
-          "row": 232,
+          "row": 230,
           "name": "Color Lip",
           "reference": "GR0001-2"
         },
         {
-          "row": 233,
+          "row": 231,
           "name": "Lip Sense",
           "reference": "GR0001-3"
         },
         {
-          "row": 234,
+          "row": 232,
           "name": "Naked",
           "reference": "GR0001-4"
         },
         {
-          "row": 235,
+          "row": 233,
           "name": "(1+1) Lip Sense",
           "reference": "GR0001-5"
         },
         {
-          "row": 236,
+          "row": 234,
           "name": "(1+1) Handsome Lip",
           "reference": "GR0001-6"
         }
@@ -7240,9 +7864,9 @@
     "IM0003": {
       "code": "IM0003",
       "rows": [
-        237,
-        238,
-        239
+        235,
+        236,
+        237
       ],
       "brand": "IDEAL FOR MEN",
       "title": "Fresh Sun All-In-One (Airy & Moist / Stick)",
@@ -7254,17 +7878,17 @@
       ],
       "options": [
         {
-          "row": 237,
+          "row": 235,
           "name": "Airy & Moist 100ml",
           "reference": "IM0003-1"
         },
         {
-          "row": 238,
+          "row": 236,
           "name": "Stick 18g",
           "reference": "IM0003-2"
         },
         {
-          "row": 239,
+          "row": 237,
           "name": "(1+1) Stick 18g",
           "reference": "IM0003-3"
         }
@@ -7276,7 +7900,7 @@
     "ND0001": {
       "code": "ND0001",
       "rows": [
-        240
+        238
       ],
       "brand": "NEEDLY",
       "title": "Spot Clear Patch",
@@ -7288,7 +7912,7 @@
       ],
       "options": [
         {
-          "row": 240,
+          "row": 238,
           "name": "12p +12p",
           "reference": "ND0001-1"
         }
@@ -7300,9 +7924,9 @@
     "HP0001": {
       "code": "HP0001",
       "rows": [
-        241,
-        242,
-        243
+        239,
+        240,
+        241
       ],
       "brand": "HAIRPLUS",
       "title": "Protein Bond Water Essence",
@@ -7314,17 +7938,17 @@
       ],
       "options": [
         {
-          "row": 241,
+          "row": 239,
           "name": "200ml",
           "reference": "HP0001-1"
         },
         {
-          "row": 242,
+          "row": 240,
           "name": "200ml + 50ml",
           "reference": "HP0001-2"
         },
         {
-          "row": 243,
+          "row": 241,
           "name": "200ml + 200ml",
           "reference": "HP0001-3"
         }
@@ -7336,9 +7960,9 @@
     "LT0001": {
       "code": "LT0001",
       "rows": [
-        244,
-        245,
-        246
+        242,
+        243,
+        244
       ],
       "brand": "LISTERINE",
       "title": "Mouthwash Green Tea Mild",
@@ -7350,17 +7974,17 @@
       ],
       "options": [
         {
-          "row": 244,
+          "row": 242,
           "name": "100ml",
           "reference": "LT0001-1"
         },
         {
-          "row": 245,
+          "row": 243,
           "name": "250ml",
           "reference": "LT0001-2"
         },
         {
-          "row": 246,
+          "row": 244,
           "name": "750ml + 750ml",
           "reference": "LT0001-3"
         }
@@ -7372,8 +7996,8 @@
     "SL0001": {
       "code": "SL0001",
       "rows": [
-        247,
-        248
+        245,
+        246
       ],
       "brand": "SKIN&LAB",
       "title": "Barrierderm Intensive Cream (The 2nd Generation)",
@@ -7385,12 +8009,12 @@
       ],
       "options": [
         {
-          "row": 247,
+          "row": 245,
           "name": "50ml",
           "reference": "SL0001-1"
         },
         {
-          "row": 248,
+          "row": 246,
           "name": "50ml + 50ml",
           "reference": "SL0001-2"
         }
@@ -7402,7 +8026,7 @@
     "DK0001": {
       "code": "DK0001",
       "rows": [
-        249
+        247
       ],
       "brand": "DONGKOOK",
       "title": "Madeca Medi Patch Spot Patch",
@@ -7414,7 +8038,7 @@
       ],
       "options": [
         {
-          "row": 249,
+          "row": 247,
           "name": null,
           "reference": "DK0001-1"
         }
@@ -7426,8 +8050,8 @@
     "PR0004": {
       "code": "PR0004",
       "rows": [
-        250,
-        251
+        248,
+        249
       ],
       "brand": "PRIMERA",
       "title": "Alpine Berry Watery Cream",
@@ -7439,12 +8063,12 @@
       ],
       "options": [
         {
-          "row": 250,
+          "row": 248,
           "name": "50ml",
           "reference": "PR0004-1"
         },
         {
-          "row": 251,
+          "row": 249,
           "name": "50ml + 50ml",
           "reference": "PR0004-2"
         }
@@ -7456,9 +8080,9 @@
     "DF0001": {
       "code": "DF0001",
       "rows": [
-        252,
-        253,
-        254
+        250,
+        251,
+        252
       ],
       "brand": "DERMAFIX",
       "title": "Patent Performance Real Collagen Mask Sheet (3 Types)",
@@ -7470,30 +8094,98 @@
       ],
       "options": [
         {
-          "row": 252,
+          "row": 250,
           "name": "Vita Collagen 1+1 Set",
           "reference": "DF0001-1"
         },
         {
-          "row": 253,
+          "row": 251,
           "name": "Cica Collagen 1+1 Set",
           "reference": "DF0001-2"
         },
         {
-          "row": 254,
+          "row": 252,
           "name": "Collagen 1+1 Set",
           "reference": "DF0001-3"
         }
       ],
       "observed_brands": [
         "DERMAFIX"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "ab0a1c2204d75aaf9c06c16305798bd3d53c608426360b281c724010bd57d6b7",
+        "product_box": [
+          48,
+          263,
+          976,
+          876
+        ],
+        "critical_regions": [
+          [
+            119,
+            297,
+            307,
+            328
+          ],
+          [
+            460,
+            310,
+            606,
+            345
+          ],
+          [
+            906,
+            280,
+            956,
+            333
+          ],
+          [
+            129,
+            378,
+            293,
+            476
+          ],
+          [
+            460,
+            378,
+            610,
+            491
+          ],
+          [
+            737,
+            375,
+            898,
+            480
+          ],
+          [
+            133,
+            786,
+            362,
+            923
+          ],
+          [
+            435,
+            780,
+            623,
+            915
+          ],
+          [
+            665,
+            780,
+            935,
+            917
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "SN0003": {
       "code": "SN0003",
       "rows": [
-        255,
-        256
+        253,
+        254
       ],
       "brand": "S.NATURE",
       "title": "Aqua Rice Cleansing Oil",
@@ -7505,12 +8197,12 @@
       ],
       "options": [
         {
-          "row": 255,
+          "row": 253,
           "name": "200ml",
           "reference": "SN0003-1"
         },
         {
-          "row": 256,
+          "row": 254,
           "name": "200ml (+Refill 200ml)",
           "reference": "SN0003-2"
         }
@@ -7522,15 +8214,15 @@
     "CS0001": {
       "code": "CS0001",
       "rows": [
+        255,
+        256,
         257,
         258,
         259,
         260,
         261,
         262,
-        263,
-        264,
-        265
+        263
       ],
       "brand": "COSNORI",
       "title": "Superproof Fitting Gel Eyeliner Pencil (9 Colors)",
@@ -7542,47 +8234,47 @@
       ],
       "options": [
         {
-          "row": 257,
+          "row": 255,
           "name": "01 Vivid Black",
           "reference": "CS0001-1"
         },
         {
-          "row": 258,
+          "row": 256,
           "name": "(1+1) 02 Black Brown",
           "reference": "CS0001-2"
         },
         {
-          "row": 259,
+          "row": 257,
           "name": "(1+1) 03 Walnut Brown",
           "reference": "CS0001-3"
         },
         {
-          "row": 260,
+          "row": 258,
           "name": "04 Peanut Brown",
           "reference": "CS0001-4"
         },
         {
-          "row": 261,
+          "row": 259,
           "name": "11 Nudy Cream",
           "reference": "CS0001-5"
         },
         {
-          "row": 262,
+          "row": 260,
           "name": "12 Mute Beige",
           "reference": "CS0001-6"
         },
         {
-          "row": 263,
+          "row": 261,
           "name": "13 Mute Rose",
           "reference": "CS0001-7"
         },
         {
-          "row": 264,
+          "row": 262,
           "name": "(1+1) 14 Ash Brown",
           "reference": "CS0001-8"
         },
         {
-          "row": 265,
+          "row": 263,
           "name": "(1+1) 15 Ash Grey",
           "reference": "CS0001-9"
         }
@@ -7594,6 +8286,8 @@
     "DW0001": {
       "code": "DW0001",
       "rows": [
+        264,
+        265,
         266,
         267,
         268,
@@ -7601,9 +8295,7 @@
         270,
         271,
         272,
-        273,
-        274,
-        275
+        273
       ],
       "brand": "DEWYTREE",
       "title": "Pick & Quick Mask Sheet 30 Sheets (5 Options)",
@@ -7615,52 +8307,52 @@
       ],
       "options": [
         {
-          "row": 266,
+          "row": 264,
           "name": "[Hydrating] 30 Sheets",
           "reference": "DW0001-1"
         },
         {
-          "row": 267,
+          "row": 265,
           "name": "[Calming] 30 Sheets",
           "reference": "DW0001-2"
         },
         {
-          "row": 268,
+          "row": 266,
           "name": "[Lifting] 30 Sheets",
           "reference": "DW0001-3"
         },
         {
-          "row": 269,
+          "row": 267,
           "name": "[Vitamin] 30 Sheets",
           "reference": "DW0001-4"
         },
         {
-          "row": 270,
+          "row": 268,
           "name": "[De-Puffing] 30 Sheets",
           "reference": "DW0001-5"
         },
         {
-          "row": 271,
+          "row": 269,
           "name": "(1+1) [Hydrating] 30 Sheets",
           "reference": "DW0001-6"
         },
         {
-          "row": 272,
+          "row": 270,
           "name": "[Hydrating] 100 Sheets",
           "reference": "DW0001-7"
         },
         {
-          "row": 273,
+          "row": 271,
           "name": "[Calming] 100 Sheets",
           "reference": "DW0001-8"
         },
         {
-          "row": 274,
+          "row": 272,
           "name": "[Lifting] 100 Sheets",
           "reference": "DW0001-9"
         },
         {
-          "row": 275,
+          "row": 273,
           "name": "[Vitamin] 100 Sheets",
           "reference": "DW0001-10"
         }
@@ -7672,8 +8364,8 @@
     "EU0002": {
       "code": "EU0002",
       "rows": [
-        276,
-        277
+        274,
+        275
       ],
       "brand": "EUCERIN",
       "title": "Eucerin Dermato Clean Clarifying Toner",
@@ -7685,25 +8377,26 @@
       ],
       "options": [
         {
-          "row": 276,
+          "row": 274,
           "name": "200ml",
           "reference": "EU0002-1"
         },
         {
-          "row": 277,
+          "row": 275,
           "name": "200ml + 200ml",
           "reference": "EU0002-2"
         }
       ],
       "observed_brands": [
         "EUCERIN"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "SP0001": {
       "code": "SP0001",
       "rows": [
-        278,
-        279
+        276,
+        277
       ],
       "brand": "SOLEP",
       "title": "Premier Hi-Gro Ampoule Pack",
@@ -7715,12 +8408,12 @@
       ],
       "options": [
         {
-          "row": 278,
+          "row": 276,
           "name": "40ml",
           "reference": "SP0001-1"
         },
         {
-          "row": 279,
+          "row": 277,
           "name": "40ml + 40ml",
           "reference": "SP0001-2"
         }
@@ -7732,10 +8425,10 @@
     "BP0002": {
       "code": "BP0002",
       "rows": [
+        278,
+        279,
         280,
-        281,
-        282,
-        283
+        281
       ],
       "brand": "BEPLAIN",
       "title": "Sunmuse Tone Up & Correcting Sunscreen",
@@ -7747,22 +8440,22 @@
       ],
       "options": [
         {
-          "row": 280,
+          "row": 278,
           "name": "Tone up & Correcting 50ml",
           "reference": "BP0002-1"
         },
         {
-          "row": 281,
+          "row": 279,
           "name": "(1+1) Tone up & Correcting 50ml",
           "reference": "BP0002-2"
         },
         {
-          "row": 282,
+          "row": 280,
           "name": "Tone up & Correcting Beige 50ml",
           "reference": "BP0002-3"
         },
         {
-          "row": 283,
+          "row": 281,
           "name": "Tone up & Correcting Peach Pink",
           "reference": "BP0002-4"
         }
@@ -7774,8 +8467,8 @@
     "MS0001": {
       "code": "MS0001",
       "rows": [
-        284,
-        285
+        282,
+        283
       ],
       "brand": "MISE EN SCENE",
       "title": "Perfect No Wash Treatment Cream Pack",
@@ -7787,12 +8480,12 @@
       ],
       "options": [
         {
-          "row": 284,
+          "row": 282,
           "name": "230ml (No Box)",
           "reference": "MS0001-1"
         },
         {
-          "row": 285,
+          "row": 283,
           "name": "230ml + 230ml",
           "reference": "MS0001-2"
         }
@@ -7804,9 +8497,9 @@
     "AV0001": {
       "code": "AV0001",
       "rows": [
-        286,
-        287,
-        288
+        284,
+        285,
+        286
       ],
       "brand": "AVAJAR",
       "title": "Perfect V Lifting Premium Mask (2/5packs)",
@@ -7818,30 +8511,31 @@
       ],
       "options": [
         {
-          "row": 286,
+          "row": 284,
           "name": "(1+1) V Lifting Mask",
           "reference": "AV0001-1"
         },
         {
-          "row": 287,
+          "row": 285,
           "name": "(1+1) V Mask",
           "reference": "AV0001-2"
         },
         {
-          "row": 288,
+          "row": 286,
           "name": "V Mask 5 packs",
           "reference": "AV0001-3"
         }
       ],
       "observed_brands": [
         "AVAJAR"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "DJ0003": {
       "code": "DJ0003",
       "rows": [
-        289,
-        290
+        287,
+        288
       ],
       "brand": "DR.JART+",
       "title": "Cicapair Intensive Soothing Repair Cream",
@@ -7853,12 +8547,12 @@
       ],
       "options": [
         {
-          "row": 289,
+          "row": 287,
           "name": "50ml",
           "reference": "DJ0003-1"
         },
         {
-          "row": 290,
+          "row": 288,
           "name": "50ml + 50ml",
           "reference": "DJ0003-2"
         }
@@ -7870,6 +8564,8 @@
     "KB0001": {
       "code": "KB0001",
       "rows": [
+        289,
+        290,
         291,
         292,
         293,
@@ -7889,9 +8585,7 @@
         307,
         308,
         309,
-        310,
-        311,
-        312
+        310
       ],
       "brand": "KEYBO",
       "title": "No Glue Eyelash BBiBBi Lash (Large/Mini/Zero(Light))",
@@ -7903,125 +8597,126 @@
       ],
       "options": [
         {
-          "row": 291,
+          "row": 289,
           "name": "Black Air (1+1) 48pcs",
           "reference": "KB0001-1"
         },
         {
-          "row": 292,
+          "row": 290,
           "name": "Vivid Large (48+12pcs)",
           "reference": "KB0001-2"
         },
         {
-          "row": 293,
+          "row": 291,
           "name": "Celebrity Large (48+12pcs)",
           "reference": "KB0001-3"
         },
         {
-          "row": 294,
+          "row": 292,
           "name": "Idol (+Black Swan) (64+20pcs)",
           "reference": "KB0001-4"
         },
         {
-          "row": 295,
+          "row": 293,
           "name": "Natural Large (48+12pcs)",
           "reference": "KB0001-5"
         },
         {
-          "row": 296,
+          "row": 294,
           "name": "Slim (+Black Swan) (48+20pcs)",
           "reference": "KB0001-6"
         },
         {
-          "row": 297,
+          "row": 295,
           "name": "(Mini) Natural 24pcs",
           "reference": "KB0001-7"
         },
         {
-          "row": 298,
+          "row": 296,
           "name": "(Mini) Glam 24pcs",
           "reference": "KB0001-8"
         },
         {
-          "row": 299,
+          "row": 297,
           "name": "(Mini) Black Swan 24pcs",
           "reference": "KB0001-9"
         },
         {
-          "row": 300,
+          "row": 298,
           "name": "(Mini) Vivid 24pcs",
           "reference": "KB0001-10"
         },
         {
-          "row": 301,
+          "row": 299,
           "name": "(Mini) Under Natural 24pcs",
           "reference": "KB0001-11"
         },
         {
-          "row": 302,
+          "row": 300,
           "name": "(Mini) Crown 24pcs",
           "reference": "KB0001-12"
         },
         {
-          "row": 303,
+          "row": 301,
           "name": "Slim 48pcs",
           "reference": "KB0001-13"
         },
         {
-          "row": 304,
+          "row": 302,
           "name": "Black Swan 40pcs",
           "reference": "KB0001-14"
         },
         {
-          "row": 305,
+          "row": 303,
           "name": "Twilight 32pcs",
           "reference": "KB0001-15"
         },
         {
-          "row": 306,
+          "row": 304,
           "name": "Idol 64pcs",
           "reference": "KB0001-16"
         },
         {
-          "row": 307,
+          "row": 305,
           "name": "Minty 64pcs",
           "reference": "KB0001-17"
         },
         {
-          "row": 308,
+          "row": 306,
           "name": "Rookie 64pcs",
           "reference": "KB0001-18"
         },
         {
-          "row": 309,
+          "row": 307,
           "name": "[Zero(Light)] Original1.4 48pcs",
           "reference": "KB0001-19"
         },
         {
-          "row": 310,
+          "row": 308,
           "name": "[Zero(Light)] Wide 48pcs",
           "reference": "KB0001-20"
         },
         {
-          "row": 311,
+          "row": 309,
           "name": "[Zero(Light)] Original 48pcs",
           "reference": "KB0001-21"
         },
         {
-          "row": 312,
+          "row": 310,
           "name": "Bbibbi Curve Tweezer",
           "reference": "KB0001-22"
         }
       ],
       "observed_brands": [
         "KEYBO"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "SN0004": {
       "code": "SN0004",
       "rows": [
-        313,
-        314
+        311,
+        312
       ],
       "brand": "S.NATURE",
       "title": "Aqua 365 UV Protective SunCream",
@@ -8033,12 +8728,12 @@
       ],
       "options": [
         {
-          "row": 313,
+          "row": 311,
           "name": "40ml",
           "reference": "SN0004-1"
         },
         {
-          "row": 314,
+          "row": 312,
           "name": "40ml + 40ml",
           "reference": "SN0004-2"
         }
@@ -8050,8 +8745,8 @@
     "SN0005": {
       "code": "SN0005",
       "rows": [
-        315,
-        316
+        313,
+        314
       ],
       "brand": "S.NATURE",
       "title": "Aqua 365 Glow Fit Tone-Up Sun (Natural Base & Dewy Skin)",
@@ -8063,12 +8758,12 @@
       ],
       "options": [
         {
-          "row": 315,
+          "row": 313,
           "name": "40ml",
           "reference": "SN0005-1"
         },
         {
-          "row": 316,
+          "row": 314,
           "name": "40ml + 40ml",
           "reference": "SN0005-2"
         }
@@ -8080,10 +8775,10 @@
     "AS0001": {
       "code": "AS0001",
       "rows": [
+        315,
+        316,
         317,
-        318,
-        319,
-        320
+        318
       ],
       "brand": "ANESSA",
       "title": "Perfect UV Sunscreen Skincare Milk",
@@ -8095,22 +8790,22 @@
       ],
       "options": [
         {
-          "row": 317,
+          "row": 315,
           "name": "Milk 20ml",
           "reference": "AS0001-1"
         },
         {
-          "row": 318,
+          "row": 316,
           "name": "Milk 60ml",
           "reference": "AS0001-2"
         },
         {
-          "row": 319,
+          "row": 317,
           "name": "Milk 60ml + 60ml",
           "reference": "AS0001-3"
         },
         {
-          "row": 320,
+          "row": 318,
           "name": "Mild Milk 60ml",
           "reference": "AS0001-4"
         }
@@ -8122,10 +8817,10 @@
     "BF0001": {
       "code": "BF0001",
       "rows": [
+        319,
+        320,
         321,
-        322,
-        323,
-        324
+        322
       ],
       "brand": "BIFESTA",
       "title": "Cleansing Oil Deep Clear (Pore Cleansing, Dust, Exfoliation&Pore Care)",
@@ -8137,22 +8832,22 @@
       ],
       "options": [
         {
-          "row": 321,
+          "row": 319,
           "name": "Dip Clear (Dust) 230ml",
           "reference": "BF0001-1"
         },
         {
-          "row": 322,
+          "row": 320,
           "name": "(1+1) Dip Clear (Dust) 230ml",
           "reference": "BF0001-2"
         },
         {
-          "row": 323,
+          "row": 321,
           "name": "Serum (Black Head) 230ml",
           "reference": "BF0001-3"
         },
         {
-          "row": 324,
+          "row": 322,
           "name": "Brightening (Exfoliation&Pore Care)",
           "reference": "BF0001-4"
         }
@@ -8164,8 +8859,8 @@
     "TR0004": {
       "code": "TR0004",
       "rows": [
-        325,
-        326
+        323,
+        324
       ],
       "brand": "TORRIDEN",
       "title": "Low Molecular Hyaluronic Acid All In One (Dive In For Men)",
@@ -8177,12 +8872,12 @@
       ],
       "options": [
         {
-          "row": 325,
+          "row": 323,
           "name": "200g",
           "reference": "TR0004-1"
         },
         {
-          "row": 326,
+          "row": 324,
           "name": "200g + 20g",
           "reference": "TR0004-2"
         }
@@ -8194,6 +8889,8 @@
     "BB0001": {
       "code": "BB0001",
       "rows": [
+        325,
+        326,
         327,
         328,
         329,
@@ -8206,9 +8903,7 @@
         336,
         337,
         338,
-        339,
-        340,
-        341
+        339
       ],
       "brand": "BURT'S BEES",
       "title": "Tinted / Moisturizing Lip Balm (15 Types)",
@@ -8220,77 +8915,77 @@
       ],
       "options": [
         {
-          "row": 327,
+          "row": 325,
           "name": "(Tinted) Rose",
           "reference": "BB0001-1"
         },
         {
-          "row": 328,
+          "row": 326,
           "name": "(Tinted) Magenta",
           "reference": "BB0001-2"
         },
         {
-          "row": 329,
+          "row": 327,
           "name": "(Tinted) Daisy",
           "reference": "BB0001-3"
         },
         {
-          "row": 330,
+          "row": 328,
           "name": "(Tinted) Hibiscus",
           "reference": "BB0001-4"
         },
         {
-          "row": 331,
+          "row": 329,
           "name": "(Tinted) Pink Blossom",
           "reference": "BB0001-5"
         },
         {
-          "row": 332,
+          "row": 330,
           "name": "(Moisture) Pomegranate",
           "reference": "BB0001-6"
         },
         {
-          "row": 333,
+          "row": 331,
           "name": "(Moisture) Beeswax",
           "reference": "BB0001-7"
         },
         {
-          "row": 334,
+          "row": 332,
           "name": "(Moisture) Strawberry",
           "reference": "BB0001-8"
         },
         {
-          "row": 335,
+          "row": 333,
           "name": "(Moisture) Pink Grapefruit",
           "reference": "BB0001-9"
         },
         {
-          "row": 336,
+          "row": 334,
           "name": "(Moisture) Honey",
           "reference": "BB0001-10"
         },
         {
-          "row": 337,
+          "row": 335,
           "name": "(Moisture) Mango",
           "reference": "BB0001-11"
         },
         {
-          "row": 338,
+          "row": 336,
           "name": "(Moisture) Wild Cherry",
           "reference": "BB0001-12"
         },
         {
-          "row": 339,
+          "row": 337,
           "name": "(Moisture) Ultra Conditioning",
           "reference": "BB0001-13"
         },
         {
-          "row": 340,
+          "row": 338,
           "name": "(Moisture) Sweet Mandarin",
           "reference": "BB0001-14"
         },
         {
-          "row": 341,
+          "row": 339,
           "name": "Res-Q Ointment",
           "reference": "BB0001-15"
         }
@@ -8302,12 +8997,12 @@
     "AT0001": {
       "code": "AT0001",
       "rows": [
+        340,
+        341,
         342,
         343,
         344,
-        345,
-        346,
-        347
+        345
       ],
       "brand": "ATHE",
       "title": "Vegan Relif Sun Cream / Tone Up Sun Essence",
@@ -8319,45 +9014,46 @@
       ],
       "options": [
         {
-          "row": 342,
+          "row": 340,
           "name": "Sun Cream 50ml",
           "reference": "AT0001-1"
         },
         {
-          "row": 343,
+          "row": 341,
           "name": "(1+1) Sun Cream 50ml",
           "reference": "AT0001-2"
         },
         {
-          "row": 344,
+          "row": 342,
           "name": "Tone Up Sun Essence 50ml",
           "reference": "AT0001-3"
         },
         {
-          "row": 345,
+          "row": 343,
           "name": "(1+1) Tone Up Sun Essence 50ml",
           "reference": "AT0001-4"
         },
         {
-          "row": 346,
+          "row": 344,
           "name": "Sun Essence 50ml",
           "reference": "AT0001-5"
         },
         {
-          "row": 347,
+          "row": 345,
           "name": "(1+1)  Sun Essence 50ml",
           "reference": "AT0001-6"
         }
       ],
       "observed_brands": [
         "ATHE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "AM0001": {
       "code": "AM0001",
       "rows": [
-        348,
-        349
+        346,
+        347
       ],
       "brand": "AMPL:N",
       "title": "Blemi Shot Ampoule (7-Day Dark Spot Improvement)",
@@ -8369,12 +9065,12 @@
       ],
       "options": [
         {
-          "row": 348,
+          "row": 346,
           "name": "50ml",
           "reference": "AM0001-1"
         },
         {
-          "row": 349,
+          "row": 347,
           "name": "50ml + 50ml",
           "reference": "AM0001-2"
         }
@@ -8386,8 +9082,8 @@
     "MX0001": {
       "code": "MX0001",
       "rows": [
-        350,
-        351
+        348,
+        349
       ],
       "brand": "MIXSOON",
       "title": "Bean Sun Serum / Glow Sun Serum",
@@ -8399,12 +9095,12 @@
       ],
       "options": [
         {
-          "row": 350,
+          "row": 348,
           "name": "50ml",
           "reference": "MX0001-1"
         },
         {
-          "row": 351,
+          "row": 349,
           "name": "50ml + 50ml",
           "reference": "MX0001-2"
         }
@@ -8416,9 +9112,9 @@
     "CK0001": {
       "code": "CK0001",
       "rows": [
-        352,
-        353,
-        354
+        350,
+        351,
+        352
       ],
       "brand": "CKD",
       "title": "Retino Collagen Low Molecular 300 Guasha Neck Cream",
@@ -8430,17 +9126,17 @@
       ],
       "options": [
         {
-          "row": 352,
+          "row": 350,
           "name": "50ml",
           "reference": "CK0001-1"
         },
         {
-          "row": 353,
+          "row": 351,
           "name": "50ml + 50ml",
           "reference": "CK0001-2"
         },
         {
-          "row": 354,
+          "row": 352,
           "name": "(Refiil) 50ml",
           "reference": "CK0001-3"
         }
@@ -8452,8 +9148,8 @@
     "HY0003": {
       "code": "HY0003",
       "rows": [
-        355,
-        356
+        353,
+        354
       ],
       "brand": "HANYUL",
       "title": "Yuja Sleeping Pack",
@@ -8465,27 +9161,65 @@
       ],
       "options": [
         {
-          "row": 355,
+          "row": 353,
           "name": "70ml",
           "reference": "HY0003-1"
         },
         {
-          "row": 356,
+          "row": 354,
           "name": "70ml + 70ml",
           "reference": "HY0003-2"
         }
       ],
       "observed_brands": [
         "HANYUL"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "c51bdb8423ba9ba05e119dfcbb2f58e0f77ef8d4d13ab8052181b6269098ede0",
+        "product_box": [
+          119,
+          193,
+          905,
+          970
+        ],
+        "critical_regions": [
+          [
+            273,
+            350,
+            391,
+            443
+          ],
+          [
+            671,
+            350,
+            788,
+            443
+          ],
+          [
+            270,
+            796,
+            360,
+            865
+          ],
+          [
+            675,
+            796,
+            763,
+            865
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "CR0001": {
       "code": "CR0001",
       "rows": [
+        355,
+        356,
         357,
-        358,
-        359,
-        360
+        358
       ],
       "brand": "CHEREMI MAKA",
       "title": "Intimate Gel (Basic/Deep Water)",
@@ -8497,22 +9231,22 @@
       ],
       "options": [
         {
-          "row": 357,
+          "row": 355,
           "name": "Basic 120ml",
           "reference": "CR0001-1"
         },
         {
-          "row": 358,
+          "row": 356,
           "name": "(1+1) Basic 120ml",
           "reference": "CR0001-2"
         },
         {
-          "row": 359,
+          "row": 357,
           "name": "Deep Water 120ml",
           "reference": "CR0001-3"
         },
         {
-          "row": 360,
+          "row": 358,
           "name": "(1+1) Deep Water 120ml",
           "reference": "CR0001-4"
         }
@@ -8524,11 +9258,11 @@
     "HM0001": {
       "code": "HM0001",
       "rows": [
+        359,
+        360,
         361,
         362,
-        363,
-        364,
-        365
+        363
       ],
       "brand": "HIMALAYA",
       "title": "Hangover Party Smart Soft Chews (2 Flavors)",
@@ -8540,27 +9274,27 @@
       ],
       "options": [
         {
-          "row": 361,
+          "row": 359,
           "name": "(1+1) Berry 2p",
           "reference": "HM0001-1"
         },
         {
-          "row": 362,
+          "row": 360,
           "name": "Mango 2P",
           "reference": "HM0001-2"
         },
         {
-          "row": 363,
+          "row": 361,
           "name": "(1+1) Berry 10p",
           "reference": "HM0001-3"
         },
         {
-          "row": 364,
+          "row": 362,
           "name": "(1+1) Mango 10p",
           "reference": "HM0001-4"
         },
         {
-          "row": 365,
+          "row": 363,
           "name": "(Mega Pack) Berry + Mango 36p",
           "reference": "HM0001-5"
         }
@@ -8572,8 +9306,8 @@
     "BP0003": {
       "code": "BP0003",
       "rows": [
-        366,
-        367
+        364,
+        365
       ],
       "brand": "BEPLAIN",
       "title": "Mung Bean Pore Tight Up Soothing Cream",
@@ -8585,12 +9319,12 @@
       ],
       "options": [
         {
-          "row": 366,
+          "row": 364,
           "name": "60ml",
           "reference": "BP0003-1"
         },
         {
-          "row": 367,
+          "row": 365,
           "name": "60ml + 60ml",
           "reference": "BP0003-2"
         }
@@ -8602,8 +9336,8 @@
     "KM0001": {
       "code": "KM0001",
       "rows": [
-        368,
-        369
+        366,
+        367
       ],
       "brand": "KAMILL",
       "title": "Hand & Nail Cream Protect (Special Care for Dry, Sensitive Skin)",
@@ -8615,12 +9349,12 @@
       ],
       "options": [
         {
-          "row": 368,
+          "row": 366,
           "name": "100ml (No Box)",
           "reference": "KM0001-1"
         },
         {
-          "row": 369,
+          "row": 367,
           "name": "100ml + 100ml",
           "reference": "KM0001-2"
         }
@@ -8632,7 +9366,7 @@
     "IM0004": {
       "code": "IM0004",
       "rows": [
-        370
+        368
       ],
       "brand": "IDEAL FOR MEN",
       "title": "Fresh All-In-One / Pore Control",
@@ -8644,7 +9378,7 @@
       ],
       "options": [
         {
-          "row": 370,
+          "row": 368,
           "name": "150ml + 150ml",
           "reference": "IM0004-1"
         }
@@ -8656,8 +9390,8 @@
     "CN0002": {
       "code": "CN0002",
       "rows": [
-        371,
-        372
+        369,
+        370
       ],
       "brand": "CNP Laboratory",
       "title": "Mugener Phyto Soothing Ampule",
@@ -8669,12 +9403,12 @@
       ],
       "options": [
         {
-          "row": 371,
+          "row": 369,
           "name": "35ml",
           "reference": "CN0002-1"
         },
         {
-          "row": 372,
+          "row": 370,
           "name": "35ml + 35ml",
           "reference": "CN0002-2"
         }
@@ -8686,10 +9420,10 @@
     "GV0001": {
       "code": "GV0001",
       "rows": [
+        371,
+        372,
         373,
-        374,
-        375,
-        376
+        374
       ],
       "brand": "GIVERNY",
       "title": "Milchak Sensitive Mascara (Long Lash / Natural / Volume)",
@@ -8701,36 +9435,37 @@
       ],
       "options": [
         {
-          "row": 373,
+          "row": 371,
           "name": "(1+1) Natural 01 Black",
           "reference": "GV0001-1"
         },
         {
-          "row": 374,
+          "row": 372,
           "name": "(1+1) Natural 02 Black Brown",
           "reference": "GV0001-2"
         },
         {
-          "row": 375,
+          "row": 373,
           "name": "(1+1) Long Lash 01 Black",
           "reference": "GV0001-3"
         },
         {
-          "row": 376,
+          "row": 374,
           "name": "Natural 01 Black",
           "reference": "GV0001-4"
         }
       ],
       "observed_brands": [
         "GIVERNY"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "ET0004": {
       "code": "ET0004",
       "rows": [
-        377,
-        378,
-        379
+        375,
+        376,
+        377
       ],
       "brand": "ETUDE",
       "title": "Curl Fix Skinny Mascara (3 Colors)",
@@ -8742,30 +9477,31 @@
       ],
       "options": [
         {
-          "row": 377,
+          "row": 375,
           "name": "(1+1) 01 Black",
           "reference": "ET0004-1"
         },
         {
-          "row": 378,
+          "row": 376,
           "name": "(1+1) 02 Brown",
           "reference": "ET0004-2"
         },
         {
-          "row": 379,
+          "row": 377,
           "name": "(1+1) 03 Gray Brown",
           "reference": "ET0004-3"
         }
       ],
       "observed_brands": [
         "ETUDE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "ET0005": {
       "code": "ET0005",
       "rows": [
-        380,
-        381
+        378,
+        379
       ],
       "brand": "ETUDE",
       "title": "Line Fix Brush Liner 0.5g (2 Colors)",
@@ -8777,12 +9513,12 @@
       ],
       "options": [
         {
-          "row": 380,
+          "row": 378,
           "name": "(1+1) 01 Black",
           "reference": "ET0005-1"
         },
         {
-          "row": 381,
+          "row": 379,
           "name": "(1+1) 02 Brown",
           "reference": "ET0005-2"
         }
@@ -8794,9 +9530,9 @@
     "NC0001": {
       "code": "NC0001",
       "rows": [
-        382,
-        383,
-        384
+        380,
+        381,
+        382
       ],
       "brand": "NEXCARE",
       "title": "Easy Pick Blemish Patch Relief (3 Types)",
@@ -8808,29 +9544,125 @@
       ],
       "options": [
         {
-          "row": 382,
+          "row": 380,
           "name": "Blemish Patch Relief (68+68pcs)",
           "reference": "NC0001-1"
         },
         {
-          "row": 383,
+          "row": 381,
           "name": "Blemish Patch (63+48pcs)",
           "reference": "NC0001-2"
         },
         {
-          "row": 384,
+          "row": 382,
           "name": "All In One 63pcs + 68pcs",
           "reference": "NC0001-3"
         }
       ],
       "observed_brands": [
         "NEXCARE"
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "2bcb4c4c5f968ac01b867cfa490f7f68a160fc1d9978b3713da5e86b010bfe8a",
+        "product_box": [
+          129,
+          228,
+          895,
+          970
+        ],
+        "critical_regions": [
+          [
+            146,
+            241,
+            209,
+            282
+          ],
+          [
+            165,
+            303,
+            197,
+            333
+          ],
+          [
+            201,
+            304,
+            233,
+            333
+          ],
+          [
+            236,
+            302,
+            272,
+            335
+          ],
+          [
+            378,
+            235,
+            501,
+            358
+          ],
+          [
+            535,
+            246,
+            580,
+            282
+          ],
+          [
+            593,
+            246,
+            631,
+            282
+          ],
+          [
+            528,
+            308,
+            698,
+            349
+          ],
+          [
+            765,
+            236,
+            884,
+            359
+          ],
+          [
+            150,
+            374,
+            189,
+            398
+          ],
+          [
+            534,
+            370,
+            571,
+            394
+          ],
+          [
+            195,
+            404,
+            435,
+            486
+          ],
+          [
+            600,
+            375,
+            805,
+            464
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      },
+      "v6_product_translation": [
+        81,
+        0
       ]
     },
     "BP0004": {
       "code": "BP0004",
       "rows": [
-        385
+        383
       ],
       "brand": "BEPLAIN",
       "title": "Milk Ceramide Lip Essence",
@@ -8842,22 +9674,23 @@
       ],
       "options": [
         {
-          "row": 385,
+          "row": 383,
           "name": null,
           "reference": "BP0004-1"
         }
       ],
       "observed_brands": [
         "BEPLAIN"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "RV0001": {
       "code": "RV0001",
       "rows": [
+        384,
+        385,
         386,
-        387,
-        388,
-        389
+        387
       ],
       "brand": "ROVECTIN",
       "title": "Aqua Soothing / Intense Moisture Sunscreen",
@@ -8869,22 +9702,22 @@
       ],
       "options": [
         {
-          "row": 386,
+          "row": 384,
           "name": "Aqua Soothing 35ml",
           "reference": "RV0001-1"
         },
         {
-          "row": 387,
+          "row": 385,
           "name": "(1+1) Aqua Soothing 35ml",
           "reference": "RV0001-2"
         },
         {
-          "row": 388,
+          "row": 386,
           "name": "Intense Moisture 50ml",
           "reference": "RV0001-3"
         },
         {
-          "row": 389,
+          "row": 387,
           "name": "(1+1) Intense Moisture 50ml",
           "reference": "RV0001-4"
         }
@@ -8896,10 +9729,10 @@
     "RM0002": {
       "code": "RM0002",
       "rows": [
+        388,
+        389,
         390,
-        391,
-        392,
-        393
+        391
       ],
       "brand": "rom&nd",
       "title": "Han All Faux Lash Mascara (3 Colors)",
@@ -8911,22 +9744,22 @@
       ],
       "options": [
         {
-          "row": 390,
+          "row": 388,
           "name": "01 Deep Black",
           "reference": "RM0002-1"
         },
         {
-          "row": 391,
+          "row": 389,
           "name": "02 Black Brown",
           "reference": "RM0002-2"
         },
         {
-          "row": 392,
+          "row": 390,
           "name": "03 Coffee Brown",
           "reference": "RM0002-3"
         },
         {
-          "row": 393,
+          "row": 391,
           "name": "(1+1) 01 Deep Black",
           "reference": "RM0002-4"
         }
@@ -8938,10 +9771,10 @@
     "PP0001": {
       "code": "PP0001",
       "rows": [
+        392,
+        393,
         394,
-        395,
-        396,
-        397
+        395
       ],
       "brand": "PAPA RECIPE",
       "title": "Enzyme Powder Cleanser 50g (Blemish, Tea Tree, Eggplant)",
@@ -8953,39 +9786,40 @@
       ],
       "options": [
         {
-          "row": 394,
+          "row": 392,
           "name": "Blemish 50g",
           "reference": "PP0001-1"
         },
         {
-          "row": 395,
+          "row": 393,
           "name": "(1+1) Blemish 50g",
           "reference": "PP0001-2"
         },
         {
-          "row": 396,
+          "row": 394,
           "name": "Tea Tree 50g",
           "reference": "PP0001-3"
         },
         {
-          "row": 397,
+          "row": 395,
           "name": "Eggplant 50g",
           "reference": "PP0001-4"
         }
       ],
       "observed_brands": [
         "PAPA RECIPE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "MB0001": {
       "code": "MB0001",
       "rows": [
+        396,
+        397,
         398,
         399,
         400,
-        401,
-        402,
-        403
+        401
       ],
       "brand": "MILK BAOBAB",
       "title": "Perfume Body Lotion (3 Types)",
@@ -8997,32 +9831,32 @@
       ],
       "options": [
         {
-          "row": 398,
+          "row": 396,
           "name": "White Musk 250ml",
           "reference": "MB0001-1"
         },
         {
-          "row": 399,
+          "row": 397,
           "name": "White Soap 250ml",
           "reference": "MB0001-2"
         },
         {
-          "row": 400,
+          "row": 398,
           "name": "Baby Powder 250ml",
           "reference": "MB0001-3"
         },
         {
-          "row": 401,
+          "row": 399,
           "name": "(1+1) White Musk 250ml",
           "reference": "MB0001-4"
         },
         {
-          "row": 402,
+          "row": 400,
           "name": "(1+1) White Soap 250ml",
           "reference": "MB0001-5"
         },
         {
-          "row": 403,
+          "row": 401,
           "name": "(1+1) Baby Powder 250ml",
           "reference": "MB0001-6"
         }
@@ -9034,8 +9868,8 @@
     "PR0005": {
       "code": "PR0005",
       "rows": [
-        404,
-        405
+        402,
+        403
       ],
       "brand": "PRIMERA",
       "title": "3C Hyaluronic Acid Sparkling Pack Foam",
@@ -9047,12 +9881,12 @@
       ],
       "options": [
         {
-          "row": 404,
+          "row": 402,
           "name": "140ml (No Box)",
           "reference": "PR0005-1"
         },
         {
-          "row": 405,
+          "row": 403,
           "name": "140ml + 140ml",
           "reference": "PR0005-2"
         }
@@ -9064,8 +9898,8 @@
     "GA0003": {
       "code": "GA0003",
       "rows": [
-        406,
-        407
+        404,
+        405
       ],
       "brand": "GOODAL",
       "title": "Vita-C Dark Spot Care Eye Cream",
@@ -9077,12 +9911,12 @@
       ],
       "options": [
         {
-          "row": 406,
+          "row": 404,
           "name": "30ml",
           "reference": "GA0003-1"
         },
         {
-          "row": 407,
+          "row": 405,
           "name": "30ml + 30ml",
           "reference": "GA0003-2"
         }
@@ -9094,8 +9928,8 @@
     "HG0001": {
       "code": "HG0001",
       "rows": [
-        408,
-        409
+        406,
+        407
       ],
       "brand": "HYGGEE",
       "title": "Relief Sun Moisturizer",
@@ -9107,12 +9941,12 @@
       ],
       "options": [
         {
-          "row": 408,
+          "row": 406,
           "name": "50ml (No Box)",
           "reference": "HG0001-1"
         },
         {
-          "row": 409,
+          "row": 407,
           "name": "50ml + 50ml",
           "reference": "HG0001-2"
         }
@@ -9124,8 +9958,8 @@
     "EU0003": {
       "code": "EU0003",
       "rows": [
-        410,
-        411
+        408,
+        409
       ],
       "brand": "EUCERIN",
       "title": "Dermopure Clinical Purifying Toner",
@@ -9137,12 +9971,12 @@
       ],
       "options": [
         {
-          "row": 410,
+          "row": 408,
           "name": "200ml",
           "reference": "EU0003-1"
         },
         {
-          "row": 411,
+          "row": 409,
           "name": "200ml + 200ml",
           "reference": "EU0003-2"
         }
@@ -9154,11 +9988,11 @@
     "HH0001": {
       "code": "HH0001",
       "rows": [
+        410,
+        411,
         412,
         413,
-        414,
-        415,
-        416
+        414
       ],
       "brand": "HOLIKA HOLIKA",
       "title": "Lash Correcting Mascara (5 Types)",
@@ -9170,27 +10004,27 @@
       ],
       "options": [
         {
-          "row": 412,
+          "row": 410,
           "name": "01 (Curling+Long)",
           "reference": "HH0001-1"
         },
         {
-          "row": 413,
+          "row": 411,
           "name": "02 (Volume+Long)",
           "reference": "HH0001-2"
         },
         {
-          "row": 414,
+          "row": 412,
           "name": "03 (Curling+Volume)",
           "reference": "HH0001-3"
         },
         {
-          "row": 415,
+          "row": 413,
           "name": "(Care) 01 Essential + 01 Essential",
           "reference": "HH0001-4"
         },
         {
-          "row": 416,
+          "row": 414,
           "name": "(Care) 01 Essential + 02 Black",
           "reference": "HH0001-5"
         }
@@ -9202,12 +10036,12 @@
     "IS0001": {
       "code": "IS0001",
       "rows": [
+        415,
+        416,
         417,
         418,
         419,
-        420,
-        421,
-        422
+        420
       ],
       "brand": "ISOI",
       "title": "Lip Treatment Balm 5g (5 Colors)",
@@ -9219,32 +10053,32 @@
       ],
       "options": [
         {
-          "row": 417,
+          "row": 415,
           "name": "Pure Red",
           "reference": "IS0001-1"
         },
         {
-          "row": 418,
+          "row": 416,
           "name": "(1+1) Pure Red",
           "reference": "IS0001-2"
         },
         {
-          "row": 419,
+          "row": 417,
           "name": "Baby Pink",
           "reference": "IS0001-3"
         },
         {
-          "row": 420,
+          "row": 418,
           "name": "Sunset Orange",
           "reference": "IS0001-4"
         },
         {
-          "row": 421,
+          "row": 419,
           "name": "Rozy Coral",
           "reference": "IS0001-5"
         },
         {
-          "row": 422,
+          "row": 420,
           "name": "Berry Rose",
           "reference": "IS0001-6"
         }
@@ -9256,8 +10090,8 @@
     "CN0003": {
       "code": "CN0003",
       "rows": [
-        423,
-        424
+        421,
+        422
       ],
       "brand": "CNP Laboratory",
       "title": "Aqua Soothing Toner",
@@ -9269,12 +10103,12 @@
       ],
       "options": [
         {
-          "row": 423,
+          "row": 421,
           "name": "200ml",
           "reference": "CN0003-1"
         },
         {
-          "row": 424,
+          "row": 422,
           "name": "200ml + 200ml",
           "reference": "CN0003-2"
         }
@@ -9286,8 +10120,8 @@
     "BC0001": {
       "code": "BC0001",
       "rows": [
-        425,
-        426
+        423,
+        424
       ],
       "brand": "BANILA CO",
       "title": "Clean It Zero Pore Clarifying Foam Cleanser",
@@ -9299,12 +10133,12 @@
       ],
       "options": [
         {
-          "row": 425,
+          "row": 423,
           "name": "150ml (No Box)",
           "reference": "BC0001-1"
         },
         {
-          "row": 426,
+          "row": 424,
           "name": "150ml + 150ml",
           "reference": "BC0001-2"
         }
@@ -9316,8 +10150,8 @@
     "ET0006": {
       "code": "ET0006",
       "rows": [
-        427,
-        428
+        425,
+        426
       ],
       "brand": "ETUDE",
       "title": "Director’s Moisture Sun Cream",
@@ -9329,12 +10163,12 @@
       ],
       "options": [
         {
-          "row": 427,
+          "row": 425,
           "name": "50ml (No Box)",
           "reference": "ET0006-1"
         },
         {
-          "row": 428,
+          "row": 426,
           "name": "50ml + 50ml",
           "reference": "ET0006-2"
         }
@@ -9346,8 +10180,8 @@
     "BW0001": {
       "code": "BW0001",
       "rows": [
-        429,
-        430
+        427,
+        428
       ],
       "brand": "BE WANTS",
       "title": "Peptide-X Firming Eye Serum Stick",
@@ -9359,12 +10193,12 @@
       ],
       "options": [
         {
-          "row": 429,
+          "row": 427,
           "name": "15ml",
           "reference": "BW0001-1"
         },
         {
-          "row": 430,
+          "row": 428,
           "name": "15ml + 15ml",
           "reference": "BW0001-2"
         }
@@ -9376,8 +10210,8 @@
     "TR0005": {
       "code": "TR0005",
       "rows": [
-        431,
-        432
+        429,
+        430
       ],
       "brand": "TORRIDEN",
       "title": "Dive In Soothing Sun Stick (Low Molecular, Hyaluronic Acid)",
@@ -9389,12 +10223,12 @@
       ],
       "options": [
         {
-          "row": 431,
+          "row": 429,
           "name": "19g (No Box)",
           "reference": "TR0005-1"
         },
         {
-          "row": 432,
+          "row": 430,
           "name": "19g + 19g",
           "reference": "TR0005-2"
         }
@@ -9406,8 +10240,8 @@
     "SC0001": {
       "code": "SC0001",
       "rows": [
-        433,
-        434
+        431,
+        432
       ],
       "brand": "SCINIC",
       "title": "Perfect Peeling Gommage Gel",
@@ -9419,25 +10253,26 @@
       ],
       "options": [
         {
-          "row": 433,
+          "row": 431,
           "name": "120ml (No Box)",
           "reference": "SC0001-1"
         },
         {
-          "row": 434,
+          "row": 432,
           "name": "120ml +120ml",
           "reference": "SC0001-2"
         }
       ],
       "observed_brands": [
         "SCINIC"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "CK0002": {
       "code": "CK0002",
       "rows": [
-        435,
-        436
+        433,
+        434
       ],
       "brand": "CKD",
       "title": "Green Propolis All-Covery SunCream",
@@ -9449,12 +10284,12 @@
       ],
       "options": [
         {
-          "row": 435,
+          "row": 433,
           "name": "40ml",
           "reference": "CK0002-1"
         },
         {
-          "row": 436,
+          "row": 434,
           "name": "40ml + 40ml",
           "reference": "CK0002-2"
         }
@@ -9466,10 +10301,10 @@
     "BR0001": {
       "code": "BR0001",
       "rows": [
+        435,
+        436,
         437,
-        438,
-        439,
-        440
+        438
       ],
       "brand": "B.READY",
       "title": "Vitalizing Lip Balm (2 Colors)",
@@ -9481,22 +10316,22 @@
       ],
       "options": [
         {
-          "row": 437,
+          "row": 435,
           "name": "01 Lively",
           "reference": "BR0001-1"
         },
         {
-          "row": 438,
+          "row": 436,
           "name": "(1+1) 01 Lively",
           "reference": "BR0001-2"
         },
         {
-          "row": 439,
+          "row": 437,
           "name": "02 Natural",
           "reference": "BR0001-3"
         },
         {
-          "row": 440,
+          "row": 438,
           "name": "(1+1) 02 Natural",
           "reference": "BR0001-4"
         }
@@ -9508,8 +10343,8 @@
     "ET0007": {
       "code": "ET0007",
       "rows": [
-        441,
-        442
+        439,
+        440
       ],
       "brand": "ETUDE",
       "title": "SoonJung Director Mineral Sunscreen (SPF50+ PA++++)",
@@ -9521,12 +10356,12 @@
       ],
       "options": [
         {
-          "row": 441,
+          "row": 439,
           "name": "50g",
           "reference": "ET0007-1"
         },
         {
-          "row": 442,
+          "row": 440,
           "name": "50g + 50g",
           "reference": "ET0007-2"
         }
@@ -9538,8 +10373,8 @@
     "CN0004": {
       "code": "CN0004",
       "rows": [
-        443,
-        444
+        441,
+        442
       ],
       "brand": "CNP Laboratory",
       "title": "Aqua Soothing Fresh Gel Cream (Moisture & Soothing)",
@@ -9551,12 +10386,12 @@
       ],
       "options": [
         {
-          "row": 443,
+          "row": 441,
           "name": "80ml",
           "reference": "CN0004-1"
         },
         {
-          "row": 444,
+          "row": 442,
           "name": "80ml + 80ml",
           "reference": "CN0004-2"
         }
@@ -9568,7 +10403,7 @@
     "TR0006": {
       "code": "TR0006",
       "rows": [
-        445
+        443
       ],
       "brand": "TORRIDEN",
       "title": "Cellmazing Collagen Lip Essence",
@@ -9580,7 +10415,7 @@
       ],
       "options": [
         {
-          "row": 445,
+          "row": 443,
           "name": null,
           "reference": "TR0006-1"
         }
@@ -9592,8 +10427,8 @@
     "DM0001": {
       "code": "DM0001",
       "rows": [
-        446,
-        447
+        444,
+        445
       ],
       "brand": "DERMATORY",
       "title": "Hyalluron Peptide Volume Lip Balm (Mask / Tinted)",
@@ -9605,12 +10440,12 @@
       ],
       "options": [
         {
-          "row": 446,
+          "row": 444,
           "name": "Lip Mask Balm 10ml",
           "reference": "DM0001-1"
         },
         {
-          "row": 447,
+          "row": 445,
           "name": "Lip Tinted Balm 10ml",
           "reference": "DM0001-2"
         }
@@ -9622,8 +10457,8 @@
     "EU0004": {
       "code": "EU0004",
       "rows": [
-        448,
-        449
+        446,
+        447
       ],
       "brand": "EUCERIN",
       "title": "DermoPURIFYER Soft Cleansing Foam",
@@ -9635,25 +10470,26 @@
       ],
       "options": [
         {
-          "row": 448,
+          "row": 446,
           "name": "150g",
           "reference": "EU0004-1"
         },
         {
-          "row": 449,
+          "row": 447,
           "name": "150g + 150g",
           "reference": "EU0004-2"
         }
       ],
       "observed_brands": [
         "EUCERIN"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "JS0001": {
       "code": "JS0001",
       "rows": [
-        450,
-        451
+        448,
+        449
       ],
       "brand": "J'SOOP",
       "title": "Volume Curling Essence 2X",
@@ -9665,25 +10501,26 @@
       ],
       "options": [
         {
-          "row": 450,
+          "row": 448,
           "name": "150ml",
           "reference": "JS0001-1"
         },
         {
-          "row": 451,
+          "row": 449,
           "name": "150ml +150ml",
           "reference": "JS0001-2"
         }
       ],
       "observed_brands": [
         "J'SOOP"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "GA0004": {
       "code": "GA0004",
       "rows": [
-        452,
-        453
+        450,
+        451
       ],
       "brand": "GOODAL",
       "title": "Heartleaf Soothing Tone Up Sun Cream",
@@ -9695,24 +10532,25 @@
       ],
       "options": [
         {
-          "row": 452,
+          "row": 450,
           "name": "50ml",
           "reference": "GA0004-1"
         },
         {
-          "row": 453,
+          "row": 451,
           "name": "50ml + 50ml",
           "reference": "GA0004-2"
         }
       ],
       "observed_brands": [
         "GOODAL"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "BP0005": {
       "code": "BP0005",
       "rows": [
-        454
+        452
       ],
       "brand": "BEPLAIN",
       "title": "Mung Bean Pore Clearing LHA Toner",
@@ -9724,7 +10562,7 @@
       ],
       "options": [
         {
-          "row": 454,
+          "row": 452,
           "name": null,
           "reference": "BP0005-1"
         }
@@ -9736,8 +10574,8 @@
     "DW0002": {
       "code": "DW0002",
       "rows": [
-        455,
-        456
+        453,
+        454
       ],
       "brand": "DEWYTREE",
       "title": "Urban Shade Cool Calming Sun Stick",
@@ -9749,12 +10587,12 @@
       ],
       "options": [
         {
-          "row": 455,
+          "row": 453,
           "name": "20g",
           "reference": "DW0002-1"
         },
         {
-          "row": 456,
+          "row": 454,
           "name": "20g + 20g",
           "reference": "DW0002-2"
         }
@@ -9766,6 +10604,8 @@
     "WM0004": {
       "code": "WM0004",
       "rows": [
+        455,
+        456,
         457,
         458,
         459,
@@ -9778,9 +10618,7 @@
         466,
         467,
         468,
-        469,
-        470,
-        471
+        469
       ],
       "brand": "WAKEMAKE",
       "title": "Natural Hard Brow Pencil & Browcara (15 Colors)",
@@ -9792,77 +10630,77 @@
       ],
       "options": [
         {
-          "row": 457,
+          "row": 455,
           "name": "(1+1) (Brow) 01 Dark Brown",
           "reference": "WM0004-1"
         },
         {
-          "row": 458,
+          "row": 456,
           "name": "(1+1) (Brow) 02 Gray Brown",
           "reference": "WM0004-2"
         },
         {
-          "row": 459,
+          "row": 457,
           "name": "(1+1) (Brow) 03 Natural Brown",
           "reference": "WM0004-3"
         },
         {
-          "row": 460,
+          "row": 458,
           "name": "(1+1) (Brow) 04 Deep Taupe",
           "reference": "WM0004-4"
         },
         {
-          "row": 461,
+          "row": 459,
           "name": "(1+1) (Brow) 05 Natural Gray",
           "reference": "WM0004-5"
         },
         {
-          "row": 462,
+          "row": 460,
           "name": "(1+1) (Brow) 06 Beige Taupe",
           "reference": "WM0004-6"
         },
         {
-          "row": 463,
+          "row": 461,
           "name": "(1+1) (Brow) 07 Rosy Taupe",
           "reference": "WM0004-7"
         },
         {
-          "row": 464,
+          "row": 462,
           "name": "(1+1) (Brow) 08 Light Brown",
           "reference": "WM0004-8"
         },
         {
-          "row": 465,
+          "row": 463,
           "name": "(1+1) (Brow) 09 Cool Gray",
           "reference": "WM0004-9"
         },
         {
-          "row": 466,
+          "row": 464,
           "name": "(Browcara) 01 Ash Gray",
           "reference": "WM0004-10"
         },
         {
-          "row": 467,
+          "row": 465,
           "name": "(Browcara) 02 Natural Taupe",
           "reference": "WM0004-11"
         },
         {
-          "row": 468,
+          "row": 466,
           "name": "(Browcara) 03 Nut Brown",
           "reference": "WM0004-12"
         },
         {
-          "row": 469,
+          "row": 467,
           "name": "(Browcara) 04 Beige Ash",
           "reference": "WM0004-13"
         },
         {
-          "row": 470,
+          "row": 468,
           "name": "(Browcara) 05 Pink Beige",
           "reference": "WM0004-14"
         },
         {
-          "row": 471,
+          "row": 469,
           "name": "[OFF CHERRY] 06 Cocoa Brown",
           "reference": "WM0004-15"
         }
@@ -9874,8 +10712,8 @@
     "AW0001": {
       "code": "AW0001",
       "rows": [
-        472,
-        473
+        470,
+        471
       ],
       "brand": "ACWELL",
       "title": "pH Balancing Bubble Free Cleansing Gel",
@@ -9887,12 +10725,12 @@
       ],
       "options": [
         {
-          "row": 472,
+          "row": 470,
           "name": "160ml",
           "reference": "AW0001-1"
         },
         {
-          "row": 473,
+          "row": 471,
           "name": "160ml + 160ml",
           "reference": "AW0001-2"
         }
@@ -9904,8 +10742,8 @@
     "TH0001": {
       "code": "TH0001",
       "rows": [
-        474,
-        475
+        472,
+        473
       ],
       "brand": "THE HARNAY",
       "title": "Ampoule Serum (For Sensitive and Damaged Skin)",
@@ -9917,12 +10755,12 @@
       ],
       "options": [
         {
-          "row": 474,
+          "row": 472,
           "name": "50ml",
           "reference": "TH0001-1"
         },
         {
-          "row": 475,
+          "row": 473,
           "name": "50ml + 50ml",
           "reference": "TH0001-2"
         }
@@ -9934,8 +10772,8 @@
     "AC0001": {
       "code": "AC0001",
       "rows": [
-        476,
-        477
+        474,
+        475
       ],
       "brand": "ACNES",
       "title": "Pore Clear Gel Cleanser",
@@ -9947,26 +10785,27 @@
       ],
       "options": [
         {
-          "row": 476,
+          "row": 474,
           "name": "125ml",
           "reference": "AC0001-1"
         },
         {
-          "row": 477,
+          "row": 475,
           "name": "125ml + 125ml",
           "reference": "AC0001-2"
         }
       ],
       "observed_brands": [
         "ACNES"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "LS0001": {
       "code": "LS0001",
       "rows": [
-        478,
-        479,
-        480
+        476,
+        477,
+        478
       ],
       "brand": "LALASWEET",
       "title": "Protein Shake (Choco Crunch, Strawberry Crunch, Grain Crunch)",
@@ -9978,17 +10817,17 @@
       ],
       "options": [
         {
-          "row": 478,
+          "row": 476,
           "name": "(1+1) Choco Crunch 45g",
           "reference": "LS0001-1"
         },
         {
-          "row": 479,
+          "row": 477,
           "name": "(1+1) Grain Crunch 45g",
           "reference": "LS0001-2"
         },
         {
-          "row": 480,
+          "row": 478,
           "name": "(1+1) Strawberry Crunch 45g",
           "reference": "LS0001-3"
         }
@@ -10000,6 +10839,8 @@
     "SM0001": {
       "code": "SM0001",
       "rows": [
+        479,
+        480,
         481,
         482,
         483,
@@ -10012,9 +10853,7 @@
         490,
         491,
         492,
-        493,
-        494,
-        495
+        493
       ],
       "brand": "THE SAEM",
       "title": "Natural Mask Sheet (10 Options)",
@@ -10026,77 +10865,77 @@
       ],
       "options": [
         {
-          "row": 481,
+          "row": 479,
           "name": "(1+1) ALOE N",
           "reference": "SM0001-1"
         },
         {
-          "row": 482,
+          "row": 480,
           "name": "(1+1) LEMON N",
           "reference": "SM0001-2"
         },
         {
-          "row": 483,
+          "row": 481,
           "name": "(1+1) GREEN TEA N",
           "reference": "SM0001-3"
         },
         {
-          "row": 484,
+          "row": 482,
           "name": "(1+1) HONEY N",
           "reference": "SM0001-4"
         },
         {
-          "row": 485,
+          "row": 483,
           "name": "(1+1) POMEGRANATE N",
           "reference": "SM0001-5"
         },
         {
-          "row": 486,
+          "row": 484,
           "name": "ALOE N",
           "reference": "SM0001-6"
         },
         {
-          "row": 487,
+          "row": 485,
           "name": "LEMON N",
           "reference": "SM0001-7"
         },
         {
-          "row": 488,
+          "row": 486,
           "name": "GREEN TEA N",
           "reference": "SM0001-8"
         },
         {
-          "row": 489,
+          "row": 487,
           "name": "HONEY N",
           "reference": "SM0001-9"
         },
         {
-          "row": 490,
+          "row": 488,
           "name": "POMEGRANATE N",
           "reference": "SM0001-10"
         },
         {
-          "row": 491,
+          "row": 489,
           "name": "RICE",
           "reference": "SM0001-11"
         },
         {
-          "row": 492,
+          "row": 490,
           "name": "CENTELLA",
           "reference": "SM0001-12"
         },
         {
-          "row": 493,
+          "row": 491,
           "name": "AVOCADO",
           "reference": "SM0001-13"
         },
         {
-          "row": 494,
+          "row": 492,
           "name": "TEA TREE",
           "reference": "SM0001-14"
         },
         {
-          "row": 495,
+          "row": 493,
           "name": "CUCUMBER",
           "reference": "SM0001-15"
         }
@@ -10108,8 +10947,8 @@
     "CU0001": {
       "code": "CU0001",
       "rows": [
-        496,
-        497
+        494,
+        495
       ],
       "brand": "CURE",
       "title": "Real:oe Soothing Gel",
@@ -10121,12 +10960,12 @@
       ],
       "options": [
         {
-          "row": 496,
+          "row": 494,
           "name": "150ml",
           "reference": "CU0001-1"
         },
         {
-          "row": 497,
+          "row": 495,
           "name": "150ml + 150ml",
           "reference": "CU0001-2"
         }
@@ -10138,9 +10977,9 @@
     "DJ0004": {
       "code": "DJ0004",
       "rows": [
-        498,
-        499,
-        500
+        496,
+        497,
+        498
       ],
       "brand": "DR.JART+",
       "title": "Cicapair Intensive Soothing Repair Serum",
@@ -10152,36 +10991,86 @@
       ],
       "options": [
         {
-          "row": 498,
+          "row": 496,
           "name": "Mask 1 Pack",
           "reference": "DJ0004-1"
         },
         {
-          "row": 499,
+          "row": 497,
           "name": "Serum 30ml",
           "reference": "DJ0004-2"
         },
         {
-          "row": 500,
+          "row": 498,
           "name": "(1+1) Serum 30ml",
           "reference": "DJ0004-3"
         }
       ],
       "observed_brands": [
         "DR.JART+"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "c7354e9f89ce5f0e4a2724a88ebdb415cb8058f90278ac73656fdec21b58cafe",
+        "product_box": [
+          83,
+          250,
+          941,
+          970
+        ],
+        "critical_regions": [
+          [
+            140,
+            306,
+            260,
+            339
+          ],
+          [
+            140,
+            393,
+            291,
+            429
+          ],
+          [
+            140,
+            444,
+            446,
+            480
+          ],
+          [
+            630,
+            359,
+            843,
+            446
+          ],
+          [
+            682,
+            265,
+            818,
+            333
+          ],
+          [
+            340,
+            729,
+            598,
+            870
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "PR0006": {
       "code": "PR0006",
       "rows": [
+        499,
+        500,
         501,
         502,
         503,
         504,
         505,
-        506,
-        507,
-        508
+        506
       ],
       "brand": "PRIMERA",
       "title": "Cleansing 5 Types (Facial Peeling, Cleansing Oil, Sparkling Pack, Soft Peeling)",
@@ -10193,55 +11082,56 @@
       ],
       "options": [
         {
-          "row": 501,
+          "row": 499,
           "name": "(1+1) Mild & Perfect Facial Peeling",
           "reference": "PR0006-1"
         },
         {
-          "row": 502,
+          "row": 500,
           "name": "(1+1) Mild & Perfect Cleanse Oil",
           "reference": "PR0006-2"
         },
         {
-          "row": 503,
+          "row": 501,
           "name": "(1+1) Sparkling Pack Foam",
           "reference": "PR0006-3"
         },
         {
-          "row": 504,
+          "row": 502,
           "name": "(1+1) Soft Peeling To Foam",
           "reference": "PR0006-4"
         },
         {
-          "row": 505,
+          "row": 503,
           "name": "(+Refill) Mild & Perfect Facial Peeling",
           "reference": "PR0006-5"
         },
         {
-          "row": 506,
+          "row": 504,
           "name": "(+Refill) Mild & Perfect Cleanse Oil",
           "reference": "PR0006-6"
         },
         {
-          "row": 507,
+          "row": 505,
           "name": "(+Refill) Mild & Perfect to Form",
           "reference": "PR0006-7"
         },
         {
-          "row": 508,
+          "row": 506,
           "name": "(+30ml) Soft Peeling To Foam",
           "reference": "PR0006-8"
         }
       ],
       "observed_brands": [
         "PRIMERA"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "BC0002": {
       "code": "BC0002",
       "rows": [
-        509,
-        510
+        507,
+        508
       ],
       "brand": "BANILA CO",
       "title": "Essence Skin Hydrating Dew Sun Cream",
@@ -10253,12 +11143,12 @@
       ],
       "options": [
         {
-          "row": 509,
+          "row": 507,
           "name": "50ml",
           "reference": "BC0002-1"
         },
         {
-          "row": 510,
+          "row": 508,
           "name": "50ml + 50ml",
           "reference": "BC0002-2"
         }
@@ -10270,8 +11160,8 @@
     "HY0004": {
       "code": "HY0004",
       "rows": [
-        511,
-        512
+        509,
+        510
       ],
       "brand": "HANYUL",
       "title": "Pure Artemisia Ssuk-Hyal Pad",
@@ -10283,12 +11173,12 @@
       ],
       "options": [
         {
-          "row": 511,
+          "row": 509,
           "name": "60ml (+10p)",
           "reference": "HY0004-1"
         },
         {
-          "row": 512,
+          "row": 510,
           "name": "60ml (+Refill 60p)",
           "reference": "HY0004-2"
         }
@@ -10300,9 +11190,9 @@
     "AR0001": {
       "code": "AR0001",
       "rows": [
-        513,
-        514,
-        515
+        511,
+        512,
+        513
       ],
       "brand": "ARIUL",
       "title": "Smooth & Pure Dry Shampoo Sheet (Cooling / Volume)",
@@ -10314,30 +11204,35 @@
       ],
       "options": [
         {
-          "row": 513,
+          "row": 511,
           "name": "Cooling / Lime & Basil 15p",
           "reference": "AR0001-1"
         },
         {
-          "row": 514,
+          "row": 512,
           "name": "(1+1) Cooling / Lime & Basil 15p",
           "reference": "AR0001-2"
         },
         {
-          "row": 515,
+          "row": 513,
           "name": "Volume / Bitter Peach 15p",
           "reference": "AR0001-3"
         }
       ],
       "observed_brands": [
         "ARIUL"
+      ],
+      "allow_product_translation": true,
+      "badge_center": [
+        674,
+        348
       ]
     },
     "IF0001": {
       "code": "IF0001",
       "rows": [
-        516,
-        517
+        514,
+        515
       ],
       "brand": "I'M FROM",
       "title": "Mugwort Essence",
@@ -10349,24 +11244,68 @@
       ],
       "options": [
         {
-          "row": 516,
+          "row": 514,
           "name": "150ml",
           "reference": "IF0001-1"
         },
         {
-          "row": 517,
+          "row": 515,
           "name": "150ml + 150ml",
           "reference": "IF0001-2"
         }
       ],
       "observed_brands": [
         "I'M FROM"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "ffd0aadc732fddcc407aa2e9603e4d93d2e2525c2b4caf98a062a915cb48643f",
+        "product_box": [
+          87,
+          191,
+          937,
+          970
+        ],
+        "critical_regions": [
+          [
+            128,
+            363,
+            339,
+            430
+          ],
+          [
+            404,
+            363,
+            615,
+            430
+          ],
+          [
+            145,
+            730,
+            338,
+            867
+          ],
+          [
+            424,
+            730,
+            618,
+            867
+          ],
+          [
+            617,
+            301,
+            917,
+            447
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "BY0002": {
       "code": "BY0002",
       "rows": [
-        518
+        516
       ],
       "brand": "BEYOND",
       "title": "Angel Aqua Ion Hyalu Ampoule",
@@ -10378,7 +11317,7 @@
       ],
       "options": [
         {
-          "row": 518,
+          "row": 516,
           "name": "50ml + 50ml",
           "reference": "BY0002-1"
         }
@@ -10390,8 +11329,8 @@
     "ET0008": {
       "code": "ET0008",
       "rows": [
-        519,
-        520
+        517,
+        518
       ],
       "brand": "ETUDE",
       "title": "Soonjung Hydro Barrier Cream",
@@ -10403,12 +11342,12 @@
       ],
       "options": [
         {
-          "row": 519,
+          "row": 517,
           "name": "150ml",
           "reference": "ET0008-1"
         },
         {
-          "row": 520,
+          "row": 518,
           "name": "150ml + 150ml",
           "reference": "ET0008-2"
         }
@@ -10420,8 +11359,8 @@
     "BP0006": {
       "code": "BP0006",
       "rows": [
-        521,
-        522
+        519,
+        520
       ],
       "brand": "BEPLAIN",
       "title": "Mung Bean Cooling Moisture Sunscreen",
@@ -10433,12 +11372,12 @@
       ],
       "options": [
         {
-          "row": 521,
+          "row": 519,
           "name": "35ml + 35ml",
           "reference": "BP0006-1"
         },
         {
-          "row": 522,
+          "row": 520,
           "name": "50ml + 50ml",
           "reference": "BP0006-2"
         }
@@ -10450,10 +11389,10 @@
     "BG0001": {
       "code": "BG0001",
       "rows": [
+        521,
+        522,
         523,
-        524,
-        525,
-        526
+        524
       ],
       "brand": "BRINGGREEN",
       "title": "Zinc Teca Phyto Sun (BB, Gel)",
@@ -10465,22 +11404,22 @@
       ],
       "options": [
         {
-          "row": 523,
+          "row": 521,
           "name": "Phyto BB Sun 50ml",
           "reference": "BG0001-1"
         },
         {
-          "row": 524,
+          "row": 522,
           "name": "(1+1) Phyto BB Sun 50ml",
           "reference": "BG0001-2"
         },
         {
-          "row": 525,
+          "row": 523,
           "name": "Phyto Sun Gel 50ml",
           "reference": "BG0001-3"
         },
         {
-          "row": 526,
+          "row": 524,
           "name": "(1+1) Phyto Sun Gel 50ml",
           "reference": "BG0001-4"
         }
@@ -10492,8 +11431,8 @@
     "IM0005": {
       "code": "IM0005",
       "rows": [
-        527,
-        528
+        525,
+        526
       ],
       "brand": "IDEAL FOR MEN",
       "title": "Fresh Oil Cut Sun Stick",
@@ -10505,25 +11444,79 @@
       ],
       "options": [
         {
-          "row": 527,
+          "row": 525,
           "name": "18g",
           "reference": "IM0005-1"
         },
         {
-          "row": 528,
+          "row": 526,
           "name": "18g + 18g",
           "reference": "IM0005-2"
         }
       ],
       "observed_brands": [
         "IDEAL FOR MEN"
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "50fad95ad85be05963a15e9de8ec50405fb6d8b6e3be1c17cd0cd974a3a672bc",
+        "product_box": [
+          105,
+          183,
+          918,
+          970
+        ],
+        "critical_regions": [
+          [
+            204,
+            242,
+            407,
+            332
+          ],
+          [
+            611,
+            242,
+            814,
+            332
+          ],
+          [
+            223,
+            428,
+            402,
+            490
+          ],
+          [
+            626,
+            428,
+            805,
+            490
+          ],
+          [
+            255,
+            520,
+            368,
+            616
+          ],
+          [
+            658,
+            520,
+            771,
+            616
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      },
+      "v6_product_translation": [
+        58,
+        0
       ]
     },
     "AC0002": {
       "code": "AC0002",
       "rows": [
-        529,
-        530
+        527,
+        528
       ],
       "brand": "ACNES",
       "title": "For Men Perfect Foam Cleanser (Problematic & Oily Type Skin)",
@@ -10535,12 +11528,12 @@
       ],
       "options": [
         {
-          "row": 529,
+          "row": 527,
           "name": "150g",
           "reference": "AC0002-1"
         },
         {
-          "row": 530,
+          "row": 528,
           "name": "150g + 150g",
           "reference": "AC0002-2"
         }
@@ -10552,7 +11545,7 @@
     "OE0001": {
       "code": "OE0001",
       "rows": [
-        531
+        529
       ],
       "brand": "ODOR-EATERS",
       "title": "Sport Foot & Shoe Spray",
@@ -10564,7 +11557,7 @@
       ],
       "options": [
         {
-          "row": 531,
+          "row": 529,
           "name": null,
           "reference": "OE0001-1"
         }
@@ -10576,8 +11569,8 @@
     "CX0001": {
       "code": "CX0001",
       "rows": [
-        532,
-        533
+        530,
+        531
       ],
       "brand": "COSRX",
       "title": "Ultra-Light Invisible Sunscreen",
@@ -10589,25 +11582,26 @@
       ],
       "options": [
         {
-          "row": 532,
+          "row": 530,
           "name": "50ml",
           "reference": "CX0001-1"
         },
         {
-          "row": 533,
+          "row": 531,
           "name": "50ml + 50ml",
           "reference": "CX0001-2"
         }
       ],
       "observed_brands": [
         "COSRX"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "DO0001": {
       "code": "DO0001",
       "rows": [
-        534,
-        535
+        532,
+        533
       ],
       "brand": "DOVE",
       "title": "Roll-On Deodorant (Orignial/Sensitive)",
@@ -10619,28 +11613,90 @@
       ],
       "options": [
         {
-          "row": 534,
+          "row": 532,
           "name": "(1+1) Original",
           "reference": "DO0001-1"
         },
         {
-          "row": 535,
+          "row": 533,
           "name": "(1+1) Sensitive",
           "reference": "DO0001-2"
         }
       ],
       "observed_brands": [
         "DOVE"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "d78c292ba8eb7d8faf20823c59f88649af063fa1288b8bb04f996ea2a2fea6e5",
+        "product_box": [
+          136,
+          219,
+          887,
+          970
+        ],
+        "critical_regions": [
+          [
+            188,
+            343,
+            252,
+            389
+          ],
+          [
+            520,
+            341,
+            580,
+            389
+          ],
+          [
+            434,
+            292,
+            519,
+            351
+          ],
+          [
+            172,
+            407,
+            477,
+            495
+          ],
+          [
+            496,
+            408,
+            829,
+            496
+          ],
+          [
+            230,
+            632,
+            325,
+            914
+          ],
+          [
+            492,
+            632,
+            582,
+            914
+          ],
+          [
+            753,
+            632,
+            840,
+            914
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "EL0001": {
       "code": "EL0001",
       "rows": [
+        534,
+        535,
         536,
         537,
-        538,
-        539,
-        540
+        538
       ],
       "brand": "ELABAND",
       "title": "Hydro Dot Eraser Patch (24/48/60p)",
@@ -10652,27 +11708,27 @@
       ],
       "options": [
         {
-          "row": 536,
+          "row": 534,
           "name": "Original 24p",
           "reference": "EL0001-1"
         },
         {
-          "row": 537,
+          "row": 535,
           "name": "Original 60+24p",
           "reference": "EL0001-2"
         },
         {
-          "row": 538,
+          "row": 536,
           "name": "Original 48p",
           "reference": "EL0001-3"
         },
         {
-          "row": 539,
+          "row": 537,
           "name": "(1+1) Original 48p",
           "reference": "EL0001-4"
         },
         {
-          "row": 540,
+          "row": 538,
           "name": "Tea Tree 60+32p",
           "reference": "EL0001-5"
         }
@@ -10684,14 +11740,14 @@
     "LK0001": {
       "code": "LK0001",
       "rows": [
+        539,
+        540,
         541,
         542,
         543,
         544,
         545,
-        546,
-        547,
-        548
+        546
       ],
       "brand": "LAKA",
       "title": "Stain Lip Liner (4 Colors)",
@@ -10703,55 +11759,56 @@
       ],
       "options": [
         {
-          "row": 541,
+          "row": 539,
           "name": "01 Bare Memory",
           "reference": "LK0001-1"
         },
         {
-          "row": 542,
+          "row": 540,
           "name": "02 Suede Pink",
           "reference": "LK0001-2"
         },
         {
-          "row": 543,
+          "row": 541,
           "name": "03 Hazelnut Latte",
           "reference": "LK0001-3"
         },
         {
-          "row": 544,
+          "row": 542,
           "name": "04 Rosy Talk",
           "reference": "LK0001-4"
         },
         {
-          "row": 545,
+          "row": 543,
           "name": "(1+1) 01 Bare Memory",
           "reference": "LK0001-5"
         },
         {
-          "row": 546,
+          "row": 544,
           "name": "(1+1) 02 Suede Pink",
           "reference": "LK0001-6"
         },
         {
-          "row": 547,
+          "row": 545,
           "name": "(1+1) 03 Hazelnut Latte",
           "reference": "LK0001-7"
         },
         {
-          "row": 548,
+          "row": 546,
           "name": "(1+1) 04 Rosy Talk",
           "reference": "LK0001-8"
         }
       ],
       "observed_brands": [
         "LAKA"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "DJ0005": {
       "code": "DJ0005",
       "rows": [
-        549,
-        550
+        547,
+        548
       ],
       "brand": "DR.JART+",
       "title": "Every Sun Day Moisturizing Sun",
@@ -10763,12 +11820,12 @@
       ],
       "options": [
         {
-          "row": 549,
+          "row": 547,
           "name": "30ml",
           "reference": "DJ0005-1"
         },
         {
-          "row": 550,
+          "row": 548,
           "name": "30ml + 30ml",
           "reference": "DJ0005-2"
         }
@@ -10780,8 +11837,8 @@
     "CK0003": {
       "code": "CK0003",
       "rows": [
-        551,
-        552
+        549,
+        550
       ],
       "brand": "CKD",
       "title": "Retino Collagen 300 Cream",
@@ -10793,12 +11850,12 @@
       ],
       "options": [
         {
-          "row": 551,
+          "row": 549,
           "name": "40ml",
           "reference": "CK0003-1"
         },
         {
-          "row": 552,
+          "row": 550,
           "name": "40ml + 40ml",
           "reference": "CK0003-2"
         }
@@ -10810,12 +11867,12 @@
     "EN0001": {
       "code": "EN0001",
       "rows": [
+        551,
+        552,
         553,
         554,
         555,
-        556,
-        557,
-        558
+        556
       ],
       "brand": "ENTROPY",
       "title": "makeup Tough Brow Sculpture (4 Colors (3-in-1))",
@@ -10827,45 +11884,46 @@
       ],
       "options": [
         {
-          "row": 553,
+          "row": 551,
           "name": "(1+1) Walnut",
           "reference": "EN0001-1"
         },
         {
-          "row": 554,
+          "row": 552,
           "name": "(1+1) Wit Beige",
           "reference": "EN0001-2"
         },
         {
-          "row": 555,
+          "row": 553,
           "name": "(1+1) Charcoal",
           "reference": "EN0001-3"
         },
         {
-          "row": 556,
+          "row": 554,
           "name": "(1+1) Coconut",
           "reference": "EN0001-4"
         },
         {
-          "row": 557,
+          "row": 555,
           "name": "Walnut",
           "reference": "EN0001-5"
         },
         {
-          "row": 558,
+          "row": 556,
           "name": "Charcoal",
           "reference": "EN0001-6"
         }
       ],
       "observed_brands": [
         "ENTROPY"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "DN0001": {
       "code": "DN0001",
       "rows": [
-        559,
-        560
+        557,
+        558
       ],
       "brand": "DINSEE",
       "title": "Premium Vegan Tone Up Sunscreen",
@@ -10877,12 +11935,12 @@
       ],
       "options": [
         {
-          "row": 559,
+          "row": 557,
           "name": "(1+1)Suncream50ml+Cleanser40ml",
           "reference": "DN0001-2"
         },
         {
-          "row": 560,
+          "row": 558,
           "name": "Blue Suncream 50ml + 20ml",
           "reference": "DN0001-3"
         }
@@ -10894,8 +11952,8 @@
     "MX0002": {
       "code": "MX0002",
       "rows": [
-        561,
-        562
+        559,
+        560
       ],
       "brand": "MIXSOON",
       "title": "Centella Sun Cream",
@@ -10907,12 +11965,12 @@
       ],
       "options": [
         {
-          "row": 561,
+          "row": 559,
           "name": "50ml",
           "reference": "MX0002-1"
         },
         {
-          "row": 562,
+          "row": 560,
           "name": "50ml + 50ml",
           "reference": "MX0002-2"
         }
@@ -10924,8 +11982,8 @@
     "RP0001": {
       "code": "RP0001",
       "rows": [
-        563,
-        564
+        561,
+        562
       ],
       "brand": "RATAPLAN",
       "title": "Water Parsley Calming Sun Cream",
@@ -10937,25 +11995,57 @@
       ],
       "options": [
         {
-          "row": 563,
+          "row": 561,
           "name": "50ml",
           "reference": "RP0001-1"
         },
         {
-          "row": 564,
+          "row": 562,
           "name": "50ml + 50ml",
           "reference": "RP0001-2"
         }
       ],
       "observed_brands": [
         "RATAPLAN"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "6816a23a8514cc273bc28207c21d972d785b87245d8d6287ae2a4bee5cd2c774",
+        "product_box": [
+          53,
+          239,
+          970,
+          970
+        ],
+        "critical_regions": [
+          [
+            233,
+            414,
+            383,
+            559
+          ],
+          [
+            492,
+            437,
+            641,
+            553
+          ],
+          [
+            676,
+            252,
+            924,
+            473
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "DW0003": {
       "code": "DW0003",
       "rows": [
-        565,
-        566
+        563,
+        564
       ],
       "brand": "DEWYTREE",
       "title": "Urban Shade Panthenol 5 Moist Barrier Sun",
@@ -10967,12 +12057,12 @@
       ],
       "options": [
         {
-          "row": 565,
+          "row": 563,
           "name": "40ml",
           "reference": "DW0003-1"
         },
         {
-          "row": 566,
+          "row": 564,
           "name": "40ml + 40ml",
           "reference": "DW0003-2"
         }
@@ -10984,8 +12074,8 @@
     "SO0001": {
       "code": "SO0001",
       "rows": [
-        567,
-        568
+        565,
+        566
       ],
       "brand": "SEAPURI",
       "title": "Dr. 33 Hair Ampoule (Hair-Loss Relief Functionality Ampoule)",
@@ -10997,12 +12087,12 @@
       ],
       "options": [
         {
-          "row": 567,
+          "row": 565,
           "name": "20ml",
           "reference": "SO0001-1"
         },
         {
-          "row": 568,
+          "row": 566,
           "name": "20ml + 20ml",
           "reference": "SO0001-2"
         }
@@ -11014,11 +12104,11 @@
     "RC0001": {
       "code": "RC0001",
       "rows": [
+        567,
+        568,
         569,
         570,
-        571,
-        572,
-        573
+        571
       ],
       "brand": "RUCIPELLO",
       "title": "Toothpaste (Eucalyptus & Mint, Lime & Sea Salt, Tea & Fresh Mint)",
@@ -11030,40 +12120,41 @@
       ],
       "options": [
         {
-          "row": 569,
+          "row": 567,
           "name": "(1+1) Lime & Sea Salt 105g",
           "reference": "RC0001-1"
         },
         {
-          "row": 570,
+          "row": 568,
           "name": "(1+1) Eucalyptus & Mint 105g",
           "reference": "RC0001-2"
         },
         {
-          "row": 571,
+          "row": 569,
           "name": "Lime & Sea Salt 105g",
           "reference": "RC0001-3"
         },
         {
-          "row": 572,
+          "row": 570,
           "name": "Eucalyptus & Mint 105g",
           "reference": "RC0001-4"
         },
         {
-          "row": 573,
+          "row": 571,
           "name": "Tea & Fresh Mint 105g",
           "reference": "RC0001-5"
         }
       ],
       "observed_brands": [
         "RUCIPELLO"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "NF0001": {
       "code": "NF0001",
       "rows": [
-        574,
-        575
+        572,
+        573
       ],
       "brand": "NOT4U",
       "title": "Kiss Balm For Men",
@@ -11075,12 +12166,12 @@
       ],
       "options": [
         {
-          "row": 574,
+          "row": 572,
           "name": "7.2g",
           "reference": "NF0001-1"
         },
         {
-          "row": 575,
+          "row": 573,
           "name": "7.2g + 7.2g",
           "reference": "NF0001-2"
         }
@@ -11092,10 +12183,10 @@
     "BH0001": {
       "code": "BH0001",
       "rows": [
+        574,
+        575,
         576,
-        577,
-        578,
-        579
+        577
       ],
       "brand": "BIOHEAL",
       "title": "Probioderm CollagenSun Cream (Essence / Tone-Up)",
@@ -11107,22 +12198,22 @@
       ],
       "options": [
         {
-          "row": 576,
+          "row": 574,
           "name": "Essence Sun Cream 50ml",
           "reference": "BH0001-1"
         },
         {
-          "row": 577,
+          "row": 575,
           "name": "Tone-Up Sun Cream 50ml",
           "reference": "BH0001-2"
         },
         {
-          "row": 578,
+          "row": 576,
           "name": "(1+1) Essence Sun Cream 50ml",
           "reference": "BH0001-3"
         },
         {
-          "row": 579,
+          "row": 577,
           "name": "(1+1) Tone-Up Sun Cream 50ml",
           "reference": "BH0001-4"
         }
@@ -11134,10 +12225,10 @@
     "BL0002": {
       "code": "BL0002",
       "rows": [
+        578,
+        579,
         580,
-        581,
-        582,
-        583
+        581
       ],
       "brand": "BELIF",
       "title": "Aqua Bomb Frozen Cream / Toner",
@@ -11149,22 +12240,22 @@
       ],
       "options": [
         {
-          "row": 580,
+          "row": 578,
           "name": "Cream 50ml (No Box)",
           "reference": "BL0002-1"
         },
         {
-          "row": 581,
+          "row": 579,
           "name": "Cream 50ml + 50ml",
           "reference": "BL0002-2"
         },
         {
-          "row": 582,
+          "row": 580,
           "name": "Toner 300ml",
           "reference": "BL0002-3"
         },
         {
-          "row": 583,
+          "row": 581,
           "name": "Toner 300ml (+50ml +Cream3ml*3)",
           "reference": "BL0002-4"
         }
@@ -11176,7 +12267,7 @@
     "LV0001": {
       "code": "LV0001",
       "rows": [
-        584
+        582
       ],
       "brand": "LACVERT",
       "title": "Homme Re:charge All-In-One Essence",
@@ -11188,7 +12279,7 @@
       ],
       "options": [
         {
-          "row": 584,
+          "row": 582,
           "name": null,
           "reference": "LV0001-1"
         }
@@ -11200,8 +12291,8 @@
     "PR0007": {
       "code": "PR0007",
       "rows": [
-        585,
-        586
+        583,
+        584
       ],
       "brand": "PRIMERA",
       "title": "Feminine Cleanser Soft Foam",
@@ -11213,12 +12304,12 @@
       ],
       "options": [
         {
-          "row": 585,
+          "row": 583,
           "name": "150ml (No Box)",
           "reference": "PR0007-1"
         },
         {
-          "row": 586,
+          "row": 584,
           "name": "150ml + 150ml",
           "reference": "PR0007-2"
         }
@@ -11230,9 +12321,9 @@
     "DH0001": {
       "code": "DH0001",
       "rows": [
-        587,
-        588,
-        589
+        585,
+        586,
+        587
       ],
       "brand": "DR.FORHAIR",
       "title": "Phyto Therapy Shampoo",
@@ -11244,17 +12335,17 @@
       ],
       "options": [
         {
-          "row": 587,
+          "row": 585,
           "name": "300ml",
           "reference": "DH0001-1"
         },
         {
-          "row": 588,
+          "row": 586,
           "name": "500ml",
           "reference": "DH0001-2"
         },
         {
-          "row": 589,
+          "row": 587,
           "name": "500ml + 500ml",
           "reference": "DH0001-3"
         }
@@ -11266,11 +12357,11 @@
     "PR0008": {
       "code": "PR0008",
       "rows": [
+        588,
+        589,
         590,
         591,
-        592,
-        593,
-        594
+        592
       ],
       "brand": "PRIMERA",
       "title": "Vitatinol Bouncy Balloon Lip Serum SPF35 (5 Colors)",
@@ -11282,40 +12373,41 @@
       ],
       "options": [
         {
-          "row": 590,
+          "row": 588,
           "name": "(SET) Rosy (+Mini Lip 3g)",
           "reference": "PR0008-1"
         },
         {
-          "row": 591,
+          "row": 589,
           "name": "(SET) Mocha (+Mini Lip 3g)",
           "reference": "PR0008-2"
         },
         {
-          "row": 592,
+          "row": 590,
           "name": "(SET) Berry (+Mini Lip 3g)",
           "reference": "PR0008-3"
         },
         {
-          "row": 593,
+          "row": 591,
           "name": "(SET) Red (+Mini Lip 3g)",
           "reference": "PR0008-4"
         },
         {
-          "row": 594,
+          "row": 592,
           "name": "(SET) Bare (+Mini Lip 3g)",
           "reference": "PR0008-5"
         }
       ],
       "observed_brands": [
         "PRIMERA"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "CP0001": {
       "code": "CP0001",
       "rows": [
-        595,
-        596
+        593,
+        594
       ],
       "brand": "CETAPHIL",
       "title": "Cica Calming Face Cream",
@@ -11327,12 +12419,12 @@
       ],
       "options": [
         {
-          "row": 595,
+          "row": 593,
           "name": "45ml",
           "reference": "CP0001-1"
         },
         {
-          "row": 596,
+          "row": 594,
           "name": "45ml + 45ml",
           "reference": "CP0001-2"
         }
@@ -11344,8 +12436,8 @@
     "MM0001": {
       "code": "MM0001",
       "rows": [
-        597,
-        598
+        595,
+        596
       ],
       "brand": "MAMONDE",
       "title": "Calming Shot Azulene Ampoule",
@@ -11357,25 +12449,30 @@
       ],
       "options": [
         {
-          "row": 597,
+          "row": 595,
           "name": "50ml",
           "reference": "MM0001-1"
         },
         {
-          "row": 598,
+          "row": 596,
           "name": "50ml + 50ml",
           "reference": "MM0001-2"
         }
       ],
       "observed_brands": [
         "MAMONDE"
+      ],
+      "allow_product_translation": true,
+      "badge_center": [
+        342,
+        322
       ]
     },
     "NT0001": {
       "code": "NT0001",
       "rows": [
-        599,
-        600
+        597,
+        598
       ],
       "brand": "NEUTROGENA",
       "title": "Deep Claen Cleansing Oil (Blackhead, Pore Care)",
@@ -11387,12 +12484,12 @@
       ],
       "options": [
         {
-          "row": 599,
+          "row": 597,
           "name": "200ml",
           "reference": "NT0001-1"
         },
         {
-          "row": 600,
+          "row": 598,
           "name": "200ml + 200ml",
           "reference": "NT0001-2"
         }
@@ -11404,8 +12501,8 @@
     "SH0001": {
       "code": "SH0001",
       "rows": [
-        601,
-        602
+        599,
+        600
       ],
       "brand": "SHHOM",
       "title": "Soft Vegan Cleansing Balm",
@@ -11417,25 +12514,69 @@
       ],
       "options": [
         {
-          "row": 601,
+          "row": 599,
           "name": "60ml (No Box)",
           "reference": "SH0001-1"
         },
         {
-          "row": 602,
+          "row": 600,
           "name": "60ml + 60ml",
           "reference": "SH0001-2"
         }
       ],
       "observed_brands": [
         "SHHOM"
-      ]
+      ],
+      "allow_product_translation": false,
+      "badge_policy_version": 6,
+      "important_region_annotation": {
+        "source_sha256": "19c46c9ed691be14c8f464300085eed23740e0c82110554945a9022b571b48c5",
+        "product_box": [
+          101,
+          192,
+          922,
+          970
+        ],
+        "critical_regions": [
+          [
+            641,
+            741,
+            847,
+            920
+          ],
+          [
+            579,
+            468,
+            850,
+            630
+          ],
+          [
+            632,
+            384,
+            854,
+            439
+          ],
+          [
+            216,
+            253,
+            407,
+            304
+          ],
+          [
+            216,
+            513,
+            407,
+            565
+          ]
+        ],
+        "coverage": "visually reviewed brand/product labels and important design features; approximate boxes include safety margin"
+      }
     },
     "TB0001": {
       "code": "TB0001",
       "rows": [
-        603,
-        604
+        601,
+        602
       ],
       "brand": "TROUBLESS",
       "title": "Spot Gel / Clear Gel Cream",
@@ -11447,25 +12588,26 @@
       ],
       "options": [
         {
-          "row": 603,
+          "row": 601,
           "name": "15ml",
           "reference": "TB0001-1"
         },
         {
-          "row": 604,
+          "row": 602,
           "name": "15ml + 15ml",
           "reference": "TB0001-2"
         }
       ],
       "observed_brands": [
         "TROUBLESS"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "ST0001": {
       "code": "ST0001",
       "rows": [
-        605,
-        606
+        603,
+        604
       ],
       "brand": "STARLIKE",
       "title": "PDRN Skin Fit Aqua Sun Cream",
@@ -11477,25 +12619,26 @@
       ],
       "options": [
         {
-          "row": 605,
+          "row": 603,
           "name": "50ml",
           "reference": "ST0001-1"
         },
         {
-          "row": 606,
+          "row": 604,
           "name": "50ml + 50ml",
           "reference": "ST0001-2"
         }
       ],
       "observed_brands": [
         "STARLIKE"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "AV0002": {
       "code": "AV0002",
       "rows": [
-        607,
-        608
+        605,
+        606
       ],
       "brand": "AVAJAR",
       "title": "Rejuvenating Neck Wrinkle Control Mask",
@@ -11507,25 +12650,26 @@
       ],
       "options": [
         {
-          "row": 607,
+          "row": 605,
           "name": "1+1",
           "reference": "AV0002-1"
         },
         {
-          "row": 608,
+          "row": 606,
           "name": "5p",
           "reference": "AV0002-2"
         }
       ],
       "observed_brands": [
         "AVAJAR"
-      ]
+      ],
+      "allow_product_translation": true
     },
     "DL0001": {
       "code": "DL0001",
       "rows": [
-        609,
-        610
+        607,
+        608
       ],
       "brand": "DALEAF",
       "title": "Better Root AppleMint Cooling Shampoo",
@@ -11537,12 +12681,12 @@
       ],
       "options": [
         {
-          "row": 609,
+          "row": 607,
           "name": "500ml",
           "reference": "DL0001-1"
         },
         {
-          "row": 610,
+          "row": 608,
           "name": "500ml + 500ml",
           "reference": "DL0001-2"
         }
@@ -11580,33 +12724,23 @@
     },
     {
       "type": "missing_option_reference",
-      "code": "YM0001",
-      "row": 131
-    },
-    {
-      "type": "missing_option_reference",
-      "code": "YM0001",
-      "row": 132
+      "code": "ME0001",
+      "row": 138
     },
     {
       "type": "missing_option_reference",
       "code": "ME0001",
-      "row": 140
-    },
-    {
-      "type": "missing_option_reference",
-      "code": "ME0001",
-      "row": 141
+      "row": 139
     },
     {
       "type": "missing_option_reference",
       "code": "ET0002",
-      "row": 190
+      "row": 188
     },
     {
       "type": "missing_option_reference",
       "code": "ET0002",
-      "row": 191
+      "row": 189
     }
   ],
   "user_confirmed_overrides": {
@@ -11628,6 +12762,85 @@
           "DW"
         ]
       }
+    },
+    "v5_note": "V5 uses the revised workbook directly; legacy row/product overrides are retained for history and are not applied.",
+    "badge_centers": {
+      "AR0001": [
+        674,
+        348
+      ],
+      "MM0001": [
+        342,
+        322
+      ],
+      "WM0002": [
+        796,
+        308
+      ]
+    },
+    "allow_product_translation": [
+      "WM0001",
+      "GF0001",
+      "KL0001",
+      "ET0001",
+      "GA0001",
+      "IM0001",
+      "BN0002",
+      "AD0001",
+      "WM0002",
+      "ME0001",
+      "GA0002",
+      "EU0001",
+      "DQ0001",
+      "HY0002",
+      "DG0001",
+      "IN0002",
+      "ET0003",
+      "AB0001",
+      "MZ0001",
+      "DF0001",
+      "EU0002",
+      "AV0001",
+      "KB0001",
+      "AT0001",
+      "HY0003",
+      "GV0001",
+      "ET0004",
+      "NC0001",
+      "BP0004",
+      "PP0001",
+      "SC0001",
+      "EU0004",
+      "JS0001",
+      "GA0004",
+      "AC0001",
+      "DJ0004",
+      "PR0006",
+      "AR0001",
+      "IF0001",
+      "IM0005",
+      "CX0001",
+      "DO0001",
+      "LK0001",
+      "EN0001",
+      "RP0001",
+      "RC0001",
+      "PR0008",
+      "MM0001",
+      "SH0001",
+      "TB0001",
+      "ST0001",
+      "AV0002"
+    ],
+    "v6_product_translation": {
+      "IM0005": [
+        58,
+        0
+      ],
+      "NC0001": [
+        81,
+        0
+      ]
     }
   }
 }

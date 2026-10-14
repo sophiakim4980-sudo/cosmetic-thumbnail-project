@@ -1,0 +1,147 @@
+[
+  {
+    "code": "GF0001",
+    "solution": null,
+    "minimum_occupancy": 0.44840312976723584,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "ET0001",
+    "solution": null,
+    "minimum_occupancy": 0.42015648836179326,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "BN0002",
+    "solution": null,
+    "minimum_occupancy": 0.11529944392500369,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "AD0001",
+    "solution": null,
+    "minimum_occupancy": 0.05137542443777373,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "WM0002",
+    "solution": null,
+    "minimum_occupancy": 0.07189606810688451,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "ME0001",
+    "solution": null,
+    "minimum_occupancy": 0.34673490477830815,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "EU0001",
+    "solution": null,
+    "minimum_occupancy": 0.029083214408739726,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "HY0002",
+    "solution": null,
+    "minimum_occupancy": 0.3807391368535013,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "AB0001",
+    "solution": null,
+    "minimum_occupancy": 0.07273264111018159,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "DF0001",
+    "solution": null,
+    "minimum_occupancy": 0.07824418089660941,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "HY0003",
+    "solution": null,
+    "minimum_occupancy": 0.07248659022685891,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "NC0001",
+    "solution": null,
+    "minimum_occupancy": 0.021406426849072388,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "DJ0004",
+    "solution": null,
+    "minimum_occupancy": 0.10629398159539392,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "AR0001",
+    "solution": {
+      "badge_center": [
+        674,
+        348
+      ],
+      "dx": 76,
+      "dy": 0,
+      "occupancy": 0.0
+    },
+    "minimum_occupancy": 0.0,
+    "visual_review_accepted": true
+  },
+  {
+    "code": "IF0001",
+    "solution": null,
+    "minimum_occupancy": 0.14315240391713005,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "IM0005",
+    "solution": null,
+    "minimum_occupancy": 0.030854780768662958,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "DO0001",
+    "solution": null,
+    "minimum_occupancy": 0.03769499532503322,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "RP0001",
+    "solution": null,
+    "minimum_occupancy": 0.2060430096944048,
+    "visual_review_accepted": false
+  },
+  {
+    "code": "MM0001",
+    "solution": {
+      "badge_center": [
+        342,
+        322
+      ],
+      "dx": 0,
+      "dy": 0,
+      "occupancy": 0.017518822892574185
+    },
+    "minimum_occupancy": 0.017518822892574185,
+    "visual_review_accepted": true
+  },
+  {
+    "code": "SH0001",
+    "solution": {
+      "badge_center": [
+        326,
+        264
+      ],
+      "dx": -53,
+      "dy": 0,
+      "occupancy": 0.0009842035332906845
+    },
+    "minimum_occupancy": 0.0009842035332906845,
+    "visual_review_accepted": false,
+    "visual_review_note": "Foreground threshold misses the white lid; candidate hides too much of its contour, so retain manual review status."
+  }
+]

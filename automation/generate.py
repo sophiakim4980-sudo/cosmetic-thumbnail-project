@@ -10,10 +10,16 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
 
+from badge_rules import circle_intersects_box, important_regions
 from openpyxl import load_workbook
 from PIL import Image, ImageChops, ImageDraw, ImageFont, ImageOps, ImageStat
 
 SAMPLES = ('RL0001', 'LL0001', 'WM0001')
+REVISION_ARCHIVES = {'BB0001': 'BB0001-1~16.zip', 'HH0001': 'HH0001-1~6.zip',
+    'SN0001': 'SN0001-1~2.zip', 'SN0002': 'SN0002-1~2.zip', 'SN0003': 'SN0003-1~2.zip',
+    'SN0004': 'SN0004-1,2 SN0005-1,2.zip', 'SN0005': 'SN0004-1,2 SN0005-1,2.zip',
+    'YM0001': 'YM0001-1~3.zip'}
+
 EXTENSIONS = {'.png', '.jpg', '.jpeg', '.webp', '.tif', '.tiff', '.bmp'}
 FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
 BOLD = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
@@ -67,7 +73,8 @@ class Assets:
         self.root = root
         self.items = []
         self.archives = []
-        for path in [root/'브랜드 로고.zip', *sorted(root.glob('화장품 썸네일-*.zip'))]:
+        for path in [root/'브랜드 로고.zip', *sorted(root.glob('화장품 썸네일-*.zip')),
+                     *[root/n for n in dict.fromkeys(REVISION_ARCHIVES.values())]]:
             with ZipFile(path) as z:
                 bad = z.testzip()
                 if bad:
@@ -85,15 +92,30 @@ class Assets:
                     members.append({k: v for k, v in item.items() if k != 'raw_member'})
                 self.archives.append({'archive': path.name, 'crc': 'passed', 'images': members})
 
+        # Explicit workbook brand references may be supplied as standalone PNGs.
+        # Do not rename, edit or inject these user-uploaded source files into ZIPs.
+        workbook = root/'화장품 썸네일_수정.xlsx'
+        groups,_ = groups_from_excel(workbook)
+        brand_stems = {Path(ref).stem.casefold() for group in groups.values() for ref in group['brand_refs']}
+        for path in sorted(root.glob('*.png')):
+            if path.stem.casefold() not in brand_stems:
+                continue
+            self.items.append({'archive':path.name,'member':path.name,'raw_member':path.name,
+                'filename':path.name,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),
+                'source_type':'standalone_brand_logo'})
+
     def match(self, value, role):
         if not value:
             raise ValueError('Empty image reference')
         value = str(value).strip().replace('\\', '/')
         p = Path(value)
         candidates = [i for i in self.items
-                      if (('브랜드' in i['archive']) == (role == 'brand'))
+                      if (('브랜드' in i['archive'] or i.get('source_type') == 'standalone_brand_logo') == (role == 'brand'))
                       and (i['filename'].casefold() == p.name.casefold()
                            if p.suffix else Path(i['filename']).stem.casefold() == p.name.casefold())]
+        code = p.stem.split('-')[0].upper()
+        if role != 'brand' and code in REVISION_ARCHIVES:
+            candidates = [i for i in candidates if i['archive'] == REVISION_ARCHIVES[code]]
         if len(p.parts) > 1:
             candidates = [i for i in candidates if i['member'].casefold().endswith(value.casefold())]
         if not candidates:
@@ -103,6 +125,9 @@ class Assets:
         return candidates[0]
 
     def image(self, item):
+        if item.get('source_type') == 'standalone_brand_logo':
+            with Image.open(self.root/item['filename']) as source:
+                return ImageOps.exif_transpose(source).convert('RGBA')
         with ZipFile(self.root / item['archive']) as z:
             data = z.read(item['raw_member'])
         with Image.open(io.BytesIO(data)) as source:
@@ -228,44 +253,111 @@ def frame_color(product):
     return color
 
 
-def choose_badge(canvas, text_bottom, product_top, inset=40, protected_boxes=()):
-    """Find whitespace without ever reducing the independently fitted product."""
-    foreground = ImageChops.difference(canvas, Image.new('RGB', canvas.size, 'white')).convert('L')
-    occupied = foreground.point(lambda p: 255 if p > 18 else 0)
+def choose_badge(canvas, text_bottom, product_top, inset=78, protected_boxes=(), manual=None, critical_boxes=(), allow_overlap=True):
+    """Only two upper candidates, with 40 px clearance from the inner frame.
+
+    Never fall back to the bottom or resize the independently fitted product.
+    V6 protects annotated/OCR labels; source overlap only ranks positions.
+    """
+    occupied = ImageChops.difference(canvas, Image.new('RGB', canvas.size, 'white')).convert('L')
+    occupied = occupied.point(lambda p: 255 if p > 18 else 0)
     radius = 80
-    start = max(text_bottom+radius+12, product_top+radius)
-    ys = list(range(start, 984-radius+1, 28))
-    if not ys:
-        raise ValueError('No room for a badge below the header')
-    scored = []
-    circle = Image.new('L', (161,161), 0)
-    ImageDraw.Draw(circle).ellipse((0,0,160,160),fill=255)
-    def score(cx,cy):
-        return ImageStat.Stat(occupied.crop((cx-80,cy-80,cx+81,cy+81)),mask=circle).mean[0]/255
-    for cx in (inset+radius, 1024-inset-radius):
-        for cy in ys:
-            fraction = score(cx,cy)
-            scored.append((fraction, cy, cx))
-    fraction, cy, cx = min(scored)
-    if fraction > .10:
-        # Search the full canvas's whitespace, including gaps between products.
-        # Reject any badge rectangle intersecting header text or the brand logo.
-        small=occupied.resize((256,256),Image.Resampling.BOX)
-        small_circle=circle.resize((41,41),Image.Resampling.LANCZOS)
-        candidates=[]
-        for bx in range(inset+radius,1024-inset-radius+1,16):
-            for by in range(inset+radius,1024-inset-radius+1,16):
-                box=(bx-80,by-80,bx+80,by+80)
-                if any(box[0]<p[2]+8 and box[2]>p[0]-8 and box[1]<p[3]+8 and box[3]>p[1]-8
-                       for p in protected_boxes):
-                    continue
-                sx,sy=bx//4,by//4
-                rough=ImageStat.Stat(small.crop((sx-20,sy-20,sx+21,sy+21)),mask=small_circle).mean[0]/255
-                candidates.append((rough,min(bx,1024-bx),by,bx))
-        for _,_,by,bx in sorted(candidates)[:16]:
-            scored.append((score(bx,by),by,bx))
-        fraction,cy,cx=min(scored)
-    return cx, cy, fraction
+    cy = max(text_bottom + 12 + radius, inset + radius)
+    # Explore only the upper corners; never scan lower product whitespace.
+    candidates = [(cx, y) for y in range(cy, min(product_top+160,866)+1,8)
+                  for cx in ([*range(inset+radius,351,8),*range(674,1024-inset-radius+1,8)]
+                             if allow_overlap else (inset+radius,1024-inset-radius))]
+    if manual is not None:
+        candidates = [tuple(manual)]
+    mask = Image.new('L', (161,161), 0)
+    ImageDraw.Draw(mask).ellipse((0,0,160,160), fill=255)
+    scores = []
+    for cx, cy in candidates:
+        box = (cx-radius, cy-radius, cx+radius, cy+radius)
+        if not (78 <= box[0] and box[2] <= 946 and box[1] >= text_bottom+12
+                and box[3] <= 946 and cy <= product_top+160):
+            continue
+        if any(box[0] < p[2]+8 and box[2] > p[0]-8 and box[1] < p[3]+8
+               and box[3] > p[1]-8 for p in protected_boxes):
+            continue
+        if allow_overlap and any(circle_intersects_box((cx,cy), box) for box in critical_boxes):
+            continue
+        overlap = ImageStat.Stat(occupied.crop((cx-80,cy-80,cx+81,cy+81)), mask=mask).mean[0]/255
+        scores.append((overlap, cx, cy))
+    if not scores:
+        raise ValueError('badge_review: no safe upper candidate')
+    # Stable left preference when the two candidates have equivalent occupancy.
+    overlap, cx, cy = min(scores, key=lambda v: ((v[1]>512) if allow_overlap else 0, round(v[0],6), v[2], v[1]))
+    if not allow_overlap and overlap > .02:
+        raise ValueError(f'badge_review: upper candidates overlap product ({overlap:.4f}); no bottom fallback')
+    return cx, cy, overlap
+
+
+def relocate_thumbnail(group, assets, original_path, layout, destination):
+    """Restore original source under the old badge, preserving header and geometry."""
+    import copy
+    details = copy.deepcopy(layout)
+    with Image.open(original_path) as original:
+        canvas = original.convert('RGB')
+    draw = ImageDraw.Draw(canvas)
+    draw.rectangle(tuple(details['badge_box']), fill='white')
+    product = crop_whitespace(assets.image(assets.match(group['thumbnail_refs'][0], 'thumbnail')), 6)
+    x,y,x1,y1 = details['product_box']
+    product = product.resize((x1-x,y1-y), Image.Resampling.LANCZOS)
+    color = tuple(details['frame_rgb'])
+    text_bottom = max(b[3] for b in details['title_boxes']+details['subtitle_boxes'])
+    v6=group.get('badge_policy_version') == 6
+    regions,region_method=important_regions(canvas,details['product_box'],group,details['source']['sha256']) if v6 else ([], 'V5 legacy')
+    dxs, dys = [0], [0]
+    if v6 and group.get('v6_product_translation'):
+        dxs=[group['v6_product_translation'][0]]
+        dys=[group['v6_product_translation'][1]]
+    if group.get('allow_product_translation') and not v6:
+        left, top, right, bottom = details['product_area']
+        dxs = sorted(set([0,left-x,right-x1]), key=abs)
+        maximum_down = max(0,min(160,bottom-y1))
+        dys = sorted(set([0,maximum_down//2,maximum_down]))
+    # Rebuild the product from the verified source, never shrink it.
+    ImageDraw.Draw(canvas).rectangle((x,y,x1-1,y1-1),fill='white')
+    base = canvas.copy()
+    selected = None
+    for dy in dys:
+        for dx in dxs:
+            left,top,right,bottom=details['product_area']
+            if not (left <= x+dx and x1+dx <= right and top <= y+dy and y1+dy <= bottom):
+                continue
+            candidate = base.copy()
+            candidate.paste(product,(x+dx,y+dy))
+            ImageDraw.Draw(candidate).rectangle((12,12,1011,1011),outline=color,width=26)
+            try:
+                cx,cy,overlap = choose_badge(candidate,text_bottom,details['product_area'][1],
+                    protected_boxes=[details['logo_box'],*details['title_boxes'],*details['subtitle_boxes']],
+                    manual=group.get('badge_center'),
+                    critical_boxes=[[b[0]+dx,b[1]+dy,b[2]+dx,b[3]+dy] for b in regions],allow_overlap=v6)
+                selected = (candidate,dx,dy,cx,cy,overlap)
+                break
+            except ValueError:
+                if not group.get('allow_product_translation') or v6:
+                    raise
+        if selected: break
+    if selected is None:
+        raise ValueError('badge_review: upper corners unsafe even after size-preserving product translations')
+    canvas,dx,dy,cx,cy,overlap = selected
+    draw = ImageDraw.Draw(canvas)
+    details['product_box'] = [x+dx,y+dy,x1+dx,y1+dy]
+    details['product_translation'] = [dx,dy]
+    draw.ellipse((cx-80,cy-80,cx+80,cy+80), fill=color)
+    draw.text((cx,cy), '1+1', fill='white', font=font(51,True), anchor='mm')
+    canvas.save(destination)
+    details.update(design_version=6 if v6 else 5,badge_box=[cx-80,cy-80,cx+80,cy+80],
+        badge_occupied_fraction=overlap,badge_position='upper_left' if cx<512 else 'upper_right',
+        badge_frame_clearance=min(cx-80-38,986-cx-80,cy-80-38,986-cy-80),
+        badge_resized_product=False,layout_preserved=(dx==0 and dy==0),
+        product_size_preserved=True)
+    if v6:
+        details.update(critical_regions=[[b[0]+dx,b[1]+dy,b[2]+dx,b[3]+dy] for b in regions],critical_region_method=region_method,
+                       visual_review_required=(overlap>.02))
+    return details
 
 
 def make_thumbnail(g, assets, destination):
@@ -309,18 +401,24 @@ def make_thumbnail(g, assets, destination):
     ratio = cropped_size[0]/cropped_size[1]
     py = top if ratio > 1.35 else bottom-product.height
     canvas.paste(product, (x, py))
+    regions,region_method=important_regions(canvas,[x,py,x+product.width,py+product.height],g,product_item['sha256'])
     cx, cy, occupancy = choose_badge(canvas, text_bottom, top,
-                                    protected_boxes=[logo_box,*title_boxes,*subtitle_boxes])
+                                    protected_boxes=[logo_box,*title_boxes,*subtitle_boxes], manual=g.get('badge_center'),
+                                    critical_boxes=regions,allow_overlap=True)
     draw.ellipse((cx-80, cy-80, cx+80, cy+80), fill=color)
     draw.text((cx, cy), '1+1', fill='white', font=font(51, True), anchor='mm')
     canvas.save(destination)
-    return {'design_version': 2, 'source': product_item, 'brand_logo': logo_item,
+    return {'design_version': 6, 'source': product_item, 'brand_logo': logo_item,
             'main_title': main, 'subtitles': notes, 'logo_box': logo_box,
             'title_boxes': title_boxes, 'subtitle_boxes': subtitle_boxes,
             'cropped_source_size': list(cropped_size), 'product_scale': scale,
             'product_box': [x, py, x+product.width, py+product.height],
             'product_area': [left, top, right, bottom], 'source_aspect_ratio': ratio,
             'badge_box': [cx-80, cy-80, cx+80, cy+80],
+            'badge_position': 'upper_left' if cx < 512 else 'upper_right',
+            'badge_frame_clearance': min(cx-80-38,986-cx-80,cy-80-38,986-cy-80),
+            'critical_regions': regions, 'critical_region_method':region_method,
+            'visual_review_required': occupancy>.02 or not g.get('important_region_annotation'),
             'badge_occupied_fraction': occupancy, 'badge_resized_product': False,
             'frame_rgb': color, 'frame_width': frame_width, 'frame_inset': frame_inset,
             'background_rgb': [255,255,255], 'size': [1024, 1024]}
@@ -392,7 +490,7 @@ def run(root, output, reuse_options=False, preview_dir=None, compare_with=None):
     preview_dir.mkdir(parents=True, exist_ok=True)
     previous = json.loads((output/'analysis.json').read_text(encoding='utf-8')) if reuse_options else None
     assets = Assets(root)
-    groups, errors = groups_from_excel(root/'화장품 썸네일.xlsx')
+    groups, errors = groups_from_excel(root/'화장품 썸네일_수정.xlsx')
     matches, missing = {}, []
     for code, g in groups.items():
         resolved = {'brand': [], 'thumbnail': [], 'options': []}

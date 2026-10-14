@@ -1,0 +1,926 @@
+{
+  "original_review_count": 52,
+  "method": "Product translation within original available box; no scaling; upper-left/right only; minimum 40px frame clearance; <=2% foreground overlap",
+  "products": [
+    {
+      "code": "WM0001",
+      "original_product_box": [
+        145,
+        219,
+        878,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -97,
+        "dy": 0,
+        "badge": [
+          866,
+          291,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "GF0001",
+      "original_product_box": [
+        48,
+        276,
+        976,
+        938
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "KL0001",
+      "original_product_box": [
+        48,
+        223,
+        976,
+        791
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 0,
+        "dy": 160,
+        "badge": [
+          158,
+          295,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "ET0001",
+      "original_product_box": [
+        98,
+        219,
+        926,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "GA0001",
+      "original_product_box": [
+        149,
+        183,
+        874,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -101,
+        "dy": 0,
+        "badge": [
+          866,
+          255,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "IM0001",
+      "original_product_box": [
+        134,
+        230,
+        889,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -86,
+        "dy": 0,
+        "badge": [
+          866,
+          302,
+          0.0006397322966389449
+        ]
+      }
+    },
+    {
+      "code": "BN0002",
+      "original_product_box": [
+        50,
+        213,
+        974,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "AD0001",
+      "original_product_box": [
+        135,
+        216,
+        889,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "WM0002",
+      "original_product_box": [
+        131,
+        209,
+        892,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "ME0001",
+      "original_product_box": [
+        84,
+        270,
+        939,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "GA0002",
+      "original_product_box": [
+        175,
+        239,
+        848,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -127,
+        "dy": 0,
+        "badge": [
+          866,
+          311,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "EU0001",
+      "original_product_box": [
+        110,
+        193,
+        913,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "DQ0001",
+      "original_product_box": [
+        149,
+        223,
+        875,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -101,
+        "dy": 0,
+        "badge": [
+          866,
+          295,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "HY0002",
+      "original_product_box": [
+        48,
+        256,
+        976,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "DG0001",
+      "original_product_box": [
+        110,
+        250,
+        913,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 63,
+        "dy": 0,
+        "badge": [
+          158,
+          322,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "IN0002",
+      "original_product_box": [
+        48,
+        239,
+        976,
+        909
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 0,
+        "dy": 61,
+        "badge": [
+          866,
+          311,
+          0.01058018798287486
+        ]
+      }
+    },
+    {
+      "code": "ET0003",
+      "original_product_box": [
+        172,
+        193,
+        852,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 124,
+        "dy": 0,
+        "badge": [
+          158,
+          265,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "AB0001",
+      "original_product_box": [
+        119,
+        183,
+        904,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "MZ0001",
+      "original_product_box": [
+        149,
+        193,
+        875,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -101,
+        "dy": 0,
+        "badge": [
+          866,
+          265,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "DF0001",
+      "original_product_box": [
+        48,
+        263,
+        976,
+        876
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "EU0002",
+      "original_product_box": [
+        172,
+        240,
+        851,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -124,
+        "dy": 0,
+        "badge": [
+          866,
+          312,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "AV0001",
+      "original_product_box": [
+        131,
+        276,
+        893,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 83,
+        "dy": 0,
+        "badge": [
+          158,
+          348,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "KB0001",
+      "original_product_box": [
+        141,
+        229,
+        882,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -93,
+        "dy": 0,
+        "badge": [
+          866,
+          349,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "AT0001",
+      "original_product_box": [
+        108,
+        249,
+        915,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 61,
+        "dy": 0,
+        "badge": [
+          158,
+          409,
+          0.01815855518921313
+        ]
+      }
+    },
+    {
+      "code": "HY0003",
+      "original_product_box": [
+        119,
+        193,
+        905,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "GV0001",
+      "original_product_box": [
+        136,
+        195,
+        888,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 88,
+        "dy": 0,
+        "badge": [
+          158,
+          355,
+          0.002411298656562177
+        ]
+      }
+    },
+    {
+      "code": "ET0004",
+      "original_product_box": [
+        185,
+        223,
+        839,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 137,
+        "dy": 0,
+        "badge": [
+          158,
+          295,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "NC0001",
+      "original_product_box": [
+        129,
+        228,
+        895,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "BP0004",
+      "original_product_box": [
+        171,
+        193,
+        853,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 123,
+        "dy": 0,
+        "badge": [
+          158,
+          265,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "PP0001",
+      "original_product_box": [
+        143,
+        229,
+        881,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -95,
+        "dy": 0,
+        "badge": [
+          866,
+          301,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "SC0001",
+      "original_product_box": [
+        131,
+        193,
+        893,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 83,
+        "dy": 0,
+        "badge": [
+          158,
+          265,
+          0.006692584026376655
+        ]
+      }
+    },
+    {
+      "code": "EU0004",
+      "original_product_box": [
+        155,
+        240,
+        868,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -107,
+        "dy": 0,
+        "badge": [
+          866,
+          312,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "JS0001",
+      "original_product_box": [
+        144,
+        193,
+        880,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 96,
+        "dy": 0,
+        "badge": [
+          158,
+          265,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "GA0004",
+      "original_product_box": [
+        189,
+        239,
+        834,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -141,
+        "dy": 0,
+        "badge": [
+          866,
+          311,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "AC0001",
+      "original_product_box": [
+        125,
+        183,
+        899,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 77,
+        "dy": 0,
+        "badge": [
+          158,
+          255,
+          0.016928300772599773
+        ]
+      }
+    },
+    {
+      "code": "DJ0004",
+      "original_product_box": [
+        83,
+        250,
+        941,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "PR0006",
+      "original_product_box": [
+        48,
+        229,
+        976,
+        909
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 0,
+        "dy": 61,
+        "badge": [
+          158,
+          301,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "AR0001",
+      "original_product_box": [
+        123,
+        276,
+        900,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "IF0001",
+      "original_product_box": [
+        87,
+        191,
+        937,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "IM0005",
+      "original_product_box": [
+        105,
+        183,
+        918,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "CX0001",
+      "original_product_box": [
+        134,
+        239,
+        890,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 86,
+        "dy": 0,
+        "badge": [
+          158,
+          391,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "DO0001",
+      "original_product_box": [
+        136,
+        219,
+        887,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "LK0001",
+      "original_product_box": [
+        137,
+        223,
+        887,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 89,
+        "dy": 0,
+        "badge": [
+          158,
+          295,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "EN0001",
+      "original_product_box": [
+        165,
+        199,
+        858,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -117,
+        "dy": 0,
+        "badge": [
+          866,
+          271,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "RP0001",
+      "original_product_box": [
+        53,
+        239,
+        970,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "RC0001",
+      "original_product_box": [
+        136,
+        229,
+        888,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 88,
+        "dy": 0,
+        "badge": [
+          158,
+          349,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "PR0008",
+      "original_product_box": [
+        127,
+        269,
+        896,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -79,
+        "dy": 0,
+        "badge": [
+          866,
+          357,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "MM0001",
+      "original_product_box": [
+        87,
+        250,
+        936,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "SH0001",
+      "original_product_box": [
+        101,
+        192,
+        922,
+        970
+      ],
+      "preserve_size": true,
+      "solution": null
+    },
+    {
+      "code": "TB0001",
+      "original_product_box": [
+        163,
+        193,
+        860,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -115,
+        "dy": 0,
+        "badge": [
+          866,
+          265,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "ST0001",
+      "original_product_box": [
+        152,
+        239,
+        871,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": -104,
+        "dy": 0,
+        "badge": [
+          866,
+          311,
+          0.0
+        ]
+      }
+    },
+    {
+      "code": "AV0002",
+      "original_product_box": [
+        147,
+        240,
+        877,
+        970
+      ],
+      "preserve_size": true,
+      "solution": {
+        "dx": 99,
+        "dy": 0,
+        "badge": [
+          158,
+          312,
+          0.0
+        ]
+      }
+    }
+  ],
+  "resolved_after_additional_review": [
+    "WM0001",
+    "KL0001",
+    "GA0001",
+    "IM0001",
+    "GA0002",
+    "DQ0001",
+    "DG0001",
+    "IN0002",
+    "ET0003",
+    "MZ0001",
+    "EU0002",
+    "AV0001",
+    "KB0001",
+    "AT0001",
+    "GV0001",
+    "ET0004",
+    "BP0004",
+    "PP0001",
+    "SC0001",
+    "EU0004",
+    "JS0001",
+    "GA0004",
+    "AC0001",
+    "PR0006",
+    "AR0001",
+    "CX0001",
+    "LK0001",
+    "EN0001",
+    "RC0001",
+    "PR0008",
+    "MM0001",
+    "TB0001",
+    "ST0001",
+    "AV0002"
+  ],
+  "remaining_manual_review": [
+    "GF0001",
+    "ET0001",
+    "BN0002",
+    "AD0001",
+    "WM0002",
+    "ME0001",
+    "EU0001",
+    "HY0002",
+    "AB0001",
+    "DF0001",
+    "HY0003",
+    "NC0001",
+    "DJ0004",
+    "IF0001",
+    "IM0005",
+    "DO0001",
+    "RP0001",
+    "SH0001"
+  ],
+  "product_dimensions_verified_unchanged": [
+    "WM0001",
+    "KL0001",
+    "GA0001",
+    "IM0001",
+    "GA0002",
+    "DQ0001",
+    "DG0001",
+    "IN0002",
+    "ET0003",
+    "MZ0001",
+    "EU0002",
+    "AV0001",
+    "KB0001",
+    "AT0001",
+    "GV0001",
+    "ET0004",
+    "BP0004",
+    "PP0001",
+    "SC0001",
+    "EU0004",
+    "JS0001",
+    "GA0004",
+    "AC0001",
+    "PR0006",
+    "AR0001",
+    "CX0001",
+    "LK0001",
+    "EN0001",
+    "RC0001",
+    "PR0008",
+    "MM0001",
+    "TB0001",
+    "ST0001",
+    "AV0002"
+  ]
+}

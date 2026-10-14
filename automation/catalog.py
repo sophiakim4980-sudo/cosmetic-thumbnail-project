@@ -7,12 +7,13 @@ import json
 import os
 from pathlib import Path
 from tempfile import NamedTemporaryFile
-from zipfile import ZIP_DEFLATED, ZipFile
+from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo, BadZipFile
 
 from PIL import Image, ImageChops, ImageDraw
+from badge_rules import circle_intersects_box
 
 from generate import (Assets, SAMPLES, font, groups_from_excel, make_option,
-                      make_thumbnail, split_title, white_image)
+                      make_thumbnail, split_title, white_image, relocate_thumbnail, REVISION_ARCHIVES)
 
 
 def digest(path):
@@ -50,7 +51,15 @@ def checked_thumbnail(path, layout, group, assets):
         assert min((a[2]-a[0])/(x1-x), (a[3]-a[1])/(y1-y)) < 1.004
         b=layout['badge_box']
         assert b[2]-b[0] == b[3]-b[1] == 160
-        assert 38 <= b[0] < b[2] <= 986 and 38 <= b[1] < b[3] <= 986
+        assert 78 <= b[0] < b[2] <= 946 and 78 <= b[1] < b[3] <= 946
+        text_bottom=max(v[3] for v in boxes)
+        assert b[1] >= text_bottom+12 and b[1]+80 <= layout['product_area'][1]+160
+        assert layout['badge_position'] in ('upper_left','upper_right')
+        assert layout['badge_frame_clearance'] >= 40
+        if layout.get('design_version',5) >= 6:
+            assert not any(circle_intersects_box((b[0]+80,b[1]+80),box) for box in layout['critical_regions']), 'Important label covered'
+        else:
+            assert layout['badge_occupied_fraction'] <= .02
         assert layout['badge_resized_product'] is False
         assert im.getpixel(((b[0]+b[2])//2,(b[1]+b[3])//2-60)) == color
 
@@ -104,18 +113,30 @@ def render_catalog(root, output, only=(), retry_failed=False):
     output.mkdir(parents=True,exist_ok=True)
     state_path=output/'catalog-state.json'
     state=json.loads(state_path.read_text()) if state_path.exists() else {'schema':1,'products':{}}
-    previous=json.loads((output/'analysis.json').read_text())
+    previous_index_path=output/'catalog-source-index.json'
+    previous_groups=json.loads(previous_index_path.read_text()).get('groups',{}) if previous_index_path.exists() else {}
+    previous=json.loads((output/'analysis.json').read_text()) if (output/'analysis.json').exists() else {}
     assets=Assets(root)
     overrides_path=root/'automation'/'catalog-overrides.json'
     overrides=json.loads(overrides_path.read_text()) if overrides_path.exists() else {}
-    groups,excel_errors=groups_from_excel(root/'화장품 썸네일.xlsx',overrides.get('row_overrides'))
-    for code,values in overrides.get('product_overrides',{}).items():
-        groups[code].update(values)
-        fields={'title':'상품명','brand':'브랜드'}
-        excel_errors=[e for e in excel_errors if not (e.get('code') == code and
-                      e.get('type') == 'conflicting_metadata' and e.get('field') in
-                      [fields[k] for k in values if k in fields])]
-    renderer=digest(Path(__file__).with_name('generate.py'))
+    groups,excel_errors=groups_from_excel(root/'화장품 썸네일_수정.xlsx')
+    for code in overrides.get('allow_product_translation', []):
+        if code in groups: groups[code]['allow_product_translation'] = True
+    for code, center in overrides.get('badge_centers', {}).items():
+        if code in groups: groups[code]['badge_center'] = center
+    annotations_path=root/'automation/catalog-important-regions.json'
+    annotations=json.loads(annotations_path.read_text()).get('products',{}) if annotations_path.exists() else {}
+    for code,annotation in annotations.items():
+        if code in groups:
+            groups[code].update(badge_policy_version=6,allow_product_translation=False,important_region_annotation=annotation)
+    for code,translation in overrides.get('v6_product_translation',{}).items():
+        if code in groups: groups[code]['v6_product_translation']=translation
+    reviews_path=root/'automation/catalog-v6-reviews.json'
+    v6_reviews=json.loads(reviews_path.read_text()) if reviews_path.exists() else {}
+    baselines_path=output/'v5-original-layouts.json'
+    baselines=json.loads(baselines_path.read_text()) if baselines_path.exists() else {}
+    renderer=hashlib.sha256((digest(Path(__file__).with_name('generate.py'))+
+                             digest(Path(__file__).with_name('badge_rules.py'))).encode()).hexdigest()
     mark=Image.open(root/'pick&mood.kr 로고.png').convert('RGBA')
     mark_hash=digest(root/'pick&mood.kr 로고.png')
     atomic_json(output/'catalog-source-index.json',{'archives':assets.archives,'groups':groups,'excel_errors':excel_errors,
@@ -137,6 +158,7 @@ def render_catalog(root, output, only=(), retry_failed=False):
         ambiguous_rows={e['row'] for e in conflicts if e.get('field') == '브랜드'}
         # A brand change on a blank-code continuation also taints subsequent rows
         # of that same different brand, already diagnosed by groups_from_excel.
+        candidate_details=None
         try:
             if conflicts:
                 raise ValueError('Conflicting Excel product metadata; correction required')
@@ -145,29 +167,60 @@ def render_catalog(root, output, only=(), retry_failed=False):
             refs=[assets.match(group['brand_refs'][0],'brand'),assets.match(group['thumbnail_refs'][0],'thumbnail')]
             fingerprint=source_fingerprint(group,[i['sha256'] for i in refs],renderer)
             path=folder/'thumbnail.png'
-            if code in SAMPLES:
-                saved=previous['samples'][code]['thumbnail']
-                assert saved['source']['sha256'] == refs[1]['sha256'] and saved['brand_logo']['sha256'] == refs[0]['sha256']
-                checked_thumbnail(path,saved,group,assets)
-                details=saved; reused=True
-            elif (valid_saved(old.get('thumbnail',{}),path,fingerprint)
-                  and old['thumbnail']['layout']['badge_occupied_fraction'] <= .02):
+            if (valid_saved(old.get('thumbnail',{}),path,fingerprint)
+                    and old['thumbnail']['layout'].get('design_version') in (5,6)):
                 details=old['thumbnail']['layout']; reused=True
                 checked_thumbnail(path,details,group,assets)
+            elif (code not in annotations and previous_groups.get(code)==group
+                    and old.get('thumbnail',{}).get('status')=='success' and path.exists()
+                    and digest(path)==old['thumbnail'].get('sha256')):
+                # Preserve already approved designs when sources and effective metadata match.
+                details=old['thumbnail']['layout'];checked_thumbnail(path,details,group,assets);reused=True
             else:
-                details=image_atomic(path,lambda p:make_thumbnail(group,assets,p),
-                    lambda p,d:checked_thumbnail(p,d,group,assets)); reused=False
+                prior=old.get('thumbnail',{})
+                baseline_path=path
+                if (prior.get('status') != 'success' or code in annotations) and code in baselines:
+                    prior=baselines[code]
+                    baseline_path=root/'previews/v5-before'/f'{code}.png'
+                layout=prior.get('layout',{})
+                preserve=(code not in REVISION_ARCHIVES and prior.get('status') == 'success'
+                    and baseline_path.exists() and digest(baseline_path) == prior.get('sha256')
+                    and (layout.get('main_title'),layout.get('subtitles')) == split_title(group['title'])
+                    and layout.get('source',{}).get('sha256') == refs[1]['sha256']
+                    and layout.get('brand_logo',{}).get('sha256') == refs[0]['sha256'])
+                create=(lambda p:relocate_thumbnail(group,assets,baseline_path,layout,p)) if preserve else (lambda p:make_thumbnail(group,assets,p))
+                details=image_atomic(path,create,lambda p,d:checked_thumbnail(p,d,group,assets)); reused=False
             result['thumbnail']={'status':'success','path':str(path.relative_to(output)),
                                  'sha256':digest(path),'fingerprint':fingerprint,'reused':reused,'layout':details}
-            if details['badge_occupied_fraction'] > .02:
-                review=overrides.get('badge_reviews',{}).get(code)
-                if review:
-                    result['thumbnail']['visual_review']=review
-                else:
-                    result['issues'].append({'type':'badge_review','occupied_fraction':details['badge_occupied_fraction']})
+            if details.get('design_version') == 6:
+                review=v6_reviews.get(code,{})
+                approved=(review.get('decision')=='approved' and review.get('sha256')==digest(path)
+                          and review.get('source_sha256')==details['source']['sha256'])
+                if details.get('visual_review_required') and not approved:
+                    candidate_details=details
+                    raise ValueError('badge_review: V6 candidate awaits visual verification of important labels and design')
+                if approved: result['thumbnail']['visual_review']=review
+            elif details['badge_occupied_fraction'] > .02:
+                result['issues'].append({'type':'badge_review','occupied_fraction':details['badge_occupied_fraction']})
         except Exception as e:
-            result['thumbnail']={'status':'failed','error':str(e)}
-            result['issues'].append({'type':'thumbnail_failed','error':str(e)})
+            stale=folder/'thumbnail.png'
+            candidate=None
+            if candidate_details and stale.exists():
+                import shutil
+                candidate_path=root/'previews/v6-candidates'/f'{code}.png'
+                candidate_path.parent.mkdir(parents=True,exist_ok=True)
+                shutil.copy2(stale,candidate_path)
+                candidate={'path':str(candidate_path.relative_to(root)),'sha256':digest(candidate_path),'layout':candidate_details}
+            if stale.exists():
+                backup=root/'previews'/'v5-before'/f'{code}.png'
+                backup.parent.mkdir(parents=True,exist_ok=True)
+                if not backup.exists():
+                    import shutil
+                    shutil.copy2(stale,backup)
+                stale.unlink()
+            result['thumbnail']={'status':'review_required' if 'badge_review:' in str(e) else 'failed','error':str(e)}
+            if candidate: result['thumbnail']['candidate']=candidate
+            result['issues'].append({'type':'thumbnail_review' if 'badge_review:' in str(e) else 'thumbnail_failed','error':str(e)})
         state['products'][code]=result
         atomic_json(state_path,state)
         for option in group['options']:
@@ -181,15 +234,10 @@ def render_catalog(root, output, only=(), retry_failed=False):
                 item=assets.match(ref,'option')
                 filename=Path(item['filename']).stem+'.png'
                 path=folder/'options'/filename
-                fingerprint=source_fingerprint({'reference':ref},[item['sha256'],mark_hash],'option-v1')
+                fingerprint=source_fingerprint({'reference':ref},[item['sha256'],mark_hash],'option-v5-revised' if code in REVISION_ARCHIVES else 'option-v1')
                 saved=old.get('options',{}).get(ref,{})
                 source=assets.image(item)
-                if code in SAMPLES:
-                    prior=next(o for o in previous['samples'][code]['options'] if o['output'] == filename)
-                    assert prior['source']['sha256'] == item['sha256']
-                    details={k:prior[k] for k in ('size','logo_box')}; reused=True
-                    checked_option(path,details,source,mark)
-                elif valid_saved(saved,path,fingerprint):
+                if valid_saved(saved,path,fingerprint):
                     details=saved['layout']; reused=True
                     checked_option(path,details,source,mark)
                 else:
@@ -212,6 +260,28 @@ def render_catalog(root, output, only=(), retry_failed=False):
     return state,groups
 
 
+def update_archive(path, code, output, files, status):
+    """Preserve an existing ZIP byte-for-byte if its contents are already current."""
+    expected={str(Path(code)/file.relative_to(output/code)):file for file in files}
+    status_name=f'{code}/STATUS.json'
+    status_bytes=json.dumps(status,ensure_ascii=False,indent=2).encode('utf-8')
+    if path.exists():
+        try:
+            with ZipFile(path) as archive:
+                if (set(archive.namelist()) == set(expected)|{status_name}
+                        and archive.testzip() is None and archive.read(status_name)==status_bytes
+                        and all(archive.read(name)==file.read_bytes() for name,file in expected.items())):
+                    return True
+        except (OSError,ValueError,KeyError,BadZipFile):
+            pass
+    temporary=path.with_suffix('.zip.tmp')
+    with ZipFile(temporary,'w',ZIP_DEFLATED) as archive:
+        for name,file in expected.items(): archive.write(file,name)
+        archive.writestr(ZipInfo(status_name,date_time=(1980,1,1,0,0,0)),status_bytes,compress_type=ZIP_DEFLATED)
+    os.replace(temporary,path)
+    return False
+
+
 def package_and_previews(root,output,state,groups):
     archives=root/'archives'; archives.mkdir(exist_ok=True)
     previews=root/'previews'/'catalog'; previews.mkdir(parents=True,exist_ok=True)
@@ -232,14 +302,11 @@ def package_and_previews(root,output,state,groups):
         files=[]
         if product['thumbnail'].get('status') == 'success':files.append(output/product['thumbnail']['path'])
         files += [output/o['path'] for o in product['options'].values() if o.get('status') == 'success']
-        path=archives/f'{code}.zip'; temp=path.with_suffix('.zip.tmp')
-        with ZipFile(temp,'w',ZIP_DEFLATED) as z:
-            for file in files:z.write(file,Path(code)/file.relative_to(output/code))
-            z.writestr(f'{code}/STATUS.json',json.dumps({'code':code,'status':product['status'],
-                          'thumbnail_present':product['thumbnail'].get('status') == 'success',
-                          'options_present':len(files)-(product['thumbnail'].get('status') == 'success'),
-                          'issues':product.get('issues',[])},ensure_ascii=False,indent=2))
-        os.replace(temp,path)
+        path=archives/f'{code}.zip'
+        update_archive(path,code,output,files,{'code':code,'status':product['status'],
+            'thumbnail_present':product['thumbnail'].get('status')=='success',
+            'options_present':len(files)-(product['thumbnail'].get('status')=='success'),
+            'issues':product.get('issues',[])})
         product['zip']={'path':str(path.relative_to(root)),'sha256':digest(path)}
     codes=list(groups)
     pages=[]

@@ -35,17 +35,24 @@ for number,(code,g) in enumerate(groups.items(),1):
         available=True
     except FileNotFoundError as e:
         available=False;asset_missing.add(str(e).split(': ',1)[-1])
-    assert available==(thumb['status']=='success'), f'Resolvable thumbnail not produced: {code}: {thumb}'
+    if available and thumb['status'] != 'success':
+        assert 'badge_review:' in thumb.get('error',''), f'Unexpected render failure: {code}: {thumb}'
+        counts.setdefault('badge_review_products',[]).append(code)
+        available=False
     if available:
+        counts.setdefault('badge_positions',{}).setdefault(thumb['layout']['badge_position'],0)
+        counts['badge_positions'][thumb['layout']['badge_position']]+=1
         path=OUT/thumb['path'];assert digest(path)==thumb['sha256']
         checked_thumbnail(path,thumb['layout'],g,assets)
         files[f'{code}/thumbnail.png']=path
         counts['thumbnails']+=1
-        if thumb['layout']['badge_occupied_fraction']>.02:
+        if thumb['layout'].get('visual_review_required') or (thumb['layout'].get('design_version',5)<6 and thumb['layout']['badge_occupied_fraction']>.02):
             review=thumb.get('visual_review')
             assert review and review['sha256']==thumb['sha256'], f'Unreviewed badge: {code}'
+            if thumb['layout'].get('design_version')==6:
+                assert review['decision']=='approved' and review['source_sha256']==thumb['layout']['source']['sha256']
     else:
-        counts['missing_thumbnail_products'].append(code)
+        if 'badge_review:' not in thumb.get('error',''): counts['missing_thumbnail_products'].append(code)
         assert not (OUT/code/'thumbnail.png').exists(), 'Failed item has a stale thumbnail'
     refs={o['reference'] for o in g['options']}
     assert refs==set(p['options']), f'Missing option status: {code}'

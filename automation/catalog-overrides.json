@@ -1,11 +1,100 @@
 {
   "explanation": "User-confirmed corrections applied without changing the source Excel workbook.",
   "row_overrides": {
-    "559": {"품명": "DN0001"}
+    "559": {
+      "품명": "DN0001"
+    }
   },
   "product_overrides": {
-    "EL0001": {"title": "Hydro Dot Eraser Patch (24/48/60p)"},
-    "NF0001": {"title": "Kiss Balm For Men"},
-    "DW0001": {"brand_refs": ["DW"]}
+    "EL0001": {
+      "title": "Hydro Dot Eraser Patch (24/48/60p)"
+    },
+    "NF0001": {
+      "title": "Kiss Balm For Men"
+    },
+    "DW0001": {
+      "brand_refs": [
+        "DW"
+      ]
+    }
+  },
+  "v5_note": "V5 uses the revised workbook directly; legacy row/product overrides are retained for history and are not applied.",
+  "badge_centers": {
+    "AR0001": [
+      674,
+      348
+    ],
+    "MM0001": [
+      342,
+      322
+    ],
+    "WM0002": [
+      796,
+      308
+    ]
+  },
+  "allow_product_translation": [
+    "WM0001",
+    "GF0001",
+    "KL0001",
+    "ET0001",
+    "GA0001",
+    "IM0001",
+    "BN0002",
+    "AD0001",
+    "WM0002",
+    "ME0001",
+    "GA0002",
+    "EU0001",
+    "DQ0001",
+    "HY0002",
+    "DG0001",
+    "IN0002",
+    "ET0003",
+    "AB0001",
+    "MZ0001",
+    "DF0001",
+    "EU0002",
+    "AV0001",
+    "KB0001",
+    "AT0001",
+    "HY0003",
+    "GV0001",
+    "ET0004",
+    "NC0001",
+    "BP0004",
+    "PP0001",
+    "SC0001",
+    "EU0004",
+    "JS0001",
+    "GA0004",
+    "AC0001",
+    "DJ0004",
+    "PR0006",
+    "AR0001",
+    "IF0001",
+    "IM0005",
+    "CX0001",
+    "DO0001",
+    "LK0001",
+    "EN0001",
+    "RP0001",
+    "RC0001",
+    "PR0008",
+    "MM0001",
+    "SH0001",
+    "TB0001",
+    "ST0001",
+    "AV0002"
+  ],
+  "v6_product_translation": {
+    "IM0005": [
+      58,
+      0
+    ],
+    "NC0001": [
+      81,
+      0
+    ]
   }
 }

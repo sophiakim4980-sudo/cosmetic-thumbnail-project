@@ -15,6 +15,7 @@ with tempfile.TemporaryDirectory() as temp:
     out=Path(temp)
     shutil.copytree(root/'output'/code,out/code)
     shutil.copy2(root/'output/analysis.json',out/'analysis.json')
+    shutil.copy2(root/'output/catalog-source-index.json',out/'catalog-source-index.json')
     (out/'catalog-state.json').write_text(json.dumps({'schema':1,'products':{code:current}}))
     before={p.relative_to(out):(digest(p),p.stat().st_mtime_ns) for p in (out/code).rglob('*.png')}
     state,_=render_catalog(root,out,only=[code])

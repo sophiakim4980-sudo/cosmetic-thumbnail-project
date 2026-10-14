@@ -1,0 +1,248 @@
+{
+  "archive": "브랜드 로고.zip",
+  "crc": "passed",
+  "file_count": 111,
+  "all_actual_filenames": [
+    "브랜드 로고/AB.png",
+    "브랜드 로고/AC.png",
+    "브랜드 로고/AD.png",
+    "브랜드 로고/AH.png",
+    "브랜드 로고/AM.png",
+    "브랜드 로고/AN.png",
+    "브랜드 로고/AR.png",
+    "브랜드 로고/AS.png",
+    "브랜드 로고/AT.png",
+    "브랜드 로고/AV.png",
+    "브랜드 로고/AW.png",
+    "브랜드 로고/BB.png",
+    "브랜드 로고/BC.png",
+    "브랜드 로고/BD.png",
+    "브랜드 로고/BF.png",
+    "브랜드 로고/BG.png",
+    "브랜드 로고/BH.png",
+    "브랜드 로고/BL.png",
+    "브랜드 로고/BN.png",
+    "브랜드 로고/BP.png",
+    "브랜드 로고/BR.png",
+    "브랜드 로고/BW.png",
+    "브랜드 로고/BY.png",
+    "브랜드 로고/CF.png",
+    "브랜드 로고/CK.png",
+    "브랜드 로고/CL.png",
+    "브랜드 로고/CM.png",
+    "브랜드 로고/CN.png",
+    "브랜드 로고/CP.png",
+    "브랜드 로고/CQ.png",
+    "브랜드 로고/CR.png",
+    "브랜드 로고/CS.png",
+    "브랜드 로고/CU.png",
+    "브랜드 로고/CX.png",
+    "브랜드 로고/DA.png",
+    "브랜드 로고/DF.png",
+    "브랜드 로고/DG.png",
+    "브랜드 로고/DH.png",
+    "브랜드 로고/DJ.png",
+    "브랜드 로고/DK.png",
+    "브랜드 로고/DL.png",
+    "브랜드 로고/DM.png",
+    "브랜드 로고/DN.png",
+    "브랜드 로고/DO.png",
+    "브랜드 로고/DQ.png",
+    "브랜드 로고/DS.png",
+    "브랜드 로고/DW.png",
+    "브랜드 로고/EL.png",
+    "브랜드 로고/EN.png",
+    "브랜드 로고/ET.png",
+    "브랜드 로고/EU.png",
+    "브랜드 로고/GA.png",
+    "브랜드 로고/GF.png",
+    "브랜드 로고/GR.png",
+    "브랜드 로고/GV.png",
+    "브랜드 로고/HB.png",
+    "브랜드 로고/HG.png",
+    "브랜드 로고/HM.png",
+    "브랜드 로고/HP.png",
+    "브랜드 로고/HY.png",
+    "브랜드 로고/IC.png",
+    "브랜드 로고/IF.png",
+    "브랜드 로고/IM.png",
+    "브랜드 로고/IN.png",
+    "브랜드 로고/IS.png",
+    "브랜드 로고/JS.png",
+    "브랜드 로고/KB.png",
+    "브랜드 로고/KL.png",
+    "브랜드 로고/KM.png",
+    "브랜드 로고/LK.png",
+    "브랜드 로고/LL.png",
+    "브랜드 로고/LS.png",
+    "브랜드 로고/LT.png",
+    "브랜드 로고/LV.png",
+    "브랜드 로고/MB.png",
+    "브랜드 로고/MD.png",
+    "브랜드 로고/ME.png",
+    "브랜드 로고/MM.png",
+    "브랜드 로고/MP.png",
+    "브랜드 로고/MS.png",
+    "브랜드 로고/MX.png",
+    "브랜드 로고/MZ.png",
+    "브랜드 로고/NC.png",
+    "브랜드 로고/ND.png",
+    "브랜드 로고/NF.png",
+    "브랜드 로고/NT.png",
+    "브랜드 로고/NV.png",
+    "브랜드 로고/OE.png",
+    "브랜드 로고/PP.png",
+    "브랜드 로고/PR.png",
+    "브랜드 로고/PT.png",
+    "브랜드 로고/RB.png",
+    "브랜드 로고/RC.png",
+    "브랜드 로고/RL.png",
+    "브랜드 로고/RL0001-1.png",
+    "브랜드 로고/RM.png",
+    "브랜드 로고/RP.png",
+    "브랜드 로고/RV.png",
+    "브랜드 로고/SC.png",
+    "브랜드 로고/SF.png",
+    "브랜드 로고/SH.png",
+    "브랜드 로고/SL.png",
+    "브랜드 로고/SM.png",
+    "브랜드 로고/SO.png",
+    "브랜드 로고/SP.png",
+    "브랜드 로고/ST.png",
+    "브랜드 로고/TB.png",
+    "브랜드 로고/TH.png",
+    "브랜드 로고/TR.png",
+    "브랜드 로고/TS.png",
+    "브랜드 로고/WM.png"
+  ],
+  "products": [
+    {
+      "code": "HH0001",
+      "brand": "HOLIKA HOLIKA",
+      "excel_brand_reference": "HH",
+      "searched_names": [
+        "HH",
+        "HH.png",
+        "HOLIKA HOLIKA",
+        "HOLIKA HOLIKA.png"
+      ],
+      "status": "resolved_from_standalone_png",
+      "archive_matched_names": [],
+      "actual_matched_names": [
+        "HH.png"
+      ],
+      "matched_path": "HH.png",
+      "source_sha256": "d98294327da48875022b80c487f9c5abc47248fb4e1ad4c5cba13e1f65cd4eed"
+    },
+    {
+      "code": "SN0001",
+      "brand": "S.NATURE",
+      "excel_brand_reference": "SN",
+      "searched_names": [
+        "SN",
+        "SN.png",
+        "S.NATURE",
+        "S.NATURE.png"
+      ],
+      "status": "resolved_from_standalone_png",
+      "archive_matched_names": [],
+      "actual_matched_names": [
+        "SN.png"
+      ],
+      "matched_path": "SN.png",
+      "source_sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1"
+    },
+    {
+      "code": "SN0002",
+      "brand": "S.NATURE",
+      "excel_brand_reference": "SN",
+      "searched_names": [
+        "SN",
+        "SN.png",
+        "S.NATURE",
+        "S.NATURE.png"
+      ],
+      "status": "resolved_from_standalone_png",
+      "archive_matched_names": [],
+      "actual_matched_names": [
+        "SN.png"
+      ],
+      "matched_path": "SN.png",
+      "source_sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1"
+    },
+    {
+      "code": "SN0003",
+      "brand": "S.NATURE",
+      "excel_brand_reference": "SN",
+      "searched_names": [
+        "SN",
+        "SN.png",
+        "S.NATURE",
+        "S.NATURE.png"
+      ],
+      "status": "resolved_from_standalone_png",
+      "archive_matched_names": [],
+      "actual_matched_names": [
+        "SN.png"
+      ],
+      "matched_path": "SN.png",
+      "source_sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1"
+    },
+    {
+      "code": "SN0004",
+      "brand": "S.NATURE",
+      "excel_brand_reference": "SN",
+      "searched_names": [
+        "SN",
+        "SN.png",
+        "S.NATURE",
+        "S.NATURE.png"
+      ],
+      "status": "resolved_from_standalone_png",
+      "archive_matched_names": [],
+      "actual_matched_names": [
+        "SN.png"
+      ],
+      "matched_path": "SN.png",
+      "source_sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1"
+    },
+    {
+      "code": "SN0005",
+      "brand": "S.NATURE",
+      "excel_brand_reference": "SN",
+      "searched_names": [
+        "SN",
+        "SN.png",
+        "S.NATURE",
+        "S.NATURE.png"
+      ],
+      "status": "resolved_from_standalone_png",
+      "archive_matched_names": [],
+      "actual_matched_names": [
+        "SN.png"
+      ],
+      "matched_path": "SN.png",
+      "source_sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1"
+    },
+    {
+      "code": "YM0001",
+      "brand": "YUMEAL",
+      "excel_brand_reference": "YM",
+      "searched_names": [
+        "YM",
+        "YM.png",
+        "YUMEAL",
+        "YUMEAL.png"
+      ],
+      "status": "resolved_from_standalone_png",
+      "archive_matched_names": [],
+      "actual_matched_names": [
+        "YM.png"
+      ],
+      "matched_path": "YM.png",
+      "source_sha256": "89ab95dff6ab627097a47417495b63168b83cedb757e26386a99722ef0a581ee"
+    }
+  ],
+  "standalone_source_commit": "8163ae8a90af6a15f295ca0f3ba45b76b572e5a7",
+  "note": "Original ZIP has no matching HH/SN/YM logo; user-uploaded exact standalone PNGs were added to main during work and then imported into the work branch without changing their bytes."
+}

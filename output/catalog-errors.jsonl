@@ -1,4 +1,4 @@
-{"code": "SN0001", "type": "thumbnail_failed", "error": "brand: SN"}
+{"code": "GF0001", "type": "thumbnail_review", "error": "badge_review: no safe upper candidate"}
 {"code": "ET0001", "type": "missing_option_reference", "row": 29}
 {"code": "ET0001", "type": "missing_option_reference", "row": 30}
 {"code": "ET0001", "type": "missing_option_reference", "row": 31}
@@ -6,16 +6,9 @@
 {"code": "ET0001", "type": "missing_option_reference", "row": 33}
 {"code": "IC0001", "type": "option_failed", "row": 44, "reference": "IC0001-3", "error": "option: IC0001-3"}
 {"code": "IC0001", "type": "option_failed", "row": 45, "reference": "IC0001-4", "error": "option: IC0001-4"}
-{"code": "YM0001", "type": "missing_option_reference", "row": 131}
-{"code": "YM0001", "type": "missing_option_reference", "row": 132}
-{"code": "YM0001", "type": "thumbnail_failed", "error": "brand: YM"}
-{"code": "SN0002", "type": "thumbnail_failed", "error": "brand: SN"}
-{"code": "ME0001", "type": "missing_option_reference", "row": 140}
-{"code": "ME0001", "type": "missing_option_reference", "row": 141}
-{"code": "ET0002", "type": "missing_option_reference", "row": 190}
-{"code": "ET0002", "type": "missing_option_reference", "row": 191}
-{"code": "SN0003", "type": "thumbnail_failed", "error": "brand: SN"}
-{"code": "SN0004", "type": "thumbnail_failed", "error": "brand: SN"}
-{"code": "SN0005", "type": "thumbnail_failed", "error": "brand: SN"}
-{"code": "BB0001", "type": "thumbnail_failed", "error": "thumbnail: BB0001-16"}
-{"code": "HH0001", "type": "thumbnail_failed", "error": "brand: HH"}
+{"code": "ME0001", "type": "missing_option_reference", "row": 138}
+{"code": "ME0001", "type": "missing_option_reference", "row": 139}
+{"code": "HY0002", "type": "thumbnail_review", "error": "badge_review: no safe upper candidate"}
+{"code": "ET0002", "type": "missing_option_reference", "row": 188}
+{"code": "ET0002", "type": "missing_option_reference", "row": 189}
+{"code": "DF0001", "type": "thumbnail_review", "error": "badge_review: no safe upper candidate"}
