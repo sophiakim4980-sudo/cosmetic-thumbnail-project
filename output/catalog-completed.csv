@@ -2,7 +2,7 @@
 RL0001,complete,success,2,2,
 MP0001,complete,success,2,2,
 LL0001,complete,success,2,2,
-SN0001,incomplete,failed,2,2,thumbnail_failed
+SN0001,complete,success,2,2,
 WM0001,complete,success,3,3,
 GF0001,incomplete,failed,8,8,thumbnail_failed
 KL0001,complete,success,3,3,
@@ -29,9 +29,9 @@ AD0001,incomplete,failed,4,4,thumbnail_failed
 WM0002,incomplete,failed,9,9,thumbnail_failed
 RL0003,complete,success,2,2,
 TS0001,complete,success,2,2,
-YM0001,incomplete,failed,2,2,thumbnail_failed
+YM0001,complete,success,2,2,
 HB0001,complete,success,3,3,
-SN0002,incomplete,failed,2,2,thumbnail_failed
+SN0002,complete,success,2,2,
 ME0001,incomplete,failed,2,2,missing_option_reference; missing_option_reference; thumbnail_failed
 AH0001,complete,success,2,2,
 TR0001,complete,success,2,2,
@@ -75,7 +75,7 @@ SL0001,complete,success,2,2,
 DK0001,complete,success,1,1,
 PR0004,complete,success,2,2,
 DF0001,incomplete,failed,3,3,thumbnail_failed
-SN0003,incomplete,failed,2,2,thumbnail_failed
+SN0003,complete,success,2,2,
 CS0001,complete,success,9,9,
 DW0001,complete,success,10,10,
 EU0002,complete,success,2,2,
@@ -85,8 +85,8 @@ MS0001,complete,success,2,2,
 AV0001,complete,success,3,3,
 DJ0003,complete,success,2,2,
 KB0001,complete,success,22,22,
-SN0004,incomplete,failed,2,2,thumbnail_failed
-SN0005,incomplete,failed,2,2,thumbnail_failed
+SN0004,complete,success,2,2,
+SN0005,complete,success,2,2,
 AS0001,complete,success,4,4,
 BF0001,complete,success,4,4,
 TR0004,complete,success,2,2,
@@ -115,7 +115,7 @@ PR0005,complete,success,2,2,
 GA0003,complete,success,2,2,
 HG0001,complete,success,2,2,
 EU0003,complete,success,2,2,
-HH0001,incomplete,failed,5,5,thumbnail_failed
+HH0001,complete,success,5,5,
 IS0001,complete,success,6,6,
 CN0003,complete,success,2,2,
 BC0001,complete,success,2,2,

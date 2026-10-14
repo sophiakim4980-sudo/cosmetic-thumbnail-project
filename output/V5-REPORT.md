@@ -4,28 +4,28 @@
 
 ## 최종 결과
 
-- 전체 183개 품명 중 전체 완료 **156개**, 미완료 **27개**.
-- 대표 썸네일 **158개**, 옵션 **596개**, 품명별 ZIP **183개**.
-- 배지 왼쪽 상단 112개, 오른쪽 상단 46개. 지름 160px, 프레임 안쪽 경계로부터 최소 40px 여백.
+- 전체 183개 품명 중 전체 완료 **163개**, 미완료 **20개**.
+- 대표 썸네일 **165개**, 옵션 **596개**, 품명별 ZIP **183개**.
+- 배지 왼쪽 상단 119개, 오른쪽 상단 46개. 지름 160px, 프레임 안쪽 경계로부터 최소 40px 여백.
 - 기존 보류 52개 중 **34개 해결**, **18개 검수 보류**. 해결한 모든 상품은 제품 픽셀 크기와 스케일 100% 유지, 헤더·로고·프레임 불변을 검증했습니다.
-- 로고 누락 7개 대표 썸네일 미제작. 새 수정 사진으로 옵션 32개 재제작, 일반 상품 옵션 564개 SHA256 보존.
+- 최초 로고 누락 7개는 HH.png·SN.png·YM.png 확인 후 대표 썸네일 제작을 완료했습니다. 새 수정 사진으로 옵션 32개 재제작, 일반 상품 옵션 564개 SHA256 보존.
 - 미완료 상품에 완료 상태를 부여하지 않습니다. 미완료 ZIP에는 성공한 옵션과 STATUS.json을 넣고, 검수에 실패한 대표 썸네일을 넣지 않습니다. 과거 대표 이미지와 검수 후보는 previews/에서 구분하여 보존합니다.
 
-## 브랜드 로고 재확인: 미제작 7개 상품
+## 최초 로고 누락 7개: 정확한 로고 확인 후 제작 완료
 
-기존 `브랜드 로고.zip`의 CRC를 검사하고 내부 실제 파일명 111개를 모두 확인했습니다. 코드 및 브랜드 전체 이름을 대소문자·공백·구두점 정규화하여 검색했지만 정확한 로고가 없습니다. 다른 로고나 생성 로고를 대체하지 않았습니다.
+기존 `브랜드 로고.zip`의 CRC 및 내부 실제 파일명 111개를 모두 검사했으며 ZIP에는 HH/SN/YM 로고가 없었습니다. 작업 중 사용자가 main에 추가한 실제 HH.png·SN.png·YM.png를 발견하여 브랜치에 받아 확인했습니다. HOLIKA HOLIKA, S.NATURE, YUMEAL 브랜드가 정확히 일치하며 원본 디자인·비율·바이트를 유지했습니다. 다른 로고나 생성 로고를 대체하지 않았습니다.
 
-| 품명 | 브랜드 | 엑셀 브랜드 파일명 | 실제 검색한 이름 | ZIP에서 일치한 실제 파일 |
+| 품명 | 브랜드 | 엑셀 브랜드 파일명 | 실제 검색한 이름 | 최종 사용한 실제 파일 |
 |---|---|---|---|---|
-| HH0001 | HOLIKA HOLIKA | `HH` | `HH` / `HH.png` / `HOLIKA HOLIKA` / `HOLIKA HOLIKA.png` | 없음 |
-| SN0001 | S.NATURE | `SN` | `SN` / `SN.png` / `S.NATURE` / `S.NATURE.png` | 없음 |
-| SN0002 | S.NATURE | `SN` | `SN` / `SN.png` / `S.NATURE` / `S.NATURE.png` | 없음 |
-| SN0003 | S.NATURE | `SN` | `SN` / `SN.png` / `S.NATURE` / `S.NATURE.png` | 없음 |
-| SN0004 | S.NATURE | `SN` | `SN` / `SN.png` / `S.NATURE` / `S.NATURE.png` | 없음 |
-| SN0005 | S.NATURE | `SN` | `SN` / `SN.png` / `S.NATURE` / `S.NATURE.png` | 없음 |
-| YM0001 | YUMEAL | `YM` | `YM` / `YM.png` / `YUMEAL` / `YUMEAL.png` | 없음 |
+| HH0001 | HOLIKA HOLIKA | `HH` | `HH` / `HH.png` / `HOLIKA HOLIKA` / `HOLIKA HOLIKA.png` | `HH.png` (저장소 루트) |
+| SN0001 | S.NATURE | `SN` | `SN` / `SN.png` / `S.NATURE` / `S.NATURE.png` | `SN.png` (저장소 루트) |
+| SN0002 | S.NATURE | `SN` | `SN` / `SN.png` / `S.NATURE` / `S.NATURE.png` | `SN.png` (저장소 루트) |
+| SN0003 | S.NATURE | `SN` | `SN` / `SN.png` / `S.NATURE` / `S.NATURE.png` | `SN.png` (저장소 루트) |
+| SN0004 | S.NATURE | `SN` | `SN` / `SN.png` / `S.NATURE` / `S.NATURE.png` | `SN.png` (저장소 루트) |
+| SN0005 | S.NATURE | `SN` | `SN` / `SN.png` / `S.NATURE` / `S.NATURE.png` | `SN.png` (저장소 루트) |
+| YM0001 | YUMEAL | `YM` | `YM` / `YM.png` / `YUMEAL` / `YUMEAL.png` | `YM.png` (저장소 루트) |
 
-전체 ZIP 파일명 목록과 검색 결과: `output/v5-logo-recheck.json`. 제품 사진은 7개 상품 모두 존재하며 옵션 제작은 완료했습니다.
+전체 ZIP 파일명 목록과 검색 결과: `output/v5-logo-recheck.json`. 제품 사진은 7개 상품 모두 존재하며 대표 및 옵션 제작을 완료했습니다. 로고 원본 추가 커밋은 8163ae8a90af6a15f295ca0f3ba45b76b572e5a7이며 해당 사용자 업로드를 작업 브랜치에 병합했습니다.
 
 ## 최초 검수 보류 52개: 추가 검토 결과
 
@@ -97,13 +97,13 @@ AB0001도 재검토했지만 상단 후보의 제품 침범이 안전 기준을 
 | 품명 | 대표 썸네일 | 새 옵션 이미지 | 수정 이미지 ZIP |
 |---|---|---:|---|
 | BB0001 | 완료 | 15 | BB0001-1~16.zip |
-| HH0001 | 로고 누락 | 5 | HH0001-1~6.zip |
-| SN0001 | 로고 누락 | 2 | SN0001-1~2.zip |
-| SN0002 | 로고 누락 | 2 | SN0002-1~2.zip |
-| SN0003 | 로고 누락 | 2 | SN0003-1~2.zip |
-| SN0004 | 로고 누락 | 2 | SN0004-1,2 SN0005-1,2.zip |
-| SN0005 | 로고 누락 | 2 | SN0004-1,2 SN0005-1,2.zip |
-| YM0001 | 로고 누락 | 2 | YM0001-1~3.zip |
+| HH0001 | 완료 | 5 | HH0001-1~6.zip |
+| SN0001 | 완료 | 2 | SN0001-1~2.zip |
+| SN0002 | 완료 | 2 | SN0002-1~2.zip |
+| SN0003 | 완료 | 2 | SN0003-1~2.zip |
+| SN0004 | 완료 | 2 | SN0004-1,2 SN0005-1,2.zip |
+| SN0005 | 완료 | 2 | SN0004-1,2 SN0005-1,2.zip |
+| YM0001 | 완료 | 2 | YM0001-1~3.zip |
 
 SN0004/SN0005는 파일명 접두사로 분리하고 새 ZIP SHA256으로 소스를 확인했습니다. 32개 새 옵션 모두 이전 사진과 해시가 다르며 수정 ZIP을 우선 사용했습니다.
 
@@ -115,11 +115,11 @@ SN0004/SN0005는 파일명 접두사로 분리하고 새 ZIP SHA256으로 소스
 
 ## 검증 및 원본 보존
 
-모든 생성 PNG의 소스·브랜드 로고·상품명·규격·비율·배지 위치·여백, 옵션의 원본 픽셀 보존과 로고 합성, ZIP CRC 및 내부 PNG 바이트 일치를 검증했습니다. V5 회귀 테스트 6개와 실제 재개 테스트를 통과했습니다. 전체 정상 옵션 564개는 기존 SHA256과 동일합니다.
+모든 생성 PNG의 소스·브랜드 로고·상품명·규격·비율·배지 위치·여백, 옵션의 원본 픽셀 보존과 로고 합성, ZIP CRC 및 내부 PNG 바이트 일치를 검증했습니다. V5 회귀 테스트 7개와 실제 재개 테스트를 통과했습니다. 전체 정상 옵션 564개는 기존 SHA256과 동일합니다.
 
 기존 및 수정 원본 엑셀, 제품 이미지 ZIP, 브랜드 로고 ZIP, 원본 로고 PNG는 수정/삭제하지 않았습니다. 기존 보호 해시를 유지하고, 변경된 보호 썸네일의 과거 바이트는 별도 보존하여 검증합니다. 옛 시각 검수는 새 이미지에 자동 승계하지 않습니다.
 
-전체 상태: `output/catalog-summary.json`, `output/catalog-completed.csv`. 오류 로그: `output/catalog-errors.jsonl`. 소스 비교: `output/v5-preflight.json`.
+전체 상태: `output/catalog-summary.json`, `output/catalog-completed.csv`. 오류 로그: `output/catalog-errors.jsonl`. 소스 초기 비교(작업 시작 시점의 누락 포함): `output/v5-preflight.json`. 최종 로고 매칭은 `output/v5-logo-recheck.json` 및 최신 `catalog-source-index.json`에서 확인합니다.
 
 ## GitHub 저장 경로 및 실행
 
@@ -127,7 +127,7 @@ SN0004/SN0005는 파일명 접두사로 분리하고 새 ZIP SHA256으로 소스
 
 작업 브랜치: https://github.com/sophiakim4980-sudo/cosmetic-thumbnail-project/tree/v5-upper-badge-review-20261014
 
-코드 automation/, 대표·옵션 PNG output/, 품명별 ZIP archives/, 비교·미리보기 previews/에 저장합니다. 원격 반영 결과는 PR과 브랜치 HEAD를 별도로 확인한 뒤 채팅에 보고합니다. main으로 자동 병합하지 않습니다.
+코드 automation/, 대표·옵션 PNG output/, 품명별 ZIP archives/, 비교·미리보기 previews/에 저장합니다. PR: https://github.com/sophiakim4980-sudo/cosmetic-thumbnail-project/pull/1 . 원격 브랜치 HEAD와 파일 트리를 로컬 결과에 대조하여 확인한 뒤 채팅에 보고합니다. main으로 자동 병합하지 않습니다.
 
 ```bash
 python -m pip install -r automation/requirements.txt

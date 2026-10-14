@@ -8,7 +8,7 @@
         "status": "success",
         "path": "RL0001/thumbnail.png",
         "sha256": "9b8a991c399cd4af27ce2952a26a4d857114118aa5b8ba93897044a34d0e2057",
-        "fingerprint": "5f8a0861b05a75eb64ff03522d2d8346e2cb6027a33d2f1ef368d74bdacafc72",
+        "fingerprint": "cce0107cdb68e5efd9ab4621ba5ce41873573e29fa174d0ab4dcedd67badf74a",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -163,7 +163,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/RL0001.zip",
-        "sha256": "d11fa962f5e62f27ba81cd33237d00bd59055538344e0187b2176e1e4de63e6b"
+        "sha256": "e7774fabc80c88b609181c26675513177f295fa9e60ca458a41e5f26a3ac859c"
       }
     },
     "MP0001": {
@@ -173,7 +173,7 @@
         "status": "success",
         "path": "MP0001/thumbnail.png",
         "sha256": "592d7d715cc363fed35be58fb9328ffb0e799118491f10c8b7d0a9082d7edb99",
-        "fingerprint": "cf7dea0c495386d590e8c6693ab6468fa0b4c2fa060035f16f3a620d87674413",
+        "fingerprint": "47d18aa0702eece50b5fdfb8bebc4fc3cde49376307e9990a5974be6e3dfe6e4",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -334,7 +334,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/MP0001.zip",
-        "sha256": "4af983a952218527803828e2f0343f68b92eb55721c0a7caed54cb84365ffe92"
+        "sha256": "94f8e97f260d160c90fdbc4df31a7f46cb54cb7fada69235c3728d809ac7d93b"
       }
     },
     "LL0001": {
@@ -344,7 +344,7 @@
         "status": "success",
         "path": "LL0001/thumbnail.png",
         "sha256": "bb1ab8d5dd57c3cc3b5a16bba8e85285a020d581c5102325921b56f1dcfdd765",
-        "fingerprint": "362e5babbd5081aaba3c92da0364097193ba37d35aecbf4bd207c71e2887fc7c",
+        "fingerprint": "ebfdee8b02de7d8fc328477fb05738a5645647dc5e27ac4e5890ff76f3ce3d8f",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -508,15 +508,103 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/LL0001.zip",
-        "sha256": "4d9cda932c229ca1cd66e5b8997042db4ba37cd5df8198eb7435830ec6637cf4"
+        "sha256": "0a46af8565803520c2b766fbf24b079dc56b8756c8f24527eb6e7dc20fd4c650"
       }
     },
     "SN0001": {
       "code": "SN0001",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "brand: SN"
+        "status": "success",
+        "path": "SN0001/thumbnail.png",
+        "sha256": "30fbe403be83f317b355068113d21a438625d559abaf0d13f4af8fe94642a4ed",
+        "fingerprint": "7dcc641c5059f4583fe7341ee43b1354becbb5d8dac1870baf49c44bb91a2c95",
+        "reused": true,
+        "layout": {
+          "design_version": 5,
+          "source": {
+            "archive": "SN0001-1~2.zip",
+            "member": "SN0001-2.png",
+            "raw_member": "SN0001-2.png",
+            "filename": "SN0001-2.png",
+            "sha256": "0bd193aeec475bb6c9751fd1ee453756dc9a2ab9c7ed9409e1c911c9e8ecac6c"
+          },
+          "brand_logo": {
+            "archive": "SN.png",
+            "member": "SN.png",
+            "raw_member": "SN.png",
+            "filename": "SN.png",
+            "sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1",
+            "source_type": "standalone_brand_logo"
+          },
+          "main_title": "Aqua Squalane Moisturizing Cream",
+          "subtitles": [],
+          "logo_box": [
+            342,
+            58,
+            682,
+            93
+          ],
+          "title_boxes": [
+            [
+              101,
+              105,
+              923,
+              156
+            ],
+            [
+              418,
+              162,
+              606,
+              202
+            ]
+          ],
+          "subtitle_boxes": [],
+          "cropped_source_size": [
+            768,
+            969
+          ],
+          "product_scale": 0.7719298245614035,
+          "product_box": [
+            215,
+            222,
+            808,
+            970
+          ],
+          "product_area": [
+            48,
+            222,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 0.7925696594427245,
+          "badge_box": [
+            78,
+            214,
+            238,
+            374
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 40,
+          "badge_occupied_fraction": 0.0,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            118,
+            144,
+            158
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ]
+        }
       },
       "options": {
         "SN0001-1": {
@@ -582,16 +670,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "brand: SN"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SN0001.zip",
-        "sha256": "72b5c6ae22e70b3d8e8ea175de1ac3b2e910475c6fa57242737a14d6249a159f"
+        "sha256": "62a4769a0c026181b018328a09c674d25f8538a4aa2a38b17952b75a12996f6d"
       }
     },
     "WM0001": {
@@ -601,7 +684,7 @@
         "status": "success",
         "path": "WM0001/thumbnail.png",
         "sha256": "cc70939ad3744411c4a19d088f1fb63563ed791b08c66919a185a3af27d18920",
-        "fingerprint": "d5458373a5f0df47c207334cfb068252f8fe1ec2d5449c78f7de76a4bd1749e2",
+        "fingerprint": "6cfad69465536cdd6e735c15da2ec628bb3915c4cfd268bdfd54da261e237a18",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -688,12 +771,12 @@
             1024
           ],
           "product_translation": [
-            -97,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -796,7 +879,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/WM0001.zip",
-        "sha256": "787195ecab1f10a756ff271e4dc44b12d2e75ab3f3906e86157aece7a9133157"
+        "sha256": "43de484d5bf6e3f9cc64a2104063ccfb684108300c5c577beff9335605ad579b"
       }
     },
     "GF0001": {
@@ -1065,7 +1148,7 @@
       "expected_option_references": 8,
       "zip": {
         "path": "archives/GF0001.zip",
-        "sha256": "cd6ebc3f1dd67b7d820fb845f38a0fa6120a2efacda6447f1ecdc30ba8d4ee60"
+        "sha256": "ede020bd49bd75ca8081013f178d08fbabfdb0f208b2c9bde6e150a5b9a10a96"
       }
     },
     "KL0001": {
@@ -1075,7 +1158,7 @@
         "status": "success",
         "path": "KL0001/thumbnail.png",
         "sha256": "d6167d3a9837449621db442127a3a94115f6c0e5294c95e8027f57b8f1d2ddb8",
-        "fingerprint": "3619d4871f885ceb8c79d72c41cc79baefce41ae21142eef4b988db0998c6616",
+        "fingerprint": "05e216736ae79cf66d5c6d031fa3a4a08c4e6ad8cc487258541cdf5f8177a5dd",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -1163,11 +1246,11 @@
           ],
           "product_translation": [
             0,
-            160
+            0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -1270,7 +1353,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/KL0001.zip",
-        "sha256": "80aded980c30140f7d944b4425a122c418fc0896413570862e7e39d1f9a9035c"
+        "sha256": "e79c4c551e43129d445c51cf7327284fcc3476dd1bb6efcc079a9140cac4633e"
       }
     },
     "ET0001": {
@@ -1471,7 +1554,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/ET0001.zip",
-        "sha256": "08ad3d52281610d7e6c4403531c47213ad2c11f27ff7a1a95fba9c67fc884cbc"
+        "sha256": "7f1cea7a84c69e9903e2a8b1d7665fc3f85148a01939edd2fd7ecd272572e306"
       }
     },
     "RL0002": {
@@ -1481,7 +1564,7 @@
         "status": "success",
         "path": "RL0002/thumbnail.png",
         "sha256": "263eaf83b4b96e56e4ed2ed189b73e3ff863906679484142c0e176917b749384",
-        "fingerprint": "509c3e8c699494e3a51bdd5030b632df2e5570153ef5126fc51c2ae11565422c",
+        "fingerprint": "e0decdfbe9d4575dfc6daa1283396e60a347db3410ecb041240d47f7fa4ba558",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -1642,7 +1725,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/RL0002.zip",
-        "sha256": "77af4af1d73bed1e0649c69f7ddb6a2c9c1b20239b4d922f31c8fd0d54a99ca2"
+        "sha256": "052603556ad4f3c4d27a8fac8ab4bfe0dd82a7a2c420329930e04e63cb752c91"
       }
     },
     "GA0001": {
@@ -1652,7 +1735,7 @@
         "status": "success",
         "path": "GA0001/thumbnail.png",
         "sha256": "47a30be71d8c7945659768590f9d3566b5389f8a3eb2bd898dc2f629bc738008",
-        "fingerprint": "01c0fe2fd7b740f350ac4a4735324e34777c38d5713620c2d00fb2515a14853a",
+        "fingerprint": "c1bfe647138a12c80d04e5901d4ecf0c2c0f1dc7a43d2ea73ea572f8972e3c4f",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -1730,12 +1813,12 @@
             1024
           ],
           "product_translation": [
-            -101,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -1807,7 +1890,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/GA0001.zip",
-        "sha256": "053b10cb12bb345313232f105b1b2a279d29441b6a56d72744c9368383395ea1"
+        "sha256": "7ae3e167d2913fea0aaa26e40ab766fa52070ac8f2c50a20808d7924108aadd9"
       }
     },
     "CM0001": {
@@ -1817,7 +1900,7 @@
         "status": "success",
         "path": "CM0001/thumbnail.png",
         "sha256": "54224fb063c35f77d6c64754fd72b85ff936b4f0a56da5c1ba7111dd1ea30366",
-        "fingerprint": "c3def899344cfddbcc44e21cee11a8bd0061bbdc1ed0755b4b647bde68d13b3a",
+        "fingerprint": "f380873bf57d25d24ca646b81daa59398940749138ac81f1d28a7be39b961cdf",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -1978,7 +2061,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CM0001.zip",
-        "sha256": "6da24061d14a8385f90da803fb81a520dbb23b0b390a56b40804dee3c39a7f18"
+        "sha256": "d969ad8f11dc5882badea9bd0f9ee18800e20b2b6986f771ff2b161cd549cc81"
       }
     },
     "MP0002": {
@@ -1988,7 +2071,7 @@
         "status": "success",
         "path": "MP0002/thumbnail.png",
         "sha256": "4bf621450bda4263ae16995dd4cf21845539011d6db984eca422d71a78de99f2",
-        "fingerprint": "0ea8215ae9bb0bb226c0f136f233b96d5ab342f3ef074b2919a7143fa30b53d5",
+        "fingerprint": "b0b581dbf720e0d6f6ed3fe4c5840ef7ed57bfa9d65e931b1d460697ccb82c87",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -2149,7 +2232,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/MP0002.zip",
-        "sha256": "c9c4005bed942d1ab615378385bcaed9024e4f9c7a3d67fb6d4dde2dc51ab117"
+        "sha256": "6141eab3518b8de2d6065607e6108b4bbad65bd7acf51d683c0832849d54e7eb"
       }
     },
     "IC0001": {
@@ -2159,7 +2242,7 @@
         "status": "success",
         "path": "IC0001/thumbnail.png",
         "sha256": "4e3015682499d5475ddb108a3442dfe10dedc9a6218cc9aeb07cf94cd4ebb33e",
-        "fingerprint": "f022261c043f4465ce21dd472f32dccc7074c9aa5af73f5a086522cae08d26d2",
+        "fingerprint": "d668913dfb76a1962f9e26f73cbe9935914b9d440ff03a932cd59b6f306e9bfd",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -2360,7 +2443,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/IC0001.zip",
-        "sha256": "11a3b5591945ce202a516aa8b6d67e0ebc5aa597cba29e94c671f25d2585f135"
+        "sha256": "d895ec2c1e239adf1225402c7d546ebfc3bddd5eaf3faef41919465f4b850a8d"
       }
     },
     "CQ0001": {
@@ -2370,7 +2453,7 @@
         "status": "success",
         "path": "CQ0001/thumbnail.png",
         "sha256": "648ee82417f391cde310062d2cd0c4b369d51364f0d522192adddce0a4b3b2b0",
-        "fingerprint": "715525c9698aa13d1ce4a6442d4c99a714b66579431019833163bda005af4810",
+        "fingerprint": "52d3c20ea465bc268d5e7aad9a262fa6d06fb31a74d0953d9f6aadcd9d4703e3",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -2531,7 +2614,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CQ0001.zip",
-        "sha256": "cedeae562b6ff01ee1809f6b699aa0a14fd3094c538b3d3ecf7489503b3cab3c"
+        "sha256": "31d4152532deb93593d2f2ef33d8effcb9ed89e313039bcadbf8175cc68c2cdc"
       }
     },
     "MD0001": {
@@ -2541,7 +2624,7 @@
         "status": "success",
         "path": "MD0001/thumbnail.png",
         "sha256": "cea88a90716f2c8b7309cb5e6a6cce5598adf42ffe176fcb658e0199621eb984",
-        "fingerprint": "868a8549c5ca0322a40f84044f9662bbdfd85941fba2dd9b3b07f34b6bc60878",
+        "fingerprint": "3bee999170e230b63efd3b169e36e872610f25069d0e4f6593bb508501d54b52",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -2997,7 +3080,7 @@
       "expected_option_references": 11,
       "zip": {
         "path": "archives/MD0001.zip",
-        "sha256": "4a8ac65874d4491ffaad7b6d97ce490508ad42c06968770c242dd70af8692650"
+        "sha256": "be9f490698a05b9d7b92b84080887aa5ee317f349e1365e7265475edb98374e5"
       }
     },
     "BD0001": {
@@ -3007,7 +3090,7 @@
         "status": "success",
         "path": "BD0001/thumbnail.png",
         "sha256": "831dc6389a58f91a64053da1ee5e89dbfddca9d8fedccb409d34722df490cf88",
-        "fingerprint": "11cc4058c421785da44671f7ca32f154c8dac36f17d1764ec6e6f36639561f0e",
+        "fingerprint": "84920b5ad091141fe57c684ca739a67bfa88f5ea69445dc59851c17705f7f163",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -3168,7 +3251,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BD0001.zip",
-        "sha256": "ab9352a4e733fe5a07da3e786858feaca8b22987a215d9f92262173486c1310b"
+        "sha256": "83dbb70d5b65704a31cac90562c71a3878065b1f42d9fca9ed3721bcb0498030"
       }
     },
     "IM0001": {
@@ -3178,7 +3261,7 @@
         "status": "success",
         "path": "IM0001/thumbnail.png",
         "sha256": "ef9862121f4687be81d2dc75a99d5e2e7e39cf9d27f2db6aa1f91e1155a0e14d",
-        "fingerprint": "01f4e9b171f9de5cda01ce058cc748ebea114e7d7f6d6f538d38899628505e7c",
+        "fingerprint": "85787d50d5e96b1bbd565433dd5081120d325278599ea85bf3fd2d08b16e4781",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -3262,12 +3345,12 @@
             1024
           ],
           "product_translation": [
-            -86,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -3370,7 +3453,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/IM0001.zip",
-        "sha256": "648aafac9587fa7c3ac9920852c47fab0c230371ced988467a0b04a6675acdab"
+        "sha256": "bf4a82d4e418f63af24824dc0a675f76b7b2087d31ad089d5da0d8514d928db5"
       }
     },
     "IM0002": {
@@ -3380,7 +3463,7 @@
         "status": "success",
         "path": "IM0002/thumbnail.png",
         "sha256": "003caae880fdaab8377282d4a66ecbb622b5edd147d971b71bb3a64ad3ec0d54",
-        "fingerprint": "7eb35ca123ad4e9646d9cf157dab5cf326884cbc9011e9de69588a3c47fa92e9",
+        "fingerprint": "379eaaddcf1cc9adf9b1fa820541b8ef299700e0765613bbf9226e563f7ac9a4",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -3566,7 +3649,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/IM0002.zip",
-        "sha256": "96697460421a1c7ab92f0efff1297a9fefcde0a9ee1bc09ee2d75f3c6a17bb47"
+        "sha256": "7e559de59c9632f23bff23073f7e4ac3bb4bf4a0ef3c2a1beff3671f7238ca22"
       }
     },
     "BN0001": {
@@ -3576,7 +3659,7 @@
         "status": "success",
         "path": "BN0001/thumbnail.png",
         "sha256": "ea9169d901cce792854a783d5cde1dc85af7cbc65204403609ba4e1a125722d2",
-        "fingerprint": "909d3fc4bbc73f33fd0de928c722369f9e687183fd28a1f6561bd67da7a8cbf9",
+        "fingerprint": "f726072b3b9edfa1007a6538220f62f1a1461c01b3ec497a322002cc9c86930a",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -3737,7 +3820,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BN0001.zip",
-        "sha256": "1716c8e1810b4fd476c9e00651a8a0876e4446cfb4df4efc5fe7205cfe135de2"
+        "sha256": "8e03447507c99956ce019173d8894892e349a8b8672845c8a41c83625f4237f3"
       }
     },
     "BN0002": {
@@ -3882,7 +3965,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BN0002.zip",
-        "sha256": "f941a5b9cc84f3739ae469953fdf4bb9bcaabba951b0c8f27723fe230b7034a4"
+        "sha256": "d458c63ca9a086fc44251c80f8e5ab84d6a28708b596377b451fd60f8ec82346"
       }
     },
     "CL0001": {
@@ -3892,7 +3975,7 @@
         "status": "success",
         "path": "CL0001/thumbnail.png",
         "sha256": "5aed238396bdee35d8a8077c90e7dc55869f094d73eb49e72e042331c3ec1acf",
-        "fingerprint": "c9bcfd6713fe2050ca6e7bcf5120eff86a9b612d347064585c102396ffb9c197",
+        "fingerprint": "f570fff4765e24ad932c1d2ab82a0056c789b6c7414c49bbf258af60ce48aea1",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -4342,7 +4425,7 @@
       "expected_option_references": 11,
       "zip": {
         "path": "archives/CL0001.zip",
-        "sha256": "926a77fd03bfc389344a843fd4cb05669d81354b9154bb8b7074e14e2fae3038"
+        "sha256": "55168975a76858b829357212fb8df09ad414e823462732120d8431057ddf377e"
       }
     },
     "CL0002": {
@@ -4352,7 +4435,7 @@
         "status": "success",
         "path": "CL0002/thumbnail.png",
         "sha256": "912a0c7291ae27fe5f91ea7fb47f6304520fb73a842305c9834b00dc534846ed",
-        "fingerprint": "79fb4cb59ca607d924183069d674cd1f1812aaeb5ac92be21caa087474d7d7ab",
+        "fingerprint": "630a725d9a4762bec70cadb4a77454c438e2273de45fcd074e3300b370ad899c",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -4963,7 +5046,7 @@
       "expected_option_references": 16,
       "zip": {
         "path": "archives/CL0002.zip",
-        "sha256": "3241aa2b09bc0f0a498e74335d938d0e47138fdb376e84b423b2c8e817730595"
+        "sha256": "245517ae39e311ec11ae0192032f2c4753d0a3284b02540957a2a310adbf4ead"
       }
     },
     "HY0001": {
@@ -4973,7 +5056,7 @@
         "status": "success",
         "path": "HY0001/thumbnail.png",
         "sha256": "2cde4aa62aaf5c35c379373d04b841b805ed03cdafb9e644bace6c882a023a81",
-        "fingerprint": "2b5566d3f9d758d90acc5bad934820dcc74570fe50f3d62b8471c26f0648b982",
+        "fingerprint": "3f629481f81280b4591e5d5f0113d4054a9cb0948379cdfe58403fb27923c00c",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -5134,7 +5217,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/HY0001.zip",
-        "sha256": "46097692f9c2b942ccdd003adba90d9fadec3b618fa8772064916c064c51fc29"
+        "sha256": "92776029257be819071d98cd45f752d74a293cfe47d9db2bd49ccfe89ea61188"
       }
     },
     "PR0001": {
@@ -5144,7 +5227,7 @@
         "status": "success",
         "path": "PR0001/thumbnail.png",
         "sha256": "58ba13018ee3b8253d75ba3662e730320b467bcae326e7687c67adf83c0cc3b4",
-        "fingerprint": "b0f1846b08badd0246fbebb44026befc9f262aa02c2fbe21e374978188bb4fb4",
+        "fingerprint": "ac5942bf32c9b010fd062782a3c92ec6b5754d391a5287ad275bf51de89cda72",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -5299,7 +5382,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/PR0001.zip",
-        "sha256": "464e73974c4ad9fd4febc34742241d456af4ee9e146ec3e1486ef68ee8c085d3"
+        "sha256": "acf62e6bcf6a7329a5fc7deaa1dabf1c6a6bfcad4160269a2be206559cfef63e"
       }
     },
     "BL0001": {
@@ -5309,7 +5392,7 @@
         "status": "success",
         "path": "BL0001/thumbnail.png",
         "sha256": "746e1ee096447008c4e4a5890ee5843f056f89d9da59b879460357d17bc7707b",
-        "fingerprint": "c814016a98520d496b69da036d39e69186eeebd7b1043852fb086711f44dae85",
+        "fingerprint": "e8e5687aa17dcfe0fb49db7a851934a4537e109d82f1f32d9e3c09f578ac3e7a",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -5594,7 +5677,7 @@
       "expected_option_references": 6,
       "zip": {
         "path": "archives/BL0001.zip",
-        "sha256": "f737369e225580113bbaceb7cd5268cb80340b90fc7a18f018b40e24fdfcac99"
+        "sha256": "f2d24aa1693f283a3c418664372fe2fac7ab902df73b26fb80b33f5ac4b89ebd"
       }
     },
     "DS0001": {
@@ -5604,7 +5687,7 @@
         "status": "success",
         "path": "DS0001/thumbnail.png",
         "sha256": "8927e163fe037ec6090a751e454a3bc9b78fbed45039a039833cbdab4acb9ea5",
-        "fingerprint": "5074c84951dd0a238f9d150d18e0fbe8b24dc493c839c7163d99b0d248182da3",
+        "fingerprint": "036c875734062c494b438ebb3f2af9d6946f898c347be86b0a75c274ea7c8d2d",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -5768,7 +5851,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DS0001.zip",
-        "sha256": "926e7e3b1b4889f7a0a5dabb2db70be4e44060b5f6042442a9b22d81f305fa4d"
+        "sha256": "505f5260f20fa11228bab365a32e7f9d07141dce9d738a152a012cba312794d8"
       }
     },
     "AD0001": {
@@ -5913,7 +5996,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/AD0001.zip",
-        "sha256": "6229d51f21bd501bce6782d441771714dc38f8d9b17e25c72f912428315bb354"
+        "sha256": "4fc47ab8a96f5b999b68999c95330abb2c42e2ebc435740aedd465c0fa17349f"
       }
     },
     "WM0002": {
@@ -6213,7 +6296,7 @@
       "expected_option_references": 9,
       "zip": {
         "path": "archives/WM0002.zip",
-        "sha256": "bb8d46e911126c560bd03e6830fdccf8cb2f4615365d4cdf4d42ef900b0b80f1"
+        "sha256": "2404d86429c7d1a14441fe2d158aac6165174957f1d245d5e28aa7d166d8dc86"
       }
     },
     "RL0003": {
@@ -6223,7 +6306,7 @@
         "status": "success",
         "path": "RL0003/thumbnail.png",
         "sha256": "b4d21f56a7d044c52b7b2b8c2df2025ec6a470e58b0f9f66c1f372bd99f445fc",
-        "fingerprint": "d8822668d95af278d37d378b9fac084417af835ae55f8ff987f50d196d2ec6b0",
+        "fingerprint": "cdeed2b7f0f1e8ff319d392e3c32ebae0982d95330e37d0921ef6e546f39c71f",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -6387,7 +6470,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/RL0003.zip",
-        "sha256": "3d93067da2bc67d9599a49d4116742b170ecc3396dc6c99b4a1b0d242929012e"
+        "sha256": "5bec2b7bc7a0390975b2a19e11364714c9f984f47631665e01ca6a802f83ba8a"
       }
     },
     "TS0001": {
@@ -6397,7 +6480,7 @@
         "status": "success",
         "path": "TS0001/thumbnail.png",
         "sha256": "6da0ee2b5f07394846909f1e8e206fa8577da49cdc1064884fd17cddd372796b",
-        "fingerprint": "a4e2b26253dfc311b7e92acde6d24076322bdb779c293a58d88062c7148462cd",
+        "fingerprint": "a97e20883bb348e58a20acf5f5c74392947e3660d19dd0fa21c13f02ff908d78",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -6552,15 +6635,106 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/TS0001.zip",
-        "sha256": "94ff43f974f2c2e06954b8caf9fa33ed953f93233d16e04d3627ae4d625677df"
+        "sha256": "afc212992f0023e9c1b92f4e0f00edbaefed40c63c61a20b884b62e41fe7f0c3"
       }
     },
     "YM0001": {
       "code": "YM0001",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "brand: YM"
+        "status": "success",
+        "path": "YM0001/thumbnail.png",
+        "sha256": "456a0d62a43708522cd1304d08c0a0dae47709dc084b372b50b16b11fdbf425d",
+        "fingerprint": "fb0cc4318e71491b9e084bd4fc85b038b6d08bcfb07ce626b6ec6e6016538d9c",
+        "reused": true,
+        "layout": {
+          "design_version": 5,
+          "source": {
+            "archive": "YM0001-1~3.zip",
+            "member": "YM0001-3.png",
+            "raw_member": "YM0001-3.png",
+            "filename": "YM0001-3.png",
+            "sha256": "c6476d2a2899d7edbc69d1de906e709abc380fb85b57716332d3df2a5968109d"
+          },
+          "brand_logo": {
+            "archive": "YM.png",
+            "member": "YM.png",
+            "raw_member": "YM.png",
+            "filename": "YM.png",
+            "sha256": "89ab95dff6ab627097a47417495b63168b83cedb757e26386a99722ef0a581ee",
+            "source_type": "standalone_brand_logo"
+          },
+          "main_title": "Soy Milk Granola Shake",
+          "subtitles": [
+            "Tasty & Easy"
+          ],
+          "logo_box": [
+            416,
+            58,
+            607,
+            110
+          ],
+          "title_boxes": [
+            [
+              167,
+              122,
+              857,
+              173
+            ]
+          ],
+          "subtitle_boxes": [
+            [
+              419,
+              181,
+              604,
+              208
+            ]
+          ],
+          "cropped_source_size": [
+            964,
+            966
+          ],
+          "product_scale": 0.7681159420289855,
+          "product_box": [
+            142,
+            228,
+            882,
+            970
+          ],
+          "product_area": [
+            48,
+            228,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 0.9979296066252588,
+          "badge_box": [
+            78,
+            220,
+            238,
+            380
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 40,
+          "badge_occupied_fraction": 0.0,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            165,
+            138,
+            123
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ]
+        }
       },
       "options": {
         "YM0001-1": {
@@ -6626,16 +6800,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "brand: YM"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/YM0001.zip",
-        "sha256": "4fe0c07e15b0f67f053f561e94380ec3623112c44e8db07da3f3995542417ad0"
+        "sha256": "666cfb78bb87152790912f8b15e226c0d25687f9b61511d9296efda23e687e9e"
       }
     },
     "HB0001": {
@@ -6645,7 +6814,7 @@
         "status": "success",
         "path": "HB0001/thumbnail.png",
         "sha256": "ecc1f480c035537a692d933244c0680f1e255b20dc57e5261891f57044ed35b7",
-        "fingerprint": "c0564f37b33bdac4d10cd0bb9ac364916088a3c863c1182079197274fbcd21d0",
+        "fingerprint": "010e04cabe645c821c5338df4824162d0d541f144da3ea5c44a08d1ea3c3f7c6",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -6831,15 +7000,97 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/HB0001.zip",
-        "sha256": "4b6a17915aa1ad7f46d7fb7947d192767213d4597977370c7802c9fc8c44f391"
+        "sha256": "befe8a1ff076092943ec6fb6691376dd6fb6b1c7df87533b963eb743ae03fc6b"
       }
     },
     "SN0002": {
       "code": "SN0002",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "brand: SN"
+        "status": "success",
+        "path": "SN0002/thumbnail.png",
+        "sha256": "303678c1be33abd81bb6feb83beaa46939a33dbe9b39d038a8fce769e17ce3f0",
+        "fingerprint": "a8e7db13d2daed2532de7d539835660f468024b440c4130c975a7ddfbfe7b318",
+        "reused": true,
+        "layout": {
+          "design_version": 5,
+          "source": {
+            "archive": "SN0002-1~2.zip",
+            "member": "SN0002-2.png",
+            "raw_member": "SN0002-2.png",
+            "filename": "SN0002-2.png",
+            "sha256": "b0c2dd5ba5f76638c6886a5db347c5a509bc0717a7b1cdebdf1b97e3fa3df3aa"
+          },
+          "brand_logo": {
+            "archive": "SN.png",
+            "member": "SN.png",
+            "raw_member": "SN.png",
+            "filename": "SN.png",
+            "sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1",
+            "source_type": "standalone_brand_logo"
+          },
+          "main_title": "Aqua Rice Foam Cleanser",
+          "subtitles": [],
+          "logo_box": [
+            342,
+            58,
+            682,
+            93
+          ],
+          "title_boxes": [
+            [
+              141,
+              105,
+              883,
+              156
+            ]
+          ],
+          "subtitle_boxes": [],
+          "cropped_source_size": [
+            611,
+            747
+          ],
+          "product_scale": 1.0629183400267737,
+          "product_box": [
+            187,
+            176,
+            836,
+            970
+          ],
+          "product_area": [
+            48,
+            176,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 0.8179384203480589,
+          "badge_box": [
+            78,
+            224,
+            238,
+            384
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 40,
+          "badge_occupied_fraction": 4.921017666453423e-05,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            165,
+            138,
+            123
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ]
+        }
       },
       "options": {
         "SN0002-1": {
@@ -6905,16 +7156,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "brand: SN"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SN0002.zip",
-        "sha256": "3338f14e38ef3255ce1e187324e217cfb16424ea0fe221628e0d750e2dd06e98"
+        "sha256": "3955d6ca9ed98fb639270377faef01cacaeef4ac53114d6d2b363337417354e8"
       }
     },
     "ME0001": {
@@ -7007,7 +7253,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ME0001.zip",
-        "sha256": "6bbe001887754e8329facbd31612275fb6b0bab01d133cc83bfaad1b100a91ab"
+        "sha256": "809dcc668e5f029d3fe3e92ce4c9a8a77702e6e6669717389e9f7a9e40e9d2bf"
       }
     },
     "AH0001": {
@@ -7017,7 +7263,7 @@
         "status": "success",
         "path": "AH0001/thumbnail.png",
         "sha256": "db7142dce6c81397350a82b71ef79630abd98007cc922d166c7a91f159cd0ab5",
-        "fingerprint": "bb9bab77c9c63fe5ee7aafd005226c9ec7e9a838a42a892f3d2a352652b16908",
+        "fingerprint": "f0fdb4aa5ced2651435934b65f829fb4754cc6a862448eb36fb8a8af1f4ed3db",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -7172,7 +7418,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AH0001.zip",
-        "sha256": "294ee85de217f3f218146f9f71fef8d8d29ef391af8134e68b906f29162f975f"
+        "sha256": "9175cf87bdc77099b6f038d0a39f8ea9426713c453cd18fd8fca4e1bff71fbd6"
       }
     },
     "TR0001": {
@@ -7182,7 +7428,7 @@
         "status": "success",
         "path": "TR0001/thumbnail.png",
         "sha256": "6d8a3bb930583ca4201c2cece3702523a91e01a621648b00c0f2f7a9588a3206",
-        "fingerprint": "6be0d6f0f9b8daf00a4ce9b8f2c55540bc97a65ae14c6a8596d1e70377671df7",
+        "fingerprint": "a0012e16f11f0a4c58d3252878d4cfdbebb2a664b0e2cd58a5405461e0a9bb31",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -7337,7 +7583,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/TR0001.zip",
-        "sha256": "75e991b80958ca44e05192036d5da216c9a897e0614baa907824fc31efcdd63b"
+        "sha256": "8021150e5a00f490c16658c0130aaa881a0c9103ddcef30da91b62f14806227f"
       }
     },
     "RL0004": {
@@ -7347,7 +7593,7 @@
         "status": "success",
         "path": "RL0004/thumbnail.png",
         "sha256": "9b2a63a2f0b7633e39c08d8192b9e55103dba23999b334be156a00a8aaf9d71e",
-        "fingerprint": "5b553cebb006633cd6088985797874c4ea5f05ddd069145eb8d9127e1e688b39",
+        "fingerprint": "9b483677fbaba304a1352393f996519cd38c44790e48cba106bc8a491d88a5e3",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -7502,7 +7748,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/RL0004.zip",
-        "sha256": "8f836d9a0ce7c514ddd0f814f8fe6b8a59a928003fb9d1a84d8974fdc61c07b3"
+        "sha256": "113c0f1310a97b18fa0dc30390818708416d8bd97830c08a7b0d62ff97385b7c"
       }
     },
     "TR0002": {
@@ -7512,7 +7758,7 @@
         "status": "success",
         "path": "TR0002/thumbnail.png",
         "sha256": "e17b0c35b48590fd6269463e6e60ed521cc4183fbec493a82d43e5f9201f2e0d",
-        "fingerprint": "f184031970db319432a120c5961d67bd19eb92ea2961519670aee89339cea68a",
+        "fingerprint": "c940fc53d9ac691ab2bf1293a7af18bf7f27c2b49e974fb84f4d53dc3f54f949",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -7667,7 +7913,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/TR0002.zip",
-        "sha256": "06ef43b36b4be7b851f4b3101f18a350ac82f236a5bdef790bcd19776695637c"
+        "sha256": "f8a681e77afc843f5abb2a1217c80e8cf1854656d32d271090c9db53f22a9a93"
       }
     },
     "NV0001": {
@@ -7677,7 +7923,7 @@
         "status": "success",
         "path": "NV0001/thumbnail.png",
         "sha256": "096fabdbef6f78f2c5525fc4ae429d8b21680717de0110a69c17886364129d9a",
-        "fingerprint": "f66579d44106c8acc074705c5f80eb285a6002fe5a57783a7aa621b2ed878cea",
+        "fingerprint": "0d80ac15b06220faaa634ff35f1887158d87c5bb5015cf9534496dea8a4402ad",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -7841,7 +8087,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/NV0001.zip",
-        "sha256": "59c516e182e8400955aaee418df4f0098d208b741d5b4e226b703af210c0049f"
+        "sha256": "54cb793a8c57130b570113eb61b8b27b5cfeedf36e2ed2ac86d3debe5d00914c"
       }
     },
     "IN0001": {
@@ -7851,7 +8097,7 @@
         "status": "success",
         "path": "IN0001/thumbnail.png",
         "sha256": "5d84d7c54c7fe8ea4894b72021ecdb2f6e20c58c846d102af3d0d5e373fb8b5e",
-        "fingerprint": "cfc9f276b6d19e4b2c8c06727d9306501d1089338114addfe1de453bdce3bae4",
+        "fingerprint": "4d66bb24f419a32e18906a7a0f0d5312d09e2efcf9ef6227b30a8ed235094bfd",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -8006,7 +8252,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/IN0001.zip",
-        "sha256": "914b22af6ca37d4a7c8b24bf62a1fc647ce2f37aa28d26028b58c39e38ca40e8"
+        "sha256": "453a8d6e248edd2892a5c009c0adcf5416749b0bf919ec400516af8f5f2a2a4d"
       }
     },
     "RB0001": {
@@ -8016,7 +8262,7 @@
         "status": "success",
         "path": "RB0001/thumbnail.png",
         "sha256": "c4179c981b434fa98bd183efa2a4efb842399aeb3a709515d576026545a6597e",
-        "fingerprint": "1ba164d46e7528a6e18351892ea9a2c0a49fddaf49f625091f4b098dd69d6d31",
+        "fingerprint": "8c7a6d3e4c1fd79774174f0603606a6fe462c29b9427794ea3db60138d945048",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -8171,7 +8417,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/RB0001.zip",
-        "sha256": "f314d921e1196b06c9c8d681dbcc3c7cf176f41d83930f799d075349ddaf5622"
+        "sha256": "25a4278ae1510a477c17ea6680f43781700f880724d17d0d3995c4a612978de4"
       }
     },
     "PR0002": {
@@ -8181,7 +8427,7 @@
         "status": "success",
         "path": "PR0002/thumbnail.png",
         "sha256": "26496db7f1534e5508f6dedbd7b022f29100ac003f16a0f43cf8edd223e38b03",
-        "fingerprint": "f04bccb232884d1970bfb134c9550757e513af9e40248df036f976c7e997117b",
+        "fingerprint": "9a53d68be8b537f345eb8f85a5c85d84dbd589e6cf82b4baf919d18430c66376",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -8404,7 +8650,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/PR0002.zip",
-        "sha256": "aa77eff4d1de3db2235fe9296094d8b7e7740f15df161d68d55b48e0b2edf47a"
+        "sha256": "287c8c14970df53a64f1dd4810011a262e494aec3bd82f4bcc092f005d3c06a2"
       }
     },
     "GA0002": {
@@ -8414,7 +8660,7 @@
         "status": "success",
         "path": "GA0002/thumbnail.png",
         "sha256": "94dea805b34442d8684f32190fce79dfb280324767227f81b13d513152252202",
-        "fingerprint": "a1baac82384627209699f557cbb10fc6354cd2bc7efc86c1ebfebce6b546ba5b",
+        "fingerprint": "69f1e0481162e01ab1c07d4dfb587f78485b92fbbdf3ce60edc5bf83cec5710d",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -8498,12 +8744,12 @@
             1024
           ],
           "product_translation": [
-            -127,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -8575,7 +8821,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/GA0002.zip",
-        "sha256": "9c3d896ac82f9e46af4d103e78721a55f6ee03b5dc53d0ffa8ac2031798602d3"
+        "sha256": "5414a73ce88712365647a61038f4f8b2a3be2913fd488834231d3b968ffcc2d9"
       }
     },
     "EU0001": {
@@ -8658,7 +8904,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/EU0001.zip",
-        "sha256": "3ddc7b7983553d7ed5fda4c1c9912cfa0da5c646600b537f4c18646efe39aed7"
+        "sha256": "1165b4960e7516f03214c4e5597e70770e31788854118fb941d2632d4f436d2c"
       }
     },
     "CF0001": {
@@ -8668,7 +8914,7 @@
         "status": "success",
         "path": "CF0001/thumbnail.png",
         "sha256": "e5f9adcdf24e67f31a1ff6cff430c4ac75e5f3b9ac1ea26ed9ec26572feb4a0b",
-        "fingerprint": "44681b9896f6cc7f1198fc44ff0af8783f0ad7be31b7dc6964ea43a79f173c9c",
+        "fingerprint": "b6f79ebcf942080f505b82ae8b56a720dcb9841c06d5de2013293b513d3a3c60",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -8925,7 +9171,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/CF0001.zip",
-        "sha256": "00264cfdf4a841d69c086cd35a831b1540a9151b65e60f0562af44d11913b6b0"
+        "sha256": "9ab1888235a463de1d0f73ea913fb5bd83209fafcb05b8a16550120beb9e9869"
       }
     },
     "DQ0001": {
@@ -8935,7 +9181,7 @@
         "status": "success",
         "path": "DQ0001/thumbnail.png",
         "sha256": "d8799b5fb2cf4e316814543f661be7b1005f9f30685074d06eac0a819d075bcc",
-        "fingerprint": "a58cc40350004a4ea258611ab6f14a9ed1a9b55f64228e778f5fa2488b485488",
+        "fingerprint": "7a2fa18515b7d9e87453ff317e0df189cd6218b5a62ed149b190298132f27918",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -9022,12 +9268,12 @@
             1024
           ],
           "product_translation": [
-            -101,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -9099,7 +9345,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DQ0001.zip",
-        "sha256": "263be6eac8265de59556844c2dac334b8002488feffb01e748ffe9ffef8b7ed5"
+        "sha256": "3ed7687aafe9b8c39eeb7367089fa6b036608bd0a8e6ec0824815c597573a80d"
       }
     },
     "HY0002": {
@@ -9182,7 +9428,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/HY0002.zip",
-        "sha256": "2de64eee5f305c35e86a7a517ff046f5c44d3af226de573827791aaa4bb28537"
+        "sha256": "a4630d44eef58cc3b49887845c4fa1562fe755ee00bf4e7672cb321e1198022c"
       }
     },
     "AN0001": {
@@ -9192,7 +9438,7 @@
         "status": "success",
         "path": "AN0001/thumbnail.png",
         "sha256": "517aa714ff61ca1e82af1096c16dd8f9cb908be3c3639265d9891ba0ad4a7749",
-        "fingerprint": "8fde7ee961cb5171bf142cc64be91562385b036d09df536d90c2a66b954cbfb7",
+        "fingerprint": "a2572a51bf9452aa1f0807e91db2f895c2caabda520de6a03688770b15b6344d",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -9353,7 +9599,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AN0001.zip",
-        "sha256": "b743bcfa756ee16f1e02c8c294affe5c4d0f13c5df361791e9c95f24221b74f9"
+        "sha256": "794b916d4d9c6d725c3646964047a1e5495ef21eddae6f88ba279fc3ae6666b3"
       }
     },
     "SF0001": {
@@ -9363,7 +9609,7 @@
         "status": "success",
         "path": "SF0001/thumbnail.png",
         "sha256": "1578366b553175f0999e3056b3b1f5ec1b2b34703703fa8bf643ab92ba608e4b",
-        "fingerprint": "2b580597de34a0ede8a7978d68bf4e545445a80a8614d297c4b2131c6ec60c63",
+        "fingerprint": "0cb7882ea008ea798613bf98dc2bd1a4464012d1a2f762fbac44c7de6f1045cf",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -9533,7 +9779,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SF0001.zip",
-        "sha256": "1deb76a4e20c668378f8cbd7310d85659d5a197c47b78ff3b1b1e8d9d577e329"
+        "sha256": "e830729ce3e89c905291a766a887dd6271c4f7ba94e2007d8cd8678f7ca884e1"
       }
     },
     "DG0001": {
@@ -9543,7 +9789,7 @@
         "status": "success",
         "path": "DG0001/thumbnail.png",
         "sha256": "e9ae9c2e3022c1866a591d9538d65079d9c57cd1732445b3fc0833dd597cba3f",
-        "fingerprint": "0f22c6763bffc3ce3143ab3922386edc47e4541298f40be65d846ad0485af8c4",
+        "fingerprint": "16b954411b715f4c0ae593c7fb2d0af8ea3c184cc538dba3fec8dd0831e0dd62",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -9627,12 +9873,12 @@
             1024
           ],
           "product_translation": [
-            63,
+            0,
             0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -9704,7 +9950,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DG0001.zip",
-        "sha256": "ab23288fbd2c60ab488696d2a94389c2da8c8b4099db332421c715de2f54db93"
+        "sha256": "af1d07a98c331736206a97098468906927cb48e29a2f852c5327e2289f078d42"
       }
     },
     "RM0001": {
@@ -9714,7 +9960,7 @@
         "status": "success",
         "path": "RM0001/thumbnail.png",
         "sha256": "d4b6f9a31a187896b933982e2232c865ab46fe3c2e9d930448b06f1c90335694",
-        "fingerprint": "297f8ff47be9944b2e17ccf498676f26a5a63ba22845ecba6b1782ba53ed15dc",
+        "fingerprint": "0425e4a5028bec40a800dc026d1009e051698b452815f892155905253652849e",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -10095,7 +10341,7 @@
       "expected_option_references": 9,
       "zip": {
         "path": "archives/RM0001.zip",
-        "sha256": "1cc477225bf06a4a694d0b234b53c2dcbbc10fb451680b9c075b28e78acc2f1e"
+        "sha256": "3bedf6b4bd6edd5a4a1c7222de5701c3cfeb1417acedc96b7e9eaaab20882977"
       }
     },
     "ET0002": {
@@ -10105,7 +10351,7 @@
         "status": "success",
         "path": "ET0002/thumbnail.png",
         "sha256": "9edbf18102985c439e71df6e40f7e4dca910818866ae8953f13a5606869c591e",
-        "fingerprint": "5ed449a0d4b120224cc3d1f5c941df804dd4ed8333846eefe3d6b36874f295d9",
+        "fingerprint": "5b51158aedb436e89c20ce03241819f42a162ab1d956fe5390dc2f683e40eadf",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -10280,7 +10526,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ET0002.zip",
-        "sha256": "640888ac4119795d313cec865f0ee04de4498f08efc4763ecb84b602d1b3c7cf"
+        "sha256": "9398ab80906650be02376d3d3546b49c0b8c3ade9974ebf0c0e76e2cb5d7a512"
       }
     },
     "IN0002": {
@@ -10290,7 +10536,7 @@
         "status": "success",
         "path": "IN0002/thumbnail.png",
         "sha256": "e4ff28d235bfa7404c324f4f48bcbdf0776d32492d0f938fd4804e8ab726d65b",
-        "fingerprint": "d65131a8a969c3586d3d855af99760460eaf694d5ab4ed656d2585b491c27d5c",
+        "fingerprint": "28c321ae0d201cf605d425d3a73df38f2322d7eb0da4d82beb5038ccd528d5ac",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -10375,11 +10621,11 @@
           ],
           "product_translation": [
             0,
-            61
+            0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -10482,7 +10728,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/IN0002.zip",
-        "sha256": "82a5d77eecedeaae743da8f734c51c13ad4ec9982b71bec452501b79e7649538"
+        "sha256": "bb687e28fc6f35164bf6956de6c7fe87c02f58cb6a0f3d72a0062b30ed2e515d"
       }
     },
     "PT0001": {
@@ -10492,7 +10738,7 @@
         "status": "success",
         "path": "PT0001/thumbnail.png",
         "sha256": "0e49870fe91da4063ad3b64bf7b539e14f9f6ac8e70943befeb23cc7c6baacba",
-        "fingerprint": "8054f0bca3f0c15841200d23ca4a5fbc0482bbdaa3ee65e40ac26bf13ec45ea0",
+        "fingerprint": "ad3e7cb8b5b09af8c59c46b7ea1edd8480945bf649718d91df6cfe099d18162b",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -10653,7 +10899,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/PT0001.zip",
-        "sha256": "802b0858d89d3d7c4e95e3afa9376675d507586a3829094d9ac8a58390410230"
+        "sha256": "88bc77e6c85cbbdcfe28d7fae59768ab2c8524e1c54e73462fb88c343884255d"
       }
     },
     "BP0001": {
@@ -10663,7 +10909,7 @@
         "status": "success",
         "path": "BP0001/thumbnail.png",
         "sha256": "dfcf917126171174d98db86a35bcd0895602ddc83654fa7e3f4bb908a3a584af",
-        "fingerprint": "96e36e1c50dce44e0138e1c216d47767f7986c423849acd63ffb336fc0133376",
+        "fingerprint": "240b514efe9729b6bdca3ab764a484aa12bbfd16f8dcbf52a2b9eb09b32a9a5d",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -10849,7 +11095,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/BP0001.zip",
-        "sha256": "fd40fc5b61ed7fde8a9539128c47e256d0918e57417e2b96da37bb80504caf7a"
+        "sha256": "e17a73655d3f96466c8c41b6ba8bb166029e1e6cf08fecca988248b39822e98d"
       }
     },
     "TR0003": {
@@ -10859,7 +11105,7 @@
         "status": "success",
         "path": "TR0003/thumbnail.png",
         "sha256": "8a2c5c64970ce3d53583dff97974b5acf5a50959b57a4c516f79ef7dd69fd778",
-        "fingerprint": "7e66804bff3964e46e3d199a5f3b463dcce1a0f3c71091080676f6ac2a680bad",
+        "fingerprint": "d575b557abac182ebeff54bd41c1c3bd15c23407e166b9ae387238f49e37d7da",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -11144,7 +11390,7 @@
       "expected_option_references": 6,
       "zip": {
         "path": "archives/TR0003.zip",
-        "sha256": "b7bd1690117b3bffeeb000b0960d61e7fe7da02061e31051b11351cd92c8d513"
+        "sha256": "94d00f89d2a5db1f6c20787174ca2f5eec7d0e653aa5d89c23baa05026e6465a"
       }
     },
     "CN0001": {
@@ -11154,7 +11400,7 @@
         "status": "success",
         "path": "CN0001/thumbnail.png",
         "sha256": "ab9c8f67ea5a4865b06ec69a841abbf7c791e3e2d13aeb90434c32f95a40b226",
-        "fingerprint": "8ae8685de3e452a30d692cc56d2a63b8353ee34ff7c04adb4daf9e9b7137cfc0",
+        "fingerprint": "5fac1d28695fe7795bd90700eb48c8438e809f20d289fb187f20bdf836288881",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -11315,7 +11561,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CN0001.zip",
-        "sha256": "573ef39ff81c5cf58577164b41914da70afd934a33ed62a192106a303ff4cc76"
+        "sha256": "1cef0a3b671a3f61c2a2e5461761ef6ba500341826db96fefd5371a06ba3ca93"
       }
     },
     "LL0002": {
@@ -11325,7 +11571,7 @@
         "status": "success",
         "path": "LL0002/thumbnail.png",
         "sha256": "7b1a89a7fdd68ebc2240faa8efdc68abf0cfd4987b9a316be7184271a987ba1c",
-        "fingerprint": "5a90b44b2365c84f8570d58c6f67ccd14fb28b045b00070c5f5b08740d288f57",
+        "fingerprint": "62cf27e7fdb383332d0948d4c8b47fb873aa2ba89697de54db2f65e4ffe30eb8",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -11486,7 +11732,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/LL0002.zip",
-        "sha256": "cfe831b87326e1c125525f1f1777fd4df59e8096b2e58789af108af2986d8272"
+        "sha256": "a378b4f84c913b21771e5ec8d66244781cb9820068a7968744a364bbe6faea07"
       }
     },
     "ET0003": {
@@ -11496,7 +11742,7 @@
         "status": "success",
         "path": "ET0003/thumbnail.png",
         "sha256": "d96e00c2f2735dcfd086efcb403f6171ad271bbf328dc8c5acd648241cffc421",
-        "fingerprint": "07df7774026f5e520f78fd6f7e37f1c06ae472a4c4a849ad766045d400b709a7",
+        "fingerprint": "231f40a668a3db0713368251efc2a72122e5a5b0e9a1b78a73db126d09392d3b",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -11574,12 +11820,12 @@
             1024
           ],
           "product_translation": [
-            124,
+            0,
             0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -11620,7 +11866,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/ET0003.zip",
-        "sha256": "5aad36c0f8b4b9b98203c87fc543f8676d408890c91db32a9d087e91cf62844e"
+        "sha256": "8e4cf886aaea4dba462cd2f5bb461ebd9adaa8c572b0ef83ebf880035176a20b"
       }
     },
     "AB0001": {
@@ -11703,7 +11949,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AB0001.zip",
-        "sha256": "1a5675d73d60cbd55dfeac11e534a338b3ddf41155353f5ea324f338f12528a7"
+        "sha256": "0472da14d6d1c4e695afa832484748c5a132a86a1d49fa928ba898bdf21e8911"
       }
     },
     "WM0003": {
@@ -11713,7 +11959,7 @@
         "status": "success",
         "path": "WM0003/thumbnail.png",
         "sha256": "aa76a6c6d99bacc0374dcb49b9ec68f3b6a43b711385fc8bc34d53721ce9d65b",
-        "fingerprint": "39e825ba7db015b687c410268640f46710937467d2c255e1c991ead3f74fb4b0",
+        "fingerprint": "25dda4c6d6d8333eccd4ddc6b490a7510cffa7a98ab02456da5992d662df4d7c",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -11905,7 +12151,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/WM0003.zip",
-        "sha256": "5e5d808cc3bb903676f332e7887fe16efdf691414c64e8f54c7b2370c6649781"
+        "sha256": "1ab053bf9d2ff47210c0241d1542dffe73b228ef25d28f289f11a0c341438e6e"
       }
     },
     "MZ0001": {
@@ -11915,7 +12161,7 @@
         "status": "success",
         "path": "MZ0001/thumbnail.png",
         "sha256": "3dfbb33cbe6d76d53e86a4403a4f574c13b9650830e630d36b37adec35bae148",
-        "fingerprint": "751d0f637f73ef363f1de29f72d55ed275a7b837582bb81233cce5a8961a59d9",
+        "fingerprint": "04928fee2d48c02ab1944a0387be5b0712cd5a6a936dca4e5a971b6d5ef9afe4",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -11993,12 +12239,12 @@
             1024
           ],
           "product_translation": [
-            -101,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -12070,7 +12316,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/MZ0001.zip",
-        "sha256": "26f237b6239de99051837618065520e35a5521857a5637f2d7ad609ef5e61054"
+        "sha256": "df3e21b32b2ba176cba8c3a2eee3fb920f1c88beaafecd48de290c8824956ea0"
       }
     },
     "PR0003": {
@@ -12080,7 +12326,7 @@
         "status": "success",
         "path": "PR0003/thumbnail.png",
         "sha256": "bbb31ed47fe5e613e033c455e2e372ea509c0b6ccc71e57bd83b4f248756027f",
-        "fingerprint": "141adf7a70d4ea66035577e4fc438c1173e107341d2f5fa8a65a4203d4107258",
+        "fingerprint": "e2181d9f42723c76bef8af15817ee6f58c2729957a958c41d43bf87eeb384b88",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -12337,7 +12583,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/PR0003.zip",
-        "sha256": "e3e3f173426ba458ae321c0c822028c36b281e458449f90825ad5f2f01d9aead"
+        "sha256": "ae5da16665dc5aa84b5c86926c15426a6f480b71e4307ff497460b8a12a9f936"
       }
     },
     "BY0001": {
@@ -12347,7 +12593,7 @@
         "status": "success",
         "path": "BY0001/thumbnail.png",
         "sha256": "cd2505ac29067bcd32ea99883fb7ac5b5bf03ec5482f7b4872097299afce16ce",
-        "fingerprint": "962296f92868b66b7396251ae3954db543bb2369bc16015a29149a8b3c27120d",
+        "fingerprint": "a431aa95d4c51007e2eb6973a674bab8073c425fc856ffe820715e77a78c8415",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -12508,7 +12754,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BY0001.zip",
-        "sha256": "c4c8595a37774ab7cc79839598d6ca2b6aa8b5df6e7b0b4f44f34b39cd9eca96"
+        "sha256": "66e451d8a966b29bbf22f71352ac0140831b0ef6c536020242c67f8254588f80"
       }
     },
     "HB0002": {
@@ -12518,7 +12764,7 @@
         "status": "success",
         "path": "HB0002/thumbnail.png",
         "sha256": "f702bde4829343b50f8611bd3a2f0dd17bc0734110c3354ed3d2c5ac7d972a17",
-        "fingerprint": "5785cbcd563b27bd1c654d77aa6bd3a3103fecc3d3b0eef0ea60e486075d0d04",
+        "fingerprint": "caa95eb5278b277fa00f85c924d7fc182b0fd7569c7de4e7171bce432f822fa2",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -12679,7 +12925,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/HB0002.zip",
-        "sha256": "4f582eca80e73642201bc555190e558f38aa24ac5d63118f569466d7ece895bb"
+        "sha256": "0b9f80b08ba83c6518b413b2f9f7a727bc06097ab0e2b54f433efc00415b1169"
       }
     },
     "DJ0001": {
@@ -12689,7 +12935,7 @@
         "status": "success",
         "path": "DJ0001/thumbnail.png",
         "sha256": "4d04395ccbcb934d07c22bc45c3e133afd48f783c29f29315cd8fa9ed170766d",
-        "fingerprint": "c32b832b57b7de59b2a376e068c6d0c5513bc88e2e8472a522ba8d05f93a64c3",
+        "fingerprint": "3517503051f57776c3916de0f68e3e95f2e86f0435692e1b12a4e256a7002d98",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -12850,7 +13096,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DJ0001.zip",
-        "sha256": "2f33e0682612355ad3bf8eea9a1f5caae6ca2e3065fe6aed22d96a6ecd60c9c3"
+        "sha256": "ecc1aee355c586d6435a2c7377fc93133e3caf4d3617cd0ec9aa374b88f6d8ac"
       }
     },
     "DJ0002": {
@@ -12860,7 +13106,7 @@
         "status": "success",
         "path": "DJ0002/thumbnail.png",
         "sha256": "bfb82830baf7a2f99e725c472587ec02cdce7a32c79ceccd5dac2de3b3e6c851",
-        "fingerprint": "2831edec098aa07383ea6c89328f68f1f2a1c6cde43630ce7080e744302c7e32",
+        "fingerprint": "6e514643556fedb4979434e19bdc5cbbcdb18ef8d7d00da3d7ce3aedc4451be5",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -13021,7 +13267,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DJ0002.zip",
-        "sha256": "92030df4bf97eaf62afd1f0910ce268cff108d5dc7010522374308439e7a78f5"
+        "sha256": "52245ab0ab6ecef9f3d4d6f245c725ce4eb92c822f0ebca0c823dd60ae243b7d"
       }
     },
     "GR0001": {
@@ -13031,7 +13277,7 @@
         "status": "success",
         "path": "GR0001/thumbnail.png",
         "sha256": "eb11a1e0e3fd6204df726a27dd2ff31ce6b38c6f650916469140295ef0d978ed",
-        "fingerprint": "513a63ecf0d514c8f37cdcf187b9d6361832731c6ab85b975db3074dbb34400e",
+        "fingerprint": "b8cd0af5a26616ffc802b9e8a3807d981edeb8421bae36060441246bb521c8c6",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -13319,7 +13565,7 @@
       "expected_option_references": 6,
       "zip": {
         "path": "archives/GR0001.zip",
-        "sha256": "c58ac04c82783c4da5890969e31e84a710df16229acdb4c0297e2571250ef88b"
+        "sha256": "266f795db4d83e56f7e44858311537b7e80775709144f939abe1be8ad3b66994"
       }
     },
     "IM0003": {
@@ -13329,7 +13575,7 @@
         "status": "success",
         "path": "IM0003/thumbnail.png",
         "sha256": "5af2379fb7acdafe62539cc4c91f352f99925e146126bbc05b4ff9031b6c8e01",
-        "fingerprint": "efd1b42a2ebb8b8f8bc72d60697e3513ccef49da72e81e91198ea1f956ad91c8",
+        "fingerprint": "01713ac73e50e79087e0a1ff789021e76bcd1999f6b51598372563a5394fc5ed",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -13524,7 +13770,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/IM0003.zip",
-        "sha256": "f73cbdd93abb21479796c3e0ad0e7f53d51a899684350af25986b71f0d11633b"
+        "sha256": "d4b137c8eb8bc9f490635e4bfbfbcc0c2fcedf0964c4c9815a0ec302e03666dd"
       }
     },
     "ND0001": {
@@ -13534,7 +13780,7 @@
         "status": "success",
         "path": "ND0001/thumbnail.png",
         "sha256": "1c45eeee4fc07e7c31eead9bca3d1b8be3a7399f8e2652c12c50a15000be510f",
-        "fingerprint": "f314c5a1fb4d41b5cf7e470235e36c0b1db2ff9e8b8bafa92e082b4669d2c969",
+        "fingerprint": "d58f8bcc3aa2a7dcb186071ce5d4ea81cb85126efb8074feb96fd9dd23f095b2",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -13658,7 +13904,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/ND0001.zip",
-        "sha256": "9b97807a9c2e8320a7128f1b9321c5ca455deb2c920f5cb5c46082fa0a76da85"
+        "sha256": "730204557a1563bd9056bb8c6a20055b95efc0e79cc86dd9ae7ba959e392066f"
       }
     },
     "HP0001": {
@@ -13668,7 +13914,7 @@
         "status": "success",
         "path": "HP0001/thumbnail.png",
         "sha256": "a1b1e953dbfc730f817eaf7cadaae9c9126ba5b2df9f63bda38cb9cbd26aa413",
-        "fingerprint": "6304579b3162442ae0b27210021a0d160565fb5d1e29c56e077c30df902964ee",
+        "fingerprint": "3767d80161ebbc229e589558fdac73391f2d5a3fb2377bcbad4797a1fe1871fa",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -13854,7 +14100,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/HP0001.zip",
-        "sha256": "f9dd02d6f579332c559b0b46feaa1f7589fcb2234a2741e81f8127e57bcfb9eb"
+        "sha256": "ff8b870c6b7d2bdf47d8a2dd141ff8586a114547d7eb9d6affd629e9ae885027"
       }
     },
     "LT0001": {
@@ -13864,7 +14110,7 @@
         "status": "success",
         "path": "LT0001/thumbnail.png",
         "sha256": "fd576ebbead40222f46ea2ecc94dd010fa75789e191413016701c501c17fb497",
-        "fingerprint": "35f34dbc7e8553ae4a638a95a5bc72288ac312a09c9c9f3695de63581b6ece69",
+        "fingerprint": "bc677e8249b9737784f9e9c3b98344390ec4424b73c635ccae18fe7d7bd33499",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -14050,7 +14296,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/LT0001.zip",
-        "sha256": "afd3a9082d380784eee64ccdc68c885c8bfa87f5cc1590a523aae4ed98fd7b5e"
+        "sha256": "d8286725b5a7dd21479c87701b55d5670762eb5eea6a8ff6cabf19f42d5a0f7e"
       }
     },
     "SL0001": {
@@ -14060,7 +14306,7 @@
         "status": "success",
         "path": "SL0001/thumbnail.png",
         "sha256": "08e36c8839b3c90e96999687a6407e6def7c28a823f990d83b1b3668f62b4f6f",
-        "fingerprint": "11032fccaf0a10a84de3635b984a8b4aab7ebfc59d585e3f301e9e3efcfc91dd",
+        "fingerprint": "8d36021097d7550adf58d9dadf594047b4150c42f078ad0e4e174677fafecb05",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -14224,7 +14470,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SL0001.zip",
-        "sha256": "aaa794178829b1f87442757478c984be09f0b4b87b1c45aefde5a875ba4a2117"
+        "sha256": "2ed7a3434dc72ebeaa63eff69df2a0b7ea02b7334ff4b2ecc101bb47757c7196"
       }
     },
     "DK0001": {
@@ -14234,7 +14480,7 @@
         "status": "success",
         "path": "DK0001/thumbnail.png",
         "sha256": "75c828aa4de0001ade67b6f1e244fa86ac41ea6313d336475321232f69d24ea0",
-        "fingerprint": "25cb6cefcb9ba3d7512b121293e80c2b77d5fb0185f72d451a18b258cdda7e1d",
+        "fingerprint": "615eb36c87c6d671c0be25121a155b81710a861da7caa63d91152fe0c88cf97c",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -14364,7 +14610,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/DK0001.zip",
-        "sha256": "389e4bfff23ce6694abb27761734e5d588d75fe9eb76ee736a88f7f2237f1bc3"
+        "sha256": "d87554a5ebca226c06524d5c5bde7721fb5b3a20ef443e02b8653699570ee3bf"
       }
     },
     "PR0004": {
@@ -14374,7 +14620,7 @@
         "status": "success",
         "path": "PR0004/thumbnail.png",
         "sha256": "7e2db48afd0fd84ac0ecb4155762eae77d77311ff76fc53d86c0cc584fecbea6",
-        "fingerprint": "20b64d043256bc191e6bcc77241576179fd8a62786ebcc25758f21ef8b563095",
+        "fingerprint": "2f5c320c1e3e74c49df601e73e59d795ee6b8fe2d6dd56c332cf1a1bcf9d5731",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -14529,7 +14775,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/PR0004.zip",
-        "sha256": "76377956e4c5bd6a6b061f8ab44027f9c1d27e826d13dd6cc24888458c6766e3"
+        "sha256": "4bef9e825c9200a013853ab76d7d4fd49432ab4092c6135bd28b521b41ea1784"
       }
     },
     "DF0001": {
@@ -14643,15 +14889,97 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/DF0001.zip",
-        "sha256": "e49006df2e64f87cf9c61d9d4ec86af06823eaf265546d7d2eacab5b8f22c543"
+        "sha256": "6fb5a61db637225bc9bd88ee986374507156ecf82429be9d297ef70a04b5aeec"
       }
     },
     "SN0003": {
       "code": "SN0003",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "brand: SN"
+        "status": "success",
+        "path": "SN0003/thumbnail.png",
+        "sha256": "97c12acac96caf27577d490a1c05f542fca1f93e9fa436017de8d8f9e410898c",
+        "fingerprint": "d1d99b2b9520092645b2b56a6dfab8743f1fae17c5eb45bad79b1676253187d0",
+        "reused": true,
+        "layout": {
+          "design_version": 5,
+          "source": {
+            "archive": "SN0003-1~2.zip",
+            "member": "SN0003-2.png",
+            "raw_member": "SN0003-2.png",
+            "filename": "SN0003-2.png",
+            "sha256": "f5fdb27b000623e32b0c2ba113b4ea00b312c60da7d21cba7ab42363c42adc7d"
+          },
+          "brand_logo": {
+            "archive": "SN.png",
+            "member": "SN.png",
+            "raw_member": "SN.png",
+            "filename": "SN.png",
+            "sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1",
+            "source_type": "standalone_brand_logo"
+          },
+          "main_title": "Aqua Rice Cleansing Oil",
+          "subtitles": [],
+          "logo_box": [
+            342,
+            58,
+            682,
+            93
+          ],
+          "title_boxes": [
+            [
+              165,
+              105,
+              859,
+              156
+            ]
+          ],
+          "subtitle_boxes": [],
+          "cropped_source_size": [
+            567,
+            831
+          ],
+          "product_scale": 0.9554753309265944,
+          "product_box": [
+            241,
+            176,
+            783,
+            970
+          ],
+          "product_area": [
+            48,
+            176,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 0.6823104693140795,
+          "badge_box": [
+            78,
+            168,
+            238,
+            328
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 40,
+          "badge_occupied_fraction": 0.0,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            170,
+            132,
+            132
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ]
+        }
       },
       "options": {
         "SN0003-1": {
@@ -14717,16 +15045,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "brand: SN"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SN0003.zip",
-        "sha256": "567a8538664a5e3e71521f9c24ad2a41cc39a64caa7eab95c146cdac6cbba51f"
+        "sha256": "7130e43e140e5afb8627ebef5366d47f71006a8a78a80d41de3638a8446d650c"
       }
     },
     "CS0001": {
@@ -14736,7 +15059,7 @@
         "status": "success",
         "path": "CS0001/thumbnail.png",
         "sha256": "d4a98565036b39907be7b1eff3e98542fa6027acb054e1cb7f4fce942ccf34ce",
-        "fingerprint": "bed6efe4ebbff8b926120239a4b5df47f82a2175f0fac0e8a93b63616ae6627f",
+        "fingerprint": "c6aba0d7174af57541048bae54e3c88b6ba5da253d351cfa5a8284796a355dad",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -15123,7 +15446,7 @@
       "expected_option_references": 9,
       "zip": {
         "path": "archives/CS0001.zip",
-        "sha256": "1066f862b98eccbdb9dde36389fbc67d3f0e081befb5baf56b4e04d69276da51"
+        "sha256": "e51594f22bade4ae412c1a0c2b91ec3c6491ac4126cbe0ce1b6b05f7a45cb0e2"
       }
     },
     "DW0001": {
@@ -15133,7 +15456,7 @@
         "status": "success",
         "path": "DW0001/thumbnail.png",
         "sha256": "986d90d8f27bd93b642ce8f47747ac3c55e739b3c7f7a4e357f995656ac02f33",
-        "fingerprint": "f02fa77ef4a5c7da35f88bc5d53f3f5d0bb9152f67f54f8ac6d9a166821f4e3d",
+        "fingerprint": "3507b6efa3dc67c35e6a207986db48a6f60ee457b55f8dcdae12a1eaadbd1b2e",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -15551,7 +15874,7 @@
       "expected_option_references": 10,
       "zip": {
         "path": "archives/DW0001.zip",
-        "sha256": "fe3325923382072ae8ce95e125234d3feeb68f1768326f7893b0aa3a627308b4"
+        "sha256": "abcfcf8b00ab99b82a0e5a6014151a78758c53ef7e620b9c9cd4bb0091d6cda7"
       }
     },
     "EU0002": {
@@ -15561,7 +15884,7 @@
         "status": "success",
         "path": "EU0002/thumbnail.png",
         "sha256": "31eb1365780e6cb2aa36a6b151d73670b361f06be06564471e16ad5c33b36340",
-        "fingerprint": "2af96e5d77a1953839c7c42632b0eb97367d3163f5afe71ecf94332a3995beef",
+        "fingerprint": "cd3d3805f7e44c72792a15810ce34f53f905b71e6a1167c910623d10e203e60c",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -15645,12 +15968,12 @@
             1024
           ],
           "product_translation": [
-            -124,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -15722,7 +16045,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/EU0002.zip",
-        "sha256": "c0eedefa98e72d0c599a5d38413f4eeaed8cf1eb0b1933c5e639c72575f2d790"
+        "sha256": "ec1e42d1a0f193de582e1f19357aa3bf099efb230f1c1cd5547a1d3e0ce00415"
       }
     },
     "SP0001": {
@@ -15732,7 +16055,7 @@
         "status": "success",
         "path": "SP0001/thumbnail.png",
         "sha256": "fcf4c12fc74c8ed788954cf0e62a8154d420bc64b00e18e157469ee1f84bbc59",
-        "fingerprint": "c6eb4c37cde742cb9269167bd9eac94f496798fe8136f8db0a5eb7386621a1db",
+        "fingerprint": "4ea52e06c009aa15e61b63dc5e4a115f69ab238e2b2b04726d7134d709e3dbc7",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -15887,7 +16210,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SP0001.zip",
-        "sha256": "52db86535cc8e7982104f24932808fbf8682426d2bb8f719a2f3613b6fa787a8"
+        "sha256": "6e6c3045327c940051400ca35b12bd9c3eb1fca9b73219fc0c6ec51824653b77"
       }
     },
     "BP0002": {
@@ -15897,7 +16220,7 @@
         "status": "success",
         "path": "BP0002/thumbnail.png",
         "sha256": "f3fde04f193e5adc0e032edf8ffe3069f0fb1e8b3e50c538c9c9c05e42d13866",
-        "fingerprint": "805c8da58d265e6454bf462958cba31989ce2831d217a8ec2f56e2ed4fcb0df0",
+        "fingerprint": "07abfb9720fc46a5fd7a2c504877415bc4aed6e5c585c8429b19ae32fddaa38b",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -16120,7 +16443,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BP0002.zip",
-        "sha256": "b1473f9315ff1d682ec5283500e05cd11903bfde04abf3616be9a3566e73c1ca"
+        "sha256": "ca342438235622c3ec9dcc891f82c0b1cb1af9f184df3e7ce5406218ba8d0934"
       }
     },
     "MS0001": {
@@ -16130,7 +16453,7 @@
         "status": "success",
         "path": "MS0001/thumbnail.png",
         "sha256": "36e056c88335d79caaa17ba5821e3f1f2dd81823cd976c1165afe5614bc1b563",
-        "fingerprint": "489cd548d96f94fa1f0a8967fd22bbe01a61d5ae83fb903ce8920176f4fa2649",
+        "fingerprint": "916d9b263987fa6eaac54a4905ed2ca50ca3fbddc60fbc02ee7f10e2fc320687",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -16291,7 +16614,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/MS0001.zip",
-        "sha256": "132df45e9cc6182d23edd2e12e9158a828bf7eb9be4539d85b3cc9f90bc50fc0"
+        "sha256": "0fc2e49c61620ff3d9a9b0645323315926565fc2d53eea65ffd02d68f9511750"
       }
     },
     "AV0001": {
@@ -16301,7 +16624,7 @@
         "status": "success",
         "path": "AV0001/thumbnail.png",
         "sha256": "5622d99692931bfa6f3dbca3d7d316dc94147e655fb36e0417e012a7495b425c",
-        "fingerprint": "87e055031e8c46761ce9913e774ed7e06ecbd2d78b4eee550fd9f2a05db8f91f",
+        "fingerprint": "452e9042c8d71e6a0cc4835f3416f794acd0b3cfa67ba50ac8c8533a84af007c",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -16394,12 +16717,12 @@
             1024
           ],
           "product_translation": [
-            83,
+            0,
             0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -16502,7 +16825,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/AV0001.zip",
-        "sha256": "f71ae6cc53b2cfdba95ec47a3525ef23af3a1937c9f666a9cf9c2a00877b3620"
+        "sha256": "bbd240a66be6f967a90db0b88b33f55c0909674ee462ba8bcddad732612e77ef"
       }
     },
     "DJ0003": {
@@ -16512,7 +16835,7 @@
         "status": "success",
         "path": "DJ0003/thumbnail.png",
         "sha256": "096529596b161b25b0f3358b608dcc045d9f94885c9d954eeb46e6ff4beb5c7f",
-        "fingerprint": "3d1aa110f1b94a0ef895261d31a22b2a4fb4c0ee7af87770006ee052ecb51041",
+        "fingerprint": "876048f7c42f84cc8d85dc1f0d2348c4c86a5ea35b5fc83fd3aa98d72870edbc",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -16673,7 +16996,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DJ0003.zip",
-        "sha256": "31128b153e2dcd215794fc95b63cab3270e837dd0b9757dab4b8e351c7b2c971"
+        "sha256": "8c5d479a56aeef4ffe3081051bf450806c297ceb1f1b7754c897cbe5bb4432ef"
       }
     },
     "KB0001": {
@@ -16683,7 +17006,7 @@
         "status": "success",
         "path": "KB0001/thumbnail.png",
         "sha256": "5ddb66ab631c50e1b228e12ad3b48011857283a48d4944692b73654ced97c35e",
-        "fingerprint": "faf97db9fd532645caba1338993552dab90e4016d34abf6fbbd426607ff54b86",
+        "fingerprint": "2aec50c14ad837bd789608c0e57beeb37fcea2e39cae0ba81a418218165b44a9",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -16770,12 +17093,12 @@
             1024
           ],
           "product_translation": [
-            -93,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -17467,15 +17790,103 @@
       "expected_option_references": 22,
       "zip": {
         "path": "archives/KB0001.zip",
-        "sha256": "f919c1c3d40ade3bb0d99e7e8b25240ad563f376ec086f6c30fb1136d4dbbff0"
+        "sha256": "272f9282c96e0e720294c97fcccbd4541761af3ab0005d5488a29305ff170c83"
       }
     },
     "SN0004": {
       "code": "SN0004",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "brand: SN"
+        "status": "success",
+        "path": "SN0004/thumbnail.png",
+        "sha256": "47462af144fb93344f27254fde160b30d40310b369b76af9d963d83f63bba48c",
+        "fingerprint": "5687e960adc8dd31fc0786971051b74b6e2fb90cd5f9d7a14fce1c31953d1d67",
+        "reused": true,
+        "layout": {
+          "design_version": 5,
+          "source": {
+            "archive": "SN0004-1,2 SN0005-1,2.zip",
+            "member": "SN0004-2.png",
+            "raw_member": "SN0004-2.png",
+            "filename": "SN0004-2.png",
+            "sha256": "fcf57ba9a600c2fb9017257e99e548eb43eeef0ee143e44219371ed7a22fa133"
+          },
+          "brand_logo": {
+            "archive": "SN.png",
+            "member": "SN.png",
+            "raw_member": "SN.png",
+            "filename": "SN.png",
+            "sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1",
+            "source_type": "standalone_brand_logo"
+          },
+          "main_title": "Aqua 365 UV Protective SunCream",
+          "subtitles": [],
+          "logo_box": [
+            342,
+            58,
+            682,
+            93
+          ],
+          "title_boxes": [
+            [
+              163,
+              105,
+              860,
+              156
+            ],
+            [
+              362,
+              162,
+              662,
+              202
+            ]
+          ],
+          "subtitle_boxes": [],
+          "cropped_source_size": [
+            753,
+            723
+          ],
+          "product_scale": 1.0345781466113417,
+          "product_box": [
+            122,
+            222,
+            901,
+            970
+          ],
+          "product_area": [
+            48,
+            222,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 1.04149377593361,
+          "badge_box": [
+            78,
+            222,
+            238,
+            382
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 40,
+          "badge_occupied_fraction": 0.005757590669750504,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            118,
+            144,
+            158
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ]
+        }
       },
       "options": {
         "SN0004-1": {
@@ -17541,24 +17952,116 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "brand: SN"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SN0004.zip",
-        "sha256": "78491bd3f17fb785a814590e0e51f5e324a5cd790bf8246c82f03554d37dee03"
+        "sha256": "3389f4ba09bc776a17c2b85f351ecb94b0893889190cba0d4088b29b24fef4bf"
       }
     },
     "SN0005": {
       "code": "SN0005",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "brand: SN"
+        "status": "success",
+        "path": "SN0005/thumbnail.png",
+        "sha256": "35344465e1bac6027d176fc7a5828f4fb09380d9e43d16b83df5ebb5880d5b60",
+        "fingerprint": "8e4d1a5d8d412b975015a076a80e09c6d09143c618fd5fdd505e42aa152ea06f",
+        "reused": true,
+        "layout": {
+          "design_version": 5,
+          "source": {
+            "archive": "SN0004-1,2 SN0005-1,2.zip",
+            "member": "SN0005-2.png",
+            "raw_member": "SN0005-2.png",
+            "filename": "SN0005-2.png",
+            "sha256": "9773fee2567d3059f57d45e0b4ab157156f7e592f5a1bce95e88a9e0343f1754"
+          },
+          "brand_logo": {
+            "archive": "SN.png",
+            "member": "SN.png",
+            "raw_member": "SN.png",
+            "filename": "SN.png",
+            "sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1",
+            "source_type": "standalone_brand_logo"
+          },
+          "main_title": "Aqua 365 Glow Fit Tone-Up Sun",
+          "subtitles": [
+            "Natural Base & Dewy Skin"
+          ],
+          "logo_box": [
+            342,
+            58,
+            682,
+            93
+          ],
+          "title_boxes": [
+            [
+              117,
+              105,
+              908,
+              156
+            ],
+            [
+              456,
+              162,
+              567,
+              202
+            ]
+          ],
+          "subtitle_boxes": [
+            [
+              322,
+              210,
+              702,
+              238
+            ]
+          ],
+          "cropped_source_size": [
+            572,
+            753
+          ],
+          "product_scale": 0.9455511288180611,
+          "product_box": [
+            241,
+            258,
+            782,
+            970
+          ],
+          "product_area": [
+            48,
+            258,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 0.7596281540504648,
+          "badge_box": [
+            78,
+            250,
+            238,
+            410
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 40,
+          "badge_occupied_fraction": 0.0,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            157,
+            142,
+            135
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ]
+        }
       },
       "options": {
         "SN0005-1": {
@@ -17624,16 +18127,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "brand: SN"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SN0005.zip",
-        "sha256": "758490a451be028d32437edaa9b7d77d5da9713767de3c75a22005045002482f"
+        "sha256": "fd23336f8771a7038152390ae04dd84a5bf7fc0da1be1c911f68bfd8927bb751"
       }
     },
     "AS0001": {
@@ -17643,7 +18141,7 @@
         "status": "success",
         "path": "AS0001/thumbnail.png",
         "sha256": "4999682dbbaf68d056f31a840a7ab5c981c4896f1c90c3dc6539d5664e80bd2e",
-        "fingerprint": "c778e28d623f865fe2cde213ab12f8fc0e1d92b89ab151027cc0b4873b34f2cd",
+        "fingerprint": "144e0f50dd50a3787740d347e6bac30f0c80eaad0875da4ce67309a6f0b5db50",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -17866,7 +18364,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/AS0001.zip",
-        "sha256": "1098cf527adb39540dfa40032681a29699b734ea648684fa41b3f3e2daeed57f"
+        "sha256": "4d1131646e088c2b0350cc7b02594304d58c006054f829e338e0c944385d3c97"
       }
     },
     "BF0001": {
@@ -17876,7 +18374,7 @@
         "status": "success",
         "path": "BF0001/thumbnail.png",
         "sha256": "8cb0b2cb859cfc2a43d7dd0f52ffc01d0c5b9131c6ff44f99e337a29e356230e",
-        "fingerprint": "1caa3ac2a435b72428f9b9d7aadcfcc7923ce863fd3c7afe93bd84ee7f163d5e",
+        "fingerprint": "d045519e340085228a85b1997b5bc2cea21ed49f9076c322acfdb4e439e0977c",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -18102,7 +18600,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BF0001.zip",
-        "sha256": "902f5bc42bdc90efa908026dd5ed7d57658034f790448feda09264b0c91ef81a"
+        "sha256": "47cd3fb002cfd55ef857117a96690544de0df077aff8490da792608bd6d8a7c6"
       }
     },
     "TR0004": {
@@ -18112,7 +18610,7 @@
         "status": "success",
         "path": "TR0004/thumbnail.png",
         "sha256": "bc5e1bff1c22e61ab436ce12541618ef80ab84e74a9792485324cb4810518923",
-        "fingerprint": "0e6d5b00f697045642635be13aeafd92f7ce514791fd545e6ba2f1d045113131",
+        "fingerprint": "53966ceba07ec817ccaa8136a6ba97c28b692e844a1e4683b4f4aec5700f15e1",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -18282,7 +18780,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/TR0004.zip",
-        "sha256": "d6fac9607574f6f549c355d12a5c8eccc864af30f9ed5193f441c7691234554e"
+        "sha256": "da0e5c5ed3f8b1a072a86b3ea667374af009b50ff8eddb68f195b76cdf5c2623"
       }
     },
     "BB0001": {
@@ -18292,7 +18790,7 @@
         "status": "success",
         "path": "BB0001/thumbnail.png",
         "sha256": "807c62445e49fbdde536259896d6da9a26e279b1c0590c368c8734ba7d568c3e",
-        "fingerprint": "ed1939744c4aee85661268cb631b3adf4a9b39203f950bcf6de471a8aaa99869",
+        "fingerprint": "4a5994a53aff05c0b5fa393f974479b76bf09ec487ec3fbb4e7b2a62ba1debfb",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -18853,7 +19351,7 @@
       "expected_option_references": 15,
       "zip": {
         "path": "archives/BB0001.zip",
-        "sha256": "644927f51a70a6eee369d900820461ba2caa60b52988022ef085c3c8f8549df7"
+        "sha256": "7ab63399a9a83e16e7f76a9e397a5c3109f966f143ac583e01003a59a65a2dea"
       }
     },
     "AT0001": {
@@ -18863,7 +19361,7 @@
         "status": "success",
         "path": "AT0001/thumbnail.png",
         "sha256": "14b3a8da5319df365188da240ee06e3d636e01a902492ce0798cbcaaeb3ada71",
-        "fingerprint": "abb2dba9801c19b2d771bf9b51b5619a2f9919cfea70c7fce373bea5fe593ccd",
+        "fingerprint": "518b60d6204937dc810743f96fc10b62dbbbb98b749e5ba4d3f299f749f78325",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -18947,12 +19445,12 @@
             1024
           ],
           "product_translation": [
-            61,
+            0,
             0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -19148,7 +19646,7 @@
       "expected_option_references": 6,
       "zip": {
         "path": "archives/AT0001.zip",
-        "sha256": "4419b9ee69a649d79b474c2fd08d3233d1c548816cd75c3b4d9896ba012e8688"
+        "sha256": "5bcf4124b4edf9f59d3d8654a03d9025584c7352bd0d0cc6c03c1cea7c1c0397"
       }
     },
     "AM0001": {
@@ -19158,7 +19656,7 @@
         "status": "success",
         "path": "AM0001/thumbnail.png",
         "sha256": "99588602bfb13d0d0b1b55f6b4ace3d8171a7584df66bb087dd274347a18dba0",
-        "fingerprint": "1d88cd6a6158833f6c1cefb1376bd77c545bbe352fc65f425882966af28efc49",
+        "fingerprint": "067fca13f945d2e4d99e71382b64187ff1623f17f5a63e1fe03a409dfd99e593",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -19322,7 +19820,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AM0001.zip",
-        "sha256": "07a07eeebb4f6084b0d68c9ed2769f7027daed1eb08cadd7d57265afd303616e"
+        "sha256": "c70fbf12e86ac37af45d7ca58df457f35c06eb97831124b01ac16298b0d6a29b"
       }
     },
     "MX0001": {
@@ -19332,7 +19830,7 @@
         "status": "success",
         "path": "MX0001/thumbnail.png",
         "sha256": "c62148143a46abf986bbf2fe5e6f7a0f1c9710cecbd815db4642d0d02949d890",
-        "fingerprint": "f66cdc634e77cb0401852cd157451bba2d43a4ce05d881fe54d345d7a643eda7",
+        "fingerprint": "893b1477fe3acea2fc2d09862000582a207eb6b4a00a9db708634c63d63cde8d",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -19493,7 +19991,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/MX0001.zip",
-        "sha256": "805f6e1ea276153e8005428bf9bedb32088a755d68f7445d5bbb39d64a8d6971"
+        "sha256": "dd542cc4c4ddfdabf51bfe260cfdd7b0fe0571282655c0d84c2342ebc1357409"
       }
     },
     "CK0001": {
@@ -19503,7 +20001,7 @@
         "status": "success",
         "path": "CK0001/thumbnail.png",
         "sha256": "be20e417413999290bb043c85dec6f87928e099c57c9bd3c1f1bcb33f6b7ee9e",
-        "fingerprint": "1701ed1a7502138af1d1c56d2095cbed23906b24926323bd7c5d5f34e70f6923",
+        "fingerprint": "ab27d1a858b534bc4437638d8035440f006cc35803ab3bf076f271c7cd7dfb64",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -19701,7 +20199,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/CK0001.zip",
-        "sha256": "47af58c1a4618945c88393e04fde15080480ba6fc019a8e30a466adec9512f9c"
+        "sha256": "0a97c062dfe0fdb16e7859429f4f763ded26eb77f731a63830cb1dec683d3148"
       }
     },
     "HY0003": {
@@ -19784,7 +20282,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/HY0003.zip",
-        "sha256": "1980ef2cf08a15ce924a336d1595e0d322469487892d820c2ba05c2bd3edf0b1"
+        "sha256": "8fe7edba4271691211d33c8e265b8421a20f2cad4ed11526bd978f49acfdd703"
       }
     },
     "CR0001": {
@@ -19794,7 +20292,7 @@
         "status": "success",
         "path": "CR0001/thumbnail.png",
         "sha256": "81e9e9a0518c1f4cb58cd4df79eff7f564a75356b1f9a6d2d4dafe2ce87ee930",
-        "fingerprint": "591e011f6ca1dec46d91f3748c09711188dae2ae9edb46fdd0b4b8837e82e08f",
+        "fingerprint": "499bdfec5b1b7f86e82a02ecfc64b4b400b508530a8bad2bebfc4091613e9f00",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -20020,7 +20518,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/CR0001.zip",
-        "sha256": "1eb3c8cea684d2d13ec4c772544e935eaf0ff189ae6091cb1985abe2a1f3450a"
+        "sha256": "6fe661310dcdee7842af66e2f0f850104aba911eac10809ea0a6cb7913e461b8"
       }
     },
     "HM0001": {
@@ -20030,7 +20528,7 @@
         "status": "success",
         "path": "HM0001/thumbnail.png",
         "sha256": "ff7535fccb3df184fe5a07413814d94d2e068a75479670898f076bdbaca3c774",
-        "fingerprint": "deed13902f826b271d2b27ac911d752a9a51d2237cf408c9da7de7e022c2eba3",
+        "fingerprint": "628d066b1b14b89a066b9631eb02efdba75d1031ca37107178ec8a201fc64451",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -20293,7 +20791,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/HM0001.zip",
-        "sha256": "2298ef67e940c24b3a814f3481ffd9b44871309ecf924621135f637a508166dc"
+        "sha256": "7b11bdea999931c06178b6f716bad55a7fb911b62a32e45c25229db6c59306d0"
       }
     },
     "BP0003": {
@@ -20303,7 +20801,7 @@
         "status": "success",
         "path": "BP0003/thumbnail.png",
         "sha256": "7b20c9cc74fc43262b02134bdcf9a74c5a48d835d3609328d418f644a6b67da6",
-        "fingerprint": "af9f79cfd1b5064a13c5e3725b31c30ecdadea597062e1a88c3f4ba86568b8e9",
+        "fingerprint": "a29cea15b634545f306f0ca0e70a2b419cfada5c8fd56cb5573281d69d19d51a",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -20464,7 +20962,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BP0003.zip",
-        "sha256": "d2a7f59d8afa8881404f3b3246e149cf0424266974ab9517bfa373186e1b89a1"
+        "sha256": "0beabc4a767e954f697f5edb2238f9ef654175037e655859c0f6dc8e4b4f316b"
       }
     },
     "KM0001": {
@@ -20474,7 +20972,7 @@
         "status": "success",
         "path": "KM0001/thumbnail.png",
         "sha256": "5357954ee0659becb653f365dfb8d0d309a32b375f9a75970ffecd530050a945",
-        "fingerprint": "7e745f39fd08ed7d21a31a89df739a2c96ac1f7c532d9205a8010936e7dffd2d",
+        "fingerprint": "c94e7d8693a7f8a2a43a661ad01f6b9031db39d65b8e782787ff016af303a93b",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -20638,7 +21136,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/KM0001.zip",
-        "sha256": "37fb173c82e47f0e4c21478d8667aeb01775ea35b96879d0a3fe9d7e046c1545"
+        "sha256": "06f143dfab8e4e2098f9ab0487f2b9edb982e39ce6c664027315ca97e67cd6ab"
       }
     },
     "IM0004": {
@@ -20648,7 +21146,7 @@
         "status": "success",
         "path": "IM0004/thumbnail.png",
         "sha256": "498a37e44931a97ee47858a911ffe9aee21c28f4293937a413bb719935583db9",
-        "fingerprint": "c8baa7bbc8ac4b247eaf5d3dbcf89d7dc2b11c6cec47171d92b41587b7cbea2f",
+        "fingerprint": "153644c152aaee9b8dc9f35130ecd2264a46a4f07bc57530ae98bf4b732f5d9f",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -20772,7 +21270,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/IM0004.zip",
-        "sha256": "967d960186717ac5d01e40eae7c0043049245ff6c384af616b9ddc7a60efd259"
+        "sha256": "c7f41ba44b6a49413380ffc3595125f5cf5a6266c19f5cf8ac006eab4edfa054"
       }
     },
     "CN0002": {
@@ -20782,7 +21280,7 @@
         "status": "success",
         "path": "CN0002/thumbnail.png",
         "sha256": "7c5368ed9c884e377063a209a6c55afbc9d41744c8e0df494075719ab4784a71",
-        "fingerprint": "e97aa739fee663ab14ccd8b81c620f36aa5122a696c2738da34bf93f80232921",
+        "fingerprint": "bd18cd464a9986de59fdabb6423ac2d0893727d248576ec6e4e3038b4412b80a",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -20943,7 +21441,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CN0002.zip",
-        "sha256": "8f936ac77d5cf1bc7043fa6a0c59d69bcfe2189aeb376aafbefc9b9f1c93a932"
+        "sha256": "a64798ed970881ac56771e543ae72e7e31eb0ba654cc6a7e26f5cb54785cbc3c"
       }
     },
     "GV0001": {
@@ -20953,7 +21451,7 @@
         "status": "success",
         "path": "GV0001/thumbnail.png",
         "sha256": "7d14161af3178907801ce09cec98c2e073ac0e917d35efa311725dc0067b72ba",
-        "fingerprint": "f7d75f404fb06a59d9a00f146ede3647d72b282b6580cca0dbdb0d5ae393dcc8",
+        "fingerprint": "4cc6e1937a2a18bad399b0489fa91aef04e183614463abcc68ac25abceceb610",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -21040,12 +21538,12 @@
             1024
           ],
           "product_translation": [
-            88,
+            0,
             0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -21179,7 +21677,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/GV0001.zip",
-        "sha256": "261832e6d1a44168333260fb32844d6be1fe849b406b7c7038725ebf8e35c1aa"
+        "sha256": "c4e2a6e46b78fcdde7db7d24d603a7cc141be8a56966765a1c71e73ba06b0eb2"
       }
     },
     "ET0004": {
@@ -21189,7 +21687,7 @@
         "status": "success",
         "path": "ET0004/thumbnail.png",
         "sha256": "831e657eaee7b2e29b2e5c525b58a4e4622bf12b893fe71201a10b3da541fa4f",
-        "fingerprint": "f55e25acf585d5ff3d30f38657728968f84a0e1874604d1d76ca80f8bb454ef7",
+        "fingerprint": "e786d79ad754fde122592bbbe25ef52c9c66f3593221c276a7d406df693a17bb",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -21276,12 +21774,12 @@
             1024
           ],
           "product_translation": [
-            137,
+            0,
             0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -21384,7 +21882,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/ET0004.zip",
-        "sha256": "95649c2823bdc2e511c5296e0989ad73c54e30d0b42cdaf2cb5cb17e31486631"
+        "sha256": "5ab865e1988e7fc6a96961733a1a5482dfa3658d79d177cf4bcc602abe1042e8"
       }
     },
     "ET0005": {
@@ -21394,7 +21892,7 @@
         "status": "success",
         "path": "ET0005/thumbnail.png",
         "sha256": "d725c5a73e0c6bf5830116338004a47d62cde9d2fc62d6c8ea4c0b17bfc80031",
-        "fingerprint": "5e5f8be39104b343400779b9294bed97c56cd37ac947d5f1cce71fd8e31afcb6",
+        "fingerprint": "60daec842643cc088f9dbf0ff90efa1c4ea1c7585c877c6e7b528d47df8b9b3c",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -21558,7 +22056,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ET0005.zip",
-        "sha256": "114807f6b46419666a7dceb0a10b711495e03130cc1601c5ba12b142639eeb40"
+        "sha256": "2efb0fe7644d7ec79d85f1e937c8726d403fc27fbe3b07a16c683668ee3e2e84"
       }
     },
     "NC0001": {
@@ -21672,7 +22170,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/NC0001.zip",
-        "sha256": "d4807d2dbdbabc76e4296fb27f468ef993deeb857cfeed36323709ff49ebf83a"
+        "sha256": "ba0bce66d1fe351b6a8629edaeb0f739f62ce2d12463397c832a9ac7b029c34a"
       }
     },
     "BP0004": {
@@ -21682,7 +22180,7 @@
         "status": "success",
         "path": "BP0004/thumbnail.png",
         "sha256": "dec0b45043022e43d13456cd6847ecf8d3cb445fd5ba65f85883cf743889afd8",
-        "fingerprint": "d433df83d8abd088d869958aff7bc638aa96304bb6edadfc093196f309dc1a63",
+        "fingerprint": "424894e8eec1ed893b0327d19d9d5dc892efa03c5baee99fefcc07696c2c3572",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -21760,12 +22258,12 @@
             1024
           ],
           "product_translation": [
-            123,
+            0,
             0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -21806,7 +22304,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/BP0004.zip",
-        "sha256": "75bf35e4ff65b09c73746862a049a305f9272a14dc3c2b420b045d1f3245ec28"
+        "sha256": "4eded7ff346a00054b5aeeefea68ff263af79576e77a90b3f8ba0bb0979f8096"
       }
     },
     "RV0001": {
@@ -21816,7 +22314,7 @@
         "status": "success",
         "path": "RV0001/thumbnail.png",
         "sha256": "24288ac7948b14ae56c033a21b2cd066397befed79dac92949b62959fb253b48",
-        "fingerprint": "83a58779bb9cd6834a4dcff73488e52124d52bea5299d345f4625c0bc413b471",
+        "fingerprint": "1af410e26a8811460489bbe6d5815461913a6d7340fa39f0837cc682e5a3b5b6",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -22039,7 +22537,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/RV0001.zip",
-        "sha256": "31e7467642d8726d5a2a5edfa343a231d7fe44d5c9892ef7cf1f911dcdb50f4a"
+        "sha256": "42392df7c24f206548260f5d9d068ec93601433915b7670604a4338ec820e878"
       }
     },
     "RM0002": {
@@ -22049,7 +22547,7 @@
         "status": "success",
         "path": "RM0002/thumbnail.png",
         "sha256": "4d50eee2b2639c8d6f0cf29f7ca0b0d3afde9395e68c3e3dc0e4dbb85f07abea",
-        "fingerprint": "0cf86844e41a857888c43e62b8ebe7c580e40272ca43a752459c965b67ec4d66",
+        "fingerprint": "e0cdc1e37edc144c225f82df2d576875a9c4c21cac7f099472f44f5ad2f1e769",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -22275,7 +22773,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/RM0002.zip",
-        "sha256": "22164e9a9ef6963d57b66e2f7b6864403281d8bbd6779f5773715bfe5e80feec"
+        "sha256": "5c4c36a1db1c2bbe8b2407227596ea975284ad68c4bdcb265ff9bf828500a5fb"
       }
     },
     "PP0001": {
@@ -22285,7 +22783,7 @@
         "status": "success",
         "path": "PP0001/thumbnail.png",
         "sha256": "2ffdc9095ad49eb91ab26bccee90e8bd07de461149ba29ac00845749ea923412",
-        "fingerprint": "214249f9b7492a80e7b24efa631ceb3f959bbed472d07a8f6e943f43e58b1289",
+        "fingerprint": "55e61111ad765c7ec749bf84a573d56e9fe4d0950a6c73f4a806cf807c8929fe",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -22372,12 +22870,12 @@
             1024
           ],
           "product_translation": [
-            -95,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -22511,7 +23009,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/PP0001.zip",
-        "sha256": "56bfb4189893bce8d3989e3b11fe7b969b0f1c49506822a6d0b0d37909752e2d"
+        "sha256": "4fd9b4b02efefede751601808cd917edb5d10426fe8398b765ab12fc48031bbb"
       }
     },
     "MB0001": {
@@ -22521,7 +23019,7 @@
         "status": "success",
         "path": "MB0001/thumbnail.png",
         "sha256": "b111e0132c92860da00491938dc39bd03f73231aab79af7566df176533802de5",
-        "fingerprint": "d5fd3d59987412b89bc5c4d0306150c2effd5dde4895baa17ad29bd2b0ea3fba",
+        "fingerprint": "7791ad13c70636e1a0edcf0087108fe59ddbd0746f72e9032d3d424c2ab4490e",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -22809,7 +23307,7 @@
       "expected_option_references": 6,
       "zip": {
         "path": "archives/MB0001.zip",
-        "sha256": "ab9b36d31bbcdadb2737cebebdd65bf8dada34307c015693dfee9a2c7379d8a1"
+        "sha256": "7275f7fe7391843491b822d20ea0afd4a4ecdec6a2a3d32d8b5c4cf9e74e97e8"
       }
     },
     "PR0005": {
@@ -22819,7 +23317,7 @@
         "status": "success",
         "path": "PR0005/thumbnail.png",
         "sha256": "efa8fb40d981e7d9d06b5a28f0bdfa08be0631375ea735a264132bee6d3d9fe9",
-        "fingerprint": "6027fbfd10c23771d83113f2c8c86109f05dd2e00f660acf99088fe0ffd13936",
+        "fingerprint": "0da8f58dc471b41b21fb4343ffa357bedb15730bdc8469b7f2b5de9b692ce399",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -22980,7 +23478,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/PR0005.zip",
-        "sha256": "a090c8823df64d47ca739d88264667000788346d18bbd1fa293ba07ce1371459"
+        "sha256": "632cfa9a37c4aa309de85e4cd44f6eacfe5667565c3bae0897128e03a4413291"
       }
     },
     "GA0003": {
@@ -22990,7 +23488,7 @@
         "status": "success",
         "path": "GA0003/thumbnail.png",
         "sha256": "ccf9fd5e098958f88add3e0db2049770f4fc16035195484cab29fa02c605f2f0",
-        "fingerprint": "6aa4ecf0dc9b36771750000348e8af0a6d80f810a578e11ffcf4b4d6c69f5039",
+        "fingerprint": "30a3dea205437ae5e46124ca97b9078dc7b4a542111d52b36d4bdbbdee8cbb6f",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -23151,7 +23649,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/GA0003.zip",
-        "sha256": "a7936aa9b30d69ed53ed58964c4a3f6ea0acbe63c49999f2f6d83f57ec0220b8"
+        "sha256": "d27be26fda2396307e780939eb40074b73ec60d08c1e409f11e1286dfd1e81b7"
       }
     },
     "HG0001": {
@@ -23161,7 +23659,7 @@
         "status": "success",
         "path": "HG0001/thumbnail.png",
         "sha256": "a18268a4f6652f39ec31c19a40b05740cfa85e5e10f589988bf4d30f5b7048a5",
-        "fingerprint": "89616b7825ea6e9c61a952d0f8f0a90c37a1963af59ebc2ec9d125954203cd68",
+        "fingerprint": "a910f95e6075b00d6874ad78545796c5b9d98902cd9f1e3422d8949e1e7d3887",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -23316,7 +23814,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/HG0001.zip",
-        "sha256": "2a9c0b6b09ec388ebc3bcc72e3bd7814f3e5d8702ad3d7025a71e4e0b65fd206"
+        "sha256": "e8de5e57d96825d23aa7176fedc2b9c424f65fb0acc3aac7e548214f9f84caa6"
       }
     },
     "EU0003": {
@@ -23326,7 +23824,7 @@
         "status": "success",
         "path": "EU0003/thumbnail.png",
         "sha256": "0c6adf042756e06ebdb23124f489c0a2be20ef41c073bb109a7d3979ca897db2",
-        "fingerprint": "e414998235c0e8460018f01b9ea6790488558f920500c42037ce65d718ef80f2",
+        "fingerprint": "75917367c41ba21034157cf9bf0274839c6d47af15abd25d184b015e250dd766",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -23487,15 +23985,106 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/EU0003.zip",
-        "sha256": "f10c2f58f7ad40bcf8e89243a292095f3b628c943645a5e034854058dae275b3"
+        "sha256": "fa6bbb1dd757ce7c7c6d0f0a3bb95f033a976ca0650fa6cd6a4fe0532a09ae09"
       }
     },
     "HH0001": {
       "code": "HH0001",
-      "status": "incomplete",
+      "status": "complete",
       "thumbnail": {
-        "status": "failed",
-        "error": "brand: HH"
+        "status": "success",
+        "path": "HH0001/thumbnail.png",
+        "sha256": "6bcb840b3a37d447486c224a663322ed3df86cd4122589b16f89da20e3c7cefb",
+        "fingerprint": "a8e0af9ba7257538c17200489e76fbc9547f731d18956760a365406da971f6b1",
+        "reused": true,
+        "layout": {
+          "design_version": 5,
+          "source": {
+            "archive": "HH0001-1~6.zip",
+            "member": "HH0001-6.png",
+            "raw_member": "HH0001-6.png",
+            "filename": "HH0001-6.png",
+            "sha256": "4b56e1a05884b1a823a3963391db0a28d937c3b1bcd2f9b713c4cc2362918a2d"
+          },
+          "brand_logo": {
+            "archive": "HH.png",
+            "member": "HH.png",
+            "raw_member": "HH.png",
+            "filename": "HH.png",
+            "sha256": "d98294327da48875022b80c487f9c5abc47248fb4e1ad4c5cba13e1f65cd4eed",
+            "source_type": "standalone_brand_logo"
+          },
+          "main_title": "Lash Correcting Mascara",
+          "subtitles": [
+            "5 Types"
+          ],
+          "logo_box": [
+            458,
+            58,
+            566,
+            110
+          ],
+          "title_boxes": [
+            [
+              149,
+              122,
+              874,
+              173
+            ]
+          ],
+          "subtitle_boxes": [
+            [
+              457,
+              181,
+              566,
+              208
+            ]
+          ],
+          "cropped_source_size": [
+            850,
+            885
+          ],
+          "product_scale": 0.8384180790960452,
+          "product_box": [
+            155,
+            228,
+            868,
+            970
+          ],
+          "product_area": [
+            48,
+            228,
+            976,
+            970
+          ],
+          "source_aspect_ratio": 0.96045197740113,
+          "badge_box": [
+            78,
+            220,
+            238,
+            380
+          ],
+          "badge_position": "upper_left",
+          "badge_frame_clearance": 40,
+          "badge_occupied_fraction": 0.0,
+          "badge_resized_product": false,
+          "frame_rgb": [
+            137,
+            118,
+            175
+          ],
+          "frame_width": 26,
+          "frame_inset": 12,
+          "background_rgb": [
+            255,
+            255,
+            255
+          ],
+          "size": [
+            1024,
+            1024
+          ]
+        }
       },
       "options": {
         "HH0001-1": {
@@ -23654,16 +24243,11 @@
           }
         }
       },
-      "issues": [
-        {
-          "type": "thumbnail_failed",
-          "error": "brand: HH"
-        }
-      ],
+      "issues": [],
       "expected_option_references": 5,
       "zip": {
         "path": "archives/HH0001.zip",
-        "sha256": "cd92fefd7a03d05d52db690d7ab20012bb35c6c95e95610a9063cfb4e01ac629"
+        "sha256": "852b17d4906653080b932878b63b27b6365d0d698f78836c7f9daf9865d77358"
       }
     },
     "IS0001": {
@@ -23673,7 +24257,7 @@
         "status": "success",
         "path": "IS0001/thumbnail.png",
         "sha256": "fa86a91d0a9c33dbdedca226e59e4723a23c9cb72bf63a0f6aaec905f5707ca6",
-        "fingerprint": "db2a80887406d9f1a5e97aadf38808adef84279f68cd1fa30943e8de283ba8be",
+        "fingerprint": "1334a988c7499634ba84ae58eadf35bd91fd61cbb05a922d1af6e4b8703d7130",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -23961,7 +24545,7 @@
       "expected_option_references": 6,
       "zip": {
         "path": "archives/IS0001.zip",
-        "sha256": "6b7318f8fc1819357a4bc5aad519214239c64f7e57dbfb870b028003e14ec73c"
+        "sha256": "6ec439d83bcc73479a614c54381bd133cc9a5f6790142aa48ec07b5e0d725c83"
       }
     },
     "CN0003": {
@@ -23971,7 +24555,7 @@
         "status": "success",
         "path": "CN0003/thumbnail.png",
         "sha256": "5077d298ead47bfa8ac0988b5487fd6f1e6a57cf22b5a4976d08acd9639c7d55",
-        "fingerprint": "ec32e5c13c6ac6374eed13606ff6010355fe65f266ec6a55c8f9fa09054140b0",
+        "fingerprint": "94a77ce497fa026afe5249b7fde48975059407f6749af1ff27150215c66ee355",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -24126,7 +24710,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CN0003.zip",
-        "sha256": "fae72301414673ae479d264f7f584aa6d61ba0e8858fc3a05b72e6f2bf076b9f"
+        "sha256": "2c583351ed225c438a56e0d9cf945d390baac346fb6057757eca619a98b0a247"
       }
     },
     "BC0001": {
@@ -24136,7 +24720,7 @@
         "status": "success",
         "path": "BC0001/thumbnail.png",
         "sha256": "486340107adf1735d99c70669db47dac5fe115b3e75e9a3c51bc948dc3e837ac",
-        "fingerprint": "1759996316b939f13b4fb326c71b511a073ce505acbc33ecfa8b95230ffc1cb3",
+        "fingerprint": "e762def6987ee74e0230c32bc3aec0d38194d50a4f25bdd3f8fc056aba99ac02",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -24297,7 +24881,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BC0001.zip",
-        "sha256": "4b3d27f59d0d4f139ade962553a19ef060102cb1125cec10224d6ddffe68f5c1"
+        "sha256": "b97ab82f1c71be73037aff8b612e38721e9389981c5907a43192dfa0b29ca5b1"
       }
     },
     "ET0006": {
@@ -24307,7 +24891,7 @@
         "status": "success",
         "path": "ET0006/thumbnail.png",
         "sha256": "4511a2cd5023a384e39101626aa54779e24096cfaa19f3213c82c39ae150e727",
-        "fingerprint": "a198316fdf16f2106f3d07c6e5de52608c6bc92afc6698134ce5e3813f4a78f8",
+        "fingerprint": "d866a8798d0f9446434a4819676fbbf545bcb4dce493434ac41434e3ad46e04e",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -24468,7 +25052,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ET0006.zip",
-        "sha256": "21fd059d1f60e8220ddc305af0a1d865274592e83ed197d52bda5c9fbf9924c2"
+        "sha256": "2d63390e50a0695ae09a5ff7053d2ca0ee8380e3daa921439a4620461116ae4c"
       }
     },
     "BW0001": {
@@ -24478,7 +25062,7 @@
         "status": "success",
         "path": "BW0001/thumbnail.png",
         "sha256": "95a84cdb56027fa92a7ec65e62f4f48b352b8cbc3c9052b456908c12ef663ad3",
-        "fingerprint": "3b814403dcb1310e993405d746e8b5a5a96a01c846bb4da1bd22adbf410d4250",
+        "fingerprint": "3649a7db639c60923c69dd157df885701647b574191184b39dbc75ecd7774618",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -24639,7 +25223,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BW0001.zip",
-        "sha256": "790e8a9376fa544bc29d71c7f3d3190e4c1025389992258f618a1004b4a512d7"
+        "sha256": "68504d300339aced5c5687c256f8ebf68e3b6db878c6ff48f2290528b55e703a"
       }
     },
     "TR0005": {
@@ -24649,7 +25233,7 @@
         "status": "success",
         "path": "TR0005/thumbnail.png",
         "sha256": "3ad6d3da45ba87ef9b2c0f33d016d51b27af9fc61c60a8199a9c23a04e815aec",
-        "fingerprint": "84c2f710392c7b5a045b6827e5eab57e063d4538e8ef160cf7d53929e54f0811",
+        "fingerprint": "94cb6b716d5014e5892e358b3744922edc787e457b401701aa5746a5f8ad425b",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -24813,7 +25397,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/TR0005.zip",
-        "sha256": "9ff738c2da011f41be7122a196a39df9bec9136f93abc7c906f7c917bc3bf356"
+        "sha256": "b7cf6d3c16b820ffa85e50e72b6a8bd648e82f64d0de3b19c0f5016120cfa514"
       }
     },
     "SC0001": {
@@ -24823,7 +25407,7 @@
         "status": "success",
         "path": "SC0001/thumbnail.png",
         "sha256": "b4bf0fcb011d594688b08a450d2899d15261a603bc743d5f51adc47acc6bb94a",
-        "fingerprint": "5b9b79f913043305fedd4ac3094f727d6896f88a9ff3b924d684a8c7408886f7",
+        "fingerprint": "c62580b17bc3341442ba55b7dde52ae60d0f4d6949e54a98d6b6aaa42decb2f0",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -24901,12 +25485,12 @@
             1024
           ],
           "product_translation": [
-            83,
+            0,
             0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -24978,7 +25562,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SC0001.zip",
-        "sha256": "fa353c2f70cb941126e53491d33f95e1843de8f4333e48731edb66e90a7031b9"
+        "sha256": "8bfdbb222e9dd97b9ce82f0dcc9fbb7691c2fec042804dead5c184b7d6f5c9f2"
       }
     },
     "CK0002": {
@@ -24988,7 +25572,7 @@
         "status": "success",
         "path": "CK0002/thumbnail.png",
         "sha256": "d1c67f1992d180819eb0c794710795f53259ca16078f5e7a2d9c2c4afd588996",
-        "fingerprint": "33a128cef0b48ab3a1b357a4c99a6786a4f695d115a7174412487fcf7ef5748a",
+        "fingerprint": "a85d3dd465cd8b2b703e95d86ab1e56f1073b0e501e93b98263d67cec3f61f28",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -25149,7 +25733,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CK0002.zip",
-        "sha256": "7382175118b9796c14c7d74b1ec3c158a93df949022bf5c9254fb489e2773e3c"
+        "sha256": "f1a6e29ac5265b2617b4cdc5056fd1970410b1e8cfc32184399f5194490a21c2"
       }
     },
     "BR0001": {
@@ -25159,7 +25743,7 @@
         "status": "success",
         "path": "BR0001/thumbnail.png",
         "sha256": "044cb592d0d089c3ec2b36f7686018999d6814d9769e36b6bfc9566eafcf1b99",
-        "fingerprint": "b56ff018a960a35cac7b070f285d50eaf68e343560da05195b9f81b291d5f100",
+        "fingerprint": "99a06c42986b254dc1af3112023d4307583e29f86b344c945553ef1272c7ad04",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -25385,7 +25969,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BR0001.zip",
-        "sha256": "41460bf7002fb5a04ba919db6a642ccee5b90be0ad29b3b7ee53dba01358a5c1"
+        "sha256": "1e6662c071d18bbcebc16ca124509e6ef3761bcc4b59f71b3830c2542993a2de"
       }
     },
     "ET0007": {
@@ -25395,7 +25979,7 @@
         "status": "success",
         "path": "ET0007/thumbnail.png",
         "sha256": "f3ede94571e27529734f4c49778672aac4be15c437191e591e098ccf3495817e",
-        "fingerprint": "245f106f42cfc210518ab80bd1ef6dc08aab1ad4ff4bdcf1292ff453b8495e9e",
+        "fingerprint": "257df62ccc547e03949ccbd9ac9fb0bc950b28247087229e8c40fdce3ff008a5",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -25565,7 +26149,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ET0007.zip",
-        "sha256": "d3a64597b7d45db65a2440a6971b2d321d50f67e13bc7e62afb37d4fa33f4e15"
+        "sha256": "960bb728acc46ea40478ac5e98da1dacfcea74f1884df45ab449fa4052ffa237"
       }
     },
     "CN0004": {
@@ -25575,7 +26159,7 @@
         "status": "success",
         "path": "CN0004/thumbnail.png",
         "sha256": "d644ef829db7bbe8b42c6a944b93a87d016c8e56051a68ef4c34d9fef6bbdf32",
-        "fingerprint": "c6500264a911d7daab33aa3dac109e5aea78d06afdc46247231ed19539256853",
+        "fingerprint": "7b2b8b1aec139659bd33b6b65f0650e9e29306a0e52f55056841e8bf9c181e15",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -25745,7 +26329,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CN0004.zip",
-        "sha256": "d671d0445fdbcea13c1c9db0b78a174a2b4881514a6ae49fb5dece195719303c"
+        "sha256": "463ad47827a80cf4447178e15f2237cac43c9fe18675a88528a3b054b8b99b75"
       }
     },
     "TR0006": {
@@ -25755,7 +26339,7 @@
         "status": "success",
         "path": "TR0006/thumbnail.png",
         "sha256": "230b07e3f5661ecb5215c55bec7b53ecac11f2890d99eddc54d157727b1297b6",
-        "fingerprint": "82e3c1517e3e4ca592ae3c51aa5cb76ecfcfb4e000882143356bb05a52cd89c1",
+        "fingerprint": "a10520474682e6ba2de501a44c90b8d6b66be64c8309981e9ab9392a4c8b6743",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -25885,7 +26469,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/TR0006.zip",
-        "sha256": "e56d758339990efaf8ece841c6269dcea1c781dac7b4a942055554fa23d6ba46"
+        "sha256": "1b9b95a77a6c3aa6f05a9135211f4ee0fd0ce39e78f1c032736140628bf41976"
       }
     },
     "DM0001": {
@@ -25895,7 +26479,7 @@
         "status": "success",
         "path": "DM0001/thumbnail.png",
         "sha256": "51c0bf850ce7a9256e177acbd189edc83db0105a69e5fc2585f09c1b1c716860",
-        "fingerprint": "67bb10e1e2bbc4a2817934178705d205805862b7ec1030159569041418d410c4",
+        "fingerprint": "8f34aff54ecd7069b6e817f7882fd47d54e98d0987c8416d753515612cd14e3d",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -26065,7 +26649,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DM0001.zip",
-        "sha256": "7cf74e99b9d17486361347e2c2378dcb7f766b805621b46823f0c82acde9a990"
+        "sha256": "c959275746583c2fe90fb0b5f96c9804540c3c48a3b045751bea5ded3066920c"
       }
     },
     "EU0004": {
@@ -26075,7 +26659,7 @@
         "status": "success",
         "path": "EU0004/thumbnail.png",
         "sha256": "983458f6b4699d4852d708c61b55dcc998855bc54ecea6ec96c63eb007d336d4",
-        "fingerprint": "742aef9752f8e8bb0bbda8ee578046268fc6ecd9740a01d9de211406f862e3a5",
+        "fingerprint": "226f6b51b7d3a1646a307e7ad3a0e4b850af6991d2004b1d3fac20e0b883dcec",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -26159,12 +26743,12 @@
             1024
           ],
           "product_translation": [
-            -107,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -26236,7 +26820,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/EU0004.zip",
-        "sha256": "cbda1c9cb33635f10f9bc45bbe13e3598aaa3f1e919826a002a3045916680e7f"
+        "sha256": "3000bd6127c2d4e660438d279d30967678e6b1f67ea136a7116ed096266b0ddd"
       }
     },
     "JS0001": {
@@ -26246,7 +26830,7 @@
         "status": "success",
         "path": "JS0001/thumbnail.png",
         "sha256": "5fca51f9d6d725e02b08bb4216ded5981a6b85f21a71d20fe68de0f0c732954e",
-        "fingerprint": "ff40d086f9442e91fa13ac8cf80bbe130dca78fbf17f8bdc9acdbaef5824944f",
+        "fingerprint": "9b7858ea57db596b491155360642d2d4145b401d3f2841dbb5449895e034ac09",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -26324,12 +26908,12 @@
             1024
           ],
           "product_translation": [
-            96,
+            0,
             0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -26401,7 +26985,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/JS0001.zip",
-        "sha256": "caff1dc6046be8668b9ad72e30ea8d19637afb67ca5dad77e6aa552f11c882ef"
+        "sha256": "b8e4669dbd23d33d7fa415443069a540b1d104aada10513a52029692f832db0a"
       }
     },
     "GA0004": {
@@ -26411,7 +26995,7 @@
         "status": "success",
         "path": "GA0004/thumbnail.png",
         "sha256": "245ca552cccf9e577f42036c174cbf5ed370688bc18d297f9434cd34d750732d",
-        "fingerprint": "7ccfc37db7284a72ba42d50875c15ba6406a2dfefc93c1c95a1ba750d2f9fbd2",
+        "fingerprint": "205fec309832e4c4a38fa660194da4a461fc6de9e56ac4be897ad8dea4c9305f",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -26495,12 +27079,12 @@
             1024
           ],
           "product_translation": [
-            -141,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -26572,7 +27156,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/GA0004.zip",
-        "sha256": "41fa30beb8c903093bef7cb6c291a299fc7622d03281e10b6a5280837b57674b"
+        "sha256": "fd87742d5cd4a2de7ac349cd163e83df86c375680593ca39a993944bf8f48d3c"
       }
     },
     "BP0005": {
@@ -26582,7 +27166,7 @@
         "status": "success",
         "path": "BP0005/thumbnail.png",
         "sha256": "e63397890bcc30a69ac906254301c7555cfcd383dc588d42f75d46a5ce1887c5",
-        "fingerprint": "ed8d198c9aa659addfd1bd892ca6633398e2e0c8183711c198c1e296335942ab",
+        "fingerprint": "deb53c2bb005da07461526a005096f92db502aae2c5ab811ea0209d50ad683f0",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -26712,7 +27296,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/BP0005.zip",
-        "sha256": "5433b9bcf6b0b57eb126690fe5646a6ae3ca39e6691df147ff812b37490ae5cc"
+        "sha256": "2cd3b08031d64b2d2a4558efd10fe72da5dc124b64b47649d4f21e9565fe25a5"
       }
     },
     "DW0002": {
@@ -26722,7 +27306,7 @@
         "status": "success",
         "path": "DW0002/thumbnail.png",
         "sha256": "6dab24f2771815a92b69ab60f77fae394a89eb8305459a174004839cf17ecd8f",
-        "fingerprint": "7de9eed0bd065c826a89aad0c5c08a920504d62eaffebc33eb34bb98ea4588ec",
+        "fingerprint": "779f40a390bfc1c6e7337956eb0f40cf0c1eea041ac806eda29041d37a419e71",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -26883,7 +27467,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DW0002.zip",
-        "sha256": "62ead282719ed2d1f7f13ca308f715bee9c3755669c461d4bca51fb99a2d0d4f"
+        "sha256": "4fceaab3b831f00a3e3717f0f968c9f17396793c7b50ebc0cf11898810170e9f"
       }
     },
     "WM0004": {
@@ -26893,7 +27477,7 @@
         "status": "success",
         "path": "WM0004/thumbnail.png",
         "sha256": "8c5f70ef00a0596bdefc1c53854d5080a249b620df6a601a4fdf99bb1308ccf8",
-        "fingerprint": "042b19323ef819cfd5ed9a57ff8b7c0592f2162d48bf3c902dfa395ad1e1b7ae",
+        "fingerprint": "a81ec73249b38de15df94fd92e4fa3305f2dc7b4003df09d3b84ef32cfa1f20d",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -27466,7 +28050,7 @@
       "expected_option_references": 15,
       "zip": {
         "path": "archives/WM0004.zip",
-        "sha256": "c4c0db18bb2e45b1df341b065ae786bdaf08da7c7f7b3974235065faf2caa587"
+        "sha256": "1df078892bf73b7f270de80aec7614c2b6cc52def51cfbdb05d6af50bcdea1b2"
       }
     },
     "AW0001": {
@@ -27476,7 +28060,7 @@
         "status": "success",
         "path": "AW0001/thumbnail.png",
         "sha256": "7791896b9cca9e352bd055b8b4021a77d3e98edfd7df0741bdce54d4cd53147a",
-        "fingerprint": "b43260137db0ae8f36941fa326110fce999b423274dc2dfeb36cdeeb94853576",
+        "fingerprint": "985ef11e05abe7cbe0294df6c3ecfdd3e2b2a2cf150e4f92ccb73333f550125c",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -27637,7 +28221,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AW0001.zip",
-        "sha256": "ff6e91b8fd7540d94ce7344d949162eeb09b22b350d051ef6f7f47756d5a0fbc"
+        "sha256": "37be0e3254ddf9d6e7315b075f52d48e88cd7050e5544a4a89d87970e4424331"
       }
     },
     "TH0001": {
@@ -27647,7 +28231,7 @@
         "status": "success",
         "path": "TH0001/thumbnail.png",
         "sha256": "0e0447d16f265f7a475d695d4bc1894884c797ca7fdad2a02171f5353ceb4329",
-        "fingerprint": "35dfa5f5884aa41572ab64b7c08be080bf3bcb48c4b7f7a7ff9a3f1d9dd0fb65",
+        "fingerprint": "98fe09bc605e4390edd7a7496b017a7b23d5ca60dc4185a429dced5914e9853f",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -27811,7 +28395,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/TH0001.zip",
-        "sha256": "f90ba7c90c03d2efc7531f21bfae0462f8d5f28193feec1006af07bc7a023cf7"
+        "sha256": "8f17fcf52ef4aa5c925cc47a47608e51a9924cc3f9b52101ff3b09f46a1cf11b"
       }
     },
     "AC0001": {
@@ -27821,7 +28405,7 @@
         "status": "success",
         "path": "AC0001/thumbnail.png",
         "sha256": "e10fab55848aae08004ff3ff144a8886493f239a75b5215104e8840b46989e72",
-        "fingerprint": "d51b6da658a452e2a16c24b031849b5ab40b8b6496bd995d723327c40e089273",
+        "fingerprint": "2471c070d39823e70648bc859b6e5fc0a2e4fa64dc35254108c1f89522053025",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -27899,12 +28483,12 @@
             1024
           ],
           "product_translation": [
-            77,
+            0,
             0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -27976,7 +28560,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AC0001.zip",
-        "sha256": "ac7ac589ccee473db529215a258e0322cb3dfb84a8babaec368d7e14ae0255da"
+        "sha256": "a62bea6e6d175f54fb908fea0fd5e56cde8f2fa5408d44472d7c09d1512ec097"
       }
     },
     "LS0001": {
@@ -27986,7 +28570,7 @@
         "status": "success",
         "path": "LS0001/thumbnail.png",
         "sha256": "8b632e59ed2e7a48a9951ebc7295938ea23bf6c6211063241eb8742dab92d6a0",
-        "fingerprint": "385d9e513d75b278a8fb408d109e88b4bfb5a0217cd869e9aeff56031478b42f",
+        "fingerprint": "87a7e202a12b4d95a30b9644ea019bae848b419d61559333eccc2fc6850f5502",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -28181,7 +28765,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/LS0001.zip",
-        "sha256": "4ef6db8466e952fb58a536c6f0163cbac8fb1dc7d0ec2e52847b795931ca9921"
+        "sha256": "9ad381f3bc63febd19cfe7f29fbda9f33afd086abb91ebdba3d6e28a009874b2"
       }
     },
     "SM0001": {
@@ -28191,7 +28775,7 @@
         "status": "success",
         "path": "SM0001/thumbnail.png",
         "sha256": "52b529c80eebb3e4e38e928ce5c420471e4f4c39908322c40cc330b0e10f52a1",
-        "fingerprint": "a9610ff14e055ec3c8e6dd5b5e54e4f7995cee02817323c915639be514f22222",
+        "fingerprint": "6717cce94b63344b3aed59f71fb3212fc79c91a8991b98f3ad3f41f0fb610278",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -28758,7 +29342,7 @@
       "expected_option_references": 15,
       "zip": {
         "path": "archives/SM0001.zip",
-        "sha256": "94ebd74a8a9f6076addb19d675cfd95923176cbe02cd77f50211ed85722d5442"
+        "sha256": "950a87e73ba8b52744f474783a043ec570cbb9117e228fbf9c778bdf4f9c3bad"
       }
     },
     "CU0001": {
@@ -28768,7 +29352,7 @@
         "status": "success",
         "path": "CU0001/thumbnail.png",
         "sha256": "11d1ae597cb0a0f68735868c1114192b1f075356094a76710c60517102180f8f",
-        "fingerprint": "0cf88594ffb340016c894a1f3175504b5361d86e4a953609f683ef69f53edd53",
+        "fingerprint": "c78cd84c867bbbcdab371e036dee21a4fcda88ab1fd044e279948c3b644e485a",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -28923,7 +29507,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CU0001.zip",
-        "sha256": "21196422d0f835a5e3e5835f8671e7adc8d08e04975afb3fd033a36e021bf9b5"
+        "sha256": "4a874152a6081d5a3216b5dd96e9f0af885fb3bf66c41997aa2a8f1e77842462"
       }
     },
     "DJ0004": {
@@ -29037,7 +29621,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/DJ0004.zip",
-        "sha256": "c013efbafad41f22565dd71cd9c0f9e19424407e2eec237a94031a822d16da14"
+        "sha256": "c5062a27d754e06a1631382a5b51334b216b4e3e0d8f7cef045dceb967cc6a1e"
       }
     },
     "PR0006": {
@@ -29047,7 +29631,7 @@
         "status": "success",
         "path": "PR0006/thumbnail.png",
         "sha256": "bdd28dfe857bc7a718ac121ec20007a5216c3ebbe23595fe16b10353109f9cc2",
-        "fingerprint": "791aa01b2c9d90b300d12b2edc73eb20ad3472fd3fd254b0141fccc600c28609",
+        "fingerprint": "c2f0104f27c88717d4f2a215c2b3899fd1af450e1c24d1364644bbb980cf2549",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -29135,11 +29719,11 @@
           ],
           "product_translation": [
             0,
-            61
+            0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -29397,7 +29981,7 @@
       "expected_option_references": 8,
       "zip": {
         "path": "archives/PR0006.zip",
-        "sha256": "f8beb11c33407227f9f04126c5b0ccc79c0320d27e588520a3b9ed1260795ac3"
+        "sha256": "130ebf49de1149a7205c36eb58ed5b423af79cf57eeaf22d7c170a495efaff78"
       }
     },
     "BC0002": {
@@ -29407,7 +29991,7 @@
         "status": "success",
         "path": "BC0002/thumbnail.png",
         "sha256": "5e2759f2ad7ab605f0904680997e6ac51387b5cdcc0e3e6dc5a4101d13fb9fda",
-        "fingerprint": "8565b3853ecdf228657d49c43c0ab5d7f913d3d3d26e71ace488e398cf07da2e",
+        "fingerprint": "41e20b071f0baed8137f2558ed806ac5d39e97b7fab5db3b84edc8ec4743c10a",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -29568,7 +30152,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BC0002.zip",
-        "sha256": "67ec58c4c6d7300ce90a8cc0f475dec705708ece56f28656ce525df04f2276ca"
+        "sha256": "139d916471f651a624819053b7208aebd4b8e636cdc689fe6bb9979b34f16131"
       }
     },
     "HY0004": {
@@ -29578,7 +30162,7 @@
         "status": "success",
         "path": "HY0004/thumbnail.png",
         "sha256": "f32ddf01607bf748c227d43c03a2a7ada9c2e5fac3534d1cf733305ff4f10b56",
-        "fingerprint": "4f07a016ba3303235f18c4a0a6ecbaf66b17caa6ce7b68af9dbd829de772185c",
+        "fingerprint": "7ca47e8ad7870dcb8455e880a63cfbcf9bb0d5e6ae530cdcc8c966ea7cb07d21",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -29733,7 +30317,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/HY0004.zip",
-        "sha256": "991f562852210033730245d5bbf99daa18aa6c8d80a044041dd2069dba4967ff"
+        "sha256": "ef419b22621c4746da1500394c7ff4f435485b1e6398d414b493fe06ec0e8cb5"
       }
     },
     "AR0001": {
@@ -29743,7 +30327,7 @@
         "status": "success",
         "path": "AR0001/thumbnail.png",
         "sha256": "4ae837ac8a8548a5b5671c80c71f05b5d085ba0774d35c723e7d6df9a0f43288",
-        "fingerprint": "2ea2243683c5c5bbb47f12e92f79aa3922bcc670a5b59b6b01d9c8f798333dbf",
+        "fingerprint": "a180d48536ad40cc33d8f5df5773a25d8770726c9d31647f3547a01f4a027a8b",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -29836,12 +30420,12 @@
             1024
           ],
           "product_translation": [
-            76,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 230,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -29944,7 +30528,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/AR0001.zip",
-        "sha256": "ea391b40f4c08db532a9db0a0d951798430593effd69c1265fde65e08cfa4d13"
+        "sha256": "5cb42b544f83e3b45ee90e068f3b97edff88aef428fca8c646ceb2400e5ba427"
       }
     },
     "IF0001": {
@@ -30027,7 +30611,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/IF0001.zip",
-        "sha256": "623e3080c33f03a0b541bfc3bb4ed137c91997dc27df829b508148493605469d"
+        "sha256": "57cc4b0069102dac3adba216bb415be3c9867c8fbcded8ccd6c57cb2b75a6221"
       }
     },
     "BY0002": {
@@ -30037,7 +30621,7 @@
         "status": "success",
         "path": "BY0002/thumbnail.png",
         "sha256": "bb79e24943174095fed26959587a91f52b5bc0e512ebf48ad0b662d2478732c3",
-        "fingerprint": "ee58ff49be86534bff5ffbbf203ba999e2127de169e04ff63f9763a8a431a437",
+        "fingerprint": "f2c1b22c95ad3924711f0835f3c5c15c8ad72e17b75f771ae00b9aa1728551e0",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -30167,7 +30751,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/BY0002.zip",
-        "sha256": "f7dfea0e10508e1680b62f1f2f2e8887b37cc8e3b827d94a4eb3179fb4954dbe"
+        "sha256": "fe30218e5020003c908a6b2f98815096b7e1599cae16fe54a6dcce11b66e45da"
       }
     },
     "ET0008": {
@@ -30177,7 +30761,7 @@
         "status": "success",
         "path": "ET0008/thumbnail.png",
         "sha256": "f9f2d6a05855a2a5e319ab81f188bdfd203d6a0800cc27253e034970dab571c3",
-        "fingerprint": "513db154689ed76536aa1e5249c682008c2229ddcf8e9d00dd1a27310aae8a9e",
+        "fingerprint": "83bce9a275c22790b775dc07dadcdc2b223ebf1c0621617ab93d72378fdb9881",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -30332,7 +30916,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ET0008.zip",
-        "sha256": "49cf0463ac344630298e8c124f45c381231fc9dc6a18e39749605d2c15e41dac"
+        "sha256": "33dc8a33b63e9eecba2d626ec512c05c8163d6aae19f6ec238e039b568bd583a"
       }
     },
     "BP0006": {
@@ -30342,7 +30926,7 @@
         "status": "success",
         "path": "BP0006/thumbnail.png",
         "sha256": "fc25299183a5fa3bad77db2618d7c7b8cd4b35fde616134f8d5515d25f6b8cad",
-        "fingerprint": "1f4abc9947bd309218577c2f365032e1f2e457e74fdabc23d6a22e8b9d9cacac",
+        "fingerprint": "e6f98ef065de4e2515a909762dabbf782c484a7eaadeb84fe631a66cb0ccc65e",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -30503,7 +31087,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/BP0006.zip",
-        "sha256": "152853aff7b0662c063dec7bc8dc38a88074c6db697446487fd441939c6c897b"
+        "sha256": "ebd19ebdc9c3650784054a189656c907ac22e208d6bb8739abc9e7a212136bae"
       }
     },
     "BG0001": {
@@ -30513,7 +31097,7 @@
         "status": "success",
         "path": "BG0001/thumbnail.png",
         "sha256": "9c692fc77d4d4bc1aaf24e6f07bebafe91f4c84a46cd857785f4f025d628f039",
-        "fingerprint": "6a5bf2fd6a55d9479f8ddca4928fc95f9f7bd2f463be89f8cecc9d4e9bc8141b",
+        "fingerprint": "acf92bc869efa9b70107b89a88e3c8b388d295c6f8bd486211eb9c6845b81610",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -30739,7 +31323,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BG0001.zip",
-        "sha256": "235f63c9d2c621143c309f633c7120e4ba1096eb3c87e17a5cca3ef309511197"
+        "sha256": "ab01c55afb8e47cde89f198a081e824bdac494dae9ee0f198741ea41974ca596"
       }
     },
     "IM0005": {
@@ -30822,7 +31406,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/IM0005.zip",
-        "sha256": "fdd40ee7c14d5f5019f16d6b932834656faa4969d3548d295cd03cddf8d67477"
+        "sha256": "9cb08def7b0630956eec552b1b17bf05d87e5b8263ed6036cb24723f032653b4"
       }
     },
     "AC0002": {
@@ -30832,7 +31416,7 @@
         "status": "success",
         "path": "AC0002/thumbnail.png",
         "sha256": "52b634f428f6247ee9c93016ed5c216f38a391b7227ff79ecd434f4cda71fe4d",
-        "fingerprint": "6d25f285bf6ed1f6a0ea12e12b34b1d303083f4a78f11831671f8585880b993a",
+        "fingerprint": "508371f06974b35b0139834873382d555c8d891e31776d63775c27c77485fcb1",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -31002,7 +31586,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AC0002.zip",
-        "sha256": "89e0c022c23cc8d724cceff28384a5a8e6f058186f4b83145a62b49c8028a238"
+        "sha256": "2b8ac36fc0b0a30e457ee9bd62d2b01eae81cd31594009ebef29de520ba36f0c"
       }
     },
     "OE0001": {
@@ -31012,7 +31596,7 @@
         "status": "success",
         "path": "OE0001/thumbnail.png",
         "sha256": "0fc07c3a9ceba9f24d5e45fe38cf1595f80532edfb60d4f95d8fe2b43fc8119f",
-        "fingerprint": "e2ffb4d28d49b38045a048bdf500f8c70e2f13c1bf9fb7a8add613b833be51bf",
+        "fingerprint": "fba417cdaaae73e75e1ac9ca2a3de1255add40b64f9797e8842a7847c2d71b83",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -31136,7 +31720,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/OE0001.zip",
-        "sha256": "1cdb9d71c7d6321bfa778e2b33a7cec8f0a6bf0ee074404233162c0a2cbd3e59"
+        "sha256": "69dc1aad8e5f4d8437dad1416d1c3199f3df0ed21aa506b9cf5f54834dec9988"
       }
     },
     "CX0001": {
@@ -31146,7 +31730,7 @@
         "status": "success",
         "path": "CX0001/thumbnail.png",
         "sha256": "fb1fd8e678c5c9161f80b1a57f13d4b03eb3583515aed8af89113a00330a7ee6",
-        "fingerprint": "a5514338d48582e2960b6331285b4c498c2b4cb99f1e2371b86922df3fd4299a",
+        "fingerprint": "66da029ca5fff8e89676766058d469c856c203218c30235ae14ac11f182be03d",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -31230,12 +31814,12 @@
             1024
           ],
           "product_translation": [
-            86,
+            0,
             0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -31307,7 +31891,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CX0001.zip",
-        "sha256": "b6ffb39cb76530e4392132ffa50996f5054e81209e42c7af0b7facf1938a04c1"
+        "sha256": "a7e0dccf97a765480d9f552547bec17c4ae88a0012949119f06daf81124621ec"
       }
     },
     "DO0001": {
@@ -31390,7 +31974,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DO0001.zip",
-        "sha256": "0151a5235743e9dc249df1b2b3cbe4aa2acbb7b20506ba40f98240c0ac0867cb"
+        "sha256": "c5fa717b4319de4783a2d3f0c52d2624d6203759734661f160912becad403aa2"
       }
     },
     "EL0001": {
@@ -31400,7 +31984,7 @@
         "status": "success",
         "path": "EL0001/thumbnail.png",
         "sha256": "11ed0c373f5b593d2266f098ca2177f2ded9d8b15584c078fe17c011f67e17a4",
-        "fingerprint": "7596645bad318a25973e34c1651e5f6e670a49b1f7881a4f8b96983f9b710e30",
+        "fingerprint": "29c5b96edbb13630a01dfa4c9356b1ec8711051de9414bd3797e03345d9dec7d",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -31657,7 +32241,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/EL0001.zip",
-        "sha256": "ca45b11c192d5b05d163901f83f4a10fc1e50f1be30308530442f57e0f0d6967"
+        "sha256": "3b0886b138570c2312c349637ffc8bd2c58864be6df81bb62a2d3c5e2149c1a8"
       }
     },
     "LK0001": {
@@ -31667,7 +32251,7 @@
         "status": "success",
         "path": "LK0001/thumbnail.png",
         "sha256": "f3c1b7b0c0a1d6de8820295da06e766d8bfef736e790606c9fa3784c14422337",
-        "fingerprint": "de834c59b02f04543aa8fefc6b9d3154800b679ff0e1294a9927c1a6e89c5355",
+        "fingerprint": "7de55d3a19aa358fde995ed23f4d3bd2ee3c00d4eb3c562fc3e99682da332108",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -31754,12 +32338,12 @@
             1024
           ],
           "product_translation": [
-            89,
+            0,
             0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -32017,7 +32601,7 @@
       "expected_option_references": 8,
       "zip": {
         "path": "archives/LK0001.zip",
-        "sha256": "fe6fab432435f108c86d7278d6b56ac44caf723af1da7f5f8c44f95eb36b19dc"
+        "sha256": "9fc7e2d3a1fc52789590b0ccc8e5c268f6b297e275964c4a9345b598218e20af"
       }
     },
     "DJ0005": {
@@ -32027,7 +32611,7 @@
         "status": "success",
         "path": "DJ0005/thumbnail.png",
         "sha256": "09283d71856268b6c1e88754a2fb73ea6ee3d1cc7157804efed6b4f262d459d6",
-        "fingerprint": "ecd7daf9a202e2a765251116a380831539360d34921c00a4078bb9790f16f9b7",
+        "fingerprint": "32b3297d35246980efc9a40fd452b0037b99dcf1625683f52975cad5f35e104f",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -32188,7 +32772,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DJ0005.zip",
-        "sha256": "2d87bf3b3be94203e18d702c00cbada78176a4c2a23ba0cdbe7d65bdfb89bd2c"
+        "sha256": "734e2d6104e657ab293192c73e722242dc87e9e8b3b8de48ae870788ca567936"
       }
     },
     "CK0003": {
@@ -32198,7 +32782,7 @@
         "status": "success",
         "path": "CK0003/thumbnail.png",
         "sha256": "48642a597ab422266249863f225e43eb9157322c9e3f7ad37735c098f621640e",
-        "fingerprint": "b75fb67236d4c73741ba1f13fee8dcd7df16637591b916da1be867c735b3e8d9",
+        "fingerprint": "85b27e3c0b9d93a6b639e6f01d2c57f61421386bc379ce20171c8f267f627606",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -32353,7 +32937,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CK0003.zip",
-        "sha256": "7bbafc90ad568952485324ac4c812563351cad03d20ff7149a7871c634e4b5b2"
+        "sha256": "52cdb4a524e1256d59eff7ba13c5edd85653dee8f004a0161fe1fea2e6b65950"
       }
     },
     "EN0001": {
@@ -32363,7 +32947,7 @@
         "status": "success",
         "path": "EN0001/thumbnail.png",
         "sha256": "5cb5ef60e753b559faa8f04cba48c5eb9445e4c158665dfa24ccf20cb4f9012b",
-        "fingerprint": "a38265af4dc9f7e748dd61d02f1063001855ca21a7a51c2ce7267e5439f4810f",
+        "fingerprint": "6cd19e9daf5b7f17ff83def02d41a98ee1353d7308f58285318b7d06983335aa",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -32450,12 +33034,12 @@
             1024
           ],
           "product_translation": [
-            -117,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -32651,7 +33235,7 @@
       "expected_option_references": 6,
       "zip": {
         "path": "archives/EN0001.zip",
-        "sha256": "44f8ed799786cddb3632074ee6aabc1221258d9f725e3da95d32e5607842cb4e"
+        "sha256": "b8ca37c19f8a6666d33c1280c9883d1a9f5043fd4fbd0ade2cd2e3071fa12c84"
       }
     },
     "MX0002": {
@@ -32661,7 +33245,7 @@
         "status": "success",
         "path": "MX0002/thumbnail.png",
         "sha256": "d15d2431d38ce93e66da55c2da96e77c62d3fac422f0f1442d688c80adadc541",
-        "fingerprint": "715a8b6f3283d5a9f62093a790aacc66f4a966ab6658ddf21aeb2e294a63d305",
+        "fingerprint": "6a71068a2b3907c7cf868e7e725a67c0d3d79180a11b74d4ded2396ee84b873a",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -32816,7 +33400,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/MX0002.zip",
-        "sha256": "ca7510377b947c8f41cfee17c3f9d9291ef34219465ffcf851ca28e80435f09e"
+        "sha256": "7cf5c058db3b9be0f575989612f1d4a7a0687e0be79f25766c94084ac43e3a27"
       }
     },
     "RP0001": {
@@ -32899,7 +33483,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/RP0001.zip",
-        "sha256": "c71c6b36d12c31f2b5c27df9fd1f26a13a11b2bd15fa6e7a010f94b9be23106b"
+        "sha256": "647c3506311e3baf51a949c2c0e98d2dfe553cc0e18ce52a79a4c05e2acafb70"
       }
     },
     "DW0003": {
@@ -32909,7 +33493,7 @@
         "status": "success",
         "path": "DW0003/thumbnail.png",
         "sha256": "04ed6686a8d745b820a73a30d4193506cab67ac8832472d0b62ed2ba2f281322",
-        "fingerprint": "2e8b0f940f2928d7ad9991b5bcb22b43e85c7a66e923d00134d55a1bb504b6c3",
+        "fingerprint": "b7779b3df9ac6b0ff83b8d528493f07f64d996eb8869319e9826d26315c435bc",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -33070,7 +33654,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DW0003.zip",
-        "sha256": "2bb467c1d2534a3ac2cd0d5e456a506c600bfc263ffe5279b2e5599b90e9c73f"
+        "sha256": "d63e907e5cc3cf9d1fff5a0833a75c75a39efd43b331482e3939a00cee13af1a"
       }
     },
     "SO0001": {
@@ -33080,7 +33664,7 @@
         "status": "success",
         "path": "SO0001/thumbnail.png",
         "sha256": "7009777b209c7432787bbf08e4df3c8beeaf673faa4118e780df6e78ab156ca7",
-        "fingerprint": "49678609531397001f20a3ed9e14d740b730ac1bdd22424a4746504b970e6206",
+        "fingerprint": "49416a588df7708bb46dc9a267e9d183de42697ffbdcdb57cf1b0e09b1ff9b21",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -33244,7 +33828,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SO0001.zip",
-        "sha256": "08298f882c29e631d396c3aa9800cd569b97a9b5d5e46be6eb66ea8020f28482"
+        "sha256": "236d3a44bcf427c19f63f2a73a88a20c305ef98b333cbdf0e55a754b973768a0"
       }
     },
     "RC0001": {
@@ -33254,7 +33838,7 @@
         "status": "success",
         "path": "RC0001/thumbnail.png",
         "sha256": "5fdc77d7c9e138336a746bd69bfa60b5200d89ac2417dd7ab130ebc4ae972ec7",
-        "fingerprint": "9008e3265ec6ba3ac96abc8e6a1ef5d00e30fadc3fbdf0bf356830c00c8e867d",
+        "fingerprint": "1ed8061cb220e5cb47be30d9948682143137efcd4465324047e4d42df5a39e4c",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -33341,12 +33925,12 @@
             1024
           ],
           "product_translation": [
-            88,
+            0,
             0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -33511,7 +34095,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/RC0001.zip",
-        "sha256": "09e01e0be1e3d9df0464f9af721e66440d8601e76f992097b19672292e793ecc"
+        "sha256": "4e71ed880e3cd82ff5ea846581633db470423fffd1b2b1ec231df35f06217dce"
       }
     },
     "NF0001": {
@@ -33521,7 +34105,7 @@
         "status": "success",
         "path": "NF0001/thumbnail.png",
         "sha256": "6ccb4130cb48bcd8e222fa0bd359535187b37898367764140b5855f278c85a76",
-        "fingerprint": "9f26a936ba9b247752855c4afcfb191cd4da33cec885edad8abd985c723f4bcd",
+        "fingerprint": "4956815a7a7713a62324c7099c5c35308178e85850d432c24a53867ee8d30d10",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -33676,7 +34260,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/NF0001.zip",
-        "sha256": "b72aa4a963ab4a94ff43935a37378b6719b5a0c2f106bfcbfae62d8ddad527ea"
+        "sha256": "38e03053d56a9216e9c7c53eecefd20a90575e95d492807aacbc8562a489f925"
       }
     },
     "BH0001": {
@@ -33686,7 +34270,7 @@
         "status": "success",
         "path": "BH0001/thumbnail.png",
         "sha256": "193d43a446592cba4fc950819fe18b145fee738344c9d0b00f15ae68fcfe5621",
-        "fingerprint": "5f62acac5e832f1e07b62ed3455f36fd2c45d86d9be064a2da2c4ad587095953",
+        "fingerprint": "be5ccb5348a0f6a247b818db261fe60690037f39b16ccbf7eb3d791c2c91d5a6",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -33918,7 +34502,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BH0001.zip",
-        "sha256": "63c1f35aca96d5486c1ef161ebbbcd5e52918827d3edd6745ee4e37f8745a06a"
+        "sha256": "495ed2f30313eba107ed788cb38a2eccfc60d24547d8719b3d6a2bb371eadd22"
       }
     },
     "BL0002": {
@@ -33928,7 +34512,7 @@
         "status": "success",
         "path": "BL0002/thumbnail.png",
         "sha256": "cdec57306bc0693bf5b25f105996a90e81a5238ada6fcc52a86f5f01d7baa042",
-        "fingerprint": "ef849d848280037e568f5bfccf5fd76108af20946af8a5ce633b4368226f8f30",
+        "fingerprint": "b088f4e5d8f92f76abf4655e1b7371b4a98ee3428a029b5e5ecf436a9c2fc7a7",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -34151,7 +34735,7 @@
       "expected_option_references": 4,
       "zip": {
         "path": "archives/BL0002.zip",
-        "sha256": "4d7dd2da146c91aafb2e05665ed5bc311cbfc2f9706fa7f68b9bc8d0aa37b102"
+        "sha256": "0f45ee01ab86047b87cfdef63ffe50fcc154e0d8a36a42bb62fdbcc9aeb7715f"
       }
     },
     "LV0001": {
@@ -34161,7 +34745,7 @@
         "status": "success",
         "path": "LV0001/thumbnail.png",
         "sha256": "bb4b32c4d2602210eb7650af421810a209c00d6c326042a5bec48bf53f3b3a9c",
-        "fingerprint": "6f4ef4ed61639efe1100f7b18c17c789cfffb4bdc75116772da5f0b2aaa48aca",
+        "fingerprint": "80576aa3ee3dc2c589cc581bab76fe4904da45a07c3addf2ee113403527501a0",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -34291,7 +34875,7 @@
       "expected_option_references": 1,
       "zip": {
         "path": "archives/LV0001.zip",
-        "sha256": "0ec11bceccab0eb34eb04ff8485eea925999c69bf43d4d08a17ccdd4a966a80a"
+        "sha256": "d599a51117e2888e95c578e56fbc14473d8aa5200c818870bb8a01cbefdb7385"
       }
     },
     "PR0007": {
@@ -34301,7 +34885,7 @@
         "status": "success",
         "path": "PR0007/thumbnail.png",
         "sha256": "c2fe10831e0abec634e4928d21ae541bbe1e917bdc933fe33cd953b19dbde08f",
-        "fingerprint": "f4756603c1ea74603c8f73a788441fc872667be7daca33d5438d32d551aadf5c",
+        "fingerprint": "0e8b1a62e621697433d368d8efc088afb56f57dd206e6dfc21a2e8963c654ddf",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -34456,7 +35040,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/PR0007.zip",
-        "sha256": "f3a8a4243e16bff66bdff1b5ec7a11272a829ad018c48c903fddd9549d34ed8d"
+        "sha256": "6eadf807cdc8b29c6ca26c5a4af18210f257f1173c1632b1ba5952c59efe84f0"
       }
     },
     "DH0001": {
@@ -34466,7 +35050,7 @@
         "status": "success",
         "path": "DH0001/thumbnail.png",
         "sha256": "ff20f69fc8c8321641e2cdf97339e5e5efb5d44a3c42d1bc53831ce4ee86e217",
-        "fingerprint": "ba969e16c6cd7b34813806c909296737da7654d49b576e1fd6c55b9890a78821",
+        "fingerprint": "686733c78bbb8fe4e59b1a5bfe47e3c6584b1e24959562b87edb76fa9f5475e3",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -34652,7 +35236,7 @@
       "expected_option_references": 3,
       "zip": {
         "path": "archives/DH0001.zip",
-        "sha256": "3acf5b67445daa6e7777115fb6e3cac1c4e55b901e734ebb0c5f73019e5825c2"
+        "sha256": "57e321a054df1ff8002088e87789a6bb26cd7ec4049f337bf7f30674b7bd2555"
       }
     },
     "PR0008": {
@@ -34662,7 +35246,7 @@
         "status": "success",
         "path": "PR0008/thumbnail.png",
         "sha256": "d07171e49a0502e968ced11e67099209f5a7103a3d087c7ea3960b266806819d",
-        "fingerprint": "015e461982876a793e49a0e649023e2a522be6237745c3f0f051dc15b59dcc87",
+        "fingerprint": "beac42149e089b98de8233866d202d751fb171e9b1aa45dc249a0f32424039bc",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -34755,12 +35339,12 @@
             1024
           ],
           "product_translation": [
-            -79,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -34925,7 +35509,7 @@
       "expected_option_references": 5,
       "zip": {
         "path": "archives/PR0008.zip",
-        "sha256": "21e30c7a4342935905ea80753ad927129c3eaebca43cf0a38441d9e3cf80c22b"
+        "sha256": "690403deae65f2a6cacfba2681e27a13a969ba820e76d30a058e21d712395855"
       }
     },
     "CP0001": {
@@ -34935,7 +35519,7 @@
         "status": "success",
         "path": "CP0001/thumbnail.png",
         "sha256": "aa0ccf592ca94778e2bcfe8b619b1ff24a39db155c3b6f4c273a7e7e41823f0f",
-        "fingerprint": "0c2cefeca02d31be3012c2ac767d5d936f7759c371b93429c969bfee459b887d",
+        "fingerprint": "a909781326900b6ea792aaf2571ad27c408c10dbce78ce0f99b234fdec865071",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -35090,7 +35674,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/CP0001.zip",
-        "sha256": "3b87df8c7209d5b249aa0ab8616ccaa6fad35c8e1a20d03e631e430fe6bc6a78"
+        "sha256": "add55dd421ab966b7deb11c7e18fdc003e54a79b3e7458a61586de9bcc5e242c"
       }
     },
     "MM0001": {
@@ -35100,8 +35684,8 @@
         "status": "success",
         "path": "MM0001/thumbnail.png",
         "sha256": "9d885fa1aabcdf3a6363aaad972252c443481b0330fce75a88db982378779242",
-        "fingerprint": "9ea771f864fd5194f02b7a36f13dc54c0d5ac0a146c16f70976fd1cb9aa54892",
-        "reused": true,
+        "fingerprint": "3c32cfc0e900c82443b2699f7135fba28c2fa5c7fed1336dfef11a4212428fd8",
+        "reused": false,
         "layout": {
           "design_version": 5,
           "source": {
@@ -35261,7 +35845,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/MM0001.zip",
-        "sha256": "560367c0d8769bc28fd221775102196cdf93bfc49f17510c88fcd835f10705e2"
+        "sha256": "0b5f1bd7174a09c6805d9261fc3733c066ae6df9ba8c9478fedf88af595b45d1"
       }
     },
     "NT0001": {
@@ -35271,7 +35855,7 @@
         "status": "success",
         "path": "NT0001/thumbnail.png",
         "sha256": "dc3582055e5a2e1af11050136c0a051ac0f0ff2a6f7b3c0d9438500629619a33",
-        "fingerprint": "2e93a4a3b2c3d8c3040e53a85c374609b9214bf68025394395a0fd4bdaa71e5d",
+        "fingerprint": "d8c070ac4283659fd70fddea42f79b6205d118abf12267d060f2f3f1b5c35b64",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -35435,7 +36019,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/NT0001.zip",
-        "sha256": "9485b40c32983613b65835fb0212ccf322aaceb91ecc703f96d6717189ab84c8"
+        "sha256": "19300229be1a6872efc8e86245b95cf029205a610e73ba8fcb3f417fc08b1dd9"
       }
     },
     "SH0001": {
@@ -35518,7 +36102,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/SH0001.zip",
-        "sha256": "20c75a2df47a51f48c9189057dab19369332b7ef19f0ef1bc015320f40d2f683"
+        "sha256": "11818b3db599aa34ffe48e074e52babce44df452cf2630cb28560db40a555aec"
       }
     },
     "TB0001": {
@@ -35528,7 +36112,7 @@
         "status": "success",
         "path": "TB0001/thumbnail.png",
         "sha256": "06c0ffef5c01df276a439eb006b4685b93be142147fddae0b81dc421dc26461c",
-        "fingerprint": "2932fb504de6999fb9cf58f9f932fa4419b019ee931830aef9c5b1fce20cb461",
+        "fingerprint": "b74005df921a645d147e39a28e1d7198a8216f8d3ad946fdf9774646def2566f",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -35606,12 +36190,12 @@
             1024
           ],
           "product_translation": [
-            -115,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -35683,7 +36267,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/TB0001.zip",
-        "sha256": "9e7c370a0b2eebba89d35d9b777048b84620621349e307a58b99d5e0f185ff32"
+        "sha256": "330d1eca605b5af2bc89e27d4d3dca5ea75cd2d113d105761468f66efb7303a8"
       }
     },
     "ST0001": {
@@ -35693,7 +36277,7 @@
         "status": "success",
         "path": "ST0001/thumbnail.png",
         "sha256": "c2a8d60af78391d883120a3337bf1da91597198d6137c804beda885805bfc48a",
-        "fingerprint": "213aada9fbbc6928b429b4975cf77fefebdf44dfc4ad09f0ca41501724fd1885",
+        "fingerprint": "527fab20ee48390293dfb6ba06d0683b8d15e0feefbb5321ff170f2f8845a7a9",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -35777,12 +36361,12 @@
             1024
           ],
           "product_translation": [
-            -104,
+            0,
             0
           ],
           "badge_position": "upper_right",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -35854,7 +36438,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/ST0001.zip",
-        "sha256": "92028b98fae47104b46ea9158cddb97d98e15e7e656517be331066f30061739a"
+        "sha256": "9fc341dfbe0c01899ccce390d5dc546f5eff331e0c5b48fc53b91c028b391d92"
       }
     },
     "AV0002": {
@@ -35864,7 +36448,7 @@
         "status": "success",
         "path": "AV0002/thumbnail.png",
         "sha256": "97fc75dc8e6a35329d792ed524b642e2e10b10d78b16c3d557d684e55aeb1f86",
-        "fingerprint": "69983e814784e2bc4aad3d7d5946c4cfc558161714a590ecf97231b35e0c810b",
+        "fingerprint": "15909fcff162117ae19159d765a48e96c85e58c506690ee1089bae2b6a2ec88a",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -35948,12 +36532,12 @@
             1024
           ],
           "product_translation": [
-            99,
+            0,
             0
           ],
           "badge_position": "upper_left",
           "badge_frame_clearance": 40,
-          "layout_preserved": false,
+          "layout_preserved": true,
           "product_size_preserved": true
         }
       },
@@ -36025,7 +36609,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/AV0002.zip",
-        "sha256": "7193f87b79c119bcde98f0cf558342979e729fe4c7200873b8099eb5696e8ea8"
+        "sha256": "08203ba13721e952eba43fe7bab90500b131593c529af1f3a5e84b4a6cd4cf1d"
       }
     },
     "DL0001": {
@@ -36035,7 +36619,7 @@
         "status": "success",
         "path": "DL0001/thumbnail.png",
         "sha256": "ce98babc94f6d2347c23ec57edd67ec11c599a96b513ddd7fa4a890f27d59743",
-        "fingerprint": "a295197a933355cd471257131d718c62934abfa2200efdd66bab8b3886375a53",
+        "fingerprint": "2ae6e2cc6fe1b8ccce77d5db364220ec002930087ac8f58033b572c7264fe951",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -36196,7 +36780,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DL0001.zip",
-        "sha256": "8692690e278c5d089d11aab13496355b2bf10a5852c62640169d73e3ce944331"
+        "sha256": "e97d5819d1327c91598e0032d1c6ef013da21dce66950cfbac2a158f334cf784"
       }
     },
     "DN0001": {
@@ -36206,7 +36790,7 @@
         "status": "success",
         "path": "DN0001/thumbnail.png",
         "sha256": "aaec12264d3c2b8b97bab5f67f41633b28c237e06d211df6f4a8f9300a5d1999",
-        "fingerprint": "df81b2507b36572761d766a39a17951b17233b2888906e1f675daf970754e8c7",
+        "fingerprint": "9f7dd9e5004a89f609aa8998d4cde9aef9bfd0c3b942c09f57006183a39e87a5",
         "reused": false,
         "layout": {
           "design_version": 5,
@@ -36367,7 +36951,7 @@
       "expected_option_references": 2,
       "zip": {
         "path": "archives/DN0001.zip",
-        "sha256": "41ca068ad2b4b8ea8fb0d55d27efa7fcbcbd4ab7f94d63f7fe3ca92d53b3443e"
+        "sha256": "387b2e07b2743d15953e00fa7c2cdce5e2d180fc00a3a47c16f3b4d5dd880209"
       }
     }
   }

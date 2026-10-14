@@ -126,8 +126,13 @@
         "HOLIKA HOLIKA",
         "HOLIKA HOLIKA.png"
       ],
-      "actual_matched_names": [],
-      "status": "missing"
+      "status": "resolved_from_standalone_png",
+      "archive_matched_names": [],
+      "actual_matched_names": [
+        "HH.png"
+      ],
+      "matched_path": "HH.png",
+      "source_sha256": "d98294327da48875022b80c487f9c5abc47248fb4e1ad4c5cba13e1f65cd4eed"
     },
     {
       "code": "SN0001",
@@ -139,8 +144,13 @@
         "S.NATURE",
         "S.NATURE.png"
       ],
-      "actual_matched_names": [],
-      "status": "missing"
+      "status": "resolved_from_standalone_png",
+      "archive_matched_names": [],
+      "actual_matched_names": [
+        "SN.png"
+      ],
+      "matched_path": "SN.png",
+      "source_sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1"
     },
     {
       "code": "SN0002",
@@ -152,8 +162,13 @@
         "S.NATURE",
         "S.NATURE.png"
       ],
-      "actual_matched_names": [],
-      "status": "missing"
+      "status": "resolved_from_standalone_png",
+      "archive_matched_names": [],
+      "actual_matched_names": [
+        "SN.png"
+      ],
+      "matched_path": "SN.png",
+      "source_sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1"
     },
     {
       "code": "SN0003",
@@ -165,8 +180,13 @@
         "S.NATURE",
         "S.NATURE.png"
       ],
-      "actual_matched_names": [],
-      "status": "missing"
+      "status": "resolved_from_standalone_png",
+      "archive_matched_names": [],
+      "actual_matched_names": [
+        "SN.png"
+      ],
+      "matched_path": "SN.png",
+      "source_sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1"
     },
     {
       "code": "SN0004",
@@ -178,8 +198,13 @@
         "S.NATURE",
         "S.NATURE.png"
       ],
-      "actual_matched_names": [],
-      "status": "missing"
+      "status": "resolved_from_standalone_png",
+      "archive_matched_names": [],
+      "actual_matched_names": [
+        "SN.png"
+      ],
+      "matched_path": "SN.png",
+      "source_sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1"
     },
     {
       "code": "SN0005",
@@ -191,8 +216,13 @@
         "S.NATURE",
         "S.NATURE.png"
       ],
-      "actual_matched_names": [],
-      "status": "missing"
+      "status": "resolved_from_standalone_png",
+      "archive_matched_names": [],
+      "actual_matched_names": [
+        "SN.png"
+      ],
+      "matched_path": "SN.png",
+      "source_sha256": "dad3f6b69936f35629f881d896b30807eca24e01897a6f12638d93d48343d3d1"
     },
     {
       "code": "YM0001",
@@ -204,8 +234,15 @@
         "YUMEAL",
         "YUMEAL.png"
       ],
-      "actual_matched_names": [],
-      "status": "missing"
+      "status": "resolved_from_standalone_png",
+      "archive_matched_names": [],
+      "actual_matched_names": [
+        "YM.png"
+      ],
+      "matched_path": "YM.png",
+      "source_sha256": "89ab95dff6ab627097a47417495b63168b83cedb757e26386a99722ef0a581ee"
     }
-  ]
+  ],
+  "standalone_source_commit": "8163ae8a90af6a15f295ca0f3ba45b76b572e5a7",
+  "note": "Original ZIP has no matching HH/SN/YM logo; user-uploaded exact standalone PNGs were added to main during work and then imported into the work branch without changing their bytes."
 }

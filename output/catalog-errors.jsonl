@@ -1,4 +1,3 @@
-{"code": "SN0001", "type": "thumbnail_failed", "error": "brand: SN"}
 {"code": "GF0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "ET0001", "type": "missing_option_reference", "row": 29}
 {"code": "ET0001", "type": "missing_option_reference", "row": 30}
@@ -11,8 +10,6 @@
 {"code": "BN0002", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "AD0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "WM0002", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "YM0001", "type": "thumbnail_failed", "error": "brand: YM"}
-{"code": "SN0002", "type": "thumbnail_failed", "error": "brand: SN"}
 {"code": "ME0001", "type": "missing_option_reference", "row": 138}
 {"code": "ME0001", "type": "missing_option_reference", "row": 139}
 {"code": "ME0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
@@ -22,12 +19,8 @@
 {"code": "ET0002", "type": "missing_option_reference", "row": 189}
 {"code": "AB0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "DF0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "SN0003", "type": "thumbnail_failed", "error": "brand: SN"}
-{"code": "SN0004", "type": "thumbnail_failed", "error": "brand: SN"}
-{"code": "SN0005", "type": "thumbnail_failed", "error": "brand: SN"}
 {"code": "HY0003", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "NC0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
-{"code": "HH0001", "type": "thumbnail_failed", "error": "brand: HH"}
 {"code": "DJ0004", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "IF0001", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}
 {"code": "IM0005", "type": "thumbnail_failed", "error": "badge_review: upper corners unsafe even after size-preserving product translations"}

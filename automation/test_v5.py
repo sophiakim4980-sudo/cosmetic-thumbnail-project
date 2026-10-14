@@ -55,6 +55,17 @@ class V5Tests(unittest.TestCase):
         self.assertFalse(layout['badge_resized_product'])
         self.assertLessEqual(layout['badge_occupied_fraction'],.02)
 
+    def test_exact_standalone_brand_logos(self):
+        import hashlib
+        assets=Assets(ROOT)
+        for ref in ['HH','SN','YM']:
+            item=assets.match(ref,'brand')
+            self.assertEqual(item['source_type'],'standalone_brand_logo')
+            self.assertEqual(item['filename'],ref+'.png')
+            self.assertEqual(item['sha256'],hashlib.sha256((ROOT/(ref+'.png')).read_bytes()).hexdigest())
+            with Image.open(ROOT/(ref+'.png')) as source:
+                self.assertEqual(assets.image(item).size,source.size)
+
     def test_new_source_invalidates_cache(self):
         self.assertNotEqual(source_fingerprint({'code':'SN0004'},['old'],'v5'),
                             source_fingerprint({'code':'SN0004'},['new'],'v5'))

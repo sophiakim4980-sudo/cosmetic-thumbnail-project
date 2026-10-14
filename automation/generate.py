@@ -91,13 +91,25 @@ class Assets:
                     members.append({k: v for k, v in item.items() if k != 'raw_member'})
                 self.archives.append({'archive': path.name, 'crc': 'passed', 'images': members})
 
+        # Explicit workbook brand references may be supplied as standalone PNGs.
+        # Do not rename, edit or inject these user-uploaded source files into ZIPs.
+        workbook = root/'화장품 썸네일_수정.xlsx'
+        groups,_ = groups_from_excel(workbook)
+        brand_stems = {Path(ref).stem.casefold() for group in groups.values() for ref in group['brand_refs']}
+        for path in sorted(root.glob('*.png')):
+            if path.stem.casefold() not in brand_stems:
+                continue
+            self.items.append({'archive':path.name,'member':path.name,'raw_member':path.name,
+                'filename':path.name,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),
+                'source_type':'standalone_brand_logo'})
+
     def match(self, value, role):
         if not value:
             raise ValueError('Empty image reference')
         value = str(value).strip().replace('\\', '/')
         p = Path(value)
         candidates = [i for i in self.items
-                      if (('브랜드' in i['archive']) == (role == 'brand'))
+                      if (('브랜드' in i['archive'] or i.get('source_type') == 'standalone_brand_logo') == (role == 'brand'))
                       and (i['filename'].casefold() == p.name.casefold()
                            if p.suffix else Path(i['filename']).stem.casefold() == p.name.casefold())]
         code = p.stem.split('-')[0].upper()
@@ -112,6 +124,9 @@ class Assets:
         return candidates[0]
 
     def image(self, item):
+        if item.get('source_type') == 'standalone_brand_logo':
+            with Image.open(self.root/item['filename']) as source:
+                return ImageOps.exif_transpose(source).convert('RGBA')
         with ZipFile(self.root / item['archive']) as z:
             data = z.read(item['raw_member'])
         with Image.open(io.BytesIO(data)) as source:

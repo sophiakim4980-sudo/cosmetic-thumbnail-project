@@ -2,20 +2,12 @@
   "raw_excel_product_codes": 182,
   "corrected_product_groups": 183,
   "brands": 112,
-  "thumbnails": 158,
+  "thumbnails": 165,
   "options": 596,
   "zips": 183,
-  "complete_products": 156,
-  "incomplete_products": 27,
-  "missing_thumbnail_products": [
-    "SN0001",
-    "YM0001",
-    "SN0002",
-    "SN0003",
-    "SN0004",
-    "SN0005",
-    "HH0001"
-  ],
+  "complete_products": 163,
+  "incomplete_products": 20,
+  "missing_thumbnail_products": [],
   "missing_option_references": [
     {
       "code": "IC0001",
@@ -67,7 +59,7 @@
   "unexpected_render_failures": [],
   "badge_positions": {
     "upper_right": 46,
-    "upper_left": 112
+    "upper_left": 119
   },
   "badge_review_products": [
     "GF0001",
@@ -90,12 +82,9 @@
     "SH0001"
   ],
   "unique_missing_asset_references": [
-    "HH",
     "IC0001-3",
-    "IC0001-4",
-    "SN",
-    "YM"
+    "IC0001-4"
   ],
   "validation": "passed for every produced file; incomplete entries remain explicitly recorded",
-  "protected_files_verified": 34
+  "protected_files_verified": 37
 }
